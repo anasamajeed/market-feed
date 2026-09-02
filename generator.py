@@ -17,8 +17,9 @@ NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 12, 25),
 }
 
-# Broad universe of liquid dividend-paying stocks and blue chips
+# Verified Nifty & Bluechip universe with active dividend & corporate action yields
 UNIVERSE = [
+    # Top Nifty 50 & High Dividend Yield Leaders
     "RELIANCE", "TCS", "HDFCBANK", "INFY", "ICICIBANK", "ITC", "SBIN",
     "BHARTIARTL", "KOTAKBANK", "LT", "HINDUNILVR", "AXISBANK", "BAJFINANCE",
     "MARUTI", "ASIANPAINT", "TITAN", "SUNPHARMA", "ULTRACEMCO", "NTPC",
@@ -30,7 +31,11 @@ UNIVERSE = [
     "NATIONALUM", "CANBK", "BANKBARODA", "PNB", "INDUSINDBK", "DLF",
     "GODREJCP", "DABUR", "COLPAL", "SHREECEM", "AMBUJACEM", "CHOLAFIN",
     "MUTHOOTFIN", "BAJAJ-AUTO", "TVSMOTOR", "APOLLOHOSP", "MAXHEALTH",
-    "LTIM", "PERSISTENT", "COFORGE", "IRCTC", "RVNL", "IRFC", "CONCOR"
+    "COFORGE", "PERSISTENT", "IRCTC", "RVNL", "IRFC", "CONCOR",
+    # PSU Dividend Giants & High-Volume Midcaps
+    "OIL", "PETRONET", "NHPC", "SJVN", "BSE", "CDSL", "MCX", "POLYCAB",
+    "KEI", "DIXON", "TRENT", "ZOMATO", "PAGEIND", "BOSCHLTD", "CUMMINSIND",
+    "HAVELLS", "VOLTAS", "JUBLFOOD", "AUROPHARMA", "LUPIN", "ALKEM"
 ]
 
 # High-impact global & domestic macroeconomic dates for 2026
@@ -39,7 +44,7 @@ MACRO_EVENTS_2026 = [
     {"date": datetime.date(2026, 10, 8), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement. High impact on banking indices and bond yields."},
     {"date": datetime.date(2026, 12, 10), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement."},
     # US Federal Reserve (FOMC)
-    {"date": datetime.date(2026, 9, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement & Jerome Powell press conference. High global impact."},
+    {"date": datetime.date(2026, 9, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement & press conference. High global impact."},
     {"date": datetime.date(2026, 11, 4), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "FOMC interest rate decision."},
     {"date": datetime.date(2026, 12, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "FOMC rate decision & economic projections."},
     # US Inflation (CPI)
@@ -72,16 +77,18 @@ def build_calendar():
     cal.add('x-published-ttl', 'PT1H')
 
     today = datetime.date.today()
-    cutoff_future = today + datetime.timedelta(days=90)
-    cutoff_past = today - datetime.timedelta(days=14)
+    cutoff_future = today + datetime.timedelta(days=120)
+    cutoff_past = today - datetime.timedelta(days=30)
 
     total_events = 0
 
-    # 1. Fetch Dividends & Actions across the liquid universe
+    # 1. Fetch Corporate Actions & Dividends
     for sym in UNIVERSE:
         ticker_str = f"{sym}.NS"
         try:
             t = yf.Ticker(ticker_str)
+            
+            # Check Dividends
             divs = t.dividends
             if not divs.empty:
                 for ts, amount in divs.items():
@@ -104,14 +111,36 @@ def build_calendar():
                             f"-----------------------------------------\n"
                             f"• TradingView Daily Chart:\n  {build_tradingview_link(sym)}\n\n"
                             f"• Screener Fundamentals & Dividend History:\n  {build_screener_link(sym)}\n\n"
-                            f"• NSE Regulatory Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-actions\n"
+                            f"• NSE Corporate Filings Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings-actions\n"
                         )
                         event.add('description', desc)
                         event.add('location', 'NSE / BSE India')
                         cal.add_component(event)
                         total_events += 1
 
-            # 2. Upcoming Financial Results / Earnings Dates
+            # Check Splits / Bonus Actions
+            splits = t.splits
+            if not splits.empty:
+                for ts, ratio in splits.items():
+                    split_date = ts.date()
+                    if cutoff_past <= split_date <= cutoff_future:
+                        must_buy_by = split_date if is_trading_day(split_date) else get_previous_trading_day(split_date)
+                        event = Event()
+                        event.add('uid', str(uuid.uuid4()))
+                        event.add('summary', f"[SPLIT/BONUS] {sym} (Ratio: {ratio}) - Buy Cutoff")
+                        event.add('dtstart', must_buy_by)
+                        event.add('dtend', must_buy_by + datetime.timedelta(days=1))
+                        event.add('description', (
+                            f"Stock Split / Bonus Adjustment.\n"
+                            f"• Ratio: {ratio}\n"
+                            f"• TradingView: {build_tradingview_link(sym)}\n"
+                            f"• Screener: {build_screener_link(sym)}\n"
+                        ))
+                        event.add('location', 'NSE / BSE')
+                        cal.add_component(event)
+                        total_events += 1
+
+            # Check Earnings / Quarterly Results Board Meetings
             try:
                 cal_df = t.calendar
                 if cal_df is not None and not cal_df.empty:
@@ -122,7 +151,7 @@ def build_calendar():
                                 if today <= e_date <= cutoff_future:
                                     ev_bm = Event()
                                     ev_bm.add('uid', str(uuid.uuid4()))
-                                    ev_bm.add('summary', f"[RESULTS] {sym} - Financial Results Declaration")
+                                    ev_bm.add('summary', f"[RESULTS] {sym} - Financial Results")
                                     ev_bm.add('dtstart', e_date)
                                     ev_bm.add('dtend', e_date + datetime.timedelta(days=1))
                                     ev_bm.add('description', (
@@ -140,7 +169,7 @@ def build_calendar():
         except Exception:
             continue
 
-    # 3. Macro Triggers (RBI MPC, US Fed FOMC, CPI)
+    # 2. Add Macro Events
     for m in MACRO_EVENTS_2026:
         ev_m = Event()
         ev_m.add('uid', str(uuid.uuid4()))
@@ -148,12 +177,12 @@ def build_calendar():
         ev_m.add('dtstart', m["date"])
         ev_m.add('dtend', m["date"] + datetime.timedelta(days=1))
         ev_m.add('description', m["desc"])
-        ev_m.add('location', 'Economic Calendar')
+        ev_m.add('location', 'Global / RBI Calendar')
         cal.add_component(ev_m)
         total_events += 1
 
-    # 4. Monthly F&O Expiry Triggers
-    for m in range(3):
+    # 3. Add Monthly F&O Expiry Triggers
+    for m in range(4):
         t_month = (today.month + m - 1) % 12 + 1
         t_year = today.year + ((today.month + m - 1) // 12)
         last_d = datetime.date(t_year, 12, 31) if t_month == 12 else datetime.date(t_year, t_month + 1, 1) - datetime.timedelta(days=1)
