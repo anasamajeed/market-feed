@@ -1,45 +1,28 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Indian Markets & Dividends Live Feed//IN
-X-WR-CALNAME:NSE/BSE Corporate & IPO Hub
+PRODID:-//NSE-BSE Corporate & IPO Live Hub//EN
+X-WR-CALNAME:NSE/BSE Corporate Hub & Live IPOs
 X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-SUMMARY:[DIV] TCS (₹12.00 Interim) - Last Day to Buy
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-UID:76a317e4-ce60-48e8-a102-1b5af338a1e1
-DESCRIPTION:ACTION: Must purchase on/before today for Demat credit.\n-----
- ------------------------------------\n• Dividend: ₹12.00 Interim\n• 
- Record Date: 18-Sep-2026\n• Settlement: T+1 Rolling Cycle\n-------------
- ----------------------------\n• TradingView Chart:\n  https://www.tradin
- gview.com/chart/?symbol=NSE:TCS\n• Balance Sheet & Financials:\n  https:
- //www.screener.in/company/TCS/consolidated/\n• BSE Corporate Filing:\n  
- https://www.bseindia.com/stock-share-price/x/y/532540/corporate-actions/\n
-LOCATION:NSE / BSE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIV] RELIANCE (₹10.00 Final) - Last Day to Buy
+SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Sep 2026)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-UID:4cad715b-2c84-4955-be04-68ac6cb27505
-DESCRIPTION:ACTION: Must purchase on/before today for Demat credit.\n-----
- ------------------------------------\n• Dividend: ₹10.00 Final\n• Re
- cord Date: 25-Sep-2026\n• Settlement: T+1 Rolling Cycle\n---------------
- --------------------------\n• TradingView Chart:\n  https://www.tradingv
- iew.com/chart/?symbol=NSE:RELIANCE\n• Balance Sheet & Financials:\n  htt
- ps://www.screener.in/company/RELIANCE/consolidated/\n• BSE Corporate Fil
- ing:\n  https://www.bseindia.com/stock-share-price/x/y/500325/corporate-ac
- tions/\n
-LOCATION:NSE / BSE
+UID:15e2e14b-d898-4f6c-807e-2115754fc852
+DESCRIPTION:NSE Index & Stock Options/Futures Monthly Expiry Cutoff.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[MACRO] US Federal Reserve Rate Decision (FOMC)
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-UID:3c7e8179-22f6-4c20-be48-3ca4a14899c8
-DESCRIPTION:High market impact across global equity and forex indices.\n
- • Track US10Y & DXY.
-LOCATION:Washington\, D.C.
+SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Oct 2026)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+UID:4b85525d-9395-42b9-b3dc-92747e107459
+DESCRIPTION:NSE Index & Stock Options/Futures Monthly Expiry Cutoff.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Nov 2026)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:04a75e24-471d-46e2-9f95-21d192a75d12
+DESCRIPTION:NSE Index & Stock Options/Futures Monthly Expiry Cutoff.
 END:VEVENT
 END:VCALENDAR
