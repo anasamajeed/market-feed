@@ -2,7 +2,7 @@ name: Generate Live Market Calendar
 
 on:
   schedule:
-    - cron: '0 1,13 * * *'
+    - cron: "0 1,13 * * *"
   workflow_dispatch:
 
 jobs:
@@ -18,10 +18,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install Dependencies
-        run: pip install curl_cffi icalendar beautifulsoup4
+        run: pip install yfinance icalendar
 
       - name: Generate ICS File
         run: python generator.py
