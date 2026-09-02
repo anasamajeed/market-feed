@@ -1,0 +1,35 @@
+name: Generate Live Market Calendar
+
+on:
+  schedule:
+    - cron: '0 1,13 * * *' # Runs daily at 06:30 AM IST and 06:30 PM IST
+  workflow_dispatch:        # Allows you to test-run anytime with one click
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install requests icalendar
+
+      - name: Generate ICS File
+        run: python generator.py
+
+      - name: Commit and Publish Calendar
+        run: |
+          git config --global user.name "MarketBot"
+          git config --global user.email "bot@market.local"
+          git add market_calendar.ics
+          git commit -m "Auto-refresh market actions [skip ci]" || exit 0
+          git push
