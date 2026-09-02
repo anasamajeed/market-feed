@@ -1,336 +1,1596 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Indian Capital Markets Live Action Hub//EN
-X-WR-CALNAME:Indian Equities, Corporate Actions & Macro Hub
+PRODID:-//Nifty 500 Capital Markets Live Action Hub//EN
+X-WR-CALNAME:NSE Nifty 500 Actions, Results & Macro
 X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] ICICIBANK (₹12.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-UID:bb078e61-a772-4f7b-b87a-db2be7e5f96a
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹12.00 per share\n• Ex-Date: 03-Aug-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:ICICIBANK\n\n• Screener Fundamentals & Dividend History:\n  
- https://www.screener.in/company/ICICIBANK/consolidated/\n\n• NSE Corpora
- te Filings Portal:\n  https://www.nseindia.com/companies-listing/corporate
- -filings-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] MARUTI (₹140.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-UID:94b6da76-9d09-427a-8518-a33b64554d9f
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹140.00 per share\n• Ex-Date: 07-Aug-
- 2026\n• Settlement: T+1 Rolling Cycle\n---------------------------------
- --------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart
- /?symbol=NSE:MARUTI\n\n• Screener Fundamentals & Dividend History:\n  ht
- tps://www.screener.in/company/MARUTI/consolidated/\n\n• NSE Corporate Fi
- lings Portal:\n  https://www.nseindia.com/companies-listing/corporate-fili
- ngs-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NTPC (₹3.50) - Buy Cutoff
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-UID:c828cdd0-1918-40f3-8adb-b0de56bebe26
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹3.50 per share\n• Ex-Date: 02-Sep-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:NTPC\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/NTPC/consolidated/\n\n• NSE Corporate Filings 
- Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
- tions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] IOC (₹1.25) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:1e5bbb23-2a92-45a1-b97f-d5c7bd525e92
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹1.25 per share\n• Ex-Date: 14-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:IOC\n\n• Screener Fundamentals & Dividend History:\n  https:/
- /www.screener.in/company/IOC/consolidated/\n\n• NSE Corporate Filings Po
- rtal:\n  https://www.nseindia.com/companies-listing/corporate-filings-acti
- ons\n
-LOCATION:NSE / BSE India
-END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ABB (₹90.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:f9d1d6b7-2d9f-4978-b541-de2641284ea9
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹90.00 per share\n• Ex-Date: 07-Aug-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:ABB\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/ABB/consolidated/\n\n• NSE Corporate Filings P
- ortal:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
- ions\n
+UID:7b7a16ba-b721-4e45-9a4d-35b723109d66
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹90.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ABB\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/ABB/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
 LOCATION:NSE / BSE India
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] HAL (₹10.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:1f4ecb4a-e350-414f-abad-4f3702a1174b
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹10.00 per share\n• Ex-Date: 14-Aug-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:HAL\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/HAL/consolidated/\n\n• NSE Corporate Filings P
- ortal:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
- ions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] BEL (₹0.55) - Buy Cutoff
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-UID:d3a25494-1a47-4eb5-b481-b7b6cf912823
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹0.55 per share\n• Ex-Date: 13-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:BEL\n\n• Screener Fundamentals & Dividend History:\n  https:/
- /www.screener.in/company/BEL/consolidated/\n\n• NSE Corporate Filings Po
- rtal:\n  https://www.nseindia.com/companies-listing/corporate-filings-acti
- ons\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] PFC (₹3.90) - Buy Cutoff
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
-UID:47119772-d88f-4dba-b7ae-972d017d9523
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹3.90 per share\n• Ex-Date: 27-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:PFC\n\n• Screener Fundamentals & Dividend History:\n  https:/
- /www.screener.in/company/PFC/consolidated/\n\n• NSE Corporate Filings Po
- rtal:\n  https://www.nseindia.com/companies-listing/corporate-filings-acti
- ons\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] RECLTD (₹1.55) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:0034a42b-41fe-4eae-9dec-7fd98df5cfee
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹1.55 per share\n• Ex-Date: 14-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:RECLTD\n\n• Screener Fundamentals & Dividend History:\n  http
- s://www.screener.in/company/RECLTD/consolidated/\n\n• NSE Corporate Fili
- ngs Portal:\n  https://www.nseindia.com/companies-listing/corporate-filing
- s-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] GAIL (₹0.50) - Buy Cutoff
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-UID:252f538d-a762-4fee-81d0-613e09e87dc9
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹0.50 per share\n• Ex-Date: 02-Sep-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:GAIL\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/GAIL/consolidated/\n\n• NSE Corporate Filings 
- Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
- tions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NATIONALUM (₹1.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-UID:a8d7f5d4-0a77-4469-b934-2808e151de61
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹1.00 per share\n• Ex-Date: 24-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:NATIONALUM\n\n• Screener Fundamentals & Dividend History:\n  
- https://www.screener.in/company/NATIONALUM/consolidated/\n\n• NSE Corpor
- ate Filings Portal:\n  https://www.nseindia.com/companies-listing/corporat
- e-filings-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] GODREJCP (₹5.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-UID:5a12bbf4-b029-43b8-824a-ffb8aed0ad7e
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹5.00 per share\n• Ex-Date: 13-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:GODREJCP\n\n• Screener Fundamentals & Dividend History:\n  ht
- tps://www.screener.in/company/GODREJCP/consolidated/\n\n• NSE Corporate 
- Filings Portal:\n  https://www.nseindia.com/companies-listing/corporate-fi
- lings-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] APOLLOHOSP (₹10.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:21938758-f56a-44e9-83f6-3a877bf3c6be
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹10.00 per share\n• Ex-Date: 14-Aug-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:APOLLOHOSP\n\n• Screener Fundamentals & Dividend History:\n 
-  https://www.screener.in/company/APOLLOHOSP/consolidated/\n\n• NSE Corpo
- rate Filings Portal:\n  https://www.nseindia.com/companies-listing/corpora
- te-filings-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] COFORGE (₹4.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-UID:b1fc839c-5fb9-419c-bfa9-1d9a8f3794ff
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹4.00 per share\n• Ex-Date: 03-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:COFORGE\n\n• Screener Fundamentals & Dividend History:\n  htt
- ps://www.screener.in/company/COFORGE/consolidated/\n\n• NSE Corporate Fi
- lings Portal:\n  https://www.nseindia.com/companies-listing/corporate-fili
- ngs-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] RVNL (₹0.71) - Buy Cutoff
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-UID:c5c1e255-88d2-4aae-bcb3-1fc0dd6a9afe
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹0.71 per share\n• Ex-Date: 18-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:RVNL\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/RVNL/consolidated/\n\n• NSE Corporate Filings 
- Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
- tions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] CONCOR (₹1.60) - Buy Cutoff
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-UID:1aa9085a-a5e6-469d-b24e-1e56b558d65a
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹1.60 per share\n• Ex-Date: 04-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:CONCOR\n\n• Screener Fundamentals & Dividend History:\n  http
- s://www.screener.in/company/CONCOR/consolidated/\n\n• NSE Corporate Fili
- ngs Portal:\n  https://www.nseindia.com/companies-listing/corporate-filing
- s-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NHPC (₹0.21) - Buy Cutoff
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
-UID:3ff46adf-315b-484e-a193-563d21004a02
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹0.21 per share\n• Ex-Date: 12-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:NHPC\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/NHPC/consolidated/\n\n• NSE Corporate Filings 
- Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
- tions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] SJVN (₹0.35) - Buy Cutoff
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-UID:cd8ff10c-b66e-41e6-8276-5e9324456aaa
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹0.35 per share\n• Ex-Date: 24-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:SJVN\n\n• Screener Fundamentals & Dividend History:\n  https:
- //www.screener.in/company/SJVN/consolidated/\n\n• NSE Corporate Filings 
- Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
- tions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] MCX (₹8.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-UID:dac4495d-ab3e-495e-a7ee-fd3022b7e7c6
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹8.00 per share\n• Ex-Date: 28-Aug-20
- 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
- ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
- symbol=NSE:MCX\n\n• Screener Fundamentals & Dividend History:\n  https:/
- /www.screener.in/company/MCX/consolidated/\n\n• NSE Corporate Filings Po
- rtal:\n  https://www.nseindia.com/companies-listing/corporate-filings-acti
- ons\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] PAGEIND (₹200.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-UID:5d39fb43-bb4d-4cef-9d9c-7e7497793b60
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹200.00 per share\n• Ex-Date: 19-Aug-
- 2026\n• Settlement: T+1 Rolling Cycle\n---------------------------------
- --------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart
- /?symbol=NSE:PAGEIND\n\n• Screener Fundamentals & Dividend History:\n  h
- ttps://www.screener.in/company/PAGEIND/consolidated/\n\n• NSE Corporate 
- Filings Portal:\n  https://www.nseindia.com/companies-listing/corporate-fi
- lings-actions\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] BOSCHLTD (₹270.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-UID:b2b7f9c3-deb7-4e1a-bb28-13672d0fdc7e
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹270.00 per share\n• Ex-Date: 04-Aug-
- 2026\n• Settlement: T+1 Rolling Cycle\n---------------------------------
- --------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart
- /?symbol=NSE:BOSCHLTD\n\n• Screener Fundamentals & Dividend History:\n  
- https://www.screener.in/company/BOSCHLTD/consolidated/\n\n• NSE Corporat
- e Filings Portal:\n  https://www.nseindia.com/companies-listing/corporate-
- filings-actions\n
+SUMMARY:[DIVIDEND] ABLBL (₹0.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:a19808bc-626e-4002-8c0c-67bed737483b
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.50 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ABLBL\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/ABLBL/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
 LOCATION:NSE / BSE India
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ALKEM (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:87b44a48-8f5b-49d4-966b-78999d980ed5
-DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
- by Record Date.\n\n• Dividend: ₹10.00 per share\n• Ex-Date: 07-Aug-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:ALKEM\n\n• Screener Fundamentals & Dividend History:\n  http
- s://www.screener.in/company/ALKEM/consolidated/\n\n• NSE Corporate Filin
- gs Portal:\n  https://www.nseindia.com/companies-listing/corporate-filings
+UID:ea841786-5233-44dc-9c3f-45e10cad60ce
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ALKEM\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/ALKEM/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] AJANTPHARM (₹32.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:5cf441ed-03e9-47d1-80d1-1ef06ab74e46
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹32.00 per share\n• Ex-Date: 05-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:AJANTPHARM\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/AJANTPHARM/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] APOLLOHOSP (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:2cffcf51-2895-4416-9cb2-106b821fce94
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:APOLLOHOSP\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/APOLLOHOSP/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] ASTRAL (₹2.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:5c6a458b-b221-4d82-a676-fdd7c6fd5f43
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.50 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ASTRAL\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/ASTRAL/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BANDHANBNK (₹1.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+UID:8742e341-00c5-4c46-8d94-1eb00474b719
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.50 per share\n• Ex-Date: 17-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BANDHANBNK\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/BANDHANBNK/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BALKRISIND (₹4.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:21b79bbc-4f19-455e-bcdc-0c25a51a02c2
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹4.00 per share\n• Ex-Date: 04-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BALKRISIND\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/BALKRISIND/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BAYERCROP (₹60.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:799ae937-fe3f-4fed-8bae-403827c7381b
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹60.00 per share\n• Ex-Date: 05-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BAYERCROP\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/BAYERCROP/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BATAINDIA (₹25.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+UID:52beacc4-55d2-4cd8-b0ac-df33cdea847b
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹25.00 per share\n• Ex-Date: 19-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BATAINDIA\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/BATAINDIA/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BEL (₹0.55) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:77abf65c-7e93-4130-94ed-d593b24cf89f
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.55 per share\n• Ex-Date: 13-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BEL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/BEL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BERGEPAINT (₹4.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:7eae20ba-28c0-4c0d-ac90-b9614aca4f11
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹4.00 per share\n• Ex-Date: 05-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BERGEPAINT\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/BERGEPAINT/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BOSCHLTD (₹270.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:abae503e-7bf7-4a0a-9ac8-2161b6fe998f
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹270.00 per share\n• Ex-Date: 04-Aug-2026
+ \n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n---------------------------
+ --------------\n• TradingView Daily Chart:\n  https://in.tradingview.com
+ /chart/?symbol=NSE:BOSCHLTD\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/BOSCHLTD/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BRIGADE (₹2.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:dce31c83-be8a-48af-9074-78d66300ae70
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.00 per share\n• Ex-Date: 05-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:BRIGADE\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/BRIGADE/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MAPMYINDIA (₹3.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:59709789-f535-4a1f-9800-a992bf500475
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.50 per share\n• Ex-Date: 04-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MAPMYINDIA\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/MAPMYINDIA/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CCL (₹3.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+UID:0b3e5c0a-22fb-4ed5-916a-56a439b626f0
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.00 per share\n• Ex-Date: 01-Sep-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CCL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/CCL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CANHLIFE (₹0.40) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:6f991460-0bad-44a4-8dcf-94eaf14a566a
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.40 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CANHLIFE\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/CANHLIFE/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CESC (₹6.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+UID:82724ec3-6962-4dcc-be27-314324b2d689
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹6.00 per share\n• Ex-Date: 19-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CESC\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/CESC/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CASTROLIND (₹6.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:4ad995ff-c0c7-410a-868c-90c110d75188
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹6.25 per share\n• Ex-Date: 11-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CASTROLIND\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/CASTROLIND/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CHAMBLFERT (₹6.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:a5b08f91-36b3-4f36-8578-e48752ed45a5
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹6.00 per share\n• Ex-Date: 11-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CHAMBLFERT\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/CHAMBLFERT/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CHOLAHLDNG (₹1.30) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:2854ef16-9c63-45fa-be2a-8718c008dcaf
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.30 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CHOLAHLDNG\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/CHOLAHLDNG/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CHENNPETRO (₹54.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:da4a3c37-bdf0-4341-9a43-7e4e2786a446
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹54.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CHENNPETRO\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/CHENNPETRO/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] COFORGE (₹4.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+UID:9ca1fa56-7f09-4e23-9d50-5b4f9d69bedc
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹4.00 per share\n• Ex-Date: 03-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:COFORGE\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/COFORGE/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CAMS (₹2.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+UID:feb8d9a9-aa67-41b3-8633-fae4f2c0ba47
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.50 per share\n• Ex-Date: 12-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CAMS\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/CAMS/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CONCOR (₹1.60) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:bede7375-53e9-46aa-b782-750c57fa3907
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.60 per share\n• Ex-Date: 04-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:CONCOR\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/CONCOR/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] DOMS (₹3.65) - Buy Cutoff
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:1a16fc2f-ad16-4137-9acd-0e592423b986
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.65 per share\n• Ex-Date: 27-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:DOMS\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/DOMS/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] DEEPAKFERT (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+UID:74774c12-f19a-41b3-b413-08ad21167c4d
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 25-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:DEEPAKFERT\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/DEEPAKFERT/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] FEDERALBNK (₹1.20) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:ec94dd99-5742-41d9-b3c8-c1c77f88460d
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.20 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:FEDERALBNK\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/FEDERALBNK/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GVT&D (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:3636c6ac-936f-45c0-b646-f232702e3bf3
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GVT_D\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/GVT&D/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GAIL (₹0.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+UID:d5076ad2-49ad-48d2-bbf1-27fa08c0e060
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.50 per share\n• Ex-Date: 02-Sep-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GAIL\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/GAIL/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GABRIEL (₹3.10) - Buy Cutoff
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+UID:e0fabf23-9197-457d-ae5f-80d98ac25e50
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.10 per share\n• Ex-Date: 12-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GABRIEL\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/GABRIEL/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GLAND (₹20.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:af5715a4-1753-4868-9cf4-d8834859a302
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹20.00 per share\n• Ex-Date: 11-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GLAND\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/GLAND/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MEDANTA (₹0.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:daee1b0e-3f26-4add-897c-cf3201b575c2
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.50 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MEDANTA\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/MEDANTA/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GILLETTE (₹60.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+UID:d18fce9a-1117-4aa7-83e1-9590ee65a44f
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹60.00 per share\n• Ex-Date: 24-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GILLETTE\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/GILLETTE/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GLENMARK (₹2.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+UID:fc06fa5d-f027-4743-be4c-68992b6ea2a7
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.50 per share\n• Ex-Date: 31-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GLENMARK\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/GLENMARK/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GPIL (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:289db04a-80f8-4a86-8fc8-e07292119cc7
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GPIL\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/GPIL/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GODFRYPHLP (₹33.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:c5654dbb-3353-465c-aeb1-eb04ec13487a
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹33.00 per share\n• Ex-Date: 11-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GODFRYPHLP\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/GODFRYPHLP/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GODREJCP (₹5.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:59cc5459-eaef-4cfa-8725-156fb3ca1ece
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.00 per share\n• Ex-Date: 13-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GODREJCP\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/GODREJCP/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GRASIM (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:8871e568-031e-4fd9-9bb3-31ed72334418
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GRASIM\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/GRASIM/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GESHIP (₹14.40) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:9fc4ead6-c12d-4569-9def-ecae843de0c9
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹14.40 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:GESHIP\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/GESHIP/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HAL (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:cb5e3ca8-e286-4d48-8859-82cf8f81ae29
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:HAL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/HAL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HONASA (₹3.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:3e75a2bc-9b28-4a76-ac52-6a6c7dfdb79d
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.00 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:HONASA\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/HONASA/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HINDPETRO (₹19.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:90b4a10d-1318-4507-b862-017056ed5670
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹19.25 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:HINDPETRO\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/HINDPETRO/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] POWERINDIA (₹8.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:918a9d9c-10c6-4123-bb03-1571357263e4
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹8.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:POWERINDIA\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/POWERINDIA/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HYUNDAI (₹21.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:27311420-08a8-4c1b-ad18-cc4b7d45de93
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹21.00 per share\n• Ex-Date: 05-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:HYUNDAI\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/HYUNDAI/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HUDCO (₹1.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+UID:007678d7-9b07-492e-b0ad-5b7681daca53
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.50 per share\n• Ex-Date: 17-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:HUDCO\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/HUDCO/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] ICICIBANK (₹12.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+UID:00dbc9ca-5987-4542-a892-69dd144955f2
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹12.00 per share\n• Ex-Date: 03-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ICICIBANK\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/ICICIBANK/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] IDFCFIRSTB (₹0.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:43ebcb8b-5d8e-430e-9fb7-e391965ab6da
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.25 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:IDFCFIRSTB\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/IDFCFIRSTB/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] IRB (₹0.05) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:2a29a91e-ee12-41cf-944c-4b1e3a08cf7a
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.05 per share\n• Ex-Date: 05-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:IRB\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/IRB/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] INDUSTOWER (₹14.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+UID:75499162-68d4-4abc-b395-4154ef6ccfb4
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹14.00 per share\n• Ex-Date: 10-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:INDUSTOWER\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/INDUSTOWER/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] IOC (₹1.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:dd4665b1-b1fe-4bf7-afb0-cfd05d1590ef
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.25 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:IOC\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/IOC/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] IGIL (₹2.55) - Buy Cutoff
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+UID:dc19eb0c-e48a-4b59-9238-b222ebc18215
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.55 per share\n• Ex-Date: 24-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:IGIL\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/IGIL/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] IPCALAB (₹6.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:86eac2ab-6a80-480d-b827-d1cfa7e8daca
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹6.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:IPCALAB\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/IPCALAB/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] JIOFIN (₹0.60) - Buy Cutoff
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+UID:c105d1b2-e4df-4a89-af71-456f98a686fb
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.60 per share\n• Ex-Date: 10-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:JIOFIN\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/JIOFIN/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] JSL (₹3.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:bbda4e2e-9c15-455a-9d3a-bfb34bc77958
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:JSL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/JSL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] JINDALSTEL (₹2.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:55018328-1316-4437-99cd-b564d3aca7fd
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:JINDALSTEL\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/JINDALSTEL/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] KPITTECH (₹5.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+UID:44ac739e-8543-40cd-8357-edf0df1c4cff
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.25 per share\n• Ex-Date: 12-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:KPITTECH\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/KPITTECH/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] KEC (₹5.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:7b5b2fe2-19f7-410e-ad92-9398477e8aa8
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.50 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:KEC\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/KEC/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] LTFOODS (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+UID:0e75c685-9c5d-4a42-a176-213b8739820e
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 18-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:LTFOODS\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/LTFOODS/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] LICHSGFIN (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:7af938d0-5f0d-4c00-9fcc-cd8abcffe9d1
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:LICHSGFIN\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/LICHSGFIN/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] LODHA (₹4.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:92ff0552-b41e-4a7d-a4cb-2bbfe98b074c
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹4.25 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:LODHA\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/LODHA/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] LINDEINDIA (₹12.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+UID:e9ffbed7-45ed-4a7c-90a4-51e8d32a457a
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹12.00 per share\n• Ex-Date: 06-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:LINDEINDIA\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/LINDEINDIA/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MGL (₹18.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+UID:d0d1ad32-206c-434e-89a4-81a01845933d
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹18.00 per share\n• Ex-Date: 18-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MGL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/MGL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MANAPPURAM (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+UID:264ee64c-dc95-4f6e-8492-548bc7d04d0e
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 17-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MANAPPURAM\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/MANAPPURAM/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MAZDOCK (₹4.62) - Buy Cutoff
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+UID:28162ce3-2272-486d-b0d8-e2739a00de26
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹4.62 per share\n• Ex-Date: 20-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MAZDOCK\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/MAZDOCK/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MARUTI (₹140.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:500515d2-3a33-42b0-b85a-b3f58f1e980e
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹140.00 per share\n• Ex-Date: 07-Aug-2026
+ \n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n---------------------------
+ --------------\n• TradingView Daily Chart:\n  https://in.tradingview.com
+ /chart/?symbol=NSE:MARUTI\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/MARUTI/consolidated/\n\n• NSE Corpor
+ ate Filings:\n  https://www.nseindia.com/companies-listing/corporate-filin
+ gs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MINDACORP (₹0.80) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:b48a3b7d-9fb1-4b7c-b53f-9b0415a263c9
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.80 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MINDACORP\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/MINDACORP/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] MCX (₹8.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:dc55e65b-536c-4534-828c-c9a804022647
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹8.00 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:MCX\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/MCX/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NBCC (₹0.15) - Buy Cutoff
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+UID:3ad8ebc6-b4a0-49bc-9ba0-6b95609a91f6
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.15 per share\n• Ex-Date: 17-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NBCC\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/NBCC/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NBCC (₹0.46) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:a086726c-2f4e-49db-8541-6b825b7522d6
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.46 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NBCC\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/NBCC/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NCC (₹2.20) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:5d70ec02-adb5-4952-a3d8-3897899ca934
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.20 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NCC\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/NCC/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NATCOPHARM (₹1.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+UID:d21f4f56-63a4-45b0-82f7-6ec633813bd7
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.50 per share\n• Ex-Date: 20-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NATCOPHARM\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/NATCOPHARM/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NHPC (₹0.21) - Buy Cutoff
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+UID:cc314841-fff6-4080-88fe-d7f5c40d442e
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.21 per share\n• Ex-Date: 12-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NHPC\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/NHPC/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NTPC (₹3.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+UID:4e77ab4f-be2b-42d9-a0e0-4f6e2be9f536
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.50 per share\n• Ex-Date: 02-Sep-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NTPC\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/NTPC/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NETWEB (₹3.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:9b17a975-f178-40b2-9180-c137f36bf03b
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NETWEB\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/NETWEB/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NAVA (₹5.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:6e6a23b2-c51d-470f-9853-6657cc50a53c
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.50 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NAVA\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/NAVA/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NATIONALUM (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+UID:2d97888f-5367-461f-a5c9-744e0df44d17
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 24-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:NATIONALUM\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/NATIONALUM/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PCBL (₹4.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:186115a2-8793-4128-a82d-40a4bd42946c
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹4.50 per share\n• Ex-Date: 04-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:PCBL\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/PCBL/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PIIND (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:50170a2b-1a3c-410e-8721-8b44bd6a206d
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:PIIND\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/PIIND/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PAGEIND (₹200.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+UID:712205fa-eaf5-4b8f-aca3-a8da0ae7b067
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹200.00 per share\n• Ex-Date: 19-Aug-2026
+ \n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n---------------------------
+ --------------\n• TradingView Daily Chart:\n  https://in.tradingview.com
+ /chart/?symbol=NSE:PAGEIND\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/PAGEIND/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PATANJALI (₹2.30) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:4952a150-398a-458a-b089-5fbf281c03ec
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.30 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:PATANJALI\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/PATANJALI/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] POLYMED (₹3.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:c3dfcaba-15a3-4732-9cbc-37657187319f
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.50 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:POLYMED\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/POLYMED/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PRESTIGE (₹2.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:f88c406e-a146-42a5-add5-6d6faf1a2238
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.00 per share\n• Ex-Date: 13-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:PRESTIGE\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/PRESTIGE/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PFC (₹3.90) - Buy Cutoff
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:57749fe6-91e0-4475-ae61-08a3a500fda6
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.90 per share\n• Ex-Date: 27-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:PFC\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/PFC/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RBLBANK (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:26025d96-7adc-4881-ad64-bf42f8ed1903
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:RBLBANK\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/RBLBANK/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RECLTD (₹1.55) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:fc2ddd0c-949e-427f-a6b3-f39f751ef253
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.55 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:RECLTD\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/RECLTD/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RVNL (₹0.71) - Buy Cutoff
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+UID:a06a4747-134a-4ea9-90b2-f918233cbcd4
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.71 per share\n• Ex-Date: 18-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:RVNL\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/RVNL/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RITES (₹1.40) - Buy Cutoff
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+UID:f7ebd676-d810-4f98-b009-3d263fbeef91
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.40 per share\n• Ex-Date: 10-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:RITES\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/RITES/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RAILTEL (₹1.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:fe44ad54-5565-4c81-ba8b-e1eb6cab58db
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.25 per share\n• Ex-Date: 13-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:RAILTEL\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/RAILTEL/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SAGILITY (₹0.10) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:2d1f1544-b384-4e48-a75b-427152286db1
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.10 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SAGILITY\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/SAGILITY/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SJVN (₹0.35) - Buy Cutoff
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+UID:a94218b7-cdab-40e9-9a60-65208ee5f605
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.35 per share\n• Ex-Date: 24-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SJVN\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/SJVN/consolidated/\n\n• NSE Corporate Fi
+ lings:\n  https://www.nseindia.com/companies-listing/corporate-filings-act
+ ions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SARDAEN (₹2.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:78b52ad9-af5e-4dd8-96e5-cb0e64112683
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.00 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SARDAEN\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/SARDAEN/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SHYAMMETL (₹2.70) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:00220a6b-9af1-4e14-bf90-d0bced2642ec
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.70 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SHYAMMETL\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/SHYAMMETL/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SONATSOFTW (₹1.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:c4347298-fe78-4de7-83e8-6f8159ff902c
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.25 per share\n• Ex-Date: 14-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SONATSOFTW\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/SONATSOFTW/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SUNTV (₹5.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+UID:f1e8b5a6-a2c8-4908-884b-ce6cd1757077
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.00 per share\n• Ex-Date: 18-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SUNTV\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/SUNTV/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SYRMA (₹1.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+UID:19e9940f-28c6-47cf-903e-d1353a59f9b4
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.50 per share\n• Ex-Date: 18-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SYRMA\n\n• Screener Fundamentals & Dividend History:\n 
+  https://www.screener.in/company/SYRMA/consolidated/\n\n• NSE Corporate 
+ Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings-a
+ ctions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SWANCORP (₹0.15) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:83ab65ff-b33f-4471-9865-3d9087dfbca9
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹0.15 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:SWANCORP\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/SWANCORP/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RAMCOCEM (₹2.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:e331a0c8-49a2-4901-855b-d0ac268d3778
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.50 per share\n• Ex-Date: 13-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:RAMCOCEM\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/RAMCOCEM/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] TIINDIA (₹1.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:fb11f143-c06b-4087-816f-c744496b447d
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.50 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:TIINDIA\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/TIINDIA/consolidated/\n\n• NSE Corpo
+ rate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] TRITURBINE (₹2.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+UID:1ad4138a-f728-4973-8ef4-05c15320ba15
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹2.00 per share\n• Ex-Date: 02-Sep-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:TRITURBINE\n\n• Screener Fundamentals & Dividend Histor
+ y:\n  https://www.screener.in/company/TRITURBINE/consolidated/\n\n• NSE 
+ Corporate Filings:\n  https://www.nseindia.com/companies-listing/corporate
+ -filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] UBL (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:be5b63b3-aac1-46b6-a956-3dbcffbccca9
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹10.00 per share\n• Ex-Date: 07-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:UBL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/UBL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] USHAMART (₹3.75) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:31cf3200-7eb2-41c5-852b-72516f2b2cb9
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹3.75 per share\n• Ex-Date: 13-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:USHAMART\n\n• Screener Fundamentals & Dividend History:
+ \n  https://www.screener.in/company/USHAMART/consolidated/\n\n• NSE Corp
+ orate Filings:\n  https://www.nseindia.com/companies-listing/corporate-fil
+ ings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] VTL (₹5.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:52b2fba5-158e-43fe-a406-c008fe625cee
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.00 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:VTL\n\n• Screener Fundamentals & Dividend History:\n  h
+ ttps://www.screener.in/company/VTL/consolidated/\n\n• NSE Corporate Fili
+ ngs:\n  https://www.nseindia.com/companies-listing/corporate-filings-actio
+ ns\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] WHIRLPOOL (₹5.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:fea5f96c-c5dc-4eb1-afd5-a085ab63a39a
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹5.00 per share\n• Ex-Date: 28-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:WHIRLPOOL\n\n• Screener Fundamentals & Dividend History
+ :\n  https://www.screener.in/company/WHIRLPOOL/consolidated/\n\n• NSE Co
+ rporate Filings:\n  https://www.nseindia.com/companies-listing/corporate-f
+ ilings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] ZENTEC (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:2543678a-d32c-4cfa-a3c1-3ed6d5d1dd79
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ZENTEC\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/ZENTEC/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
+ -actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] ECLERX (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:482ad5ef-edf3-4d06-8346-166129f755ab
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat credit by 
+ Record Date.\n\n• Amount: ₹1.00 per share\n• Ex-Date: 21-Aug-2026\n
+ • Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------------------------
+ ------------\n• TradingView Daily Chart:\n  https://in.tradingview.com/c
+ hart/?symbol=NSE:ECLERX\n\n• Screener Fundamentals & Dividend History:\n
+   https://www.screener.in/company/ECLERX/consolidated/\n\n• NSE Corporat
+ e Filings:\n  https://www.nseindia.com/companies-listing/corporate-filings
  -actions\n
 LOCATION:NSE / BSE India
 END:VEVENT
@@ -338,95 +1598,94 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-UID:20d5b6b0-9536-43db-8cde-52994ab10533
-DESCRIPTION:RBI repo rate decision & policy statement. High impact on bank
- ing indices and bond yields.
-LOCATION:Global / RBI Calendar
+UID:0852f3d5-5741-43f7-bf04-5f37a8f64a91
+DESCRIPTION:RBI repo rate decision & policy statement. Crucial for bank an
+ d rate-sensitive sectors.
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-UID:cd799fb4-a697-454a-b465-2b858d708324
+UID:659d5048-d504-420a-bba9-d39d9ffabeea
 DESCRIPTION:RBI repo rate decision & policy statement.
-LOCATION:Global / RBI Calendar
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:cf94139d-a26b-4557-8102-cf68f16da92f
-DESCRIPTION:Fed funds rate policy announcement & press conference. High gl
- obal impact.
-LOCATION:Global / RBI Calendar
+UID:80be7526-b664-41fd-ae79-a93c4032099c
+DESCRIPTION:Fed funds rate policy announcement & Jerome Powell press confe
+ rence.
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-UID:dc8d91fe-69d4-4936-91ab-d23984e08d96
+UID:def24f28-4147-4790-aaca-606eb4e2d11f
 DESCRIPTION:FOMC interest rate decision.
-LOCATION:Global / RBI Calendar
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-UID:d7abd197-57d2-4915-a235-20ddf420f4f9
+UID:ae4c30f9-a1cd-47fa-9769-e44818a21360
 DESCRIPTION:FOMC rate decision & economic projections.
-LOCATION:Global / RBI Calendar
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:b2e83944-50b0-49eb-85c4-070f6faedf20
-DESCRIPTION:Key inflation print influencing Fed interest rate trajectories
- .
-LOCATION:Global / RBI Calendar
+UID:49211143-e5b9-41c4-963b-63a4e5cf6e5e
+DESCRIPTION:Key US inflation print dictating global liquidity conditions.
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-UID:f0bd275b-090e-4518-9ad9-e978f5378be6
+UID:ca619bcb-4d55-46a5-9fc7-ee54c0981d82
 DESCRIPTION:Key US inflation print.
-LOCATION:Global / RBI Calendar
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-UID:011de1fd-90af-4f49-b75d-4d74ca0b588d
+UID:b06eae27-e2d0-4ffb-98cc-f1d118b43dee
 DESCRIPTION:Key US inflation print.
-LOCATION:Global / RBI Calendar
+LOCATION:Global / Domestic Macro
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Sep 2026)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-UID:15b304c3-cfe4-40a4-9ef3-1ef6ab014eb2
-DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
+UID:0dde7329-c5b5-407d-8dd0-98395a325027
+DESCRIPTION:NSE Index & Stock F&O contract expiry cutoff.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Oct 2026)
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-UID:52fc8401-b0d4-4959-a9ce-70eeb18b2824
-DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
+UID:66652596-3143-44f2-a6b9-3caa133909bd
+DESCRIPTION:NSE Index & Stock F&O contract expiry cutoff.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Nov 2026)
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-UID:a1b3c181-13b1-485b-8c1b-67c0adb588d6
-DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
+UID:d05b374c-b823-4876-9b07-c1941bb63cbe
+DESCRIPTION:NSE Index & Stock F&O contract expiry cutoff.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Dec 2026)
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-UID:dea055dc-8647-476f-9e02-38fa7ce38f5b
-DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
+UID:86fb920d-d479-4239-9faa-0e76fa5f7921
+DESCRIPTION:NSE Index & Stock F&O contract expiry cutoff.
 END:VEVENT
 END:VCALENDAR
