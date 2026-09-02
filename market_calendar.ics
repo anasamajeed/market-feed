@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Indian Markets & Dividends Live Feed//IN
+X-WR-CALNAME:NSE/BSE Corporate & IPO Hub
+X-PUBLISHED-TTL:PT1H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:[DIV] TCS (₹12.00 Interim) - Last Day to Buy
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+UID:19b3677b-e524-468f-9184-5c4194751777
+DESCRIPTION:ACTION: Must purchase on/before today for Demat credit.\n-----
+ ------------------------------------\n• Dividend: ₹12.00 Interim\n• 
+ Record Date: 18-Sep-2026\n• Settlement: T+1 Rolling Cycle\n-------------
+ ----------------------------\n• TradingView Chart:\n  https://www.tradin
+ gview.com/chart/?symbol=NSE:TCS\n• Balance Sheet & Financials:\n  https:
+ //www.screener.in/company/TCS/consolidated/\n• BSE Corporate Filing:\n  
+ https://www.bseindia.com/stock-share-price/x/y/532540/corporate-actions/\n
+LOCATION:NSE / BSE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIV] RELIANCE (₹10.00 Final) - Last Day to Buy
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+UID:cff7bd07-b364-43ab-bd2c-6ef600593d49
+DESCRIPTION:ACTION: Must purchase on/before today for Demat credit.\n-----
+ ------------------------------------\n• Dividend: ₹10.00 Final\n• Re
+ cord Date: 25-Sep-2026\n• Settlement: T+1 Rolling Cycle\n---------------
+ --------------------------\n• TradingView Chart:\n  https://www.tradingv
+ iew.com/chart/?symbol=NSE:RELIANCE\n• Balance Sheet & Financials:\n  htt
+ ps://www.screener.in/company/RELIANCE/consolidated/\n• BSE Corporate Fil
+ ing:\n  https://www.bseindia.com/stock-share-price/x/y/500325/corporate-ac
+ tions/\n
+LOCATION:NSE / BSE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve Rate Decision (FOMC)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+UID:c160b546-170a-40f7-ab5f-07f726618dc0
+DESCRIPTION:High market impact across global equity and forex indices.\n
+ • Track US10Y & DXY.
+LOCATION:Washington\, D.C.
+END:VEVENT
+END:VCALENDAR
