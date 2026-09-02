@@ -1,7 +1,58 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NSE-BSE Live Financial Action Hub//EN
-X-WR-CALNAME:NSE/BSE Corporate Actions, Results & IPOs
+PRODID:-//Live Indian Capital Markets Feed//EN
+X-WR-CALNAME:NSE/BSE Corporate Actions & Earnings Hub
 X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NTPC (₹3.50) - Must Buy Cutoff
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+UID:df41634e-7251-48aa-97bc-8557086bd965
+DESCRIPTION:ACTION: Purchase today before 3:30 PM IST for Demat credit eli
+ gibility.\n\n• Dividend Amount: ₹3.50 per share\n• Ex-Date: 02-Sep-2
+ 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
+ -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
+ ?symbol=NSE:NTPC\n\n• Screener Fundamentals & Balance Sheet:\n  https://
+ www.screener.in/company/NTPC/consolidated/\n\n• BSE/NSE Regulatory Annou
+ ncements:\n  https://www.nseindia.com/companies-listing/corporate-filings-
+ actions\n
+LOCATION:NSE / BSE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PFC (₹3.90) - Must Buy Cutoff
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:b00513af-81a1-4ce1-9006-eabf0ec553d3
+DESCRIPTION:ACTION: Purchase today before 3:30 PM IST for Demat credit eli
+ gibility.\n\n• Dividend Amount: ₹3.90 per share\n• Ex-Date: 27-Aug-2
+ 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
+ -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
+ ?symbol=NSE:PFC\n\n• Screener Fundamentals & Balance Sheet:\n  https://w
+ ww.screener.in/company/PFC/consolidated/\n\n• BSE/NSE Regulatory Announc
+ ements:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
+ tions\n
+LOCATION:NSE / BSE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Sep 2026)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+UID:07bf2168-d353-4bfc-aae0-52260a785444
+DESCRIPTION:NSE Index & Stock F&O Expiry Cutoff.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Oct 2026)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+UID:4ebe482d-6051-481e-b60b-efad62e28bd3
+DESCRIPTION:NSE Index & Stock F&O Expiry Cutoff.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Nov 2026)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:46c6b36f-2541-4e9c-8182-cefc41aab1c1
+DESCRIPTION:NSE Index & Stock F&O Expiry Cutoff.
+END:VEVENT
 END:VCALENDAR
