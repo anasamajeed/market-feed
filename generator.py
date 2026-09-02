@@ -1,140 +1,219 @@
 import datetime
 import uuid
 import requests
-from icalendar import Calendar, Event, vText
+from icalendar import Calendar, Event
 
-# Public holiday calendar for Indian markets to adjust T+1 settlement
+# Market Holiday List 2026 for T+1 Demat Settlement
 NSE_HOLIDAYS_2026 = {
-    datetime.date(2026, 1, 26),  # Republic Day
-    datetime.date(2026, 3, 6),   # Holi
-    datetime.date(2026, 4, 3),   # Good Friday
-    datetime.date(2026, 4, 14),  # Dr. Ambedkar Jayanti
-    datetime.date(2026, 5, 1),   # Maharashtra Day
-    datetime.date(2026, 8, 15),  # Independence Day
-    datetime.date(2026, 10, 2),  # Gandhi Jayanti
-    datetime.date(2026, 10, 20), # Dussehra
-    datetime.date(2026, 11, 10), # Diwali Laxmi Pujan
-    datetime.date(2026, 12, 25), # Christmas
+    datetime.date(2026, 1, 26),
+    datetime.date(2026, 3, 6),
+    datetime.date(2026, 4, 3),
+    datetime.date(2026, 4, 14),
+    datetime.date(2026, 5, 1),
+    datetime.date(2026, 8, 15),
+    datetime.date(2026, 10, 2),
+    datetime.date(2026, 10, 20),
+    datetime.date(2026, 11, 10),
+    datetime.date(2026, 12, 25),
 }
 
-def is_trading_day(date_obj):
-    # Weekends (5: Sat, 6: Sun) and NSE holidays
-    return date_obj.weekday() < 5 and date_obj not in NSE_HOLIDAYS_2026
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.bseindia.com/",
+    "Origin": "https://www.bseindia.com"
+}
 
-def get_previous_trading_day(date_obj):
-    current = date_obj - datetime.timedelta(days=1)
-    while not is_trading_day(current):
-        current -= datetime.timedelta(days=1)
-    return current
+def is_trading_day(d):
+    return d.weekday() < 5 and d not in NSE_HOLIDAYS_2026
 
-def build_tradingview_link(symbol, exchange="NSE"):
-    return f"https://www.tradingview.com/chart/?symbol={exchange}:{symbol}"
+def get_previous_trading_day(d):
+    curr = d - datetime.timedelta(days=1)
+    while not is_trading_day(curr):
+        curr -= datetime.timedelta(days=1)
+    return curr
+
+def build_tradingview_link(symbol):
+    clean_sym = symbol.replace("&", "_").replace("-", "_").split()[0]
+    return f"https://in.tradingview.com/chart/?symbol=NSE:{clean_sym}"
 
 def build_screener_link(symbol):
-    return f"https://www.screener.in/company/{symbol}/consolidated/"
+    clean_sym = symbol.split()[0]
+    return f"https://www.screener.in/company/{clean_sym}/consolidated/"
 
-def create_market_calendar():
-    cal = Calendar()
-    cal.add('prodid', '-//Indian Markets & Dividends Live Feed//IN')
-    cal.add('version', '2.0')
-    cal.add('x-wr-calname', 'NSE/BSE Corporate & IPO Hub')
-    cal.add('x-wr-timezone', 'Asia/Kolkata')
-    cal.add('x-published-ttl', 'PT1H')
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-
-    # Fetch official BSE corporate actions API endpoint
-    bse_api = "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?page=1"
-    
-    # Pre-structured corporate events container
-    events_data = []
-
+def fetch_bse_corporate_actions():
+    """Fetches upcoming dividends and corporate actions from BSE India."""
+    url = "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?page=1"
+    actions = []
     try:
-        response = requests.get(bse_api, headers=headers, timeout=10)
-        if response.status_code == 200:
-            raw_data = response.json()
-            for row in raw_data:
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        # Seed session cookies
+        session.get("https://www.bseindia.com", timeout=8)
+        resp = session.get(url, timeout=12)
+        if resp.status_code == 200:
+            data = resp.json()
+            for row in data:
                 purpose = row.get("Purpose", "")
-                if "DIVIDEND" in purpose.upper():
+                rec_date_str = row.get("Record_Date")
+                sec_name = row.get("Security_Name", "").strip()
+                scrip_code = row.get("Security_Code", "")
+
+                if not rec_date_str or rec_date_str == "-":
+                    continue
+
+                try:
+                    rec_date = datetime.datetime.strptime(rec_date_str, "%d/%m/%Y").date()
+                except ValueError:
+                    continue
+
+                actions.append({
+                    "symbol": sec_name,
+                    "purpose": purpose,
+                    "record_date": rec_date,
+                    "scrip_code": scrip_code,
+                    "is_dividend": "DIVIDEND" in purpose.upper()
+                })
+    except Exception as e:
+        print(f"BSE Action fetch error: {e}")
+    return actions
+
+def fetch_ipo_feed():
+    """Aggregates IPO timeline data from market feeds."""
+    ipos = []
+    # Primary API endpoint for live/upcoming IPOs
+    url = "https://api.bseindia.com/BseIndiaAPI/api/GetIPOBidDetails/w?status=U"
+    try:
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        resp = session.get(url, timeout=10)
+        if resp.status_code == 200:
+            data = resp.json()
+            for item in data.get("Table", []):
+                company = item.get("Issuer_Company", "")
+                open_str = item.get("Open_Date")
+                close_str = item.get("Close_Date")
+                price_band = item.get("Price_Band", "N/A")
+                if open_str and close_str:
                     try:
-                        rec_date_str = row.get("Record_Date")
-                        rec_date = datetime.datetime.strptime(rec_date_str, "%d/%m/%Y").date()
-                        events_data.append({
-                            "symbol": row.get("Security_Name", "").strip(),
-                            "type": "DIVIDEND",
-                            "record_date": rec_date,
-                            "purpose": purpose,
-                            "bse_code": row.get("Security_Code", "")
+                        open_dt = datetime.datetime.strptime(open_str, "%d-%b-%Y").date()
+                        close_dt = datetime.datetime.strptime(close_str, "%d-%b-%Y").date()
+                        ipos.append({
+                            "company": company,
+                            "open": open_dt,
+                            "close": close_dt,
+                            "price_band": price_band,
+                            "issue_type": item.get("Issue_Type", "Mainboard/SME")
                         })
                     except Exception:
                         continue
-    except Exception:
-        # Gracefully handle network timeouts without breaking existing events
-        pass
+    except Exception as e:
+        print(f"IPO fetch error: {e}")
+    return ipos
 
-    # Sample baseline data for layout verification
-    sample_records = [
-        {
-            "symbol": "TCS",
-            "type": "DIVIDEND",
-            "record_date": datetime.date(2026, 9, 18),
-            "amount": "₹12.00 Interim",
-            "bse_code": "532540"
-        },
-        {
-            "symbol": "RELIANCE",
-            "type": "DIVIDEND",
-            "record_date": datetime.date(2026, 9, 25),
-            "amount": "₹10.00 Final",
-            "bse_code": "500325"
-        }
-    ]
+def build_calendar():
+    cal = Calendar()
+    cal.add('prodid', '-//Live Indian Capital Markets//EN')
+    cal.add('version', '2.0')
+    cal.add('x-wr-calname', 'NSE/BSE Corporate Actions, IPOs & Macro')
+    cal.add('x-wr-timezone', 'Asia/Kolkata')
+    cal.add('x-published-ttl', 'PT1H')
 
-    for item in sample_records:
-        rec_date = item["record_date"]
-        # Under India's T+1 rolling settlement, Ex-Date is the prior trading day.
-        # Investor must execute purchase on or before this day to get Demat credit by Record Date.
-        must_buy_by = get_previous_trading_day(rec_date)
+    # 1. Add Corporate Actions & Dividends
+    actions = fetch_bse_corporate_actions()
+    for act in actions:
+        rec_date = act["record_date"]
+        must_buy_date = get_previous_trading_day(rec_date)
+        sym = act["symbol"]
+        tv_link = build_tradingview_link(sym)
+        screener_link = build_screener_link(sym)
+        filing_link = f"https://www.bseindia.com/stock-share-price/x/y/{act['scrip_code']}/corporate-actions/"
+
+        tag = "[DIVIDEND]" if act["is_dividend"] else "[CORP ACTION]"
         
-        tv_link = build_tradingview_link(item["symbol"])
-        screener_link = build_screener_link(item["symbol"])
-        bse_link = f"https://www.bseindia.com/stock-share-price/x/y/{item['bse_code']}/corporate-actions/"
-
         event = Event()
         event.add('uid', str(uuid.uuid4()))
-        event.add('summary', f"[DIV] {item['symbol']} ({item['amount']}) - Last Day to Buy")
-        event.add('dtstart', must_buy_by)
-        event.add('dtend', must_buy_by + datetime.timedelta(days=1))
+        event.add('summary', f"{tag} {sym} - Last Day to Buy (T+1 Cutoff)")
+        event.add('dtstart', must_buy_date)
+        event.add('dtend', must_buy_date + datetime.timedelta(days=1))
         
-        description = (
-            f"ACTION: Must purchase on/before today for Demat credit.\n"
-            f"-----------------------------------------\n"
-            f"• Dividend: {item['amount']}\n"
+        desc = (
+            f"ACTION REQUIRED: Purchase today before 3:30 PM IST to get Demat credit by Record Date.\n\n"
+            f"• Announcement Details: {act['purpose']}\n"
             f"• Record Date: {rec_date.strftime('%d-%b-%Y')}\n"
-            f"• Settlement: T+1 Rolling Cycle\n"
+            f"• Exchange: NSE / BSE\n"
             f"-----------------------------------------\n"
-            f"• TradingView Chart:\n  {tv_link}\n"
-            f"• Balance Sheet & Financials:\n  {screener_link}\n"
-            f"• BSE Corporate Filing:\n  {bse_link}\n"
+            f"• TradingView Daily Chart:\n  {tv_link}\n\n"
+            f"• Financial Statements & Fundamentals:\n  {screener_link}\n\n"
+            f"• Official BSE Regulatory Announcement:\n  {filing_link}\n"
         )
-        event.add('description', description)
-        event.add('location', 'NSE / BSE')
+        event.add('description', desc)
+        event.add('location', 'NSE/BSE India')
         cal.add_component(event)
 
-    # Macro Trigger Demo Event
-    macro_event = Event()
-    macro_event.add('uid', str(uuid.uuid4()))
-    macro_event.add('summary', '[MACRO] US Federal Reserve Rate Decision (FOMC)')
-    macro_event.add('dtstart', datetime.date(2026, 9, 16))
-    macro_event.add('dtend', datetime.date(2026, 9, 17))
-    macro_event.add('description', "High market impact across global equity and forex indices.\n• Track US10Y & DXY.")
-    macro_event.add('location', 'Washington, D.C.')
-    cal.add_component(macro_event)
+    # 2. Add IPO Timelines
+    ipos = fetch_ipo_feed()
+    for ipo in ipos:
+        # Event for IPO Open Day
+        ev_open = Event()
+        ev_open.add('uid', str(uuid.uuid4()))
+        ev_open.add('summary', f"[IPO OPEN] {ipo['company']} ({ipo['issue_type']})")
+        ev_open.add('dtstart', ipo['open'])
+        ev_open.add('dtend', ipo['open'] + datetime.timedelta(days=1))
+        ev_open.add('description', (
+            f"Company: {ipo['company']}\n"
+            f"Price Band: ₹{ipo['price_band']}\n"
+            f"Status: Applications Open\n"
+            f"Bidding Closes: {ipo['close'].strftime('%d-%b-%Y')}\n\n"
+            f"• Chittorgarh / InvestorGain GMP Tracker:\n  https://www.chittorgarh.com/ipo/ipo_dashboard.asp"
+        ))
+        cal.add_component(ev_open)
 
+        # Event for IPO Closing Day
+        ev_close = Event()
+        ev_close.add('uid', str(uuid.uuid4()))
+        ev_close.add('summary', f"[IPO CLOSE] {ipo['company']} - Final Bidding Day")
+        ev_close.add('dtstart', ipo['close'])
+        ev_close.add('dtend', ipo['close'] + datetime.timedelta(days=1))
+        ev_close.add('description', (
+            f"Last day for UPI mandate authorization (cut-off: 5:00 PM IST).\n"
+            f"Company: {ipo['company']}\n"
+            f"Price Band: ₹{ipo['price_band']}\n\n"
+            f"• Check Live Allotment (Link Intime / KFintech):\n"
+            f"  https://linkintime.co.in/initial_offer/public-issues.html\n"
+            f"  https://ris.kfintech.com/ipostatus/"
+        ))
+        cal.add_component(ev_close)
+
+    # 3. Monthly F&O Expiry Triggers (Last Thursday of the month)
+    today = datetime.date.today()
+    for m_offset in range(3):
+        # Scan upcoming 3 months for last Thursday
+        target_month = (today.month + m_offset - 1) % 12 + 1
+        target_year = today.year + ((today.month + m_offset - 1) // 12)
+        # Start at end of month
+        if target_month == 12:
+            last_day = datetime.date(target_year, 12, 31)
+        else:
+            last_day = datetime.date(target_year, target_month + 1, 1) - datetime.timedelta(days=1)
+        
+        # Walk back to finding the last Thursday (weekday 3)
+        while last_day.weekday() != 3 or last_day in NSE_HOLIDAYS_2026:
+            last_day -= datetime.timedelta(days=1)
+
+        fo_event = Event()
+        fo_event.add('uid', str(uuid.uuid4()))
+        fo_event.add('summary', f"[MARKET] Monthly NSE F&O Expiry ({last_day.strftime('%B %Y')})")
+        fo_event.add('dtstart', last_day)
+        fo_event.add('dtend', last_day + datetime.timedelta(days=1))
+        fo_event.add('description', "NSE Nifty/BankNifty Monthly Derivative Contracts Expiry.\nExpect heightened volatility.")
+        cal.add_component(fo_event)
+
+    # Save to disk
     with open("market_calendar.ics", "wb") as f:
         f.write(cal.to_ical())
+    print("market_calendar.ics successfully built.")
 
 if __name__ == "__main__":
-    create_market_calendar()
+    build_calendar()
