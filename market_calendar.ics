@@ -1,58 +1,154 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Live Indian Capital Markets Feed//EN
-X-WR-CALNAME:NSE/BSE Corporate Actions & Earnings Hub
+PRODID:-//Indian Capital Markets Live Action Hub//EN
+X-WR-CALNAME:Indian Equities, Corporate Actions & Macro Hub
 X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NTPC (₹3.50) - Must Buy Cutoff
+SUMMARY:[DIVIDEND] NTPC (₹3.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-UID:df41634e-7251-48aa-97bc-8557086bd965
-DESCRIPTION:ACTION: Purchase today before 3:30 PM IST for Demat credit eli
- gibility.\n\n• Dividend Amount: ₹3.50 per share\n• Ex-Date: 02-Sep-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:NTPC\n\n• Screener Fundamentals & Balance Sheet:\n  https://
- www.screener.in/company/NTPC/consolidated/\n\n• BSE/NSE Regulatory Annou
- ncements:\n  https://www.nseindia.com/companies-listing/corporate-filings-
- actions\n
-LOCATION:NSE / BSE
+UID:2eb30660-d9ff-4100-bf60-2466b66578c1
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
+ by Record Date.\n\n• Dividend: ₹3.50 per share\n• Ex-Date: 02-Sep-20
+ 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
+ ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
+ symbol=NSE:NTPC\n\n• Screener Fundamentals & Dividend History:\n  https:
+ //www.screener.in/company/NTPC/consolidated/\n\n• NSE Regulatory Filings
+ :\n  https://www.nseindia.com/companies-listing/corporate-filings-actions
+ \n
+LOCATION:NSE / BSE India
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] PFC (₹3.90) - Must Buy Cutoff
+SUMMARY:[DIVIDEND] PFC (₹3.90) - Buy Cutoff
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-UID:b00513af-81a1-4ce1-9006-eabf0ec553d3
-DESCRIPTION:ACTION: Purchase today before 3:30 PM IST for Demat credit eli
- gibility.\n\n• Dividend Amount: ₹3.90 per share\n• Ex-Date: 27-Aug-2
- 026\n• Settlement: T+1 Rolling Cycle\n----------------------------------
- -------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/
- ?symbol=NSE:PFC\n\n• Screener Fundamentals & Balance Sheet:\n  https://w
- ww.screener.in/company/PFC/consolidated/\n\n• BSE/NSE Regulatory Announc
- ements:\n  https://www.nseindia.com/companies-listing/corporate-filings-ac
- tions\n
-LOCATION:NSE / BSE
+UID:0c954aa1-df6b-48c7-9d9e-04b79f836ee9
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
+ by Record Date.\n\n• Dividend: ₹3.90 per share\n• Ex-Date: 27-Aug-20
+ 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
+ ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
+ symbol=NSE:PFC\n\n• Screener Fundamentals & Dividend History:\n  https:/
+ /www.screener.in/company/PFC/consolidated/\n\n• NSE Regulatory Filings:
+ \n  https://www.nseindia.com/companies-listing/corporate-filings-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GAIL (₹0.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+UID:e7aac61d-ab61-4c2b-a9fc-76d01136fdfa
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
+ by Record Date.\n\n• Dividend: ₹0.50 per share\n• Ex-Date: 02-Sep-20
+ 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
+ ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
+ symbol=NSE:GAIL\n\n• Screener Fundamentals & Dividend History:\n  https:
+ //www.screener.in/company/GAIL/consolidated/\n\n• NSE Regulatory Filings
+ :\n  https://www.nseindia.com/companies-listing/corporate-filings-actions
+ \n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NATIONALUM (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+UID:cdb0ccc3-bfce-4d07-bbd4-98febc26f3bb
+DESCRIPTION:ACTION: Purchase before 3:30 PM IST today for Demat ownership 
+ by Record Date.\n\n• Dividend: ₹1.00 per share\n• Ex-Date: 24-Aug-20
+ 26\n• Settlement: T+1 Rolling Cycle\n-----------------------------------
+ ------\n• TradingView Daily Chart:\n  https://in.tradingview.com/chart/?
+ symbol=NSE:NATIONALUM\n\n• Screener Fundamentals & Dividend History:\n  
+ https://www.screener.in/company/NATIONALUM/consolidated/\n\n• NSE Regula
+ tory Filings:\n  https://www.nseindia.com/companies-listing/corporate-fili
+ ngs-actions\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+UID:4a29b32b-1e5b-448a-842a-764078b359c2
+DESCRIPTION:RBI repo rate decision & policy statement. High impact on bank
+ ing indices and bond yields.
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+UID:356bcab7-c877-43af-8fd8-676bb8f62951
+DESCRIPTION:RBI repo rate decision & policy statement.
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+UID:a95afd15-47a9-4394-8cf8-642282d60660
+DESCRIPTION:Fed funds rate policy announcement & Jerome Powell press confe
+ rence. High global impact.
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+UID:9d874188-f2f5-4d81-a2c2-63b189c1a8fa
+DESCRIPTION:FOMC interest rate decision.
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+UID:975e33d1-808c-4f01-a4ff-e928b10b3b88
+DESCRIPTION:FOMC rate decision & economic projections.
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+UID:16014de0-5e97-401d-8582-80de90c7de13
+DESCRIPTION:Key inflation print influencing Fed interest rate trajectories
+ .
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+UID:df412785-7d77-40a4-9a3b-84c035ab2cbf
+DESCRIPTION:Key US inflation print.
+LOCATION:Economic Calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+UID:1f502d4c-f430-4d4d-aa6a-2719cb3d83de
+DESCRIPTION:Key US inflation print.
+LOCATION:Economic Calendar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Sep 2026)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-UID:07bf2168-d353-4bfc-aae0-52260a785444
-DESCRIPTION:NSE Index & Stock F&O Expiry Cutoff.
+UID:0ca441a4-713a-4fac-91e1-dd959f4253d1
+DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Oct 2026)
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-UID:4ebe482d-6051-481e-b60b-efad62e28bd3
-DESCRIPTION:NSE Index & Stock F&O Expiry Cutoff.
+UID:6add7421-dbfe-4ffd-9507-6002ca4d4ab2
+DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Nov 2026)
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-UID:46c6b36f-2541-4e9c-8182-cefc41aab1c1
-DESCRIPTION:NSE Index & Stock F&O Expiry Cutoff.
+UID:b058aec6-9d83-438d-ac0a-472eed1d71b1
+DESCRIPTION:NSE Index & Stock Options/Futures monthly contract expiry.
 END:VEVENT
 END:VCALENDAR
