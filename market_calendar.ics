@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:[DIV] TCS (₹12.00 Interim) - Last Day to Buy
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-UID:19b3677b-e524-468f-9184-5c4194751777
+UID:76a317e4-ce60-48e8-a102-1b5af338a1e1
 DESCRIPTION:ACTION: Must purchase on/before today for Demat credit.\n-----
  ------------------------------------\n• Dividend: ₹12.00 Interim\n• 
  Record Date: 18-Sep-2026\n• Settlement: T+1 Rolling Cycle\n-------------
@@ -22,7 +22,7 @@ BEGIN:VEVENT
 SUMMARY:[DIV] RELIANCE (₹10.00 Final) - Last Day to Buy
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-UID:cff7bd07-b364-43ab-bd2c-6ef600593d49
+UID:4cad715b-2c84-4955-be04-68ac6cb27505
 DESCRIPTION:ACTION: Must purchase on/before today for Demat credit.\n-----
  ------------------------------------\n• Dividend: ₹10.00 Final\n• Re
  cord Date: 25-Sep-2026\n• Settlement: T+1 Rolling Cycle\n---------------
@@ -37,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve Rate Decision (FOMC)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:c160b546-170a-40f7-ab5f-07f726618dc0
+UID:3c7e8179-22f6-4c20-be48-3ca4a14899c8
 DESCRIPTION:High market impact across global equity and forex indices.\n
  • Track US10Y & DXY.
 LOCATION:Washington\, D.C.
