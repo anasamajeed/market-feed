@@ -12,12 +12,11 @@ from icalendar import Calendar, Event, Alarm
 
 CONFIG = {
     "ENABLE_ALARMS": True,
-    "ENABLE_NIFTY_WEEKLY_EXPIRY": True,    # Tuesday
-    "ENABLE_SENSEX_WEEKLY_EXPIRY": True,   # Thursday
-    "ENABLE_MONTHLY_EXPIRIES": True,
+    "ENABLE_NIFTY_WEEKLY_EXPIRY": True,     # Tuesday (NSE Benchmark)
+    "ENABLE_SENSEX_WEEKLY_EXPIRY": True,    # Thursday (BSE Benchmark)
+    "ENABLE_STOCK_FO_MONTHLY_EXPIRY": True, # Last Thursday (NSE Single Stock F&O)
 }
 
-# Official 2026 NSE/BSE Trading Holidays
 NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 1, 26): "Republic Day",
     datetime.date(2026, 3, 6): "Holi",
@@ -57,12 +56,6 @@ def get_previous_trading_day(d):
         curr -= datetime.timedelta(days=1)
     return curr
 
-def get_next_trading_day(d):
-    curr = d + datetime.timedelta(days=1)
-    while not is_trading_day(curr):
-        curr += datetime.timedelta(days=1)
-    return curr
-
 def build_tradingview_links(symbol, is_macro=False):
     clean = re.sub(r'[^A-Za-z0-9]', '', str(symbol))
     if is_macro:
@@ -74,13 +67,11 @@ def build_tradingview_links(symbol, is_macro=False):
     return app_link, web_link
 
 def build_ipo_tradingview_links(company_name):
-    # Extracts primary ticker candidate from company name (e.g., "Pranav Constructions" -> "PRANAV")
     clean = re.sub(r'[^A-Za-z0-9\s]', '', str(company_name))
     first_word = clean.split()[0].upper()
     app_link = f"tradingview://chart?symbol=NSE:{first_word}"
     web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{first_word}"
-    search_link = f"https://in.tradingview.com/symbols/search/{first_word}/"
-    return app_link, web_link, search_link
+    return app_link, web_link
 
 def build_screener_link(symbol):
     clean = str(symbol).split()[0].replace("&", "")
@@ -347,24 +338,24 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     must_buy_by = div_date if is_trading_day(div_date) else get_previous_trading_day(div_date)
                     yield_text = f" | Yield: {(amount / cmp_price * 100):.2f}%" if cmp_price else ""
 
-                    # Cutoff Event
+                    # Buy Cutoff Event
                     ev_cut = Event()
                     ev_cut.add('uid', f"div-cut-{sym}-{div_date.isoformat()}")
                     ev_cut.add('summary', f"[DIVIDEND] {sym} (₹{amount:.2f}{yield_text}) - Buy Cutoff")
                     ev_cut.add('dtstart', must_buy_by)
                     ev_cut.add('dtend', must_buy_by + datetime.timedelta(days=1))
-                    ev_cut.add('url', app_link)
+                    ev_cut.add('url', web_link)
                     ev_cut.add('description', (
-                        f"ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat credit by Record Date.\n\n"
+                        f"ACTION REQUIRED: Purchase on or before today (prior to 3:30 PM IST) for Demat credit by Record Date.\n\n"
                         f"• Declared Amount: ₹{amount:.2f} per share\n"
                         f"• Ex-Date: {div_date.strftime('%d-%b-%Y')}\n"
                         f"• Est. Dividend Yield: {yield_text.replace(' | Yield: ', '') if yield_text else 'N/A'}\n"
-                        f"• Settlement: T+1 Rolling Cycle (NSE/BSE)\n"
+                        f"• Settlement: T+1 Rolling Settlement (NSE/BSE)\n"
                         f"-----------------------------------------\n"
-                        f"• Native TradingView App:\n  {app_link}\n\n"
-                        f"• Web TradingView Chart:\n  {web_link}\n\n"
+                        f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Open in TradingView (Browser):\n  {web_link}\n\n"
                         f"• Screener Balance Sheet & Financials:\n  {screener_link}\n\n"
-                        f"• Official Disclosures & PDF Filings:\n  {filings_url}\n"
+                        f"• Official Meeting Disclosures & PDF Filings:\n  {filings_url}\n"
                     ))
                     ev_cut.add('location', 'NSE / BSE India')
                     add_market_alarm(ev_cut, f"Cutoff today: Buy {sym} for ₹{amount:.2f} dividend.")
@@ -380,7 +371,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay.add('summary', f"[PAYOUT] {sym} (₹{amount:.2f}) - Demat Credit")
                     ev_pay.add('dtstart', payout_date)
                     ev_pay.add('dtend', payout_date + datetime.timedelta(days=1))
-                    ev_pay.add('url', app_link)
+                    ev_pay.add('url', web_link)
                     ev_pay.add('description', (
                         f"DIVIDEND DISBURSEMENT: Direct bank credit for {sym} declared dividend (₹{amount:.2f}/share).\n\n"
                         f"• Native TradingView App:\n  {app_link}\n\n"
@@ -402,9 +393,9 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_sp.add('summary', f"[SPLIT/BONUS] {sym} (Ratio: {ratio}) - Cutoff")
                     ev_sp.add('dtstart', must_buy_by)
                     ev_sp.add('dtend', must_buy_by + datetime.timedelta(days=1))
-                    ev_sp.add('url', app_link)
+                    ev_sp.add('url', web_link)
                     ev_sp.add('description', (
-                        f"Corporate restructuring for {sym}.\n\n"
+                        f"Corporate Restructuring / Share Allotment for {sym}.\n\n"
                         f"• Ratio: {ratio}\n"
                         f"• Native TradingView App:\n  {app_link}\n\n"
                         f"• Web TradingView Chart:\n  {web_link}\n\n"
@@ -427,14 +418,14 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         ev_res.add('summary', f"[RESULTS / VOLATILITY] {sym} - Financial Results Declaration")
                         ev_res.add('dtstart', f_date)
                         ev_res.add('dtend', f_date + datetime.timedelta(days=1))
-                        ev_res.add('url', app_link)
+                        ev_res.add('url', web_link)
                         ev_res.add('description', (
                             f"HIGH VOLATILITY ALERT: Company Board Meeting for quarterly financial results.\n\n"
                             f"• Symbol: {sym}\n"
                             f"• Native TradingView App:\n  {app_link}\n\n"
                             f"• Web TradingView Chart:\n  {web_link}\n\n"
                             f"• Screener Balance Sheet: {screener_link}\n\n"
-                            f"• Outcome PDF & Announcements: {filings_url}\n"
+                            f"• Outcome PDF & Announcements:\n  {filings_url}\n"
                         ))
                         ev_res.add('location', 'NSE / BSE')
                         add_market_alarm(ev_res, f"Quarterly Results Day: {sym}")
@@ -452,7 +443,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                                 ev_bm.add('summary', f"[RESULTS / VOLATILITY] {sym} - Board Meeting")
                                 ev_bm.add('dtstart', e_date)
                                 ev_bm.add('dtend', e_date + datetime.timedelta(days=1))
-                                ev_bm.add('url', app_link)
+                                ev_bm.add('url', web_link)
                                 ev_bm.add('description', (
                                     f"HIGH VOLATILITY ALERT: Board of Directors Meeting for financial results.\n\n"
                                     f"• Symbol: {sym}\n"
@@ -474,7 +465,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
 
 def build_calendars():
     cal_master = Calendar()
-    cal_master.add('prodid', '-//NSE/BSE Comprehensive FY2026-27 Market Hub//EN')
+    cal_master.add('prodid', '-//NSE/BSE Comprehensive Market Hub//EN')
     cal_master.add('version', '2.0')
     cal_master.add('x-wr-calname', 'NSE Nifty 500, IPOs & Macro (FY26-27)')
     cal_master.add('x-wr-timezone', 'Asia/Kolkata')
@@ -495,12 +486,13 @@ def build_calendars():
             ev_h.add('description', f"NSE & BSE equity/derivative segments are closed today for {h_name}.")
             cal_master.add_component(ev_h)
 
-    # 2. Benchmark Expiries (Tuesday: Nifty, Thursday: Sensex)
+    # 2. Benchmark Index Expiries (Tuesday: Nifty, Thursday: Sensex)
     nifty_app, nifty_web = build_tradingview_links("NIFTY", is_macro=False)
     sensex_app, sensex_web = build_tradingview_links("SENSEX", is_macro=False)
 
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
+        # NSE Nifty Weekly Expiry (Tuesday)
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -508,14 +500,15 @@ def build_calendars():
             ev_exp.add('summary', "[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)")
             ev_exp.add('dtstart', exp_date)
             ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
-            ev_exp.add('url', nifty_app)
+            ev_exp.add('url', nifty_web)
             ev_exp.add('description', (
                 f"Benchmark index weekly options expiry for NSE Nifty 50.\n\n"
-                f"• Native TradingView App Chart:\n  {nifty_app}\n\n"
-                f"• Browser Chart:\n  {nifty_web}\n"
+                f"• Open in TradingView App (Native):\n  {nifty_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {nifty_web}\n"
             ))
             cal_master.add_component(ev_exp)
 
+        # BSE Sensex Weekly Expiry (Thursday)
         if CONFIG.get("ENABLE_SENSEX_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 3:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -523,17 +516,51 @@ def build_calendars():
             ev_exp.add('summary', "[F&O] BSE Sensex Weekly Expiry (Thursday)")
             ev_exp.add('dtstart', exp_date)
             ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
-            ev_exp.add('url', sensex_app)
+            ev_exp.add('url', sensex_web)
             ev_exp.add('description', (
                 f"Benchmark index weekly options expiry for BSE Sensex.\n\n"
-                f"• Native TradingView App Chart:\n  {sensex_app}\n\n"
-                f"• Browser Chart:\n  {sensex_web}\n"
+                f"• Open in TradingView App (Native):\n  {sensex_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {sensex_web}\n"
             ))
             cal_master.add_component(ev_exp)
 
         curr_scan += datetime.timedelta(days=1)
 
-    # 3. Macro Events
+    # 3. Monthly Single Stock F&O Expiry (Last Thursday of each month)
+    if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
+        # Calculate monthly expiries across the lookback & forward horizon
+        for yr in [2026, 2027]:
+            for m in range(1, 13):
+                first_next = datetime.date(yr + (1 if m == 12 else 0), 1 if m == 12 else m + 1, 1)
+                last_d = first_next - datetime.timedelta(days=1)
+                # Find the last Thursday
+                while last_d.weekday() != 3:
+                    last_d -= datetime.timedelta(days=1)
+                # Shift for market holidays
+                final_stock_exp = last_d if is_trading_day(last_d) else get_previous_trading_day(last_d)
+
+                if cutoff_past <= final_stock_exp <= cutoff_future:
+                    fo_app, fo_web = build_tradingview_links("NIFTY_FUT", is_macro=True)
+                    ev_stk = Event()
+                    ev_stk.add('uid', f"fo-stock-exp-{final_stock_exp.isoformat()}")
+                    ev_stk.add('summary', f"[F&O STOCKS] NSE Monthly Stock Derivatives Expiry ({final_stock_exp.strftime('%b %Y')})")
+                    ev_stk.add('dtstart', final_stock_exp)
+                    ev_stk.add('dtend', final_stock_exp + datetime.timedelta(days=1))
+                    ev_stk.add('url', fo_web)
+                    ev_stk.add('description', (
+                        f"NSE MONTHLY STOCK DERIVATIVES EXPIRY\n"
+                        f"-----------------------------------------\n"
+                        f"• Contract Expiry: All Single Stock Futures & Options contracts expire today (3:30 PM IST).\n"
+                        f"• Physical Delivery: In-the-money (ITM) long/short stock options result in compulsory physical delivery.\n"
+                        f"• Margin Escalation: Broker physical delivery margins apply to near-the-money and ITM strikes.\n"
+                        f"-----------------------------------------\n"
+                        f"• Open in TradingView App (Native):\n  {fo_app}\n\n"
+                        f"• Open in TradingView (Browser):\n  {fo_web}\n"
+                    ))
+                    add_market_alarm(ev_stk, f"NSE Stock F&O Expiry Today: Manage ITM delivery exposure.")
+                    cal_master.add_component(ev_stk)
+
+    # 4. Macro Events
     for m in MACRO_EVENTS_2026:
         if cutoff_past <= m["date"] <= cutoff_future:
             m_app, m_web = build_tradingview_links(m["symbol"], is_macro=True)
@@ -542,15 +569,15 @@ def build_calendars():
             ev_m.add('summary', m["summary"])
             ev_m.add('dtstart', m["date"])
             ev_m.add('dtend', m["date"] + datetime.timedelta(days=1))
-            ev_m.add('url', m_app)
+            ev_m.add('url', m_web)
             ev_m.add('description', (
                 f"{m['desc']}\n\n"
-                f"• Native TradingView Chart ({m['symbol']}):\n  {m_app}\n\n"
-                f"• Browser Chart:\n  {m_web}\n"
+                f"• Open in TradingView App (Native):\n  {m_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {m_web}\n"
             ))
             cal_master.add_component(ev_m)
 
-    # 4. Nifty 500 Parallel Processing
+    # 5. Nifty 500 Parallel Ingestion
     universe = get_live_nifty_500_symbols()
     print(f"Loaded {len(universe)} symbols from Nifty 500.")
 
@@ -560,11 +587,11 @@ def build_calendars():
             for ev in fut.result():
                 cal_master.add_component(ev)
 
-    # 5. Comprehensive IPO Lifecycle Milestones
+    # 6. Comprehensive IPO Milestones
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
-        ipo_app, ipo_web, ipo_search = build_ipo_tradingview_links(ipo['name'])
+        ipo_app, ipo_web = build_ipo_tradingview_links(ipo['name'])
 
         # OPEN
         if cutoff_past <= ipo['open'] <= cutoff_future:
@@ -573,7 +600,7 @@ def build_calendars():
             ev_o.add('summary', f"[IPO OPEN] {ipo['name']} ({ipo['type']})")
             ev_o.add('dtstart', ipo['open'])
             ev_o.add('dtend', ipo['open'] + datetime.timedelta(days=1))
-            ev_o.add('url', ipo_app)
+            ev_o.add('url', ipo_web)
             ev_o.add('description', (
                 f"IPO BIDDING OPENS TODAY\n"
                 f"-----------------------------------------\n"
@@ -584,8 +611,8 @@ def build_calendars():
                 f"• Live Grey Market Premium (GMP): {ipo['gmp']}\n"
                 f"• Bidding Window: {ipo['open'].strftime('%d-%b')} to {ipo['close'].strftime('%d-%b-%Y')}\n"
                 f"-----------------------------------------\n"
-                f"• TradingView App Chart / Lookup:\n  {ipo_app}\n\n"
-                f"• TradingView Symbol Search:\n  {ipo_search}\n\n"
+                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {ipo_web}\n\n"
                 f"• Official Exchange Prospectus & RHP:\n  {ipo['rhp']}\n\n"
                 f"• Live GMP & Subscription Tracker:\n  https://www.investorgain.com/report/live-ipo-gmp/331/\n"
             ))
@@ -599,7 +626,7 @@ def build_calendars():
             ev_c.add('summary', f"[IPO CLOSE] {ipo['name']} - Final Bidding Day")
             ev_c.add('dtstart', ipo['close'])
             ev_c.add('dtend', ipo['close'] + datetime.timedelta(days=1))
-            ev_c.add('url', ipo_app)
+            ev_c.add('url', ipo_web)
             ev_c.add('description', (
                 f"FINAL BIDDING & MANDATE APPROVAL DAY\n"
                 f"-----------------------------------------\n"
@@ -608,7 +635,8 @@ def build_calendars():
                 f"• Price Band: {ipo['price']}\n"
                 f"• Final Grey Market Premium: {ipo['gmp']}\n"
                 f"-----------------------------------------\n"
-                f"• TradingView App Chart / Lookup:\n  {ipo_app}\n\n"
+                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {ipo_web}\n\n"
                 f"• Official Registrar Allotment Portal:\n  {ipo['registrar']}\n"
             ))
             add_market_alarm(ev_c, f"IPO Closes Today (5 PM): {ipo['name']}")
@@ -621,13 +649,14 @@ def build_calendars():
             ev_a.add('summary', f"[IPO ALLOTMENT] {ipo['name']} Allotment Status")
             ev_a.add('dtstart', ipo['allotment'])
             ev_a.add('dtend', ipo['allotment'] + datetime.timedelta(days=1))
-            ev_a.add('url', ipo_app)
+            ev_a.add('url', ipo_web)
             ev_a.add('description', (
                 f"BASIS OF ALLOTMENT FINALIZATION\n"
                 f"-----------------------------------------\n"
-                f"Check status with PAN on the designated registrar portal:\n\n"
+                f"Check status with PAN on designated registrar desks:\n\n"
                 f"• Designated Registrar Desk:\n  {ipo['registrar']}\n\n"
-                f"• TradingView App Chart:\n  {ipo_app}\n\n"
+                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {ipo_web}\n\n"
                 f"• Alternate Link Intime Desk:\n  https://linkintime.co.in/initial_offer/public-issues.html\n\n"
                 f"• Alternate KFintech Desk:\n  https://ris.kfintech.com/ipostatus/\n"
             ))
@@ -642,7 +671,7 @@ def build_calendars():
             ev_l.add('summary', f"[IPO LISTING] {ipo['name']} Debut (10:00 AM IST)")
             ev_l.add('dtstart', ipo['listing'])
             ev_l.add('dtend', ipo['listing'] + datetime.timedelta(days=1))
-            ev_l.add('url', ipo_app)
+            ev_l.add('url', ipo_web)
             ev_l.add('description', (
                 f"EXCHANGE LISTING DEBUT TODAY\n"
                 f"-----------------------------------------\n"
@@ -652,8 +681,8 @@ def build_calendars():
                 f"• Issue Price: {ipo['price']}\n"
                 f"• Final Grey Market Premium (GMP): {ipo['gmp']}\n"
                 f"-----------------------------------------\n"
-                f"• Open Live Chart in TradingView App:\n  {ipo_app}\n\n"
-                f"• Web TradingView Chart:\n  {ipo_web}\n\n"
+                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• Open in TradingView (Browser):\n  {ipo_web}\n\n"
                 f"• Official NSE/BSE New Listing Tracker:\n  {listing_url}\n"
             ))
             add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
@@ -662,7 +691,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Master calendar updated with comprehensive TradingView deep-links.")
+    print("Master calendar updated with stock F&O expiries and restored dual TradingView links.")
 
 if __name__ == "__main__":
     build_calendars()
