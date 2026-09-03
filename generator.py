@@ -17,6 +17,7 @@ CONFIG = {
     "ENABLE_STOCK_FO_MONTHLY_EXPIRY": True, # Last Thursday (NSE Single Stock F&O)
 }
 
+# Official 2026 NSE/BSE Trading Holidays
 NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 1, 26): "Republic Day",
     datetime.date(2026, 3, 6): "Holi",
@@ -56,6 +57,12 @@ def get_previous_trading_day(d):
         curr -= datetime.timedelta(days=1)
     return curr
 
+def get_next_trading_day(d):
+    curr = d + datetime.timedelta(days=1)
+    while not is_trading_day(curr):
+        curr -= datetime.timedelta(days=1)
+    return curr
+
 def build_tradingview_links(symbol, is_macro=False):
     clean = re.sub(r'[^A-Za-z0-9]', '', str(symbol))
     if is_macro:
@@ -73,13 +80,16 @@ def build_ipo_tradingview_links(company_name):
     web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{first_word}"
     return app_link, web_link
 
-def build_screener_link(symbol):
+def build_screener_links(symbol):
     clean = str(symbol).split()[0].replace("&", "")
-    return f"https://www.screener.in/company/{clean}/consolidated/"
+    statements_url = f"https://www.screener.in/company/{clean}/consolidated/"
+    pdf_announcements_url = f"https://www.screener.in/company/{clean}/consolidated/#announcements"
+    return statements_url, pdf_announcements_url
 
-def build_filings_url(symbol):
+def build_nse_direct_url(symbol):
+    """Direct scrip quote & corporate announcements portal on NSE."""
     clean = str(symbol).split()[0]
-    return f"https://www.nseindia.com/companies-listing/corporate-filings-announcements?symbol={clean}"
+    return f"https://www.nseindia.com/get-quotes/equity?symbol={clean}"
 
 def add_market_alarm(event, summary_text):
     if not CONFIG.get("ENABLE_ALARMS", True):
@@ -318,8 +328,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
     events = []
     ticker_str = f"{sym}.NS"
     app_link, web_link = build_tradingview_links(sym)
-    screener_link = build_screener_link(sym)
-    filings_url = build_filings_url(sym)
+    statements_url, pdf_archive_url = build_screener_links(sym)
+    nse_quote_url = build_nse_direct_url(sym)
 
     try:
         t = yf.Ticker(ticker_str)
@@ -344,9 +354,9 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_cut.add('summary', f"[DIVIDEND] {sym} (₹{amount:.2f}{yield_text}) - Buy Cutoff")
                     ev_cut.add('dtstart', must_buy_by)
                     ev_cut.add('dtend', must_buy_by + datetime.timedelta(days=1))
-                    ev_cut.add('url', web_link)
+                    ev_cut.add('url', nse_quote_url)  # Top button opens direct NSE company quote & filings
                     ev_cut.add('description', (
-                        f"ACTION REQUIRED: Purchase on or before today (prior to 3:30 PM IST) for Demat credit by Record Date.\n\n"
+                        f"ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat credit by Record Date.\n\n"
                         f"• Declared Amount: ₹{amount:.2f} per share\n"
                         f"• Ex-Date: {div_date.strftime('%d-%b-%Y')}\n"
                         f"• Est. Dividend Yield: {yield_text.replace(' | Yield: ', '') if yield_text else 'N/A'}\n"
@@ -354,8 +364,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         f"-----------------------------------------\n"
                         f"• Open in TradingView App (Native):\n  {app_link}\n\n"
                         f"• Open in TradingView (Browser):\n  {web_link}\n\n"
-                        f"• Screener Balance Sheet & Financials:\n  {screener_link}\n\n"
-                        f"• Official Meeting Disclosures & PDF Filings:\n  {filings_url}\n"
+                        f"• Screener Statements & SEBI PDF Archive:\n  {pdf_archive_url}\n\n"
+                        f"• Official NSE Company Desk & Filings:\n  {nse_quote_url}\n"
                     ))
                     ev_cut.add('location', 'NSE / BSE India')
                     add_market_alarm(ev_cut, f"Cutoff today: Buy {sym} for ₹{amount:.2f} dividend.")
@@ -371,12 +381,12 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay.add('summary', f"[PAYOUT] {sym} (₹{amount:.2f}) - Demat Credit")
                     ev_pay.add('dtstart', payout_date)
                     ev_pay.add('dtend', payout_date + datetime.timedelta(days=1))
-                    ev_pay.add('url', web_link)
+                    ev_pay.add('url', statements_url)
                     ev_pay.add('description', (
                         f"DIVIDEND DISBURSEMENT: Direct bank credit for {sym} declared dividend (₹{amount:.2f}/share).\n\n"
-                        f"• Native TradingView App:\n  {app_link}\n\n"
-                        f"• Web TradingView Chart:\n  {web_link}\n\n"
-                        f"• Screener Profile: {screener_link}\n"
+                        f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Open in TradingView (Browser):\n  {web_link}\n\n"
+                        f"• Screener Profile & History:\n  {statements_url}\n"
                     ))
                     ev_pay.add('location', 'Bank Account / Demat')
                     events.append(ev_pay)
@@ -393,14 +403,14 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_sp.add('summary', f"[SPLIT/BONUS] {sym} (Ratio: {ratio}) - Cutoff")
                     ev_sp.add('dtstart', must_buy_by)
                     ev_sp.add('dtend', must_buy_by + datetime.timedelta(days=1))
-                    ev_sp.add('url', web_link)
+                    ev_sp.add('url', nse_quote_url)
                     ev_sp.add('description', (
                         f"Corporate Restructuring / Share Allotment for {sym}.\n\n"
                         f"• Ratio: {ratio}\n"
-                        f"• Native TradingView App:\n  {app_link}\n\n"
-                        f"• Web TradingView Chart:\n  {web_link}\n\n"
-                        f"• Screener Fundamentals: {screener_link}\n\n"
-                        f"• Regulatory Disclosures (PDF): {filings_url}\n"
+                        f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Open in TradingView (Browser):\n  {web_link}\n\n"
+                        f"• Screener Statements & PDF Filings:\n  {pdf_archive_url}\n\n"
+                        f"• Official NSE Company Desk:\n  {nse_quote_url}\n"
                     ))
                     ev_sp.add('location', 'NSE / BSE')
                     add_market_alarm(ev_sp, f"Today is the buy cutoff for {sym} Split/Bonus.")
@@ -415,17 +425,17 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     if f_date and cutoff_past <= f_date <= cutoff_future:
                         ev_res = Event()
                         ev_res.add('uid', f"res-q-{sym}-{f_date.isoformat()}")
-                        ev_res.add('summary', f"[RESULTS / VOLATILITY] {sym} - Financial Results Declaration")
+                        ev_res.add('summary', f"[RESULTS / VOLATILITY] {sym} - Financial Results")
                         ev_res.add('dtstart', f_date)
                         ev_res.add('dtend', f_date + datetime.timedelta(days=1))
-                        ev_res.add('url', web_link)
+                        ev_res.add('url', nse_quote_url)
                         ev_res.add('description', (
                             f"HIGH VOLATILITY ALERT: Company Board Meeting for quarterly financial results.\n\n"
                             f"• Symbol: {sym}\n"
-                            f"• Native TradingView App:\n  {app_link}\n\n"
-                            f"• Web TradingView Chart:\n  {web_link}\n\n"
-                            f"• Screener Balance Sheet: {screener_link}\n\n"
-                            f"• Outcome PDF & Announcements:\n  {filings_url}\n"
+                            f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                            f"• Open in TradingView (Browser):\n  {web_link}\n\n"
+                            f"• Screener Balance Sheet:\n  {statements_url}\n\n"
+                            f"• Official NSE Filings & Outcome PDFs:\n  {nse_quote_url}\n"
                         ))
                         ev_res.add('location', 'NSE / BSE')
                         add_market_alarm(ev_res, f"Quarterly Results Day: {sym}")
@@ -443,14 +453,14 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                                 ev_bm.add('summary', f"[RESULTS / VOLATILITY] {sym} - Board Meeting")
                                 ev_bm.add('dtstart', e_date)
                                 ev_bm.add('dtend', e_date + datetime.timedelta(days=1))
-                                ev_bm.add('url', web_link)
+                                ev_bm.add('url', nse_quote_url)
                                 ev_bm.add('description', (
                                     f"HIGH VOLATILITY ALERT: Board of Directors Meeting for financial results.\n\n"
                                     f"• Symbol: {sym}\n"
-                                    f"• Native TradingView App:\n  {app_link}\n\n"
-                                    f"• Web TradingView Chart:\n  {web_link}\n\n"
-                                    f"• Screener Profile: {screener_link}\n\n"
-                                    f"• Disclosures: {filings_url}\n"
+                                    f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                                    f"• Open in TradingView (Browser):\n  {web_link}\n\n"
+                                    f"• Screener Profile: {statements_url}\n\n"
+                                    f"• Official NSE Filings & Outcome PDFs:\n  {nse_quote_url}\n"
                                 ))
                                 ev_bm.add('location', 'NSE / BSE')
                                 add_market_alarm(ev_bm, f"Board Meeting today: {sym}")
@@ -528,15 +538,12 @@ def build_calendars():
 
     # 3. Monthly Single Stock F&O Expiry (Last Thursday of each month)
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
-        # Calculate monthly expiries across the lookback & forward horizon
         for yr in [2026, 2027]:
             for m in range(1, 13):
                 first_next = datetime.date(yr + (1 if m == 12 else 0), 1 if m == 12 else m + 1, 1)
                 last_d = first_next - datetime.timedelta(days=1)
-                # Find the last Thursday
                 while last_d.weekday() != 3:
                     last_d -= datetime.timedelta(days=1)
-                # Shift for market holidays
                 final_stock_exp = last_d if is_trading_day(last_d) else get_previous_trading_day(last_d)
 
                 if cutoff_past <= final_stock_exp <= cutoff_future:
@@ -600,7 +607,7 @@ def build_calendars():
             ev_o.add('summary', f"[IPO OPEN] {ipo['name']} ({ipo['type']})")
             ev_o.add('dtstart', ipo['open'])
             ev_o.add('dtend', ipo['open'] + datetime.timedelta(days=1))
-            ev_o.add('url', ipo_web)
+            ev_o.add('url', ipo['rhp'])
             ev_o.add('description', (
                 f"IPO BIDDING OPENS TODAY\n"
                 f"-----------------------------------------\n"
@@ -626,7 +633,7 @@ def build_calendars():
             ev_c.add('summary', f"[IPO CLOSE] {ipo['name']} - Final Bidding Day")
             ev_c.add('dtstart', ipo['close'])
             ev_c.add('dtend', ipo['close'] + datetime.timedelta(days=1))
-            ev_c.add('url', ipo_web)
+            ev_c.add('url', ipo['registrar'])
             ev_c.add('description', (
                 f"FINAL BIDDING & MANDATE APPROVAL DAY\n"
                 f"-----------------------------------------\n"
@@ -649,7 +656,7 @@ def build_calendars():
             ev_a.add('summary', f"[IPO ALLOTMENT] {ipo['name']} Allotment Status")
             ev_a.add('dtstart', ipo['allotment'])
             ev_a.add('dtend', ipo['allotment'] + datetime.timedelta(days=1))
-            ev_a.add('url', ipo_web)
+            ev_a.add('url', ipo['registrar'])
             ev_a.add('description', (
                 f"BASIS OF ALLOTMENT FINALIZATION\n"
                 f"-----------------------------------------\n"
@@ -671,7 +678,7 @@ def build_calendars():
             ev_l.add('summary', f"[IPO LISTING] {ipo['name']} Debut (10:00 AM IST)")
             ev_l.add('dtstart', ipo['listing'])
             ev_l.add('dtend', ipo['listing'] + datetime.timedelta(days=1))
-            ev_l.add('url', ipo_web)
+            ev_l.add('url', listing_url)
             ev_l.add('description', (
                 f"EXCHANGE LISTING DEBUT TODAY\n"
                 f"-----------------------------------------\n"
@@ -691,7 +698,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Master calendar updated with stock F&O expiries and restored dual TradingView links.")
+    print("Master calendar updated cleanly with direct NSE quote desks.")
 
 if __name__ == "__main__":
     build_calendars()
