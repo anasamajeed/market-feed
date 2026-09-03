@@ -31,12 +31,30 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Maha
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[HOLIDAY] Market Closed - Independence Day
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-UID:holiday-2026-08-15
-DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Inde
- pendence Day.
+SUMMARY:[HOLIDAY] Market Closed - Bakri Id
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+UID:holiday-2026-05-28
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Bakr
+ i Id.
+URL:https://www.nseindia.com/resources/exchange-communication-holidays
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Muharram
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+UID:holiday-2026-06-26
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Muha
+ rram.
+URL:https://www.nseindia.com/resources/exchange-communication-holidays
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Ganesh Chaturthi
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:holiday-2026-09-14
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Gane
+ sh Chaturthi.
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
@@ -58,12 +76,21 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Duss
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[HOLIDAY] Market Closed - Diwali Laxmi Pujan
+SUMMARY:[HOLIDAY] Market Closed - Diwali Balipratipada
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 UID:holiday-2026-11-10
 DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Diwa
- li Laxmi Pujan.
+ li Balipratipada.
+URL:https://www.nseindia.com/resources/exchange-communication-holidays
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Guru Nanak Jayanti
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+UID:holiday-2026-11-24
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Guru
+  Nanak Jayanti.
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
@@ -80,9 +107,8 @@ SUMMARY:[TAX] Advance Tax Q1 Instalment Due (15%)
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 UID:macro-tax-[TAX]AdvanceT-2026-06-15
-DESCRIPTION:Statutory deadline to deposit 15% of estimated income tax liab
- ility for FY26-27 under Section 208/211.\n\n• Official Portal:\n  https:
- //eportal.incometax.gov.in/
+DESCRIPTION:Statutory deadline to deposit 15% of estimated advance income 
+ tax.\n\n• Official Portal:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -96,8 +122,7 @@ DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 UID:macro-tax-[TAX]AdvanceT-2026-09-15
 DESCRIPTION:Statutory deadline to deposit cumulative 45% of estimated adva
- nce tax. Massive corporate liquidity withdrawal day.\n\n• Official Porta
- l:\n  https://eportal.incometax.gov.in/
+ nce tax.\n\n• Official Portal:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -111,9 +136,8 @@ SUMMARY:[TAX] Advance Tax Q3 Instalment Due (75% Cumulative)
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 UID:macro-tax-[TAX]AdvanceT-2026-12-15
-DESCRIPTION:Statutory deadline to deposit cumulative 75% of advance tax. A
- void Section 234C interest penalties.\n\n• Official Portal:\n  https://e
- portal.incometax.gov.in/
+DESCRIPTION:Statutory deadline to deposit cumulative 75% of advance tax.\n
+ \n• Official Portal:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -127,9 +151,8 @@ SUMMARY:[SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 UID:macro-tax-[SEBI/TAX]Re-2026-04-01
-DESCRIPTION:Securities Transaction Tax (STT) hike effective: 0.02% to 0.05
- % on Futures\, and 0.10% to 0.15% on Option Premiums.\n\n• Official Port
- al:\n  https://www.sebi.gov.in/
+DESCRIPTION:STT hike effective: 0.02% to 0.05% on Futures\, 0.10% to 0.15%
+  on Options.\n\n• Official Portal:\n  https://www.sebi.gov.in/
 URL:https://www.sebi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -172,8 +195,8 @@ SUMMARY:[MACRO] India CPI Inflation Print
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 UID:macro-tax-[MACRO]IndiaC-2026-09-14
-DESCRIPTION:Retail inflation numbers directly impacting RBI interest rate 
- outlook.\n\n• Official Portal:\n  https://www.mospi.gov.in/
+DESCRIPTION:Retail inflation numbers directly impacting RBI stance.\n\n•
+  Official Portal:\n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -186,9 +209,8 @@ SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 UID:macro-tax-[MACRO]RBIMon-2026-10-08
-DESCRIPTION:RBI repo rate decision & policy statement. Crucial for banking
-  and rate-sensitive sectors.\n\n• Official Portal:\n  https://rbi.org.in
- /
+DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
+ tal:\n  https://rbi.org.in/
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -259,9 +281,8 @@ SUMMARY:[MACRO] US Non-Farm Payrolls (NFP) Jobs Report
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 UID:macro-tax-[MACRO]USNon--2026-09-04
-DESCRIPTION:Monthly US labor snapshot influencing Dollar Index (DXY) and F
- II emerging market allocations.\n\n• Official Portal:\n  https://www.bls
- .gov/
+DESCRIPTION:Monthly US labor snapshot influencing Dollar Index & FII flows
+ .\n\n• Official Portal:\n  https://www.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -391,8 +412,8 @@ SUMMARY:[MACRO] OPEC+ Joint Ministerial Meeting
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 UID:macro-tax-[MACRO]OPEC+J-2026-12-03
-DESCRIPTION:Crude oil production quotas review impacting Brent crude and I
- ndian OMCs.\n\n• Official Portal:\n  https://www.opec.org/
+DESCRIPTION:Crude oil quotas review impacting Brent crude and Indian OMCs.
+ \n\n• Official Portal:\n  https://www.opec.org/
 URL:https://www.opec.org/
 BEGIN:VALARM
 ACTION:DISPLAY

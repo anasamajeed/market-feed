@@ -71,15 +71,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: VEEGALAND\n• Category: Mainboard\n• Issue Price:
   ₹130 - 140\n• Final Grey Market Premium (GMP): +18.5%\n--------------
- ---------------------------\n• Open Live Chart in TradingView App (Nativ
- e):\n  tradingview://chart?symbol=NSE:VEEGALAND\n\n• Open TradingView Ch
- art (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:VEEGALAND\n
- \n• Official NSE Company Quote & Disclosures Desk:\n  https://www.nseind
- ia.com/get-quotes/equity?symbol=VEEGALAND\n\n• Official NSE New Listings
-  Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listi
- ngs-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/li
- ve-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:VEEGALAND
+ ---------------------------\n• Open 5-Minute Chart in TradingView App (N
+ ative):\n  tradingview://chart?symbol=NSE:VEEGALAND&interval=5\n\n• Open
+  5-Minute Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE
+ :VEEGALAND&interval=5\n\n• Official NSE Company Quote & Disclosures Desk
+ :\n  https://www.nseindia.com/get-quotes/equity?symbol=VEEGALAND\n\n• Of
+ ficial NSE New Listings Tracker:\n  https://www.nseindia.com/market-data/n
+ ew-stock-exchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  
+ https://ipogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:VEEGALAND&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Veegaland Developers
@@ -154,14 +154,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: PRANAV\n• Category: Mainboard\n• Issue Price: 
  ₹315 - 325\n• Final Grey Market Premium (GMP): +22.4%\n---------------
- --------------------------\n• Open Live Chart in TradingView App (Native
- ):\n  tradingview://chart?symbol=NSE:PRANAV\n\n• Open TradingView Chart 
- (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:PRANAV\n\n• O
- fficial NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/
- get-quotes/equity?symbol=PRANAV\n\n• Official NSE New Listings Tracker:
- \n  https://www.nseindia.com/market-data/new-stock-exchange-listings-today
- \n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:PRANAV
+ --------------------------\n• Open 5-Minute Chart in TradingView App (Na
+ tive):\n  tradingview://chart?symbol=NSE:PRANAV&interval=5\n\n• Open 5-M
+ inute Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:PRA
+ NAV&interval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  ht
+ tps://www.nseindia.com/get-quotes/equity?symbol=PRANAV\n\n• Official NSE
+  New Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-e
+ xchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ip
+ ogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:PRANAV&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Pranav Constructions
@@ -236,15 +237,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: QUALIANCE\n• Category: SME\n• Issue Price: ₹12
  0 - 127\n• Final Grey Market Premium (GMP): +31.5%\n--------------------
- ---------------------\n• Open Live Chart in TradingView App (Native):\n 
-  tradingview://chart?symbol=NSE:QUALIANCE\n\n• Open TradingView Chart (B
- rowser):\n  https://in.tradingview.com/chart/?symbol=NSE:QUALIANCE\n\n• 
- Official NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com
- /get-quotes/equity?symbol=QUALIANCE\n\n• Official NSE New Listings Track
- er:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-to
- day\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo
- \n
-URL:https://in.tradingview.com/chart/?symbol=NSE:QUALIANCE
+ ---------------------\n• Open 5-Minute Chart in TradingView App (Native)
+ :\n  tradingview://chart?symbol=NSE:QUALIANCE&interval=5\n\n• Open 5-Min
+ ute Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:QUALI
+ ANCE&interval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  h
+ ttps://www.nseindia.com/get-quotes/equity?symbol=QUALIANCE\n\n• Official
+  NSE New Listings Tracker:\n  https://www.nseindia.com/market-data/new-sto
+ ck-exchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https:
+ //ipogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:QUALIANCE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Qualiance International
@@ -319,15 +320,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: RAYSOFBELIEF\n• Category: Mainboard\n• Issue Pri
  ce: ₹227 - 239\n• Final Grey Market Premium (GMP): +16.7%\n-----------
- ------------------------------\n• Open Live Chart in TradingView App (Na
- tive):\n  tradingview://chart?symbol=NSE:RAYSOFBELIEF\n\n• Open TradingV
- iew Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:RAYSO
- FBELIEF\n\n• Official NSE Company Quote & Disclosures Desk:\n  https://w
- ww.nseindia.com/get-quotes/equity?symbol=RAYSOFBELIEF\n\n• Official NSE 
- New Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-ex
- change-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipo
- gyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:RAYSOFBELIEF
+ ------------------------------\n• Open 5-Minute Chart in TradingView App
+  (Native):\n  tradingview://chart?symbol=NSE:RAYSOFBELIEF&interval=5\n\n
+ • Open 5-Minute Chart (Browser):\n  https://in.tradingview.com/chart/?sy
+ mbol=NSE:RAYSOFBELIEF&interval=5\n\n• Official NSE Company Quote & Discl
+ osures Desk:\n  https://www.nseindia.com/get-quotes/equity?symbol=RAYSOFBE
+ LIEF\n\n• Official NSE New Listings Tracker:\n  https://www.nseindia.com
+ /market-data/new-stock-exchange-listings-today\n\n• IPOGyani Listing Day
+  Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:RAYSOFBELIEF&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Rays of Belief
@@ -402,14 +403,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: DEEPA\n• Category: Mainboard\n• Issue Price: ₹
  168 - 177\n• Final Grey Market Premium (GMP): +12.8%\n------------------
- -----------------------\n• Open Live Chart in TradingView App (Native):
- \n  tradingview://chart?symbol=NSE:DEEPA\n\n• Open TradingView Chart (Br
- owser):\n  https://in.tradingview.com/chart/?symbol=NSE:DEEPA\n\n• Offic
- ial NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/get-
- quotes/equity?symbol=DEEPA\n\n• Official NSE New Listings Tracker:\n  ht
- tps://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n
- • IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:DEEPA
+ -----------------------\n• Open 5-Minute Chart in TradingView App (Nativ
+ e):\n  tradingview://chart?symbol=NSE:DEEPA&interval=5\n\n• Open 5-Minut
+ e Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:DEEPA&i
+ nterval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  https:/
+ /www.nseindia.com/get-quotes/equity?symbol=DEEPA\n\n• Official NSE New L
+ istings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchang
+ e-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani
+ .com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:DEEPA&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Deepa Jewellers
@@ -483,14 +485,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: FARMPEACE\n• Category: SME\n• Issue Price: ₹59
  \n• Final Grey Market Premium (GMP): +24.0%\n---------------------------
- --------------\n• Open Live Chart in TradingView App (Native):\n  tradin
- gview://chart?symbol=NSE:FARMPEACE\n\n• Open TradingView Chart (Browser)
- :\n  https://in.tradingview.com/chart/?symbol=NSE:FARMPEACE\n\n• Officia
- l NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/get-qu
- otes/equity?symbol=FARMPEACE\n\n• Official NSE New Listings Tracker:\n  
- https://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n
- • IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:FARMPEACE
+ --------------\n• Open 5-Minute Chart in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:FARMPEACE&interval=5\n\n• Open 5-Minute Cha
+ rt (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:FARMPEACE&in
+ terval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  https://
+ www.nseindia.com/get-quotes/equity?symbol=FARMPEACE\n\n• Official NSE Ne
+ w Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exch
+ ange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogy
+ ani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:FARMPEACE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Farm Peace
@@ -565,14 +568,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: FLYHI\n• Category: SME\n• Issue Price: ₹102\n
  • Final Grey Market Premium (GMP): +14.5%\n-----------------------------
- ------------\n• Open Live Chart in TradingView App (Native):\n  tradingv
- iew://chart?symbol=NSE:FLYHI\n\n• Open TradingView Chart (Browser):\n  h
- ttps://in.tradingview.com/chart/?symbol=NSE:FLYHI\n\n• Official NSE Comp
- any Quote & Disclosures Desk:\n  https://www.nseindia.com/get-quotes/equit
- y?symbol=FLYHI\n\n• Official NSE New Listings Tracker:\n  https://www.ns
- eindia.com/market-data/new-stock-exchange-listings-today\n\n• IPOGyani L
- isting Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:FLYHI
+ ------------\n• Open 5-Minute Chart in TradingView App (Native):\n  trad
+ ingview://chart?symbol=NSE:FLYHI&interval=5\n\n• Open 5-Minute Chart (Br
+ owser):\n  https://in.tradingview.com/chart/?symbol=NSE:FLYHI&interval=5\n
+ \n• Official NSE Company Quote & Disclosures Desk:\n  https://www.nseind
+ ia.com/get-quotes/equity?symbol=FLYHI\n\n• Official NSE New Listings Tra
+ cker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-
+ today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-i
+ po\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:FLYHI&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Fly-Hi Maritime Travels
@@ -647,14 +651,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: PURPLE\n• Category: Mainboard\n• Issue Price: 
  ₹546 - 575\n• Final Grey Market Premium (GMP): +28.2%\n---------------
- --------------------------\n• Open Live Chart in TradingView App (Native
- ):\n  tradingview://chart?symbol=NSE:PURPLE\n\n• Open TradingView Chart 
- (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:PURPLE\n\n• O
- fficial NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/
- get-quotes/equity?symbol=PURPLE\n\n• Official NSE New Listings Tracker:
- \n  https://www.nseindia.com/market-data/new-stock-exchange-listings-today
- \n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:PURPLE
+ --------------------------\n• Open 5-Minute Chart in TradingView App (Na
+ tive):\n  tradingview://chart?symbol=NSE:PURPLE&interval=5\n\n• Open 5-M
+ inute Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:PUR
+ PLE&interval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  ht
+ tps://www.nseindia.com/get-quotes/equity?symbol=PURPLE\n\n• Official NSE
+  New Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-e
+ xchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ip
+ ogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:PURPLE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Purple Style Labs
@@ -729,14 +734,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: ESDS\n• Category: Mainboard\n• Issue Price: ₹4
  29\n• Final Grey Market Premium (GMP): +15.2%\n-------------------------
- ----------------\n• Open Live Chart in TradingView App (Native):\n  trad
- ingview://chart?symbol=NSE:ESDS\n\n• Open TradingView Chart (Browser):\n
-   https://in.tradingview.com/chart/?symbol=NSE:ESDS\n\n• Official NSE Co
- mpany Quote & Disclosures Desk:\n  https://www.nseindia.com/get-quotes/equ
- ity?symbol=ESDS\n\n• Official NSE New Listings Tracker:\n  https://www.n
- seindia.com/market-data/new-stock-exchange-listings-today\n\n• IPOGyani 
- Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:ESDS
+ ----------------\n• Open 5-Minute Chart in TradingView App (Native):\n  
+ tradingview://chart?symbol=NSE:ESDS&interval=5\n\n• Open 5-Minute Chart 
+ (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:ESDS&interval=5
+ \n\n• Official NSE Company Quote & Disclosures Desk:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=ESDS\n\n• Official NSE New Listings Tr
+ acker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings
+ -today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-
+ ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:ESDS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): ESDS Software Solution
@@ -811,14 +817,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: LUMINO\n• Category: Mainboard\n• Issue Price: 
  ₹82\n• Final Grey Market Premium (GMP): +52.0%\n----------------------
- -------------------\n• Open Live Chart in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:LUMINO\n\n• Open TradingView Chart (Browse
- r):\n  https://in.tradingview.com/chart/?symbol=NSE:LUMINO\n\n• Official
-  NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/get-quo
- tes/equity?symbol=LUMINO\n\n• Official NSE New Listings Tracker:\n  http
- s://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n• 
- IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:LUMINO
+ -------------------\n• Open 5-Minute Chart in TradingView App (Native):
+ \n  tradingview://chart?symbol=NSE:LUMINO&interval=5\n\n• Open 5-Minute 
+ Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:LUMINO&in
+ terval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  https://
+ www.nseindia.com/get-quotes/equity?symbol=LUMINO\n\n• Official NSE New L
+ istings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchang
+ e-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani
+ .com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:LUMINO&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Lumino Industries
@@ -893,14 +900,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: KWICK\n• Category: SME\n• Issue Price: ₹90\n
  • Final Grey Market Premium (GMP): +68.5%\n-----------------------------
- ------------\n• Open Live Chart in TradingView App (Native):\n  tradingv
- iew://chart?symbol=NSE:KWICK\n\n• Open TradingView Chart (Browser):\n  h
- ttps://in.tradingview.com/chart/?symbol=NSE:KWICK\n\n• Official NSE Comp
- any Quote & Disclosures Desk:\n  https://www.nseindia.com/get-quotes/equit
- y?symbol=KWICK\n\n• Official NSE New Listings Tracker:\n  https://www.ns
- eindia.com/market-data/new-stock-exchange-listings-today\n\n• IPOGyani L
- isting Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:KWICK
+ ------------\n• Open 5-Minute Chart in TradingView App (Native):\n  trad
+ ingview://chart?symbol=NSE:KWICK&interval=5\n\n• Open 5-Minute Chart (Br
+ owser):\n  https://in.tradingview.com/chart/?symbol=NSE:KWICK&interval=5\n
+ \n• Official NSE Company Quote & Disclosures Desk:\n  https://www.nseind
+ ia.com/get-quotes/equity?symbol=KWICK\n\n• Official NSE New Listings Tra
+ cker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-
+ today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-i
+ po\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:KWICK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Kwick Forensic Solutions
@@ -975,14 +983,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: AUGMONT\n• Category: Mainboard\n• Issue Price: 
  ₹345\n• Final Grey Market Premium (GMP): +21.4%\n---------------------
- --------------------\n• Open Live Chart in TradingView App (Native):\n  
- tradingview://chart?symbol=NSE:AUGMONT\n\n• Open TradingView Chart (Brow
- ser):\n  https://in.tradingview.com/chart/?symbol=NSE:AUGMONT\n\n• Offic
- ial NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/get-
- quotes/equity?symbol=AUGMONT\n\n• Official NSE New Listings Tracker:\n  
- https://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n
- • IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:AUGMONT
+ --------------------\n• Open 5-Minute Chart in TradingView App (Native):
+ \n  tradingview://chart?symbol=NSE:AUGMONT&interval=5\n\n• Open 5-Minute
+  Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:AUGMONT&
+ interval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  https:
+ //www.nseindia.com/get-quotes/equity?symbol=AUGMONT\n\n• Official NSE Ne
+ w Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exch
+ ange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogy
+ ani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:AUGMONT&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Augmont Enterprises
@@ -1057,14 +1066,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: TEMPSENS\n• Category: Mainboard\n• Issue Price: 
  ₹550\n• Final Grey Market Premium (GMP): +44.0%\n---------------------
- --------------------\n• Open Live Chart in TradingView App (Native):\n  
- tradingview://chart?symbol=NSE:TEMPSENS\n\n• Open TradingView Chart (Bro
- wser):\n  https://in.tradingview.com/chart/?symbol=NSE:TEMPSENS\n\n• Off
- icial NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com/ge
- t-quotes/equity?symbol=TEMPSENS\n\n• Official NSE New Listings Tracker:
- \n  https://www.nseindia.com/market-data/new-stock-exchange-listings-today
- \n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:TEMPSENS
+ --------------------\n• Open 5-Minute Chart in TradingView App (Native):
+ \n  tradingview://chart?symbol=NSE:TEMPSENS&interval=5\n\n• Open 5-Minut
+ e Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:TEMPSEN
+ S&interval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  http
+ s://www.nseindia.com/get-quotes/equity?symbol=TEMPSENS\n\n• Official NSE
+  New Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-e
+ xchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ip
+ ogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:TEMPSENS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Tempsens Instruments
@@ -1139,14 +1149,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: GAJA\n• Category: Mainboard\n• Issue Price: ₹1
  95\n• Final Grey Market Premium (GMP): +18.0%\n-------------------------
- ----------------\n• Open Live Chart in TradingView App (Native):\n  trad
- ingview://chart?symbol=NSE:GAJA\n\n• Open TradingView Chart (Browser):\n
-   https://in.tradingview.com/chart/?symbol=NSE:GAJA\n\n• Official NSE Co
- mpany Quote & Disclosures Desk:\n  https://www.nseindia.com/get-quotes/equ
- ity?symbol=GAJA\n\n• Official NSE New Listings Tracker:\n  https://www.n
- seindia.com/market-data/new-stock-exchange-listings-today\n\n• IPOGyani 
- Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:GAJA
+ ----------------\n• Open 5-Minute Chart in TradingView App (Native):\n  
+ tradingview://chart?symbol=NSE:GAJA&interval=5\n\n• Open 5-Minute Chart 
+ (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:GAJA&interval=5
+ \n\n• Official NSE Company Quote & Disclosures Desk:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=GAJA\n\n• Official NSE New Listings Tr
+ acker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings
+ -today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-
+ ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:GAJA&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Gaja Alternative Asset
@@ -1221,15 +1232,15 @@ DESCRIPTION:EXCHANGE LISTING DEBUT TODAY\n--------------------------------
  ---------\n• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-0
  9:45 AM)\n• Symbol: TECHNOCRATS\n• Category: SME\n• Issue Price: ₹
  132\n• Final Grey Market Premium (GMP): +53.0%\n------------------------
- -----------------\n• Open Live Chart in TradingView App (Native):\n  tra
- dingview://chart?symbol=NSE:TECHNOCRATS\n\n• Open TradingView Chart (Bro
- wser):\n  https://in.tradingview.com/chart/?symbol=NSE:TECHNOCRATS\n\n• 
- Official NSE Company Quote & Disclosures Desk:\n  https://www.nseindia.com
- /get-quotes/equity?symbol=TECHNOCRATS\n\n• Official NSE New Listings Tra
- cker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-
- today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-i
- po\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:TECHNOCRATS
+ -----------------\n• Open 5-Minute Chart in TradingView App (Native):\n 
+  tradingview://chart?symbol=NSE:TECHNOCRATS&interval=5\n\n• Open 5-Minut
+ e Chart (Browser):\n  https://in.tradingview.com/chart/?symbol=NSE:TECHNOC
+ RATS&interval=5\n\n• Official NSE Company Quote & Disclosures Desk:\n  h
+ ttps://www.nseindia.com/get-quotes/equity?symbol=TECHNOCRATS\n\n• Offici
+ al NSE New Listings Tracker:\n  https://www.nseindia.com/market-data/new-s
+ tock-exchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  http
+ s://ipogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:TECHNOCRATS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Technocrats Plasma Systems

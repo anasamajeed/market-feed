@@ -205,8 +205,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;VALUE=DATE:20260528
-DTEND;VALUE=DATE:20260529
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
 UID:exp-sensex-2026-05-28
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -842,8 +842,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
 UID:exp-nifty-2026-11-24
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -1011,9 +1011,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (May 2026)
-DTSTART;VALUE=DATE:20260528
-DTEND;VALUE=DATE:20260529
-UID:fo-stock-exp-2026-05-28
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+UID:fo-stock-exp-2026-05-27
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
   contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
@@ -1162,22 +1162,217 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[F&O BAN] Securities in NSE Ban Period (5 Stocks)
+SUMMARY:[F&O BAN] Securities in Ban Period (5 Stocks)
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 UID:fno-ban-status-2026-09-03
-DESCRIPTION:NSE DERIVATIVES MWPL BAN MONITOR (95% THRESHOLD)\n------------
- -----------------------------\n• Securities Currently in Ban: BANDHANBNK
- \, PNB\, BIOCON\, HINDCOPPER\, PEL\n• Strict Rule: Opening fresh derivat
- ive positions attracts exchange penalties.\n• Position Reduction: Only s
- quaring-off / reducing open positions is permitted.\n• Exit Criterion: S
- ecurity exits ban only when aggregate open interest drops below 80% MWPL.
- \n-----------------------------------------\n• Official NSE F&O Securiti
- es in Ban Desk:\n  https://www.nseindia.com/all-reports\n
-URL:https://www.nseindia.com/market-data/live-market-indices
+DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
+ -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
+ COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
+ e penalties.\n• Exit Threshold: Only exits ban when open interest drops 
+ below 80% MWPL.\n
+URL:https://www.nseindia.com/all-reports
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:F&O Ban Warning: BANDHANBNK\, PNB\, BIOCON in ban period.
+DESCRIPTION:F&O Ban: BANDHANBNK\, PNB\, BIOCON in ban.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[VOLATILITY] India VIX Intraday Radar
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+UID:vix-desk-2026-09-03
+DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
+ -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
+ t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
+ gh / Low):\n  https://www.nseindia.com/market-data/52-week-high-low-equity
+ -market\n\n• SEBI ASM / GSM Surveillance Restrictions:\n  https://www.ns
+ eindia.com/reports/surveillance\n
+URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-AXISBANK-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: AXIS
+ BANK\n• Index Impact: Major Nifty Driver (3.28%)\n• Open 5-Minute Char
+ t in TradingView (Native):\n  tradingview://chart?symbol=NSE:AXISBANK&inte
+ rval=5\n\n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.com
+ /chart/?symbol=NSE:AXISBANK&interval=5\n\n• Screener Balance Sheet:\n  h
+ ttps://www.screener.in/company/AXISBANK/consolidated/\n\n• Official NSE 
+ Filings & Outcome PDFs:\n  https://www.nseindia.com/get-quotes/equity?symb
+ ol=AXISBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:AXISBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: AXISBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] BHARTIARTL (Nifty Weight: 5.3%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-BHARTIARTL-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: BHAR
+ TIARTL\n• Index Impact: Major Nifty Driver (5.3%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:BHARTIARTL&i
+ nterval=5\n\n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.
+ com/chart/?symbol=NSE:BHARTIARTL&interval=5\n\n• Screener Balance Sheet:
+ \n  https://www.screener.in/company/BHARTIARTL/consolidated/\n\n• Offici
+ al NSE Filings & Outcome PDFs:\n  https://www.nseindia.com/get-quotes/equi
+ ty?symbol=BHARTIARTL\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:BHARTIARTL&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: BHARTIARTL
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] ICICIBANK (Nifty Weight: 9.35%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-ICICIBANK-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: ICIC
+ IBANK\n• Index Impact: Major Nifty Driver (9.35%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:ICICIBANK&in
+ terval=5\n\n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.c
+ om/chart/?symbol=NSE:ICICIBANK&interval=5\n\n• Screener Balance Sheet:\n
+   https://www.screener.in/company/ICICIBANK/consolidated/\n\n• Official 
+ NSE Filings & Outcome PDFs:\n  https://www.nseindia.com/get-quotes/equity?
+ symbol=ICICIBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:ICICIBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: ICICIBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] INFY (Nifty Weight: 3.68%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-INFY-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: INFY
+ \n• Index Impact: Major Nifty Driver (3.68%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:INFY&interval=5\n
+ \n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.com/chart/?
+ symbol=NSE:INFY&interval=5\n\n• Screener Balance Sheet:\n  https://www.s
+ creener.in/company/INFY/consolidated/\n\n• Official NSE Filings & Outcom
+ e PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=INFY\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:INFY&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: INFY
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-KOTAKBANK-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
+ KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
+ terval=5\n\n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.c
+ om/chart/?symbol=NSE:KOTAKBANK&interval=5\n\n• Screener Balance Sheet:\n
+   https://www.screener.in/company/KOTAKBANK/consolidated/\n\n• Official 
+ NSE Filings & Outcome PDFs:\n  https://www.nseindia.com/get-quotes/equity?
+ symbol=KOTAKBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: KOTAKBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-LT-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
+ • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
+ radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
+ • Open 5-Minute Chart (Browser):\n  https://in.tradingview.com/chart/?sy
+ mbol=NSE:LT&interval=5\n\n• Screener Balance Sheet:\n  https://www.scree
+ ner.in/company/LT/consolidated/\n\n• Official NSE Filings & Outcome PDFs
+ :\n  https://www.nseindia.com/get-quotes/equity?symbol=LT\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: LT
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] RELIANCE (Nifty Weight: 8.02%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-RELIANCE-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: RELI
+ ANCE\n• Index Impact: Major Nifty Driver (8.02%)\n• Open 5-Minute Char
+ t in TradingView (Native):\n  tradingview://chart?symbol=NSE:RELIANCE&inte
+ rval=5\n\n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.com
+ /chart/?symbol=NSE:RELIANCE&interval=5\n\n• Screener Balance Sheet:\n  h
+ ttps://www.screener.in/company/RELIANCE/consolidated/\n\n• Official NSE 
+ Filings & Outcome PDFs:\n  https://www.nseindia.com/get-quotes/equity?symb
+ ol=RELIANCE\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:RELIANCE&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: RELIANCE
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-SBIN-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
+ \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:SBIN&interval=5\n
+ \n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.com/chart/?
+ symbol=NSE:SBIN&interval=5\n\n• Screener Balance Sheet:\n  https://www.s
+ creener.in/company/SBIN/consolidated/\n\n• Official NSE Filings & Outcom
+ e PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=SBIN\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: SBIN
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-TCS-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
+ \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:TCS&interval=5\n
+ \n• Open 5-Minute Chart (Browser):\n  https://in.tradingview.com/chart/?
+ symbol=NSE:TCS&interval=5\n\n• Screener Balance Sheet:\n  https://www.sc
+ reener.in/company/TCS/consolidated/\n\n• Official NSE Filings & Outcome 
+ PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=TCS\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: TCS
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
