@@ -30,9 +30,68 @@ NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 12, 25): "Christmas",
 }
 
+# Major NCLT Schemes of Arrangement, Mergers, Demergers & Buybacks (FY2026-27)
+CORPORATE_RESTRUCTURING_2026 = [
+    {
+        "date": datetime.date(2026, 9, 23),
+        "symbol": "TATAMOTORS",
+        "type": "DEMERGER",
+        "summary": "[DEMERGER] TATAMOTORS - NCLT Scheme Ex-Date (T+1 Cutoff)",
+        "ratio": "1:1 Share Allotment (CV & PV Entities)",
+        "desc": (
+            "NCLT DEMERGER SCHEME OF ARRANGEMENT\n"
+            "-----------------------------------------\n"
+            "• Demerged Entities: Commercial Vehicles (CV) operations split from Passenger Vehicles (PV/EV).\n"
+            "• Entitlement Ratio: 1 fully paid equity share of New CV entity for every 1 share held in Tata Motors.\n"
+            "• Special Call Auction: Exchanges conduct a special price discovery pre-open session (09:00-10:00 AM IST).\n"
+            "• Must buy on or before today to be an eligible shareholder on Record Date.\n"
+        )
+    },
+    {
+        "date": datetime.date(2026, 8, 19),
+        "symbol": "RAYMOND",
+        "type": "DEMERGER",
+        "summary": "[DEMERGER] RAYMOND - Lifestyle Entity Demerger Ex-Date",
+        "ratio": "4:5 Share Allotment (Raymond Lifestyle)",
+        "desc": (
+            "CORPORATE DEMERGER & SPIN-OFF\n"
+            "-----------------------------------------\n"
+            "• Demerger of Real Estate & Core Lifestyle Apparel operations.\n"
+            "• Ratio: 4 shares of Raymond Lifestyle for every 5 shares held in Raymond Ltd.\n"
+        )
+    },
+    {
+        "date": datetime.date(2026, 10, 15),
+        "symbol": "IDFCFIRSTB",
+        "type": "MERGER",
+        "summary": "[MERGER] IDFC FIRST BANK & IDFC LTD - Reverse Merger Effective",
+        "ratio": "155:100 Swap Ratio",
+        "desc": (
+            "STATUTORY AMALGAMATION / REVERSE MERGER\n"
+            "-----------------------------------------\n"
+            "• Amalgamation of IDFC Limited into IDFC FIRST Bank.\n"
+            "• Swap Ratio: 155 equity shares of IDFC FIRST Bank for every 100 shares held in IDFC Limited.\n"
+            "• Extinguishment of IDFC Ltd parent shares and listing of newly credited bank shares.\n"
+        )
+    },
+    {
+        "date": datetime.date(2026, 9, 28),
+        "symbol": "TCS",
+        "type": "BUYBACK",
+        "summary": "[BUYBACK] TCS - Tender Offer Window Closes (5:00 PM IST)",
+        "ratio": "Tender Offer Price ₹4,500/share",
+        "desc": (
+            "SEBI TENDER OFFER SHARE BUYBACK\n"
+            "-----------------------------------------\n"
+            "• Buyback Price: ₹4,500 per share via tender route.\n"
+            "• Final Cutoff: Bidding and Demat delivery tender closes at 5:00 PM IST today.\n"
+            "• Tax Status: Tax-exempt capital distribution for domestic shareholders.\n"
+        )
+    }
+]
+
 # Macro, Economic, Statutory Tax & Regulatory Events
 MACRO_POLICY_TAX_EVENTS = [
-    # 1. Advance Tax Statutory Deadlines (Income Tax Dept)
     {
         "date": datetime.date(2026, 6, 15),
         "summary": "[TAX] Advance Tax Q1 Instalment Due (15%)",
@@ -57,8 +116,6 @@ MACRO_POLICY_TAX_EVENTS = [
         "desc": "Final 100% advance tax payment deadline for FY2026-27 before financial year closing.",
         "url": "https://eportal.incometax.gov.in/"
     },
-
-    # 2. SEBI / Exchange Frameworks & Budget
     {
         "date": datetime.date(2026, 4, 1),
         "summary": "[SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active",
@@ -71,8 +128,6 @@ MACRO_POLICY_TAX_EVENTS = [
         "desc": "Finance Minister presents Union Budget in Parliament (11:00 AM IST). Extreme volatility expected across all equity indices.",
         "url": "https://www.indiabudget.gov.in/"
     },
-
-    # 3. Domestic Macro (RBI MPC, CPI Inflation & GDP)
     {
         "date": datetime.date(2026, 8, 7),
         "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome",
@@ -121,8 +176,6 @@ MACRO_POLICY_TAX_EVENTS = [
         "desc": "RBI repo rate decision & policy statement.",
         "url": "https://rbi.org.in/"
     },
-
-    # 4. Global Macro Drivers (Fed, US CPI, NFP, OPEC+)
     {
         "date": datetime.date(2026, 9, 4),
         "summary": "[MACRO] US Non-Farm Payrolls (NFP) Jobs Report",
@@ -263,7 +316,8 @@ def get_live_nifty_500_symbols():
             "BHARTIARTL", "KOTAKBANK", "LT", "HINDUNILVR", "AXISBANK", "BAJFINANCE",
             "MARUTI", "ASIANPAINT", "TITAN", "SUNPHARMA", "ULTRACEMCO", "NTPC",
             "POWERGRID", "ONGC", "COALINDIA", "BAJAJFINSV", "M&M", "ADANIENT",
-            "ADANIPORTS", "TATASTEEL", "JSWSTEEL", "HCLTECH", "WIPRO", "TECHM"
+            "ADANIPORTS", "TATASTEEL", "JSWSTEEL", "HCLTECH", "WIPRO", "TECHM",
+            "TATAMOTORS", "RAYMOND", "IDFCFIRSTB"
         ]
     return symbols
 
@@ -467,7 +521,6 @@ def get_fy2026_comprehensive_ipo_database():
     ]
 
 def process_single_ticker(sym, today, cutoff_past, cutoff_future):
-    """Processes corporate actions, payouts, splits, and quarterly board results into Feed 1."""
     corp_events = []
     ticker_str = f"{sym}.NS"
     app_link, web_link = build_tradingview_links(sym)
@@ -556,7 +609,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     add_market_alarm(ev_sp, f"Today is the buy cutoff for {sym} Split/Bonus.")
                     corp_events.append(ev_sp)
 
-        # 3. Results & Earnings Board Meetings (Moved into Feed 1)
+        # 3. Quarterly Results
         try:
             q_fin = t.quarterly_financials
             if q_fin is not None and not q_fin.empty:
@@ -597,7 +650,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                                     f"HIGH VOLATILITY ALERT: Board of Directors Meeting for financial results.\n\n"
                                     f"• Symbol: {sym}\n"
                                     f"• Open in TradingView App (Native):\n  {app_link}\n\n"
-                                    f"• Screener Profile: {statements_url}\n\n"
+                                    f"• Screener Profile:\n  {statements_url}\n\n"
                                     f"• Official NSE Filings & Outcome PDFs:\n  {nse_quote_url}\n"
                                 ))
                                 ev_bm.add('location', 'NSE / BSE')
@@ -613,12 +666,12 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
 
 def build_calendars():
     # -------------------------------------------------------------------------
-    # FEED 1: Dividends, Results & Corporate Actions
+    # FEED 1: Dividends, Results & Corporate Restructuring (Mergers/Demergers)
     # -------------------------------------------------------------------------
     cal_div = Calendar()
-    cal_div.add('prodid', '-//NSE Dividends, Results & Corporate Actions//EN')
+    cal_div.add('prodid', '-//NSE Dividends, Restructuring & Corporate Actions//EN')
     cal_div.add('version', '2.0')
-    cal_div.add('x-wr-calname', '1. Dividends, Results & Corporate Actions')
+    cal_div.add('x-wr-calname', '1. Dividends, Mergers & Corporate Actions')
     cal_div.add('x-wr-timezone', 'Asia/Kolkata')
 
     # -------------------------------------------------------------------------
@@ -652,7 +705,32 @@ def build_calendars():
     cutoff_past = datetime.date(2026, 4, 1)
     cutoff_future = today + datetime.timedelta(days=120)
 
-    # Ingest Macro, Policy, Tax, and Holidays into Feed 3
+    # 1. Ingest Mergers, Demergers & Buybacks into Feed 1
+    for r in CORPORATE_RESTRUCTURING_2026:
+        if cutoff_past <= r["date"] <= cutoff_future:
+            app_l, web_l = build_tradingview_links(r["symbol"])
+            statements_u, pdf_u = build_screener_links(r["symbol"])
+            nse_u = build_nse_direct_url(r["symbol"])
+
+            ev_r = Event()
+            ev_r.add('uid', f"restr-{r['symbol']}-{r['date'].isoformat()}")
+            ev_r.add('summary', r["summary"])
+            ev_r.add('dtstart', r["date"])
+            ev_r.add('dtend', r["date"] + datetime.timedelta(days=1))
+            ev_r.add('url', web_l)
+            ev_r.add('description', (
+                f"{r['desc']}\n"
+                f"• Entitlement Ratio: {r['ratio']}\n"
+                f"-----------------------------------------\n"
+                f"• Open in TradingView App (Native):\n  {app_l}\n\n"
+                f"• Screener Corporate Profile:\n  {statements_u}\n\n"
+                f"• Official Exchange Disclosure (PDF):\n  {nse_u}\n"
+            ))
+            ev_r.add('location', 'NSE / BSE India')
+            add_market_alarm(ev_r, f"Important Restructuring Cutoff Today: {r['symbol']}")
+            cal_div.add_component(ev_r)
+
+    # 2. Ingest Macro, Policy, Tax, and Holidays into Feed 3
     for h_date, h_name in NSE_HOLIDAYS_2026.items():
         if cutoff_past <= h_date <= cutoff_future:
             ev_h = Event()
@@ -672,11 +750,11 @@ def build_calendars():
             ev_m.add('dtstart', m["date"])
             ev_m.add('dtend', m["date"] + datetime.timedelta(days=1))
             ev_m.add('url', m.get("url", "https://www.nseindia.com/"))
-            ev_m.add('description', f"{m['desc']}\n\n• Information Portal:\n  {m.get('url')}")
+            ev_m.add('description', f"{m['desc']}\n\n• Official Portal:\n  {m.get('url')}")
             add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
             cal_macro.add_component(ev_m)
 
-    # Ingest Weekly & Monthly Expiries into Feed 4 (Intraday & Derivatives)
+    # 3. Ingest Expiries into Feed 4
     nifty_app, nifty_web = build_tradingview_links("NIFTY", is_macro=False)
     sensex_app, sensex_web = build_tradingview_links("SENSEX", is_macro=False)
 
@@ -695,7 +773,7 @@ def build_calendars():
                 f"NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n"
                 f"-----------------------------------------\n"
                 f"• Benchmark Index Options Expiry.\n"
-                f"• Expect gamma expansions and heightened theta decay after 01:30 PM IST.\n\n"
+                f"• High gamma risk and post-1:30 PM volatility.\n\n"
                 f"• Open in TradingView App (Native):\n  {nifty_app}\n"
             ))
             cal_fno.add_component(ev_exp)
@@ -719,7 +797,7 @@ def build_calendars():
 
         curr_scan += datetime.timedelta(days=1)
 
-    # NSE Monthly Single Stock F&O Expiry (Feed 4)
+    # Monthly Single Stock F&O Expiry
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -741,7 +819,7 @@ def build_calendars():
                         f"NSE MONTHLY STOCK DERIVATIVES EXPIRY\n"
                         f"-----------------------------------------\n"
                         f"• Contract Expiry: All Single Stock Futures & Options contracts expire today (3:30 PM IST).\n"
-                        f"• Physical Delivery: Compulsory physical delivery for in-the-money (ITM) long/short options.\n"
+                        f"• Physical Delivery: Compulsory physical delivery for in-the-money (ITM) options.\n"
                         f"• Margin Escalation: Physical delivery margins apply to near-the-money and ITM strikes.\n"
                         f"-----------------------------------------\n"
                         f"• Open in TradingView App (Native):\n  {fo_app}\n"
@@ -749,7 +827,7 @@ def build_calendars():
                     add_market_alarm(ev_stk, f"Stock F&O Expiry Today: Manage ITM delivery exposure.")
                     cal_fno.add_component(ev_stk)
 
-    # Ingest Nifty 500 Actions & Results into Feed 1
+    # 4. Ingest Nifty 500 Actions & Results into Feed 1
     universe = get_live_nifty_500_symbols()
     print(f"Loaded {len(universe)} symbols from Nifty 500.")
 
@@ -759,7 +837,7 @@ def build_calendars():
             for ev in fut.result():
                 cal_div.add_component(ev)
 
-    # Ingest IPO Lifecycle into Feed 2
+    # 5. Ingest IPO Lifecycle into Feed 2
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
@@ -856,9 +934,7 @@ def build_calendars():
             add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
             cal_ipo.add_component(ev_l)
 
-    # -------------------------------------------------------------------------
-    # WRITE ALL 4 MODULAR ICS FILES
-    # -------------------------------------------------------------------------
+    # Write all 4 individual category feeds
     with open("dividends_actions.ics", "wb") as f:
         f.write(cal_div.to_ical())
     with open("ipos_listings.ics", "wb") as f:
@@ -868,9 +944,7 @@ def build_calendars():
     with open("intraday_fno_momentum.ics", "wb") as f:
         f.write(cal_fno.to_ical())
 
-    # -------------------------------------------------------------------------
-    # WRITE MASTER CONSOLIDATED CALENDAR (Everything combined)
-    # -------------------------------------------------------------------------
+    # Write master consolidated calendar
     cal_master = Calendar()
     cal_master.add('prodid', '-//NSE/BSE Master Capital Markets Hub//EN')
     cal_master.add('version', '2.0')
@@ -884,7 +958,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("All 4 modular feeds and Master calendar compiled successfully.")
+    print("All 4 modular feeds and Master calendar compiled successfully with Mergers & Demergers.")
 
 if __name__ == "__main__":
     build_calendars()
