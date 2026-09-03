@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:[HOLIDAY] Market Closed - Independence Day
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
-UID:5c338c97-b793-4c28-9d41-ee8da9da5308
+UID:880cbc14-a0f4-4a51-a8a1-86285458f901
 DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Inde
  pendence Day.
 LOCATION:NSE / BSE India
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:[HOLIDAY] Market Closed - Mahatma Gandhi Jayanti
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-UID:5f93ce59-7e7c-4752-a295-bfc037d41a0d
+UID:f8a116bc-acb8-440f-8ea8-3a2c0e409168
 DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Maha
  tma Gandhi Jayanti.
 LOCATION:NSE / BSE India
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:[HOLIDAY] Market Closed - Dussehra
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
-UID:55adfe16-3248-4b62-822b-a1de6c6e9d50
+UID:10e32158-ecc5-4a99-a452-42653374f29c
 DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Duss
  ehra.
 LOCATION:NSE / BSE India
@@ -36,7 +36,7 @@ SUMMARY:[HOLIDAY] Market Closed - Diwali Laxmi Pujan (Muhurat Trading Only
  )
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-UID:0d85469e-12cc-45b2-97b6-8cde35f28a17
+UID:20d418b2-4e38-4f65-972c-429a4608e8ff
 DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Diwa
  li Laxmi Pujan (Muhurat Trading Only).
 LOCATION:NSE / BSE India
@@ -45,7 +45,7 @@ BEGIN:VEVENT
 SUMMARY:[HOLIDAY] Market Closed - Christmas
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-UID:b0221195-285e-41e2-a37a-b57fb9686b4d
+UID:6569daa4-564a-4e80-8370-48f8e883aa52
 DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Chri
  stmas.
 LOCATION:NSE / BSE India
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ABB (₹90.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:43f453a5-218f-4a60-b89b-83df1e9de2a1
+UID:01aaac7a-cfca-4be3-b818-2e74ed2f96dd
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹90.00 per share\n• Ex-D
  ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] ABB (₹90.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:1255a80e-e56e-477d-b781-c930ce80a865
+UID:165a4f94-1776-4137-80cc-f52221e9eb31
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: ABB\n• Declared Amount: ₹90.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -81,10 +81,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] ACE (₹2.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+UID:22234494-85f9-477e-8ce1-ce9b8f6196e5
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹2.00 per share\n• Ex-Da
+ te: 03-Sep-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:ACE\n\n• Open in TradingView (Browser):\n  
+ https://in.tradingview.com/chart/?symbol=NSE:ACE\n\n• Screener Fundament
+ als & Dividend History:\n  https://www.screener.in/company/ACE/consolidate
+ d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
+ dia.com/companies-listing/corporate-filings-announcements?symbol=ACE\n\n
+ • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
+ html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] ACE (₹2.00) - Demat Credit
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+UID:b62217dd-af4d-45d1-9e69-157b74b8519a
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: ACE\n• Declared Amount: ₹2.00 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/ACE/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ABLBL (₹0.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:cb205640-e72f-49da-a8c3-01bc94db344c
+UID:c3750c1d-a5e6-4e90-822c-2d2f87aa675d
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.50 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -102,7 +132,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] ABLBL (₹0.50) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:f7879894-d2e4-4c25-ae98-fa8afc5c15ad
+UID:a7247ec4-1059-4b14-a09b-2952212259a4
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: ABLBL\n• Declared Amount: ₹0.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -114,7 +144,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ALKEM (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:3a3ba122-6cdc-4e00-be20-d7757f2ad95d
+UID:e2295b0b-107d-470a-bbd1-1499250f5065
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -132,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] ALKEM (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:3c6e505b-ca54-44ad-a398-71e224f2115b
+UID:06bf0cc4-8431-45ac-ba0f-35a0a6adff30
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: ALKEM\n• Declared Amount: ₹10.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -144,7 +174,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] AJANTPHARM (₹32.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-UID:bbdd085c-f957-4f7d-a1d8-7d2190d0af21
+UID:ff360c06-5d40-4d8b-bc80-2577219a4897
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹32.00 per share\n• Ex-D
  ate: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -162,7 +192,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] AJANTPHARM (₹32.00) - Demat Credit
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
-UID:2c3ebd28-5a21-48b2-b5e2-d6e8c3ae30a6
+UID:9dc164fb-44a5-48a1-a0c5-1a4781b010a5
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: AJANTPHARM\n• Declared Amount: ₹32.00 per s
  hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
@@ -174,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] APOLLOHOSP (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:b86bcf26-04d5-46e5-b3ac-0ce0da6ded03
+UID:21a73a0e-7dff-4257-bb4a-e8bea89ea4ea
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -192,7 +222,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] APOLLOHOSP (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:f39f7f9d-d1ee-4f1d-9ebe-b4a6a132b0aa
+UID:1dadffab-27c0-4509-8b9a-2064fbc9b890
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: APOLLOHOSP\n• Declared Amount: ₹10.00 per s
  hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
@@ -204,7 +234,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ASTRAL (₹2.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:a7f0f8c0-80db-4066-82a7-0d4c7a4f1d1e
+UID:c8790b3c-664e-490c-b252-d34d9f03514d
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.50 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -222,7 +252,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] ASTRAL (₹2.50) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:b81033bc-69bb-44d9-bc04-ee9b4486a07a
+UID:1fe297d7-6c91-40e0-8642-81b564dd6519
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: ASTRAL\n• Declared Amount: ₹2.50 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -234,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] BANDHANBNK (₹1.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-UID:757c8ad2-a27c-4857-9454-f51487f94f32
+UID:4efbdae4-c2d0-4df5-a324-8b42c74c0c68
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.50 per share\n• Ex-Da
  te: 17-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -252,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] BANDHANBNK (₹1.50) - Demat Credit
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:41a848f8-ce3a-4262-b645-ef08fece9c7e
+UID:20d0491d-058b-44cd-844b-a00b6c4164b7
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: BANDHANBNK\n• Declared Amount: ₹1.50 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -264,7 +294,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] BALKRISIND (₹4.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
-UID:a104440f-4d88-42e5-accf-cc2afad40262
+UID:b7dbc7bd-d819-479e-9c2a-fd3b449e4633
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹4.00 per share\n• Ex-Da
  te: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -282,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] BALKRISIND (₹4.00) - Demat Credit
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-UID:de83c19c-6a66-40af-af67-97ee84cc882b
+UID:26375b32-7a61-41dd-9545-9d0466300004
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: BALKRISIND\n• Declared Amount: ₹4.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -294,7 +324,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] BATAINDIA (₹25.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
-UID:d6f3fe21-07ed-4188-9d8a-8b7d464fc893
+UID:ad386751-2138-4145-983f-c8fc2f966a82
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹25.00 per share\n• Ex-D
  ate: 19-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -312,7 +342,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] BATAINDIA (₹25.00) - Demat Credit
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
-UID:319c3b1e-5b1f-41cd-be60-6471adc6302f
+UID:fabe0496-0fbf-47ec-93b8-659e52a2be65
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: BATAINDIA\n• Declared Amount: ₹25.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -321,40 +351,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] BAYERCROP (₹60.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-UID:106c8cf1-a534-4533-98e7-b2bbd63c4fec
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹60.00 per share\n• Ex-D
- ate: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:BAYERCROP\n\n• Open in TradingView (Browse
- r):\n  https://in.tradingview.com/chart/?symbol=NSE:BAYERCROP\n\n• Scree
- ner Fundamentals & Dividend History:\n  https://www.screener.in/company/BA
- YERCROP/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n
-   https://www.nseindia.com/companies-listing/corporate-filings-announcemen
- ts?symbol=BAYERCROP\n\n• BSE Corporate Filing Desk:\n  https://www.bsein
- dia.com/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] BAYERCROP (₹60.00) - Demat Credit
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-UID:689b0d97-bc7b-4765-8630-a287b2fa710c
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: BAYERCROP\n• Declared Amount: ₹60.00 per sh
- are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
- ---------------------------------------\n• Screener Fundamentals: https:
- //www.screener.in/company/BAYERCROP/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] BERGEPAINT (₹4.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-UID:e787e329-3888-43b7-a042-13b434a00e75
+UID:5b033978-bf95-4866-8d2f-55996db65df9
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹4.00 per share\n• Ex-Da
  te: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -372,7 +372,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] BERGEPAINT (₹4.00) - Demat Credit
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
-UID:e7f702b1-5020-457f-ab47-3e56b277c4b8
+UID:3391a09b-434b-497f-8861-d3c734949052
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: BERGEPAINT\n• Declared Amount: ₹4.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -381,10 +381,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] BAYERCROP (₹60.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:f5aa1cc4-b7f1-4e60-84c4-54f492bf6006
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹60.00 per share\n• Ex-D
+ ate: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
+ ------------------------------\n• Open in TradingView App (Native):\n  t
+ radingview://chart?symbol=NSE:BAYERCROP\n\n• Open in TradingView (Browse
+ r):\n  https://in.tradingview.com/chart/?symbol=NSE:BAYERCROP\n\n• Scree
+ ner Fundamentals & Dividend History:\n  https://www.screener.in/company/BA
+ YERCROP/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n
+   https://www.nseindia.com/companies-listing/corporate-filings-announcemen
+ ts?symbol=BAYERCROP\n\n• BSE Corporate Filing Desk:\n  https://www.bsein
+ dia.com/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] BAYERCROP (₹60.00) - Demat Credit
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ec23bff2-e637-495f-b2ba-41ffbbc66285
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: BAYERCROP\n• Declared Amount: ₹60.00 per sh
+ are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
+ ---------------------------------------\n• Screener Fundamentals: https:
+ //www.screener.in/company/BAYERCROP/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] BEL (₹0.55) - Buy Cutoff
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-UID:75c6f4ed-6da5-4b4b-81e4-1d4e96835c20
+UID:2c9c782e-bae4-40be-a6fe-02713521a962
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.55 per share\n• Ex-Da
  te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -402,7 +432,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] BEL (₹0.55) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:7bff9100-9194-483f-9b6f-c6613ee96b70
+UID:685f041c-c95a-4026-9dd3-32253c7c3716
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: BEL\n• Declared Amount: ₹0.55 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -411,40 +441,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] BOSCHLTD (₹270.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-UID:2f21ced0-75ca-47ef-956d-4fe51889766b
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹270.00 per share\n• Ex-
- Date: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n----------
- -------------------------------\n• Open in TradingView App (Native):\n  
- tradingview://chart?symbol=NSE:BOSCHLTD\n\n• Open in TradingView (Browse
- r):\n  https://in.tradingview.com/chart/?symbol=NSE:BOSCHLTD\n\n• Screen
- er Fundamentals & Dividend History:\n  https://www.screener.in/company/BOS
- CHLTD/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  
- https://www.nseindia.com/companies-listing/corporate-filings-announcements
- ?symbol=BOSCHLTD\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia
- .com/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] BOSCHLTD (₹270.00) - Demat Credit
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:b8d4ffb9-f754-499d-9f43-e072bddc166a
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: BOSCHLTD\n• Declared Amount: ₹270.00 per sh
- are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
- ---------------------------------------\n• Screener Fundamentals: https:
- //www.screener.in/company/BOSCHLTD/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MAPMYINDIA (₹3.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
-UID:73d95f16-f3c3-499d-b29e-9648ac98ea6a
+UID:b532d624-6070-4177-a82d-d8e811fbbf48
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.50 per share\n• Ex-Da
  te: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -462,7 +462,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MAPMYINDIA (₹3.50) - Demat Credit
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-UID:0047c7c3-e838-4863-83e9-3dc54d9359e9
+UID:2f071260-503c-43a8-81b2-d5fecaf397af
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MAPMYINDIA\n• Declared Amount: ₹3.50 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -471,70 +471,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] CANHLIFE (₹0.40) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:4874cf05-1f49-46e8-b7d3-7e5d730a646e
+SUMMARY:[DIVIDEND] BOSCHLTD (₹270.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:6996f9f0-70fe-4269-99ca-c631404958a3
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹0.40 per share\n• Ex-Da
- te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:CANHLIFE\n\n• Open in TradingView (Browser)
- :\n  https://in.tradingview.com/chart/?symbol=NSE:CANHLIFE\n\n• Screener
-  Fundamentals & Dividend History:\n  https://www.screener.in/company/CANHL
- IFE/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  ht
- tps://www.nseindia.com/companies-listing/corporate-filings-announcements?s
- ymbol=CANHLIFE\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.c
- om/corporates/ann.html\n
+ redit by Record Date.\n\n• Declared Amount: ₹270.00 per share\n• Ex-
+ Date: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n----------
+ -------------------------------\n• Open in TradingView App (Native):\n  
+ tradingview://chart?symbol=NSE:BOSCHLTD\n\n• Open in TradingView (Browse
+ r):\n  https://in.tradingview.com/chart/?symbol=NSE:BOSCHLTD\n\n• Screen
+ er Fundamentals & Dividend History:\n  https://www.screener.in/company/BOS
+ CHLTD/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  
+ https://www.nseindia.com/companies-listing/corporate-filings-announcements
+ ?symbol=BOSCHLTD\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia
+ .com/corporates/ann.html\n
 LOCATION:NSE / BSE India
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PAYOUT] CANHLIFE (₹0.40) - Demat Credit
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-UID:2c3ded6e-80b5-4720-85e4-e6aa09fc1da5
+SUMMARY:[PAYOUT] BOSCHLTD (₹270.00) - Demat Credit
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+UID:bd16e7e3-41f9-4e92-bdc3-002fef55619b
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: CANHLIFE\n• Declared Amount: ₹0.40 per shar
- e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
- -------------------------------------\n• Screener Fundamentals: https://
- www.screener.in/company/CANHLIFE/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] CCL (₹3.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-UID:cfd4b230-79bf-4d6d-ab40-34d5c0e1edfb
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹3.00 per share\n• Ex-Da
- te: 01-Sep-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:CCL\n\n• Open in TradingView (Browser):\n  
- https://in.tradingview.com/chart/?symbol=NSE:CCL\n\n• Screener Fundament
- als & Dividend History:\n  https://www.screener.in/company/CCL/consolidate
- d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
- dia.com/companies-listing/corporate-filings-announcements?symbol=CCL\n\n
- • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
- html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] CCL (₹3.00) - Demat Credit
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-UID:b0393133-6dad-47d8-84d7-6e4a48c835d1
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: CCL\n• Declared Amount: ₹3.00 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/CCL/consolidated/\n
+ k account.\n\n• Company: BOSCHLTD\n• Declared Amount: ₹270.00 per sh
+ are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
+ ---------------------------------------\n• Screener Fundamentals: https:
+ //www.screener.in/company/BOSCHLTD/consolidated/\n
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[DIVIDEND] BRIGADE (₹2.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-UID:d6d102cf-2b90-48b5-925f-83c03a838c9b
+UID:152a5ec8-cd8a-47b9-85c8-6a2f61d481bc
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.00 per share\n• Ex-Da
  te: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -552,7 +522,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] BRIGADE (₹2.00) - Demat Credit
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
-UID:50f67b12-bbc1-4ac8-bf8d-c7b3bb2d9ba0
+UID:2130a157-d544-418c-affd-9ab337d374bf
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: BRIGADE\n• Declared Amount: ₹2.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -561,10 +531,70 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CANHLIFE (₹0.40) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:66b7bb46-d2e7-4d6f-9359-70a4d06b9af8
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹0.40 per share\n• Ex-Da
+ te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:CANHLIFE\n\n• Open in TradingView (Browser)
+ :\n  https://in.tradingview.com/chart/?symbol=NSE:CANHLIFE\n\n• Screener
+  Fundamentals & Dividend History:\n  https://www.screener.in/company/CANHL
+ IFE/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  ht
+ tps://www.nseindia.com/companies-listing/corporate-filings-announcements?s
+ ymbol=CANHLIFE\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.c
+ om/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] CANHLIFE (₹0.40) - Demat Credit
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:b5efaf81-d75d-420d-b637-2380087ab2b2
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: CANHLIFE\n• Declared Amount: ₹0.40 per shar
+ e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
+ -------------------------------------\n• Screener Fundamentals: https://
+ www.screener.in/company/CANHLIFE/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CCL (₹3.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+UID:8bbef059-f670-4e3f-92ec-6e307f8ec841
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹3.00 per share\n• Ex-Da
+ te: 01-Sep-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:CCL\n\n• Open in TradingView (Browser):\n  
+ https://in.tradingview.com/chart/?symbol=NSE:CCL\n\n• Screener Fundament
+ als & Dividend History:\n  https://www.screener.in/company/CCL/consolidate
+ d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
+ dia.com/companies-listing/corporate-filings-announcements?symbol=CCL\n\n
+ • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
+ html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] CCL (₹3.00) - Demat Credit
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+UID:7951624a-7f11-4149-87f4-848662b70fe3
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: CCL\n• Declared Amount: ₹3.00 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/CCL/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] CESC (₹6.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
-UID:7d33fdf2-0792-4222-90b4-af8ebeaefc29
+UID:50625f1c-8a32-4e7e-9b61-83e7a951939d
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹6.00 per share\n• Ex-Da
  te: 19-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -582,7 +612,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] CESC (₹6.00) - Demat Credit
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
-UID:cf83001c-bb30-4e66-b44d-678017488ac3
+UID:13ea111a-0488-4390-899f-9b3e4e3bbe9e
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: CESC\n• Declared Amount: ₹6.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -594,7 +624,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] CASTROLIND (₹6.25) - Buy Cutoff
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-UID:73890cf7-9173-4b91-9309-44afe8572d77
+UID:b5a71483-73cd-4515-8755-2b82aa317a80
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹6.25 per share\n• Ex-Da
  te: 11-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -612,7 +642,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] CASTROLIND (₹6.25) - Demat Credit
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-UID:68121180-2d19-470f-8f5e-6f33588ffef4
+UID:54e78e85-c1cf-49a9-8ed2-4ec724218ce9
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: CASTROLIND\n• Declared Amount: ₹6.25 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -624,7 +654,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] CHAMBLFERT (₹6.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-UID:3cbc924f-c2a2-48e5-ac99-126839c6d951
+UID:2af349cb-b39d-4482-8e7f-570de5a0c8c0
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹6.00 per share\n• Ex-Da
  te: 11-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -642,7 +672,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] CHAMBLFERT (₹6.00) - Demat Credit
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-UID:2dbc5f4e-6282-477c-b72e-6e8693ca1252
+UID:c20893d3-5594-4a72-abe7-cc80997bb1a6
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: CHAMBLFERT\n• Declared Amount: ₹6.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -651,40 +681,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] CHOLAHLDNG (₹1.30) - Buy Cutoff
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-UID:179e3cf8-8bf3-4464-89fb-bc5b759056f9
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹1.30 per share\n• Ex-Da
- te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:CHOLAHLDNG\n\n• Open in TradingView (Browse
- r):\n  https://in.tradingview.com/chart/?symbol=NSE:CHOLAHLDNG\n\n• Scre
- ener Fundamentals & Dividend History:\n  https://www.screener.in/company/C
- HOLAHLDNG/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:
- \n  https://www.nseindia.com/companies-listing/corporate-filings-announcem
- ents?symbol=CHOLAHLDNG\n\n• BSE Corporate Filing Desk:\n  https://www.bs
- eindia.com/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] CHOLAHLDNG (₹1.30) - Demat Credit
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-UID:b500dd7c-d801-415a-b53d-cf3b2644f71a
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: CHOLAHLDNG\n• Declared Amount: ₹1.30 per sh
- are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
- ---------------------------------------\n• Screener Fundamentals: https:
- //www.screener.in/company/CHOLAHLDNG/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] CHENNPETRO (₹54.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:8b9fb4ef-ba86-491d-a027-30a3aa9b3ec6
+UID:23f101f6-bd4c-4201-ba9b-52aa55baa0fc
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹54.00 per share\n• Ex-D
  ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -702,7 +702,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] CHENNPETRO (₹54.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:71b3b3bf-b4a8-4cf5-96b9-0f9a5ed3a2f9
+UID:2e7542da-ae9a-4f03-827d-fe83dc7d1814
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: CHENNPETRO\n• Declared Amount: ₹54.00 per s
  hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
@@ -711,10 +711,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] CHOLAHLDNG (₹1.30) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:2cd811f7-9d90-4ed1-8f7c-b1e499fe26ea
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹1.30 per share\n• Ex-Da
+ te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:CHOLAHLDNG\n\n• Open in TradingView (Browse
+ r):\n  https://in.tradingview.com/chart/?symbol=NSE:CHOLAHLDNG\n\n• Scre
+ ener Fundamentals & Dividend History:\n  https://www.screener.in/company/C
+ HOLAHLDNG/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:
+ \n  https://www.nseindia.com/companies-listing/corporate-filings-announcem
+ ents?symbol=CHOLAHLDNG\n\n• BSE Corporate Filing Desk:\n  https://www.bs
+ eindia.com/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] CHOLAHLDNG (₹1.30) - Demat Credit
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:2dbf9e3e-0b88-45d2-970f-a3bd66990da1
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: CHOLAHLDNG\n• Declared Amount: ₹1.30 per sh
+ are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
+ ---------------------------------------\n• Screener Fundamentals: https:
+ //www.screener.in/company/CHOLAHLDNG/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] CAMS (₹2.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
-UID:a83cce26-5098-4cf5-9f61-a6d5b0bc240d
+UID:e9159e8d-f76f-473c-b069-07efce466d0d
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.50 per share\n• Ex-Da
  te: 12-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -732,7 +762,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] CAMS (₹2.50) - Demat Credit
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:52680f45-11ec-46d8-85a3-42dd9660e7bf
+UID:bec4af19-3aec-4484-9aea-53055d59ec77
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: CAMS\n• Declared Amount: ₹2.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -741,40 +771,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] COFORGE (₹4.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-UID:02d5ccf9-e1db-4ce4-a07d-ce76ebf0e9d3
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹4.00 per share\n• Ex-Da
- te: 03-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:COFORGE\n\n• Open in TradingView (Browser):
- \n  https://in.tradingview.com/chart/?symbol=NSE:COFORGE\n\n• Screener F
- undamentals & Dividend History:\n  https://www.screener.in/company/COFORGE
- /consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https
- ://www.nseindia.com/companies-listing/corporate-filings-announcements?symb
- ol=COFORGE\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/c
- orporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] COFORGE (₹4.00) - Demat Credit
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-UID:0cf48cd0-df45-4d9d-81f1-c32309e01c6c
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: COFORGE\n• Declared Amount: ₹4.00 per share
- \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
- ------------------------------------\n• Screener Fundamentals: https://w
- ww.screener.in/company/COFORGE/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] CONCOR (₹1.60) - Buy Cutoff
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
-UID:801efc0e-b489-42d1-ad50-e07cb040e4f0
+UID:124f69eb-e3b1-4322-91a8-901a5acd733f
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.60 per share\n• Ex-Da
  te: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -792,7 +792,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] CONCOR (₹1.60) - Demat Credit
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-UID:5243b6f0-790b-4ea3-aec2-312794f462dd
+UID:7bcb135f-b614-444e-bc9e-02f41d0767ca
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: CONCOR\n• Declared Amount: ₹1.60 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -804,7 +804,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] DOMS (₹3.65) - Buy Cutoff
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-UID:cba1b21d-2ac0-47a5-bcc8-75dc74b3084f
+UID:8f5967a5-4b8a-4c7c-978e-db5d732e69bf
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.65 per share\n• Ex-Da
  te: 27-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -822,7 +822,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] DOMS (₹3.65) - Demat Credit
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-UID:1cb6a312-9a6b-4a43-9b58-449e8726b95e
+UID:8b3e25ef-062f-43ea-abac-fdea0696043a
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: DOMS\n• Declared Amount: ₹3.65 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -834,7 +834,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] DEEPAKFERT (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
-UID:d4fbc4de-990b-416c-a99c-a67d59f63ce2
+UID:2f6ed43e-ef27-4a78-8698-2551e2b6881e
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 25-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -852,7 +852,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] DEEPAKFERT (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-UID:c2edb79c-5c54-4eea-a17a-18c2ebfbc45b
+UID:1a2f8709-32c1-4722-8c99-45c7675c15f9
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: DEEPAKFERT\n• Declared Amount: ₹10.00 per s
  hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
@@ -864,7 +864,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] FEDERALBNK (₹1.20) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:59bac899-69cb-4c7c-926d-9330413af6a2
+UID:dd4304c3-f339-42a0-bb59-e778fff43727
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.20 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -882,7 +882,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] FEDERALBNK (₹1.20) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:614e6c9a-f820-409a-acc3-b833af09f864
+UID:1a572c5e-7b18-4006-9fbd-c9b424e80e44
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: FEDERALBNK\n• Declared Amount: ₹1.20 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -894,7 +894,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GVT&D (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:14077683-ab71-444a-8489-64e7e58e3fb3
+UID:357f6fc9-9d51-4bbe-99e2-9eed6eba6ba9
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -912,7 +912,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GVT&D (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:f0bd86d9-070c-480a-baec-219f18e1dfc7
+UID:b341902f-a5db-421a-9787-ac8f50331bb9
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GVT&D\n• Declared Amount: ₹10.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -921,40 +921,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] GLAND (₹20.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-UID:9c01f63d-f250-4bc1-9d60-76ef042d40a2
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹20.00 per share\n• Ex-D
- ate: 11-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:GLAND\n\n• Open in TradingView (Browser):
- \n  https://in.tradingview.com/chart/?symbol=NSE:GLAND\n\n• Screener Fun
- damentals & Dividend History:\n  https://www.screener.in/company/GLAND/con
- solidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://w
- ww.nseindia.com/companies-listing/corporate-filings-announcements?symbol=G
- LAND\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corpora
- tes/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] GLAND (₹20.00) - Demat Credit
-DTSTART;VALUE=DATE:20260910
-DTEND;VALUE=DATE:20260911
-UID:aced903c-2daa-40c5-8291-c77af36bd5a6
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: GLAND\n• Declared Amount: ₹20.00 per share
- \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
- ------------------------------------\n• Screener Fundamentals: https://w
- ww.screener.in/company/GLAND/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GABRIEL (₹3.10) - Buy Cutoff
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
-UID:8efc824a-7f06-4421-8d8b-4b064f3f8bd6
+UID:2195d2f1-d66c-4b7d-b08e-a7edf850a43c
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.10 per share\n• Ex-Da
  te: 12-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -972,7 +942,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GABRIEL (₹3.10) - Demat Credit
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:a0ffc3c8-aa2c-43c2-8181-afc29307f270
+UID:e38ed76b-deef-46ad-a8de-610fdd026a86
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GABRIEL\n• Declared Amount: ₹3.10 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -984,7 +954,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GAIL (₹0.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-UID:f4711b86-3d26-4592-ba0c-b04692455516
+UID:9376e768-0b99-48da-b11d-4d086fcdf87f
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.50 per share\n• Ex-Da
  te: 02-Sep-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1002,7 +972,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GAIL (₹0.50) - Demat Credit
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
-UID:9f20ae59-510a-46ec-a0cf-ab9829a83c45
+UID:80113354-94aa-475b-9caa-47200dd81755
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GAIL\n• Declared Amount: ₹0.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1011,10 +981,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GLAND (₹20.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:4c2021b1-6141-437a-a116-3756394cf791
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹20.00 per share\n• Ex-D
+ ate: 11-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
+ ------------------------------\n• Open in TradingView App (Native):\n  t
+ radingview://chart?symbol=NSE:GLAND\n\n• Open in TradingView (Browser):
+ \n  https://in.tradingview.com/chart/?symbol=NSE:GLAND\n\n• Screener Fun
+ damentals & Dividend History:\n  https://www.screener.in/company/GLAND/con
+ solidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://w
+ ww.nseindia.com/companies-listing/corporate-filings-announcements?symbol=G
+ LAND\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corpora
+ tes/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] GLAND (₹20.00) - Demat Credit
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+UID:dcd7e19d-c8c4-492f-8dde-55cd528731ec
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: GLAND\n• Declared Amount: ₹20.00 per share
+ \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
+ ------------------------------------\n• Screener Fundamentals: https://w
+ ww.screener.in/company/GLAND/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GILLETTE (₹60.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-UID:e82ea300-67a4-4362-b23c-bc3f037b337e
+UID:237fc656-82dd-4dee-b0f4-dc4f5bc55385
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹60.00 per share\n• Ex-D
  ate: 24-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1032,7 +1032,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GILLETTE (₹60.00) - Demat Credit
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-UID:0d04c934-b9cc-48c9-8334-e51c13161ec6
+UID:3ec1573a-264a-4606-bc22-606a01e2226e
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GILLETTE\n• Declared Amount: ₹60.00 per sha
  re\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n---
@@ -1044,7 +1044,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MEDANTA (₹0.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:e23bb4f7-f99a-40a8-bf77-fdc88ca047f8
+UID:93121246-02be-4b28-b748-fbdfc6afac79
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.50 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1062,7 +1062,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MEDANTA (₹0.50) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:66c0fc54-86b9-4e7b-a69a-1fca773f2ec6
+UID:8bbb1ff0-e227-425b-bc58-f5ff3170abaa
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MEDANTA\n• Declared Amount: ₹0.50 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -1074,7 +1074,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GLENMARK (₹2.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-UID:faf6fa0e-b01f-4aed-a20d-0088e8230944
+UID:ac380292-1874-4ccf-84c5-3c9c0c71c476
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.50 per share\n• Ex-Da
  te: 31-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1092,7 +1092,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GLENMARK (₹2.50) - Demat Credit
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-UID:d7156d37-f79e-47d0-81bd-f3f54f60d313
+UID:ca131e91-4603-4a66-8898-9366f1502167
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GLENMARK\n• Declared Amount: ₹2.50 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -1104,7 +1104,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GPIL (₹1.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:a095e503-60cd-4e72-9821-30d7c1be6e7d
+UID:2ca06989-074a-47b7-9183-ee650b9ba765
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1122,7 +1122,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GPIL (₹1.00) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:c88a028f-d36a-46b1-8844-e64b0e798094
+UID:5b2cb358-46e7-4136-a05a-0cfda1a0cc1f
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GPIL\n• Declared Amount: ₹1.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1134,7 +1134,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GODREJCP (₹5.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-UID:ab470b50-1338-4a24-8bac-97a0a325c460
+UID:45f92823-2670-4f30-92a4-4b09cdb04eed
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹5.00 per share\n• Ex-Da
  te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1152,7 +1152,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GODREJCP (₹5.00) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:719d1c58-793b-4454-8c65-a978ea0e51c7
+UID:8b7bd6c2-7dcd-4483-bfea-feaa2c6ca1ae
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GODREJCP\n• Declared Amount: ₹5.00 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -1164,7 +1164,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GODFRYPHLP (₹33.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-UID:de31417d-fac9-406e-a5a1-e46cb16cc8d1
+UID:1ca2405e-e3d0-42bd-bec8-183d916d30bc
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹33.00 per share\n• Ex-D
  ate: 11-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1182,7 +1182,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GODFRYPHLP (₹33.00) - Demat Credit
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-UID:43d8771d-3313-4780-82f8-5234e08ad76d
+UID:af7c7f6a-69a6-40b2-85d8-8e8363553e5e
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GODFRYPHLP\n• Declared Amount: ₹33.00 per s
  hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
@@ -1191,40 +1191,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] GRASIM (₹10.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-UID:6601a7f5-7b7b-418b-abe0-76cce67d9d73
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
- ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:GRASIM\n\n• Open in TradingView (Browser):
- \n  https://in.tradingview.com/chart/?symbol=NSE:GRASIM\n\n• Screener Fu
- ndamentals & Dividend History:\n  https://www.screener.in/company/GRASIM/c
- onsolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https:/
- /www.nseindia.com/companies-listing/corporate-filings-announcements?symbol
- =GRASIM\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corp
- orates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] GRASIM (₹10.00) - Demat Credit
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-UID:ea228c8e-0d18-428c-b3aa-d51d57d46652
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: GRASIM\n• Declared Amount: ₹10.00 per share
- \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
- ------------------------------------\n• Screener Fundamentals: https://w
- ww.screener.in/company/GRASIM/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] GESHIP (₹14.40) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:6f8a1412-fdfa-46a2-aedb-02bac9d2a324
+UID:e814d7e4-658e-4fdc-8c50-71c656f4a627
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹14.40 per share\n• Ex-D
  ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1242,7 +1212,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] GESHIP (₹14.40) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:93d6b112-9365-4f94-9e20-74da631f750d
+UID:e8f6d2aa-e219-4aef-aba8-a1576851ae32
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: GESHIP\n• Declared Amount: ₹14.40 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -1251,10 +1221,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] GRASIM (₹10.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:60c6319c-6d2d-41f5-adc6-77940dc2b68f
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
+ ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
+ ------------------------------\n• Open in TradingView App (Native):\n  t
+ radingview://chart?symbol=NSE:GRASIM\n\n• Open in TradingView (Browser):
+ \n  https://in.tradingview.com/chart/?symbol=NSE:GRASIM\n\n• Screener Fu
+ ndamentals & Dividend History:\n  https://www.screener.in/company/GRASIM/c
+ onsolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https:/
+ /www.nseindia.com/companies-listing/corporate-filings-announcements?symbol
+ =GRASIM\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corp
+ orates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] GRASIM (₹10.00) - Demat Credit
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:5a448245-b422-4895-ae9b-6eb8956084de
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: GRASIM\n• Declared Amount: ₹10.00 per share
+ \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
+ ------------------------------------\n• Screener Fundamentals: https://w
+ ww.screener.in/company/GRASIM/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] HAL (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:aed13c5b-1395-4af8-88a4-83f9785a5121
+UID:8cba0c80-3670-4e0b-9ac9-062a45082e76
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1272,7 +1272,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] HAL (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:a57cd466-ff83-4029-9ada-a39301d5bb38
+UID:8451432d-73f7-41b7-9a15-75b3a3e68b6b
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: HAL\n• Declared Amount: ₹10.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1284,7 +1284,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] POWERINDIA (₹8.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:be50e626-e404-4e29-a72b-bae528b3a5b8
+UID:24b13b96-9a41-4e69-a735-5d9af028e03f
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹8.00 per share\n• Ex-Da
  te: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1302,7 +1302,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] POWERINDIA (₹8.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:19027727-02c5-4194-96a7-0095d7844e4c
+UID:ab68cba1-c415-4611-8012-bdae34ac04e3
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: POWERINDIA\n• Declared Amount: ₹8.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -1314,7 +1314,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] HONASA (₹3.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-UID:36d4147a-1c9c-4894-9ed3-781cc9a3b369
+UID:c88604b5-8b22-4d07-b09e-853105283182
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.00 per share\n• Ex-Da
  te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1332,7 +1332,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] HONASA (₹3.00) - Demat Credit
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-UID:62ea68b1-4cd5-4f72-bbfb-3193c3cab5ff
+UID:abb352a6-fc7c-4eef-8ff9-4e3d7853545e
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: HONASA\n• Declared Amount: ₹3.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -1341,70 +1341,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] HINDPETRO (₹19.25) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:198b703e-bc49-4d7d-abc6-38079776fac6
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹19.25 per share\n• Ex-D
- ate: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:HINDPETRO\n\n• Open in TradingView (Browse
- r):\n  https://in.tradingview.com/chart/?symbol=NSE:HINDPETRO\n\n• Scree
- ner Fundamentals & Dividend History:\n  https://www.screener.in/company/HI
- NDPETRO/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n
-   https://www.nseindia.com/companies-listing/corporate-filings-announcemen
- ts?symbol=HINDPETRO\n\n• BSE Corporate Filing Desk:\n  https://www.bsein
- dia.com/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] HINDPETRO (₹19.25) - Demat Credit
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-UID:f03adfd4-894d-4bf5-bf2a-aa25e2d7180e
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: HINDPETRO\n• Declared Amount: ₹19.25 per sh
- are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
- ---------------------------------------\n• Screener Fundamentals: https:
- //www.screener.in/company/HINDPETRO/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] HYUNDAI (₹21.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-UID:2456fad8-b8dc-48d1-b92a-d13268ad2860
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹21.00 per share\n• Ex-D
- ate: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:HYUNDAI\n\n• Open in TradingView (Browser)
- :\n  https://in.tradingview.com/chart/?symbol=NSE:HYUNDAI\n\n• Screener 
- Fundamentals & Dividend History:\n  https://www.screener.in/company/HYUNDA
- I/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  http
- s://www.nseindia.com/companies-listing/corporate-filings-announcements?sym
- bol=HYUNDAI\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/
- corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] HYUNDAI (₹21.00) - Demat Credit
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-UID:243fa8f1-f3d0-44ff-9ca5-0d56f8494117
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: HYUNDAI\n• Declared Amount: ₹21.00 per shar
- e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
- -------------------------------------\n• Screener Fundamentals: https://
- www.screener.in/company/HYUNDAI/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] HUDCO (₹1.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-UID:57fbc371-9682-4557-a877-0e4a8289fbd8
+UID:0c3bcfaf-6015-437d-93d2-b5d0fd6c2b6c
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.50 per share\n• Ex-Da
  te: 17-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1422,7 +1362,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] HUDCO (₹1.50) - Demat Credit
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:db81c706-a34f-492d-a185-4dc2b791f9be
+UID:d6791381-2ddc-4820-aaf0-fdbdb209fea6
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: HUDCO\n• Declared Amount: ₹1.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1431,10 +1371,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HYUNDAI (₹21.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+UID:b4d0811f-9f71-45e2-8e02-f99c20230ce6
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹21.00 per share\n• Ex-D
+ ate: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
+ ------------------------------\n• Open in TradingView App (Native):\n  t
+ radingview://chart?symbol=NSE:HYUNDAI\n\n• Open in TradingView (Browser)
+ :\n  https://in.tradingview.com/chart/?symbol=NSE:HYUNDAI\n\n• Screener 
+ Fundamentals & Dividend History:\n  https://www.screener.in/company/HYUNDA
+ I/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  http
+ s://www.nseindia.com/companies-listing/corporate-filings-announcements?sym
+ bol=HYUNDAI\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/
+ corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] HYUNDAI (₹21.00) - Demat Credit
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:7763bb0a-ff1d-41b3-a772-a80db19ff6c0
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: HYUNDAI\n• Declared Amount: ₹21.00 per shar
+ e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
+ -------------------------------------\n• Screener Fundamentals: https://
+ www.screener.in/company/HYUNDAI/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] IDFCFIRSTB (₹0.25) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:c5219900-32d7-47af-991d-01a381fc3602
+UID:0b2d3087-1e00-4c05-8ae9-fba4944609fb
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.25 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1452,7 +1422,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] IDFCFIRSTB (₹0.25) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:267085c0-4c79-4240-a5c8-2fb7e99f92ac
+UID:2fd11fb7-5e6a-4301-ab49-bfc4e1b08970
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: IDFCFIRSTB\n• Declared Amount: ₹0.25 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -1461,40 +1431,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] ICICIBANK (₹12.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-UID:20defef2-5551-4c38-8bd2-ac09a46640cf
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹12.00 per share\n• Ex-D
- ate: 03-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:ICICIBANK\n\n• Open in TradingView (Browse
- r):\n  https://in.tradingview.com/chart/?symbol=NSE:ICICIBANK\n\n• Scree
- ner Fundamentals & Dividend History:\n  https://www.screener.in/company/IC
- ICIBANK/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n
-   https://www.nseindia.com/companies-listing/corporate-filings-announcemen
- ts?symbol=ICICIBANK\n\n• BSE Corporate Filing Desk:\n  https://www.bsein
- dia.com/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] ICICIBANK (₹12.00) - Demat Credit
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-UID:d6ce3ed0-ad80-4295-8508-bd14038ae5e5
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: ICICIBANK\n• Declared Amount: ₹12.00 per sh
- are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
- ---------------------------------------\n• Screener Fundamentals: https:
- //www.screener.in/company/ICICIBANK/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] IRB (₹0.05) - Buy Cutoff
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-UID:e55c4a54-35e2-4d81-bb6f-4695845eb634
+UID:2f148de9-e73a-43a1-88dc-22e3932424ed
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.05 per share\n• Ex-Da
  te: 05-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1512,7 +1452,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] IRB (₹0.05) - Demat Credit
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
-UID:3af0ab9e-99cd-4044-bc56-ce467aa818f2
+UID:d32af2e8-a972-412e-afdc-95eb8e314dd3
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: IRB\n• Declared Amount: ₹0.05 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1521,10 +1461,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] HINDPETRO (₹19.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:0f115734-e18c-43c5-a2ab-6f37a9ea1449
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹19.25 per share\n• Ex-D
+ ate: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
+ ------------------------------\n• Open in TradingView App (Native):\n  t
+ radingview://chart?symbol=NSE:HINDPETRO\n\n• Open in TradingView (Browse
+ r):\n  https://in.tradingview.com/chart/?symbol=NSE:HINDPETRO\n\n• Scree
+ ner Fundamentals & Dividend History:\n  https://www.screener.in/company/HI
+ NDPETRO/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n
+   https://www.nseindia.com/companies-listing/corporate-filings-announcemen
+ ts?symbol=HINDPETRO\n\n• BSE Corporate Filing Desk:\n  https://www.bsein
+ dia.com/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] HINDPETRO (₹19.25) - Demat Credit
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:688ca9f2-0013-4415-a36b-0f672bba6694
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: HINDPETRO\n• Declared Amount: ₹19.25 per sh
+ are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
+ ---------------------------------------\n• Screener Fundamentals: https:
+ //www.screener.in/company/HINDPETRO/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] IOC (₹1.25) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:eac6616f-5b94-4698-bb01-252b89f5ab9e
+UID:ccea4bcc-0969-4443-bd83-5851b0ad2f47
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.25 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1542,7 +1512,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] IOC (₹1.25) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:8f523fcd-5b83-4655-82f8-cd8ad6cce3bd
+UID:d90fd513-f1df-47c7-bcd2-ab14501e33ce
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: IOC\n• Declared Amount: ₹1.25 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1551,40 +1521,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] INDUSTOWER (₹14.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
-UID:075326e8-c417-4448-89c0-d6d58678e8e6
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹14.00 per share\n• Ex-D
- ate: 10-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
- ------------------------------\n• Open in TradingView App (Native):\n  t
- radingview://chart?symbol=NSE:INDUSTOWER\n\n• Open in TradingView (Brows
- er):\n  https://in.tradingview.com/chart/?symbol=NSE:INDUSTOWER\n\n• Scr
- eener Fundamentals & Dividend History:\n  https://www.screener.in/company/
- INDUSTOWER/consolidated/\n\n• Official Meeting Disclosures & PDF Filings
- :\n  https://www.nseindia.com/companies-listing/corporate-filings-announce
- ments?symbol=INDUSTOWER\n\n• BSE Corporate Filing Desk:\n  https://www.b
- seindia.com/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] INDUSTOWER (₹14.00) - Demat Credit
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-UID:482d39dd-896b-4828-b68b-db6f26409231
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: INDUSTOWER\n• Declared Amount: ₹14.00 per s
- hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
- ----------------------------------------\n• Screener Fundamentals: https
- ://www.screener.in/company/INDUSTOWER/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] IGIL (₹2.55) - Buy Cutoff
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-UID:5b96bbb6-fd35-4822-9257-6d9da30f5574
+UID:f2230c8d-6edb-401f-8da5-0bd6799d494a
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.55 per share\n• Ex-Da
  te: 24-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1602,7 +1542,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] IGIL (₹2.55) - Demat Credit
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-UID:858e2d44-5605-4d74-bc38-a764c235c533
+UID:cc087391-c88d-41ca-bf88-9975482d52c5
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: IGIL\n• Declared Amount: ₹2.55 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1611,10 +1551,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] INDUSTOWER (₹14.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+UID:aff8dfed-fc7e-46c6-8e2c-ef369191ba4d
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹14.00 per share\n• Ex-D
+ ate: 10-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
+ ------------------------------\n• Open in TradingView App (Native):\n  t
+ radingview://chart?symbol=NSE:INDUSTOWER\n\n• Open in TradingView (Brows
+ er):\n  https://in.tradingview.com/chart/?symbol=NSE:INDUSTOWER\n\n• Scr
+ eener Fundamentals & Dividend History:\n  https://www.screener.in/company/
+ INDUSTOWER/consolidated/\n\n• Official Meeting Disclosures & PDF Filings
+ :\n  https://www.nseindia.com/companies-listing/corporate-filings-announce
+ ments?symbol=INDUSTOWER\n\n• BSE Corporate Filing Desk:\n  https://www.b
+ seindia.com/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] INDUSTOWER (₹14.00) - Demat Credit
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+UID:8268e78f-b6b1-4b87-951a-00942cf925ba
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: INDUSTOWER\n• Declared Amount: ₹14.00 per s
+ hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
+ ----------------------------------------\n• Screener Fundamentals: https
+ ://www.screener.in/company/INDUSTOWER/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] IPCALAB (₹6.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:2c009f40-b305-44d5-b893-e51c7d089485
+UID:5f4f5551-59e8-403d-b5e7-213180421212
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹6.00 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1632,7 +1602,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] IPCALAB (₹6.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:4333db7a-689a-4e56-b854-0dbe84529340
+UID:753f6753-3503-408c-891d-38fef1c8b0db
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: IPCALAB\n• Declared Amount: ₹6.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -1644,7 +1614,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] JIOFIN (₹0.60) - Buy Cutoff
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
-UID:e9294136-a39c-4333-95b5-4d5a8559f26c
+UID:8f1e4656-2ec9-42fc-8bac-83c3852314f1
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.60 per share\n• Ex-Da
  te: 10-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1662,7 +1632,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] JIOFIN (₹0.60) - Demat Credit
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
-UID:61c54524-58c8-4baf-93ee-8b397f23bdc4
+UID:d914c184-498f-4b4d-ad90-5fc995b19b64
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: JIOFIN\n• Declared Amount: ₹0.60 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -1674,7 +1644,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] JSL (₹3.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:215dcb67-a292-4f6d-9116-8efed924339e
+UID:0d50754c-f304-4e35-bb10-d785e9fc452a
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.00 per share\n• Ex-Da
  te: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1692,7 +1662,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] JSL (₹3.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:1dadc1d3-5019-440c-9084-4f745c5da0a5
+UID:281d316c-98d1-4935-8622-5b588b1ab108
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: JSL\n• Declared Amount: ₹3.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1704,7 +1674,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] JINDALSTEL (₹2.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:0d265b25-08bc-4da5-9968-1516ce15b393
+UID:93bc69c4-eb62-4ae8-b1ef-3d73edc3b0f2
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.00 per share\n• Ex-Da
  te: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1722,7 +1692,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] JINDALSTEL (₹2.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:f456f052-b003-47c5-890e-88bc383ed3eb
+UID:8314af49-abc7-4842-b735-4b3c1403a518
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: JINDALSTEL\n• Declared Amount: ₹2.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -1734,7 +1704,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] KPITTECH (₹5.25) - Buy Cutoff
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
-UID:db25878e-cc4a-4343-b8f4-6b15b07c1b91
+UID:0fa1da36-6da5-4110-9b3d-bef5ad0aba48
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹5.25 per share\n• Ex-Da
  te: 12-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1752,7 +1722,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] KPITTECH (₹5.25) - Demat Credit
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:ba620733-de1a-4e0a-93ab-991314e5b6b2
+UID:bb48014d-42f0-4f02-84b0-46a775113c6b
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: KPITTECH\n• Declared Amount: ₹5.25 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -1764,7 +1734,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] KEC (₹5.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:5d504019-31d9-45e9-aea7-9a6d14a5e99f
+UID:1c58e71a-0d5b-44f7-ba45-772dd41a7b26
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹5.50 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1782,7 +1752,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] KEC (₹5.50) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:20d7559e-9b37-4574-8ae2-93f61c092948
+UID:5d2aa9ed-1a9f-48b9-8c79-8feab7bb30f2
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: KEC\n• Declared Amount: ₹5.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1794,7 +1764,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] LICHSGFIN (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:38a6f6c2-25f6-4cac-acbc-460b0b488648
+UID:02edf584-b537-4e54-a5ee-3f1c2444aa48
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1812,7 +1782,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] LICHSGFIN (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:296a1ece-9b28-47fb-acfc-af40d7e43b70
+UID:b8951142-2091-48f3-bda6-da0ad23ea158
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: LICHSGFIN\n• Declared Amount: ₹10.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -1824,7 +1794,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] LTFOODS (₹1.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
-UID:a58b29c8-54b1-418e-b231-845de69393b2
+UID:73834d22-22af-4e4b-813f-29bb29607142
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
  te: 18-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1842,7 +1812,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] LTFOODS (₹1.00) - Demat Credit
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-UID:471d32fe-8190-4f4e-b491-ab9f82351642
+UID:45f7a93a-5ea2-44a2-8330-9c354b736535
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: LTFOODS\n• Declared Amount: ₹1.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -1854,7 +1824,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] LODHA (₹4.25) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:392f784a-38be-4c6c-b6a2-3d998b2dd91e
+UID:b7f9d2f6-2b98-4daa-a6e1-d7af74767083
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹4.25 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1872,7 +1842,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] LODHA (₹4.25) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:60348aae-7d5e-416d-85aa-c03b353a53a7
+UID:92c1ad98-86ba-4f47-bd8a-9fc82a8f10c4
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: LODHA\n• Declared Amount: ₹4.25 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1884,7 +1854,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] LINDEINDIA (₹12.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-UID:d4b0c53f-f69b-4f99-bcdf-f965f6c0422e
+UID:f0dfd356-2997-4b8c-bff0-7285a2fdd8b5
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹12.00 per share\n• Ex-D
  ate: 06-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1902,7 +1872,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] LINDEINDIA (₹12.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:c33c9a1e-8bd2-4eb0-9dd5-bddd7b070091
+UID:4e64ab96-d4b7-4dbd-b797-f9ef3a60ea39
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: LINDEINDIA\n• Declared Amount: ₹12.00 per s
  hare\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-
@@ -1914,7 +1884,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MGL (₹18.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
-UID:79bd9824-5760-4be6-85d9-b0897e7df6da
+UID:fc62983f-9a07-472b-9adb-a71a9dd57de2
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹18.00 per share\n• Ex-D
  ate: 18-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -1932,7 +1902,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MGL (₹18.00) - Demat Credit
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-UID:166e0dab-8c0e-45db-9c3f-15bbcd574f42
+UID:cfe3d5b2-e598-4340-94a0-0aaaa45c4259
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MGL\n• Declared Amount: ₹18.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -1944,7 +1914,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MANAPPURAM (₹1.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-UID:ba04876c-6524-4811-b1b0-428e2af07bea
+UID:374c335d-9277-4444-bd68-ba4f9673f0c4
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
  te: 17-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1962,7 +1932,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MANAPPURAM (₹1.00) - Demat Credit
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:55154a19-cd7b-4d20-ba87-f092af90a0c4
+UID:3d8294c7-f182-4b1e-93a5-72d42af5d1f6
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MANAPPURAM\n• Declared Amount: ₹1.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -1974,7 +1944,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MAZDOCK (₹4.62) - Buy Cutoff
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-UID:bc0068ca-053c-48d3-a594-b8316171e559
+UID:29c93eeb-3cb0-46df-aac0-aaedba3b019e
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹4.62 per share\n• Ex-Da
  te: 20-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -1992,7 +1962,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MAZDOCK (₹4.62) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:c3d38f0d-2e9f-4232-8679-64685afb64b4
+UID:106d9055-05a0-4be2-b86e-03768963c278
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MAZDOCK\n• Declared Amount: ₹4.62 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -2004,7 +1974,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MARUTI (₹140.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:a48457d1-65a7-4d85-b683-fe2720a6d00f
+UID:19117973-5d4c-42f7-95fd-675304dbee66
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹140.00 per share\n• Ex-
  Date: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n----------
@@ -2022,7 +1992,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MARUTI (₹140.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:cdd3c654-0318-4fa7-ab81-13789ee76be1
+UID:6a9e1be5-1c5b-4962-8b72-54e7fbad5f60
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MARUTI\n• Declared Amount: ₹140.00 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -2034,7 +2004,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MINDACORP (₹0.80) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:7f3257b7-bf00-4e14-aa80-3976b9ed3892
+UID:d36f6a79-a926-4503-a417-c744edbcdf44
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.80 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2052,7 +2022,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MINDACORP (₹0.80) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:6e0e215c-7fff-447f-aea8-f3a687df98d1
+UID:385fcc70-fc5f-4774-9bc6-6246d322b703
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MINDACORP\n• Declared Amount: ₹0.80 per sha
  re\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n---
@@ -2064,7 +2034,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] MCX (₹8.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-UID:9a63bbc8-7f4a-406c-b992-0c0bd4171fa0
+UID:9ddec13b-d037-43c6-91cc-e1d3ad015c5c
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹8.00 per share\n• Ex-Da
  te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2082,7 +2052,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] MCX (₹8.00) - Demat Credit
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-UID:6bffe5ff-4cf9-422f-822b-929c7e2cb5ef
+UID:b87a9934-7e11-4378-9c1f-36738d137eaa
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: MCX\n• Declared Amount: ₹8.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2091,100 +2061,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NBCC (₹0.15) - Buy Cutoff
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
-UID:db7d8907-8f71-46ad-9500-20b202c1675e
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹0.15 per share\n• Ex-Da
- te: 17-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:NBCC\n\n• Open in TradingView (Browser):\n 
-  https://in.tradingview.com/chart/?symbol=NSE:NBCC\n\n• Screener Fundame
- ntals & Dividend History:\n  https://www.screener.in/company/NBCC/consolid
- ated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.ns
- eindia.com/companies-listing/corporate-filings-announcements?symbol=NBCC\n
- \n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/an
- n.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] NBCC (₹0.15) - Demat Credit
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-UID:e2c47bdf-27aa-4e5f-998e-184b50ceb590
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: NBCC\n• Declared Amount: ₹0.15 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/NBCC/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NBCC (₹0.46) - Buy Cutoff
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-UID:75894f62-4471-49ab-8a40-066196381a4b
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹0.46 per share\n• Ex-Da
- te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:NBCC\n\n• Open in TradingView (Browser):\n 
-  https://in.tradingview.com/chart/?symbol=NSE:NBCC\n\n• Screener Fundame
- ntals & Dividend History:\n  https://www.screener.in/company/NBCC/consolid
- ated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.ns
- eindia.com/companies-listing/corporate-filings-announcements?symbol=NBCC\n
- \n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/an
- n.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] NBCC (₹0.46) - Demat Credit
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-UID:00201dec-8acd-4d9f-bfb6-e216863af250
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: NBCC\n• Declared Amount: ₹0.46 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/NBCC/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NCC (₹2.20) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:f75200b3-afc9-4c9e-8aab-661669babd91
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹2.20 per share\n• Ex-Da
- te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:NCC\n\n• Open in TradingView (Browser):\n  
- https://in.tradingview.com/chart/?symbol=NSE:NCC\n\n• Screener Fundament
- als & Dividend History:\n  https://www.screener.in/company/NCC/consolidate
- d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
- dia.com/companies-listing/corporate-filings-announcements?symbol=NCC\n\n
- • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
- html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] NCC (₹2.20) - Demat Credit
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-UID:cb73de5d-af46-4211-a48c-1c2b7794930b
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: NCC\n• Declared Amount: ₹2.20 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/NCC/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] NATCOPHARM (₹1.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-UID:5be059d6-f3a9-41dc-8d97-c715440fcfd2
+UID:acef3465-2bcb-4c8b-9374-54dc470ecc09
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.50 per share\n• Ex-Da
  te: 20-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2202,7 +2082,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] NATCOPHARM (₹1.50) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:be6332b2-9538-45e1-b71e-8f832fc7cb36
+UID:d53f0751-8d42-42cf-903b-64e2ef3c5086
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: NATCOPHARM\n• Declared Amount: ₹1.50 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -2211,10 +2091,100 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NCC (₹2.20) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:614a253a-ef87-4833-824a-f2601e9e7854
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹2.20 per share\n• Ex-Da
+ te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:NCC\n\n• Open in TradingView (Browser):\n  
+ https://in.tradingview.com/chart/?symbol=NSE:NCC\n\n• Screener Fundament
+ als & Dividend History:\n  https://www.screener.in/company/NCC/consolidate
+ d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
+ dia.com/companies-listing/corporate-filings-announcements?symbol=NCC\n\n
+ • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
+ html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] NCC (₹2.20) - Demat Credit
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:979ad3e8-2877-4e63-b395-081be052107f
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: NCC\n• Declared Amount: ₹2.20 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/NCC/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NBCC (₹0.15) - Buy Cutoff
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+UID:4f3c48be-c449-44f3-9c68-0c794b6ddf75
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹0.15 per share\n• Ex-Da
+ te: 17-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:NBCC\n\n• Open in TradingView (Browser):\n 
+  https://in.tradingview.com/chart/?symbol=NSE:NBCC\n\n• Screener Fundame
+ ntals & Dividend History:\n  https://www.screener.in/company/NBCC/consolid
+ ated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.ns
+ eindia.com/companies-listing/corporate-filings-announcements?symbol=NBCC\n
+ \n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/an
+ n.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] NBCC (₹0.15) - Demat Credit
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+UID:3de24b9a-8315-4a3c-b4ad-64645cb37aed
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: NBCC\n• Declared Amount: ₹0.15 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/NBCC/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NBCC (₹0.46) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:72e7ec36-5a65-47c1-ba75-30f87eabb345
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹0.46 per share\n• Ex-Da
+ te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:NBCC\n\n• Open in TradingView (Browser):\n 
+  https://in.tradingview.com/chart/?symbol=NSE:NBCC\n\n• Screener Fundame
+ ntals & Dividend History:\n  https://www.screener.in/company/NBCC/consolid
+ ated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.ns
+ eindia.com/companies-listing/corporate-filings-announcements?symbol=NBCC\n
+ \n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/an
+ n.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] NBCC (₹0.46) - Demat Credit
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+UID:ac6a393d-fba2-4b77-ba84-7df67bba9d44
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: NBCC\n• Declared Amount: ₹0.46 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/NBCC/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] NHPC (₹0.21) - Buy Cutoff
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
-UID:49b5d16b-5b02-40c0-9ece-8980e528f6d6
+UID:a5e93522-2ff5-4a4f-8ad6-4c03d8f52bae
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.21 per share\n• Ex-Da
  te: 12-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2232,7 +2202,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] NHPC (₹0.21) - Demat Credit
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:c4aaeebd-3d48-498a-89d8-c350e4c08e4e
+UID:3613dc6f-17b9-4cbe-8f53-41b675fd0b14
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: NHPC\n• Declared Amount: ₹0.21 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2241,40 +2211,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] NETWEB (₹3.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-UID:4bf8169a-502e-48c8-b884-1a02938c2152
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹3.00 per share\n• Ex-Da
- te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:NETWEB\n\n• Open in TradingView (Browser):
- \n  https://in.tradingview.com/chart/?symbol=NSE:NETWEB\n\n• Screener Fu
- ndamentals & Dividend History:\n  https://www.screener.in/company/NETWEB/c
- onsolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https:/
- /www.nseindia.com/companies-listing/corporate-filings-announcements?symbol
- =NETWEB\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corp
- orates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] NETWEB (₹3.00) - Demat Credit
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-UID:1cdd96fe-d081-415c-9be3-937fe2a437d7
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: NETWEB\n• Declared Amount: ₹3.00 per share
- \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
- ------------------------------------\n• Screener Fundamentals: https://w
- ww.screener.in/company/NETWEB/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] NTPC (₹3.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-UID:98bd0839-a788-4dda-a743-5b31c75fcc9b
+UID:9fd88e24-db83-4f4f-9822-7d9e3d56d11b
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.50 per share\n• Ex-Da
  te: 02-Sep-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2292,7 +2232,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] NTPC (₹3.50) - Demat Credit
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
-UID:95a7d449-4b3f-4cf6-8ede-7c43fcdc3fb6
+UID:74f84a67-e958-4bbf-b23f-92c066547e94
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: NTPC\n• Declared Amount: ₹3.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2304,7 +2244,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] NATIONALUM (₹1.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-UID:6a88b86e-378c-412e-9e8b-610634df8c0d
+UID:709dcbcc-3355-4d08-ba60-6f4bb9961729
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
  te: 24-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2322,7 +2262,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] NATIONALUM (₹1.00) - Demat Credit
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-UID:35592b9a-9cc1-4e61-b806-4f73b9376b29
+UID:f4efeca0-b5b2-41b0-b17e-db7e6b5a7041
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: NATIONALUM\n• Declared Amount: ₹1.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -2331,10 +2271,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] NETWEB (₹3.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:91cbe130-80de-482d-91be-a23e2b84ad40
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹3.00 per share\n• Ex-Da
+ te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:NETWEB\n\n• Open in TradingView (Browser):
+ \n  https://in.tradingview.com/chart/?symbol=NSE:NETWEB\n\n• Screener Fu
+ ndamentals & Dividend History:\n  https://www.screener.in/company/NETWEB/c
+ onsolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https:/
+ /www.nseindia.com/companies-listing/corporate-filings-announcements?symbol
+ =NETWEB\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corp
+ orates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] NETWEB (₹3.00) - Demat Credit
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:93a43a12-06ad-4233-962e-dbfb28fdf7e7
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: NETWEB\n• Declared Amount: ₹3.00 per share
+ \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
+ ------------------------------------\n• Screener Fundamentals: https://w
+ ww.screener.in/company/NETWEB/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] NAVA (₹5.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:59bc85d2-1369-47e5-a5d5-a13a53e5e931
+UID:2f3698c0-7907-49f9-b60a-f9596f8a0cc3
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹5.50 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2352,7 +2322,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] NAVA (₹5.50) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:5f9e62d7-8e7b-410d-b2d0-1c9f9ba422a0
+UID:18a51c1c-4527-4da9-9c99-9df96f609c07
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: NAVA\n• Declared Amount: ₹5.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2361,40 +2331,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] PCBL (₹4.50) - Buy Cutoff
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-UID:a315b63b-af52-4270-a705-8edda72897f1
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹4.50 per share\n• Ex-Da
- te: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:PCBL\n\n• Open in TradingView (Browser):\n 
-  https://in.tradingview.com/chart/?symbol=NSE:PCBL\n\n• Screener Fundame
- ntals & Dividend History:\n  https://www.screener.in/company/PCBL/consolid
- ated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.ns
- eindia.com/companies-listing/corporate-filings-announcements?symbol=PCBL\n
- \n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/an
- n.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] PCBL (₹4.50) - Demat Credit
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:285a91ab-68f8-47bd-961e-c78c67377c4c
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: PCBL\n• Declared Amount: ₹4.50 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/PCBL/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] PIIND (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:c479be5f-7f8c-461a-8750-8fe43de2bc2c
+UID:e7cdaf99-9ac7-47c0-a606-402100098cd6
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -2412,7 +2352,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] PIIND (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:874715b6-13f6-4966-912e-be05bb64e60d
+UID:7aca84d3-254e-48b5-a6ef-af62e8ec7512
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: PIIND\n• Declared Amount: ₹10.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -2421,10 +2361,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PCBL (₹4.50) - Buy Cutoff
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:5561e2d1-b01c-49ea-9e44-6e1b97d823a4
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹4.50 per share\n• Ex-Da
+ te: 04-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:PCBL\n\n• Open in TradingView (Browser):\n 
+  https://in.tradingview.com/chart/?symbol=NSE:PCBL\n\n• Screener Fundame
+ ntals & Dividend History:\n  https://www.screener.in/company/PCBL/consolid
+ ated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.ns
+ eindia.com/companies-listing/corporate-filings-announcements?symbol=PCBL\n
+ \n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/an
+ n.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] PCBL (₹4.50) - Demat Credit
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+UID:5df8ff9d-33f2-4d6a-bc7a-b1aad20cfa0b
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: PCBL\n• Declared Amount: ₹4.50 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/PCBL/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] PAGEIND (₹200.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
-UID:1a4259c0-fcec-4e95-b963-63c0ccb06f5a
+UID:42dadc40-c3b6-45a7-bcaa-1a40f82ed4d2
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹200.00 per share\n• Ex-
  Date: 19-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n----------
@@ -2442,7 +2412,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] PAGEIND (₹200.00) - Demat Credit
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
-UID:9544362c-49de-4b9b-beef-c7b6cea972fa
+UID:79d906f6-43d1-481e-acd8-92e23811ca56
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: PAGEIND\n• Declared Amount: ₹200.00 per sha
  re\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n---
@@ -2454,7 +2424,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] PATANJALI (₹2.30) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:bf66ffc7-eb61-421a-83f5-ee0f28a9447b
+UID:a4c792da-8f7c-426c-a662-dad4dede60d2
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.30 per share\n• Ex-Da
  te: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2472,7 +2442,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] PATANJALI (₹2.30) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:02b0e370-18a4-401a-a841-6b7e998d5df6
+UID:5a902b52-3893-4b1c-82b0-f674eb382f50
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: PATANJALI\n• Declared Amount: ₹2.30 per sha
  re\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n---
@@ -2484,7 +2454,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] POLYMED (₹3.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-UID:b8648ea1-f76d-46b4-8085-0a87d96e3bdb
+UID:dba120d1-4c2b-46c2-b88c-cb21cc320f83
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.50 per share\n• Ex-Da
  te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2502,7 +2472,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] POLYMED (₹3.50) - Demat Credit
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-UID:21e06f3c-6093-40ff-970c-aca5447c40b2
+UID:e01f4d52-1779-404d-92fc-81f31b54a97f
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: POLYMED\n• Declared Amount: ₹3.50 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -2511,70 +2481,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] PFC (₹3.90) - Buy Cutoff
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
-UID:cad2f22b-dd40-44dd-98fb-609269cb90f8
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹3.90 per share\n• Ex-Da
- te: 27-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:PFC\n\n• Open in TradingView (Browser):\n  
- https://in.tradingview.com/chart/?symbol=NSE:PFC\n\n• Screener Fundament
- als & Dividend History:\n  https://www.screener.in/company/PFC/consolidate
- d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
- dia.com/companies-listing/corporate-filings-announcements?symbol=PFC\n\n
- • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
- html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] PFC (₹3.90) - Demat Credit
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-UID:822b8819-9508-45c6-8bd9-ed9e94c76a7c
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: PFC\n• Declared Amount: ₹3.90 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/PFC/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[DIVIDEND] RBLBANK (₹1.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-UID:e8b43cae-ef4b-4af5-ab4e-ecf2e8417aac
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
- te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:RBLBANK\n\n• Open in TradingView (Browser):
- \n  https://in.tradingview.com/chart/?symbol=NSE:RBLBANK\n\n• Screener F
- undamentals & Dividend History:\n  https://www.screener.in/company/RBLBANK
- /consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https
- ://www.nseindia.com/companies-listing/corporate-filings-announcements?symb
- ol=RBLBANK\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/c
- orporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] RBLBANK (₹1.00) - Demat Credit
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-UID:58a7f342-37a7-4014-91f8-7e6952ebd617
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: RBLBANK\n• Declared Amount: ₹1.00 per share
- \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
- ------------------------------------\n• Screener Fundamentals: https://w
- ww.screener.in/company/RBLBANK/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] PRESTIGE (₹2.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-UID:197aabf4-682a-43b5-9ecd-e1c4205a3337
+UID:4bef9ba0-fd6f-4860-a1eb-6047d314a625
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.00 per share\n• Ex-Da
  te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2592,7 +2502,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] PRESTIGE (₹2.00) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:d777040f-7d86-42e3-9bd6-86f5b3e4b445
+UID:a42afb34-25d1-4b47-846f-963cfa96abed
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: PRESTIGE\n• Declared Amount: ₹2.00 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -2601,10 +2511,70 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] PFC (₹3.90) - Buy Cutoff
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:94a0f700-de14-4018-9b7e-9e160cbb259d
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹3.90 per share\n• Ex-Da
+ te: 27-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:PFC\n\n• Open in TradingView (Browser):\n  
+ https://in.tradingview.com/chart/?symbol=NSE:PFC\n\n• Screener Fundament
+ als & Dividend History:\n  https://www.screener.in/company/PFC/consolidate
+ d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
+ dia.com/companies-listing/corporate-filings-announcements?symbol=PFC\n\n
+ • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
+ html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] PFC (₹3.90) - Demat Credit
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+UID:3cb86c40-f62c-447d-9624-f92af1cb4eb5
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: PFC\n• Declared Amount: ₹3.90 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/PFC/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[DIVIDEND] RBLBANK (₹1.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+UID:3fcc46e3-2a77-458a-8f60-595eb31b6ca8
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
+ te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:RBLBANK\n\n• Open in TradingView (Browser):
+ \n  https://in.tradingview.com/chart/?symbol=NSE:RBLBANK\n\n• Screener F
+ undamentals & Dividend History:\n  https://www.screener.in/company/RBLBANK
+ /consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https
+ ://www.nseindia.com/companies-listing/corporate-filings-announcements?symb
+ ol=RBLBANK\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/c
+ orporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] RBLBANK (₹1.00) - Demat Credit
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:2b74a8db-f0b1-4032-9c26-4f748f37c280
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: RBLBANK\n• Declared Amount: ₹1.00 per share
+ \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
+ ------------------------------------\n• Screener Fundamentals: https://w
+ ww.screener.in/company/RBLBANK/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] RECLTD (₹1.55) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:43ac9760-1c22-4d99-94ac-d3280925190b
+UID:c2b68ffc-ef73-4f1f-9070-cd08f40e55ac
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.55 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2622,7 +2592,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] RECLTD (₹1.55) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:83ded8b3-ddb4-4677-96b5-821e6a214bc7
+UID:34f70f8f-d5b9-4399-8c70-4db1d6cf581f
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: RECLTD\n• Declared Amount: ₹1.55 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -2634,7 +2604,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] RITES (₹1.40) - Buy Cutoff
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
-UID:dad24d11-489c-4f13-9d76-a4d1d2257997
+UID:abac29fa-fc97-4f43-a2f5-c1fa4bb0c8b8
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.40 per share\n• Ex-Da
  te: 10-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2652,7 +2622,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] RITES (₹1.40) - Demat Credit
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
-UID:12fb1575-1feb-4069-8a6c-8c93c69eb166
+UID:a32a1b61-8d6f-49fe-94ee-f12536f748b6
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: RITES\n• Declared Amount: ₹1.40 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2661,40 +2631,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] RAILTEL (₹1.25) - Buy Cutoff
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-UID:b2fae2b3-a4a7-49be-b03c-f08c68680b2e
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹1.25 per share\n• Ex-Da
- te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:RAILTEL\n\n• Open in TradingView (Browser):
- \n  https://in.tradingview.com/chart/?symbol=NSE:RAILTEL\n\n• Screener F
- undamentals & Dividend History:\n  https://www.screener.in/company/RAILTEL
- /consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https
- ://www.nseindia.com/companies-listing/corporate-filings-announcements?symb
- ol=RAILTEL\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/c
- orporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] RAILTEL (₹1.25) - Demat Credit
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-UID:bd0741f5-c366-4ea8-926f-e2165f10e213
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: RAILTEL\n• Declared Amount: ₹1.25 per share
- \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
- ------------------------------------\n• Screener Fundamentals: https://w
- ww.screener.in/company/RAILTEL/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] RVNL (₹0.71) - Buy Cutoff
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
-UID:c3ce69a4-d7b6-465b-ab35-37ca55934762
+UID:cc86bc57-7d9b-46ce-b9e6-ffd198c71ff4
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.71 per share\n• Ex-Da
  te: 18-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2712,7 +2652,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] RVNL (₹0.71) - Demat Credit
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-UID:9f800adb-9214-4ede-91e8-344c6bd5d929
+UID:c331edaf-74a5-4887-936c-3bb7fd3883ba
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: RVNL\n• Declared Amount: ₹0.71 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2721,40 +2661,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] SAGILITY (₹0.10) - Buy Cutoff
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-UID:df3e0a56-51de-4af1-b1df-9f09e2b1562e
+SUMMARY:[DIVIDEND] RAILTEL (₹1.25) - Buy Cutoff
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:4a225353-4b6e-442f-8b7f-d1da3b296adf
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹0.10 per share\n• Ex-Da
- te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ redit by Record Date.\n\n• Declared Amount: ₹1.25 per share\n• Ex-Da
+ te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
  -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:SAGILITY\n\n• Open in TradingView (Browser)
- :\n  https://in.tradingview.com/chart/?symbol=NSE:SAGILITY\n\n• Screener
-  Fundamentals & Dividend History:\n  https://www.screener.in/company/SAGIL
- ITY/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  ht
- tps://www.nseindia.com/companies-listing/corporate-filings-announcements?s
- ymbol=SAGILITY\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.c
- om/corporates/ann.html\n
+ adingview://chart?symbol=NSE:RAILTEL\n\n• Open in TradingView (Browser):
+ \n  https://in.tradingview.com/chart/?symbol=NSE:RAILTEL\n\n• Screener F
+ undamentals & Dividend History:\n  https://www.screener.in/company/RAILTEL
+ /consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  https
+ ://www.nseindia.com/companies-listing/corporate-filings-announcements?symb
+ ol=RAILTEL\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.com/c
+ orporates/ann.html\n
 LOCATION:NSE / BSE India
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PAYOUT] SAGILITY (₹0.10) - Demat Credit
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-UID:d279162f-30b1-43c6-bab4-e8bc9f13ba3a
+SUMMARY:[PAYOUT] RAILTEL (₹1.25) - Demat Credit
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:34761473-17bd-4f7d-948b-3aec5a4f51e5
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: SAGILITY\n• Declared Amount: ₹0.10 per shar
- e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
- -------------------------------------\n• Screener Fundamentals: https://
- www.screener.in/company/SAGILITY/consolidated/\n
+ k account.\n\n• Company: RAILTEL\n• Declared Amount: ₹1.25 per share
+ \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
+ ------------------------------------\n• Screener Fundamentals: https://w
+ ww.screener.in/company/RAILTEL/consolidated/\n
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[DIVIDEND] SJVN (₹0.35) - Buy Cutoff
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-UID:af69b9d7-b58d-4a1f-943c-b543cfd25e0e
+UID:20ad5bf0-56ea-4714-a50b-9810559ffaab
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹0.35 per share\n• Ex-Da
  te: 24-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2772,7 +2712,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] SJVN (₹0.35) - Demat Credit
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-UID:cdf2a266-f55c-422b-b570-b1eee4a98f75
+UID:81eccc4b-0c4a-4fba-914c-93cca921116e
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: SJVN\n• Declared Amount: ₹0.35 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2781,10 +2721,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SAGILITY (₹0.10) - Buy Cutoff
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+UID:2d033d43-33ca-4317-872f-ae872bb389e1
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹0.10 per share\n• Ex-Da
+ te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:SAGILITY\n\n• Open in TradingView (Browser)
+ :\n  https://in.tradingview.com/chart/?symbol=NSE:SAGILITY\n\n• Screener
+  Fundamentals & Dividend History:\n  https://www.screener.in/company/SAGIL
+ ITY/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  ht
+ tps://www.nseindia.com/companies-listing/corporate-filings-announcements?s
+ ymbol=SAGILITY\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.c
+ om/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] SAGILITY (₹0.10) - Demat Credit
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:cb4da3fc-fdef-4f02-8525-4b4571ac4989
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: SAGILITY\n• Declared Amount: ₹0.10 per shar
+ e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
+ -------------------------------------\n• Screener Fundamentals: https://
+ www.screener.in/company/SAGILITY/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] SARDAEN (₹2.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:867a882a-b4d1-4481-a5e0-63dfa07fa007
+UID:e34c5b27-94c9-4ea2-baf7-1caaf76134ae
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.00 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2802,7 +2772,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] SARDAEN (₹2.00) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:8bfd25c5-0edb-462a-bc4c-d5c282e769be
+UID:189478eb-6baa-428e-a02f-f6370c957f51
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: SARDAEN\n• Declared Amount: ₹2.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -2814,7 +2784,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] SHYAMMETL (₹2.70) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:d033e129-b24b-471d-adf6-c4c21c17acfb
+UID:84dbe331-f02d-40b5-ac5d-9639010e2ad9
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.70 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2832,7 +2802,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] SHYAMMETL (₹2.70) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:b8f5a537-094e-45a7-adb5-3d25098219f9
+UID:a88f576b-a49e-47e3-b43f-a32b64131523
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: SHYAMMETL\n• Declared Amount: ₹2.70 per sha
  re\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n---
@@ -2844,7 +2814,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] SONATSOFTW (₹1.25) - Buy Cutoff
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-UID:83b87b18-3ebe-4cef-adf9-5596d8c09d67
+UID:aa08aad6-b7d4-4870-bef7-408ed528c312
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.25 per share\n• Ex-Da
  te: 14-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2862,7 +2832,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] SONATSOFTW (₹1.25) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:832d70d7-e991-49e9-a4a1-0cebaf833621
+UID:dcb42088-3f0e-404c-923c-80d5881990d8
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: SONATSOFTW\n• Declared Amount: ₹1.25 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -2874,7 +2844,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] SUNTV (₹5.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
-UID:5cd363b1-6e97-4d6d-ae8c-dca13b96d46a
+UID:65d4484a-a94e-44e7-a5f7-5a7be6bea58d
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹5.00 per share\n• Ex-Da
  te: 18-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2892,7 +2862,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] SUNTV (₹5.00) - Demat Credit
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-UID:a938965a-dde5-4c7f-9641-e7bf7e3f208e
+UID:37704a26-76d0-4220-90af-12f637b112f1
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: SUNTV\n• Declared Amount: ₹5.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2901,40 +2871,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] SWANCORP (₹0.15) - Buy Cutoff
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-UID:cbcaaf20-489a-4036-9ffd-d142c3fb82cd
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹0.15 per share\n• Ex-Da
- te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:SWANCORP\n\n• Open in TradingView (Browser)
- :\n  https://in.tradingview.com/chart/?symbol=NSE:SWANCORP\n\n• Screener
-  Fundamentals & Dividend History:\n  https://www.screener.in/company/SWANC
- ORP/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  ht
- tps://www.nseindia.com/companies-listing/corporate-filings-announcements?s
- ymbol=SWANCORP\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.c
- om/corporates/ann.html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] SWANCORP (₹0.15) - Demat Credit
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-UID:16b34372-7b2a-4aac-9d01-189b67e39ef9
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: SWANCORP\n• Declared Amount: ₹0.15 per shar
- e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
- -------------------------------------\n• Screener Fundamentals: https://
- www.screener.in/company/SWANCORP/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] SYRMA (₹1.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
-UID:7df00473-fdf6-46eb-9768-aa8c9484df99
+UID:684b9ff3-839a-4bd6-a09d-a4ff9c4fab98
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.50 per share\n• Ex-Da
  te: 18-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2952,7 +2892,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] SYRMA (₹1.50) - Demat Credit
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-UID:9e80c108-c1c4-4238-be2d-81ead583ae60
+UID:8ee1205a-2ab6-4f25-8fd6-d6bc405dff8a
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: SYRMA\n• Declared Amount: ₹1.50 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -2961,10 +2901,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] SWANCORP (₹0.15) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:76840700-97c3-4a35-885b-f7459d1b77a6
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹0.15 per share\n• Ex-Da
+ te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:SWANCORP\n\n• Open in TradingView (Browser)
+ :\n  https://in.tradingview.com/chart/?symbol=NSE:SWANCORP\n\n• Screener
+  Fundamentals & Dividend History:\n  https://www.screener.in/company/SWANC
+ ORP/consolidated/\n\n• Official Meeting Disclosures & PDF Filings:\n  ht
+ tps://www.nseindia.com/companies-listing/corporate-filings-announcements?s
+ ymbol=SWANCORP\n\n• BSE Corporate Filing Desk:\n  https://www.bseindia.c
+ om/corporates/ann.html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] SWANCORP (₹0.15) - Demat Credit
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+UID:4345a67d-fbc3-4daa-9aa9-b22e9bbc93db
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: SWANCORP\n• Declared Amount: ₹0.15 per shar
+ e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
+ -------------------------------------\n• Screener Fundamentals: https://
+ www.screener.in/company/SWANCORP/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] RAMCOCEM (₹2.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-UID:f03119da-6742-4bfb-9fa9-5904f8779717
+UID:87a4e7ed-ee75-439b-a6dd-5ea9022ad94b
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.50 per share\n• Ex-Da
  te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -2982,7 +2952,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] RAMCOCEM (₹2.50) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:e2f4feb4-5885-47c1-b377-d4ec51266541
+UID:115f3b89-3227-4766-a4e6-c11e03ef3195
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: RAMCOCEM\n• Declared Amount: ₹2.50 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -2994,7 +2964,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] TIINDIA (₹1.50) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:ac58d8da-618e-48b0-87db-e9b386c2e861
+UID:082e2250-78a2-4b38-aeb0-1e649218907d
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.50 per share\n• Ex-Da
  te: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -3012,7 +2982,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] TIINDIA (₹1.50) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:71acc8ad-82cd-4676-a99e-76f7b7ca163a
+UID:cee79372-aeef-492f-96d2-96e845d5cfa0
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: TIINDIA\n• Declared Amount: ₹1.50 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -3024,7 +2994,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] TRITURBINE (₹2.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-UID:574a9d20-b5a1-474f-9f46-e09733d2d8c1
+UID:65e24bc2-ad8b-4a33-9d34-b689a537a838
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹2.00 per share\n• Ex-Da
  te: 02-Sep-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -3042,7 +3012,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] TRITURBINE (₹2.00) - Demat Credit
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
-UID:a60c883f-5267-48a2-a521-92a034a367f9
+UID:24595747-4da7-4ab4-b240-5c4cf22037af
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: TRITURBINE\n• Declared Amount: ₹2.00 per sh
  are\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n--
@@ -3054,7 +3024,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] UBL (₹10.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:7ce36676-8ad2-4cba-a83b-79700b835cdd
+UID:03fdb2d5-5ee4-4ff0-a31b-ee69762a1291
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹10.00 per share\n• Ex-D
  ate: 07-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n-----------
@@ -3072,7 +3042,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] UBL (₹10.00) - Demat Credit
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-UID:7e660e68-dce4-4f9c-a7f6-1611f0b390b4
+UID:1f67fd0a-b363-4510-aebc-eaaa2843f82c
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: UBL\n• Declared Amount: ₹10.00 per share\n
  • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
@@ -3081,40 +3051,10 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[DIVIDEND] VTL (₹5.00) - Buy Cutoff
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-UID:2536a734-2583-4253-ade5-059409e98218
-DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
- redit by Record Date.\n\n• Declared Amount: ₹5.00 per share\n• Ex-Da
- te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
- -----------------------------\n• Open in TradingView App (Native):\n  tr
- adingview://chart?symbol=NSE:VTL\n\n• Open in TradingView (Browser):\n  
- https://in.tradingview.com/chart/?symbol=NSE:VTL\n\n• Screener Fundament
- als & Dividend History:\n  https://www.screener.in/company/VTL/consolidate
- d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
- dia.com/companies-listing/corporate-filings-announcements?symbol=VTL\n\n
- • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
- html\n
-LOCATION:NSE / BSE India
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PAYOUT] VTL (₹5.00) - Demat Credit
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-UID:aab0eb5d-b1b9-4850-81c6-ea2fcfb246da
-DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
- k account.\n\n• Company: VTL\n• Declared Amount: ₹5.00 per share\n
- • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
- ----------------------------------\n• Screener Fundamentals: https://www
- .screener.in/company/VTL/consolidated/\n
-LOCATION:Registered Bank Account
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[DIVIDEND] USHAMART (₹3.75) - Buy Cutoff
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-UID:a1ffade0-36a7-4800-a369-94f9b7a15afd
+UID:7b1a73ce-1bf4-4373-866b-28f1c5e70b38
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹3.75 per share\n• Ex-Da
  te: 13-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -3132,7 +3072,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] USHAMART (₹3.75) - Demat Credit
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:e26b3d77-462f-41a1-9b99-b3debb8e67b1
+UID:a6a93416-ca95-458d-a527-1b3cd1bc9ec9
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: USHAMART\n• Declared Amount: ₹3.75 per shar
  e\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n----
@@ -3141,10 +3081,40 @@ DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
 LOCATION:Registered Bank Account
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[DIVIDEND] VTL (₹5.00) - Buy Cutoff
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:cb7408a7-d190-4308-86e2-bc2781858323
+DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
+ redit by Record Date.\n\n• Declared Amount: ₹5.00 per share\n• Ex-Da
+ te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
+ -----------------------------\n• Open in TradingView App (Native):\n  tr
+ adingview://chart?symbol=NSE:VTL\n\n• Open in TradingView (Browser):\n  
+ https://in.tradingview.com/chart/?symbol=NSE:VTL\n\n• Screener Fundament
+ als & Dividend History:\n  https://www.screener.in/company/VTL/consolidate
+ d/\n\n• Official Meeting Disclosures & PDF Filings:\n  https://www.nsein
+ dia.com/companies-listing/corporate-filings-announcements?symbol=VTL\n\n
+ • BSE Corporate Filing Desk:\n  https://www.bseindia.com/corporates/ann.
+ html\n
+LOCATION:NSE / BSE India
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PAYOUT] VTL (₹5.00) - Demat Credit
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+UID:3dd5318d-815b-4e09-bc4b-de14b84cea07
+DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
+ k account.\n\n• Company: VTL\n• Declared Amount: ₹5.00 per share\n
+ • Statutory Mandate: Section 123 Companies Act (within 30 days)\n-------
+ ----------------------------------\n• Screener Fundamentals: https://www
+ .screener.in/company/VTL/consolidated/\n
+LOCATION:Registered Bank Account
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[DIVIDEND] WHIRLPOOL (₹5.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-UID:9815ee91-d463-4322-81dc-90948bfab8bc
+UID:a16b6bc3-4f3c-493b-9a58-83e1a1a744af
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹5.00 per share\n• Ex-Da
  te: 28-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -3162,7 +3132,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] WHIRLPOOL (₹5.00) - Demat Credit
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-UID:20df05c5-b070-4f97-8f0f-68d2d2566cf6
+UID:040a3b95-4530-40b0-b893-56c9625a14d3
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: WHIRLPOOL\n• Declared Amount: ₹5.00 per sha
  re\n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n---
@@ -3174,7 +3144,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ZENTEC (₹1.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:df4d3e21-5d68-4b7b-b254-72efd5f65dbe
+UID:878543d4-5b9f-491b-8012-a3ac638c0182
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
  te: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -3192,7 +3162,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] ZENTEC (₹1.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:8732e137-4591-4bfe-8e56-80e5263b4eeb
+UID:b169ad75-79c8-40a8-ad6d-c49d788f842b
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: ZENTEC\n• Declared Amount: ₹1.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -3204,7 +3174,7 @@ BEGIN:VEVENT
 SUMMARY:[DIVIDEND] ECLERX (₹1.00) - Buy Cutoff
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-UID:e1bce360-bfbe-47d3-8100-536b18790640
+UID:1e1a81f4-6ee8-411d-97c6-ee6b1ff501a0
 DESCRIPTION:ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat c
  redit by Record Date.\n\n• Declared Amount: ₹1.00 per share\n• Ex-Da
  te: 21-Aug-2026\n• Settlement: T+1 Rolling Cycle (NSE/BSE)\n------------
@@ -3222,7 +3192,7 @@ BEGIN:VEVENT
 SUMMARY:[PAYOUT] ECLERX (₹1.00) - Demat Credit
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-UID:9b05af56-7a7e-4e95-bc0b-fcf635dbd769
+UID:b024f8fe-3693-4b72-a3e8-26831562b36f
 DESCRIPTION:DIVIDEND DISBURSEMENT: Direct credit into registered Demat ban
  k account.\n\n• Company: ECLERX\n• Declared Amount: ₹1.00 per share
  \n• Statutory Mandate: Section 123 Companies Act (within 30 days)\n-----
@@ -3233,12 +3203,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO OPEN] APAnnu ProjectsEPC Infrastructure (Telecom/Sewerage/Gas
   Pipeline) (Mainboard)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:68c1c7e8-1399-427f-9127-b6338388160b
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:32e03f3f-efe1-42d1-9379-2737ff9218c7
 DESCRIPTION:Bidding opens today.\n• Issue: APAnnu ProjectsEPC Infrastruc
  ture (Telecom/Sewerage/Gas Pipeline)\n• Category: Mainboard\n• Current
-  GMP / Premium: 6%\n• Bidding Closes: 05-Sep-2026\n\n• Live GMP & Subs
+  GMP / Premium: 6%\n• Bidding Closes: 06-Sep-2026\n\n• Live GMP & Subs
  cription Status (IPOGyani):\n  https://ipogyani.com/\n\n• Detailed Revie
  ws & DRHP/RHP Prospectus:\n  https://www.chittorgarh.com/ipo/ipo_dashboard
  .asp\n
@@ -3246,9 +3216,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO CLOSE] APAnnu ProjectsEPC Infrastructure (Telecom/Sewerage/Ga
  s Pipeline) - Final Day
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-UID:9b10af89-04c3-49cf-9383-cbb676ef5280
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:baa4e4bb-644a-4cd3-9ec2-7cdf2ee82638
 DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
  ).\n• Issue: APAnnu ProjectsEPC Infrastructure (Telecom/Sewerage/Gas Pip
  eline)\n• Latest GMP: 6%\n\n• Check Registrar Allotment Status:\n  Lin
@@ -3258,12 +3228,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO OPEN] SASkyways Air ServicesIntegrated Logistics & Freight Fo
  rwarding (Air Cargo) (Mainboard)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:c0118a6b-8bcc-49b5-bb9c-23c719e1c681
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ba6ac1dc-645f-4ef9-be83-85d9fe06f175
 DESCRIPTION:Bidding opens today.\n• Issue: SASkyways Air ServicesIntegra
  ted Logistics & Freight Forwarding (Air Cargo)\n• Category: Mainboard\n
- • Current GMP / Premium: 1%\n• Bidding Closes: 05-Sep-2026\n\n• Live
+ • Current GMP / Premium: 1%\n• Bidding Closes: 06-Sep-2026\n\n• Live
   GMP & Subscription Status (IPOGyani):\n  https://ipogyani.com/\n\n• Det
  ailed Reviews & DRHP/RHP Prospectus:\n  https://www.chittorgarh.com/ipo/ip
  o_dashboard.asp\n
@@ -3271,9 +3241,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO CLOSE] SASkyways Air ServicesIntegrated Logistics & Freight F
  orwarding (Air Cargo) - Final Day
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-UID:c1556911-db90-41e0-9595-b43d2a9c6819
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:c57792ad-6e93-41f8-8fa1-9e79b893dc4b
 DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
  ).\n• Issue: SASkyways Air ServicesIntegrated Logistics & Freight Forwar
  ding (Air Cargo)\n• Latest GMP: 1%\n\n• Check Registrar Allotment Stat
@@ -3283,12 +3253,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO OPEN] HEHy-Tech EngineersHydraulic Fittings Manufacturing (In
  dustrial Engineering) (Mainboard)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:ad24e46b-4505-411c-8fe6-cda74e62228e
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:3ad93b85-b215-4a35-bc06-d9adee2d8992
 DESCRIPTION:Bidding opens today.\n• Issue: HEHy-Tech EngineersHydraulic 
  Fittings Manufacturing (Industrial Engineering)\n• Category: Mainboard\n
- • Current GMP / Premium: 5%\n• Bidding Closes: 05-Sep-2026\n\n• Live
+ • Current GMP / Premium: 5%\n• Bidding Closes: 06-Sep-2026\n\n• Live
   GMP & Subscription Status (IPOGyani):\n  https://ipogyani.com/\n\n• Det
  ailed Reviews & DRHP/RHP Prospectus:\n  https://www.chittorgarh.com/ipo/ip
  o_dashboard.asp\n
@@ -3296,9 +3266,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO CLOSE] HEHy-Tech EngineersHydraulic Fittings Manufacturing (I
  ndustrial Engineering) - Final Day
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-UID:681d94df-04d9-4283-8000-b557864fa6c8
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:d468e387-94e4-43a3-9810-9a9b45fbbeb3
 DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
  ).\n• Issue: HEHy-Tech EngineersHydraulic Fittings Manufacturing (Indust
  rial Engineering)\n• Latest GMP: 5%\n\n• Check Registrar Allotment Sta
@@ -3308,12 +3278,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO OPEN] SPSymbiotec PharmalabPharmaceutical APIs & Complex Inje
  ctables (Specialty Pharma) (Mainboard)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:c356197b-8839-4ec2-ad6f-4fa0bd409640
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:bb75d3cc-e5f5-4475-b2aa-bef15c50e739
 DESCRIPTION:Bidding opens today.\n• Issue: SPSymbiotec PharmalabPharmace
  utical APIs & Complex Injectables (Specialty Pharma)\n• Category: Mainbo
- ard\n• Current GMP / Premium: 0%\n• Bidding Closes: 05-Sep-2026\n\n•
+ ard\n• Current GMP / Premium: 0%\n• Bidding Closes: 06-Sep-2026\n\n•
   Live GMP & Subscription Status (IPOGyani):\n  https://ipogyani.com/\n\n
  • Detailed Reviews & DRHP/RHP Prospectus:\n  https://www.chittorgarh.com
  /ipo/ipo_dashboard.asp\n
@@ -3321,9 +3291,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO CLOSE] SPSymbiotec PharmalabPharmaceutical APIs & Complex Inj
  ectables (Specialty Pharma) - Final Day
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-UID:1cd46b75-13f5-4175-b01e-720397dde01c
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:f6186b91-1d90-4757-ad8b-d83b3d4525e0
 DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
  ).\n• Issue: SPSymbiotec PharmalabPharmaceutical APIs & Complex Injectab
  les (Specialty Pharma)\n• Latest GMP: 0%\n\n• Check Registrar Allotmen
@@ -3333,12 +3303,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO OPEN] AEAugmont EnterprisesIntegrated Gold & Silver Platform 
  (Bullion/Digital Gold) (Mainboard)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:4c89cb9b-89c2-4442-b515-65ac6296c5cd
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:71aff72c-ace7-4464-afe1-fd59c397a6fd
 DESCRIPTION:Bidding opens today.\n• Issue: AEAugmont EnterprisesIntegrat
  ed Gold & Silver Platform (Bullion/Digital Gold)\n• Category: Mainboard
- \n• Current GMP / Premium: 9%\n• Bidding Closes: 05-Sep-2026\n\n• Li
+ \n• Current GMP / Premium: 9%\n• Bidding Closes: 06-Sep-2026\n\n• Li
  ve GMP & Subscription Status (IPOGyani):\n  https://ipogyani.com/\n\n• D
  etailed Reviews & DRHP/RHP Prospectus:\n  https://www.chittorgarh.com/ipo/
  ipo_dashboard.asp\n
@@ -3346,9 +3316,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[IPO CLOSE] AEAugmont EnterprisesIntegrated Gold & Silver Platform
   (Bullion/Digital Gold) - Final Day
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-UID:ebb155a2-b6f7-4677-a98b-ddcc1cb233ad
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:809ea9db-97e2-4f8f-a42a-99c06418a5a8
 DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
  ).\n• Issue: AEAugmont EnterprisesIntegrated Gold & Silver Platform (Bul
  lion/Digital Gold)\n• Latest GMP: 9%\n\n• Check Registrar Allotment St
@@ -3359,7 +3329,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-UID:706dd557-77c0-4b1f-bca3-0f12ba529f2b
+UID:b99960be-9116-4cb5-bb24-f437e9c28497
 DESCRIPTION:RBI repo rate decision & policy statement. Crucial for bank an
  d rate-sensitive sectors.
 LOCATION:Global / Domestic Macro
@@ -3368,7 +3338,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-UID:8683ecb6-eb42-4066-9212-2699e0ab3d06
+UID:d0279d1b-095f-419d-a4d0-e04c4c05a0a5
 DESCRIPTION:RBI repo rate decision & policy statement.
 LOCATION:Global / Domestic Macro
 END:VEVENT
@@ -3376,7 +3346,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:328c4d0d-cec0-48cb-be7e-d5fc1a3d7396
+UID:4c762a1c-b1d4-4de3-84ff-9f8cd0d19625
 DESCRIPTION:Fed funds rate policy announcement & Jerome Powell press confe
  rence.
 LOCATION:Global / Domestic Macro
@@ -3385,7 +3355,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-UID:e4f50600-2897-489c-bf1c-4ea5d69652a5
+UID:4706779b-17ce-467a-9d11-cb5400953d15
 DESCRIPTION:FOMC interest rate decision.
 LOCATION:Global / Domestic Macro
 END:VEVENT
@@ -3393,7 +3363,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-UID:f8a91641-da47-46ef-9877-e8929fc82b33
+UID:05683687-6c6d-4d0c-b3eb-8008e0277452
 DESCRIPTION:FOMC rate decision & economic projections.
 LOCATION:Global / Domestic Macro
 END:VEVENT
@@ -3401,7 +3371,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:55b25b50-fc69-4a4d-bfa5-ac1e1a1dadf0
+UID:f9f79bce-a5b0-439f-8b9c-9c3c4054bd23
 DESCRIPTION:Key US inflation print dictating global liquidity conditions.
 LOCATION:Global / Domestic Macro
 END:VEVENT
@@ -3409,7 +3379,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-UID:9e0f90d6-966e-47ba-91ce-ea626c7ca400
+UID:6a92710b-863e-4656-9124-7cbba054747b
 DESCRIPTION:Key US inflation print.
 LOCATION:Global / Domestic Macro
 END:VEVENT
@@ -3417,7 +3387,7 @@ BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-UID:ba71ab08-8121-4b92-97fa-0848a36d2ffd
+UID:f848b0de-e68f-45a3-81e1-0d8fbec9f7e3
 DESCRIPTION:Key US inflation print.
 LOCATION:Global / Domestic Macro
 END:VEVENT
@@ -3425,28 +3395,28 @@ BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Sep 2026)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-UID:7e1698d7-4561-4126-ab62-f83d0bbf3a9f
+UID:ded1f75a-ac22-4e40-90cb-c359b2e2c961
 DESCRIPTION:NSE Index & Stock F&O monthly contract expiry cutoff.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Oct 2026)
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-UID:81303e54-fbd2-40c5-924c-ea6aed190460
+UID:3ea28c60-650c-4663-af0f-f02ab5d834b8
 DESCRIPTION:NSE Index & Stock F&O monthly contract expiry cutoff.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Nov 2026)
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-UID:7f7cf571-d033-4bdc-8e2e-11c9a5e1658b
+UID:b6805e6e-2514-462a-af0b-b7bcc6916881
 DESCRIPTION:NSE Index & Stock F&O monthly contract expiry cutoff.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] NSE Monthly Derivatives Expiry (Dec 2026)
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-UID:735d7c9a-7695-4937-8105-4ecc9e95b669
+UID:8675f0db-7bdb-4c62-9baf-c66739bb01a5
 DESCRIPTION:NSE Index & Stock F&O monthly contract expiry cutoff.
 END:VEVENT
 END:VCALENDAR
