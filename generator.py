@@ -44,7 +44,7 @@ CORPORATE_RESTRUCTURING_2026 = [
             "• Demerged Entities: Commercial Vehicles (CV) operations split from Passenger Vehicles (PV/EV).\n"
             "• Entitlement Ratio: 1 fully paid equity share of New CV entity for every 1 share held in Tata Motors.\n"
             "• Special Call Auction: Exchanges conduct a special price discovery pre-open session (09:00-10:00 AM IST).\n"
-            "• Must buy on or before today to be an eligible shareholder on Record Date.\n"
+            "• Must purchase on or before today to be an eligible shareholder on Record Date.\n"
         )
     },
     {
@@ -256,7 +256,7 @@ def get_previous_trading_day(d):
 def get_next_trading_day(d):
     curr = d + datetime.timedelta(days=1)
     while not is_trading_day(curr):
-        curr += datetime.timedelta(days=1)
+        curr -= datetime.timedelta(days=1)
     return curr
 
 def build_tradingview_links(symbol, is_macro=False):
@@ -267,13 +267,6 @@ def build_tradingview_links(symbol, is_macro=False):
     else:
         app_link = f"tradingview://chart?symbol=NSE:{clean}"
         web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{clean}"
-    return app_link, web_link
-
-def build_ipo_tradingview_links(company_name):
-    clean = re.sub(r'[^A-Za-z0-9\s]', '', str(company_name))
-    first_word = clean.split()[0].upper()
-    app_link = f"tradingview://chart?symbol=NSE:{first_word}"
-    web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{first_word}"
     return app_link, web_link
 
 def build_screener_links(symbol):
@@ -325,6 +318,7 @@ def get_fy2026_comprehensive_ipo_database():
     return [
         {
             "name": "Veegaland Developers",
+            "symbol": "VEEGALAND",
             "price": "₹130 - 140",
             "lot": "100 Shares",
             "gmp": "+18.5%",
@@ -334,10 +328,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 16),
             "listing": datetime.date(2026, 9, 18),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html"
+            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Pranav Constructions",
+            "symbol": "PRANAV",
             "price": "₹315 - 325",
             "lot": "45 Shares",
             "gmp": "+22.4%",
@@ -347,10 +343,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 10),
             "listing": datetime.date(2026, 9, 14),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://ris.kfintech.com/ipostatus/"
+            "registrar": "https://ris.kfintech.com/ipostatus/",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Qualiance International",
+            "symbol": "QUALIANCE",
             "price": "₹120 - 127",
             "lot": "1000 Shares",
             "gmp": "+31.5%",
@@ -360,10 +358,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 9),
             "listing": datetime.date(2026, 9, 11),
             "rhp": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
-            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html"
+            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Rays of Belief",
+            "symbol": "RAYSOFBELIEF",
             "price": "₹227 - 239",
             "lot": "60 Shares",
             "gmp": "+16.7%",
@@ -373,10 +373,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 4),
             "listing": datetime.date(2026, 9, 8),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html"
+            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Deepa Jewellers",
+            "symbol": "DEEPA",
             "price": "₹168 - 177",
             "lot": "80 Shares",
             "gmp": "+12.8%",
@@ -386,10 +388,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 4),
             "listing": datetime.date(2026, 9, 8),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://ris.kfintech.com/ipostatus/"
+            "registrar": "https://ris.kfintech.com/ipostatus/",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Farm Peace",
+            "symbol": "FARMPEACE",
             "price": "₹59",
             "lot": "2000 Shares",
             "gmp": "+24.0%",
@@ -399,10 +403,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 4),
             "listing": datetime.date(2026, 9, 8),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html"
+            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Fly-Hi Maritime Travels",
+            "symbol": "FLYHI",
             "price": "₹102",
             "lot": "1200 Shares",
             "gmp": "+14.5%",
@@ -412,10 +418,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 4),
             "listing": datetime.date(2026, 9, 8),
             "rhp": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
-            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html"
+            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Purple Style Labs",
+            "symbol": "PURPLE",
             "price": "₹546 - 575",
             "lot": "25 Shares",
             "gmp": "+28.2%",
@@ -425,10 +433,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 3),
             "listing": datetime.date(2026, 9, 7),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://ris.kfintech.com/ipostatus/"
+            "registrar": "https://ris.kfintech.com/ipostatus/",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "ESDS Software Solution",
+            "symbol": "ESDS",
             "price": "₹429",
             "lot": "35 Shares",
             "gmp": "+15.2%",
@@ -438,10 +448,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 2),
             "listing": datetime.date(2026, 9, 4),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html"
+            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Lumino Industries",
+            "symbol": "LUMINO",
             "price": "₹82",
             "lot": "150 Shares",
             "gmp": "+52.0%",
@@ -451,10 +463,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 1),
             "listing": datetime.date(2026, 9, 3),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://ris.kfintech.com/ipostatus/"
+            "registrar": "https://ris.kfintech.com/ipostatus/",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Kwick Forensic Solutions",
+            "symbol": "KWICK",
             "price": "₹90",
             "lot": "1600 Shares",
             "gmp": "+68.5%",
@@ -464,10 +478,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 9, 1),
             "listing": datetime.date(2026, 9, 3),
             "rhp": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
-            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html"
+            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Augmont Enterprises",
+            "symbol": "AUGMONT",
             "price": "₹345",
             "lot": "40 Shares",
             "gmp": "+21.4%",
@@ -477,10 +493,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 8, 19),
             "listing": datetime.date(2026, 8, 21),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html"
+            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Tempsens Instruments",
+            "symbol": "TEMPSENS",
             "price": "₹550",
             "lot": "25 Shares",
             "gmp": "+44.0%",
@@ -490,10 +508,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 8, 18),
             "listing": datetime.date(2026, 8, 20),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://ris.kfintech.com/ipostatus/"
+            "registrar": "https://ris.kfintech.com/ipostatus/",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Gaja Alternative Asset",
+            "symbol": "GAJA",
             "price": "₹195",
             "lot": "75 Shares",
             "gmp": "+18.0%",
@@ -503,10 +523,12 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 8, 17),
             "listing": datetime.date(2026, 8, 19),
             "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html"
+            "registrar": "https://linkintime.co.in/initial_offer/public-issues.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
             "name": "Technocrats Plasma Systems",
+            "symbol": "TECHNOCRATS",
             "price": "₹132",
             "lot": "1000 Shares",
             "gmp": "+53.0%",
@@ -516,7 +538,8 @@ def get_fy2026_comprehensive_ipo_database():
             "allotment": datetime.date(2026, 8, 19),
             "listing": datetime.date(2026, 8, 21),
             "rhp": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
-            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html"
+            "registrar": "https://www.bigshareonline.com/ipo_Allotment.html",
+            "ipogyani": "https://ipogyani.com/live-ipo"
         }
     ]
 
@@ -665,36 +688,28 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
     return corp_events
 
 def build_calendars():
-    # -------------------------------------------------------------------------
-    # FEED 1: Dividends, Results & Corporate Restructuring (Mergers/Demergers)
-    # -------------------------------------------------------------------------
+    # FEED 1: Dividends, Results & Corporate Actions
     cal_div = Calendar()
     cal_div.add('prodid', '-//NSE Dividends, Restructuring & Corporate Actions//EN')
     cal_div.add('version', '2.0')
     cal_div.add('x-wr-calname', '1. Dividends, Mergers & Corporate Actions')
     cal_div.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # -------------------------------------------------------------------------
     # FEED 2: IPOs, GMP & Listings
-    # -------------------------------------------------------------------------
     cal_ipo = Calendar()
-    cal_ipo.add('prodid', '-//Live Indian IPOs & GMP Hub//EN')
+    cal_ipo.add('prodid', '-//Live Indian IPOs, GMP & Listings Hub//EN')
     cal_ipo.add('version', '2.0')
     cal_ipo.add('x-wr-calname', '2. Indian IPOs, GMP & Listings')
     cal_ipo.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # -------------------------------------------------------------------------
     # FEED 3: Macro, Economic Policy & Tax Framework
-    # -------------------------------------------------------------------------
     cal_macro = Calendar()
     cal_macro.add('prodid', '-//Macro, Economic Policy & Tax Hub//EN')
     cal_macro.add('version', '2.0')
     cal_macro.add('x-wr-calname', '3. Macro, Policy & Tax Deadlines')
     cal_macro.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # -------------------------------------------------------------------------
     # FEED 4: Intraday, F&O Expiries & Momentum
-    # -------------------------------------------------------------------------
     cal_fno = Calendar()
     cal_fno.add('prodid', '-//Intraday, Derivatives Expiry & Momentum//EN')
     cal_fno.add('version', '2.0')
@@ -705,7 +720,7 @@ def build_calendars():
     cutoff_past = datetime.date(2026, 4, 1)
     cutoff_future = today + datetime.timedelta(days=120)
 
-    # 1. Ingest Mergers, Demergers & Buybacks into Feed 1
+    # 1. Mergers, Demergers & Buybacks (Feed 1)
     for r in CORPORATE_RESTRUCTURING_2026:
         if cutoff_past <= r["date"] <= cutoff_future:
             app_l, web_l = build_tradingview_links(r["symbol"])
@@ -727,10 +742,10 @@ def build_calendars():
                 f"• Official Exchange Disclosure (PDF):\n  {nse_u}\n"
             ))
             ev_r.add('location', 'NSE / BSE India')
-            add_market_alarm(ev_r, f"Important Restructuring Cutoff Today: {r['symbol']}")
+            add_market_alarm(ev_r, f"Restructuring Cutoff Today: {r['symbol']}")
             cal_div.add_component(ev_r)
 
-    # 2. Ingest Macro, Policy, Tax, and Holidays into Feed 3
+    # 2. Macro, Policy, Tax, and Holidays (Feed 3)
     for h_date, h_name in NSE_HOLIDAYS_2026.items():
         if cutoff_past <= h_date <= cutoff_future:
             ev_h = Event()
@@ -754,13 +769,12 @@ def build_calendars():
             add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
             cal_macro.add_component(ev_m)
 
-    # 3. Ingest Expiries into Feed 4
+    # 3. Expiries (Feed 4)
     nifty_app, nifty_web = build_tradingview_links("NIFTY", is_macro=False)
     sensex_app, sensex_web = build_tradingview_links("SENSEX", is_macro=False)
 
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
-        # NSE Nifty Weekly Expiry (Tuesday)
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -773,12 +787,11 @@ def build_calendars():
                 f"NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n"
                 f"-----------------------------------------\n"
                 f"• Benchmark Index Options Expiry.\n"
-                f"• High gamma risk and post-1:30 PM volatility.\n\n"
+                f"• Expect gamma expansions and heightened theta decay after 01:30 PM IST.\n\n"
                 f"• Open in TradingView App (Native):\n  {nifty_app}\n"
             ))
             cal_fno.add_component(ev_exp)
 
-        # BSE Sensex Weekly Expiry (Thursday)
         if CONFIG.get("ENABLE_SENSEX_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 3:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -797,7 +810,7 @@ def build_calendars():
 
         curr_scan += datetime.timedelta(days=1)
 
-    # Monthly Single Stock F&O Expiry
+    # Monthly Stock F&O Expiry
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -827,7 +840,7 @@ def build_calendars():
                     add_market_alarm(ev_stk, f"Stock F&O Expiry Today: Manage ITM delivery exposure.")
                     cal_fno.add_component(ev_stk)
 
-    # 4. Ingest Nifty 500 Actions & Results into Feed 1
+    # 4. Ingest Nifty 500 Actions & Results (Feed 1)
     universe = get_live_nifty_500_symbols()
     print(f"Loaded {len(universe)} symbols from Nifty 500.")
 
@@ -837,20 +850,18 @@ def build_calendars():
             for ev in fut.result():
                 cal_div.add_component(ev)
 
-    # 5. Ingest IPO Lifecycle into Feed 2
+    # 5. Ingest Comprehensive IPO Milestones (Feed 2)
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
-        ipo_app, ipo_web = build_ipo_tradingview_links(ipo['name'])
-
-        # OPEN
+        # OPEN (Top button opens IPOGyani directly; TradingView excluded)
         if cutoff_past <= ipo['open'] <= cutoff_future:
             ev_o = Event()
             ev_o.add('uid', f"ipo-open-{ipo['name'].replace(' ', '')}-{ipo['open'].isoformat()}")
             ev_o.add('summary', f"[IPO OPEN] {ipo['name']} ({ipo['type']})")
             ev_o.add('dtstart', ipo['open'])
             ev_o.add('dtend', ipo['open'] + datetime.timedelta(days=1))
-            ev_o.add('url', ipo_web)
+            ev_o.add('url', ipo['ipogyani'])
             ev_o.add('description', (
                 f"IPO BIDDING OPENS TODAY\n"
                 f"-----------------------------------------\n"
@@ -861,21 +872,21 @@ def build_calendars():
                 f"• Live Grey Market Premium (GMP): {ipo['gmp']}\n"
                 f"• Bidding Window: {ipo['open'].strftime('%d-%b')} to {ipo['close'].strftime('%d-%b-%Y')}\n"
                 f"-----------------------------------------\n"
-                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• IPOGyani Live GMP & Subscription Tracker:\n  {ipo['ipogyani']}\n\n"
                 f"• Official Exchange Prospectus & RHP:\n  {ipo['rhp']}\n\n"
-                f"• Live GMP & Subscription Tracker:\n  https://www.investorgain.com/report/live-ipo-gmp/331/\n"
+                f"• InvestorGain GMP Tracker:\n  https://www.investorgain.com/report/live-ipo-gmp/331/\n"
             ))
             add_market_alarm(ev_o, f"IPO Bidding Opens Today: {ipo['name']}")
             cal_ipo.add_component(ev_o)
 
-        # CLOSE
+        # CLOSE (Top button opens Registrar/IPOGyani; TradingView excluded)
         if cutoff_past <= ipo['close'] <= cutoff_future:
             ev_c = Event()
             ev_c.add('uid', f"ipo-close-{ipo['name'].replace(' ', '')}-{ipo['close'].isoformat()}")
             ev_c.add('summary', f"[IPO CLOSE] {ipo['name']} - Final Bidding Day")
             ev_c.add('dtstart', ipo['close'])
             ev_c.add('dtend', ipo['close'] + datetime.timedelta(days=1))
-            ev_c.add('url', ipo_web)
+            ev_c.add('url', ipo['ipogyani'])
             ev_c.add('description', (
                 f"FINAL BIDDING & MANDATE APPROVAL DAY\n"
                 f"-----------------------------------------\n"
@@ -884,35 +895,38 @@ def build_calendars():
                 f"• Price Band: {ipo['price']}\n"
                 f"• Final Grey Market Premium: {ipo['gmp']}\n"
                 f"-----------------------------------------\n"
-                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• IPOGyani Final Day Subscription & GMP:\n  {ipo['ipogyani']}\n\n"
                 f"• Official Registrar Allotment Portal:\n  {ipo['registrar']}\n"
             ))
             add_market_alarm(ev_c, f"IPO Closes Today (5 PM): {ipo['name']}")
             cal_ipo.add_component(ev_c)
 
-        # ALLOTMENT
+        # ALLOTMENT (Top button opens Registrar Allotment Desk; TradingView excluded)
         if cutoff_past <= ipo['allotment'] <= cutoff_future:
             ev_a = Event()
             ev_a.add('uid', f"ipo-allot-{ipo['name'].replace(' ', '')}-{ipo['allotment'].isoformat()}")
             ev_a.add('summary', f"[IPO ALLOTMENT] {ipo['name']} Allotment Status")
             ev_a.add('dtstart', ipo['allotment'])
             ev_a.add('dtend', ipo['allotment'] + datetime.timedelta(days=1))
-            ev_a.add('url', ipo_web)
+            ev_a.add('url', ipo['registrar'])
             ev_a.add('description', (
                 f"BASIS OF ALLOTMENT FINALIZATION\n"
                 f"-----------------------------------------\n"
                 f"Check status with PAN on designated registrar desks:\n\n"
                 f"• Designated Registrar Desk:\n  {ipo['registrar']}\n\n"
-                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• IPOGyani Allotment Tracker:\n  {ipo['ipogyani']}\n\n"
                 f"• Alternate Link Intime Desk:\n  https://linkintime.co.in/initial_offer/public-issues.html\n\n"
                 f"• Alternate KFintech Desk:\n  https://ris.kfintech.com/ipostatus/\n"
             ))
             add_market_alarm(ev_a, f"Check Allotment Today: {ipo['name']}")
             cal_ipo.add_component(ev_a)
 
-        # LISTING
+        # LISTING (Top button launches TradingView; includes NSE scrip desk)
         if cutoff_past <= ipo['listing'] <= cutoff_future:
-            listing_url = "https://www.nseindia.com/market-data/new-stock-exchange-listings-today"
+            ipo_app, ipo_web = build_tradingview_links(ipo['symbol'])
+            nse_quote_page = build_nse_direct_url(ipo['symbol'])
+            nse_new_listings = "https://www.nseindia.com/market-data/new-stock-exchange-listings-today"
+
             ev_l = Event()
             ev_l.add('uid', f"ipo-list-{ipo['name'].replace(' ', '')}-{ipo['listing'].isoformat()}")
             ev_l.add('summary', f"[IPO LISTING] {ipo['name']} Debut (10:00 AM IST)")
@@ -923,18 +937,23 @@ def build_calendars():
                 f"EXCHANGE LISTING DEBUT TODAY\n"
                 f"-----------------------------------------\n"
                 f"• Trading Commences: 10:00 AM IST (Pre-open discovery 09:00-09:45 AM)\n"
-                f"• Issue: {ipo['name']}\n"
+                f"• Symbol: {ipo['symbol']}\n"
                 f"• Category: {ipo['type']}\n"
                 f"• Issue Price: {ipo['price']}\n"
                 f"• Final Grey Market Premium (GMP): {ipo['gmp']}\n"
                 f"-----------------------------------------\n"
-                f"• Open in TradingView App (Native):\n  {ipo_app}\n\n"
-                f"• Official NSE/BSE New Listing Tracker:\n  {listing_url}\n"
+                f"• Open Live Chart in TradingView App (Native):\n  {ipo_app}\n\n"
+                f"• Open TradingView Chart (Browser):\n  {ipo_web}\n\n"
+                f"• Official NSE Company Quote & Disclosures Desk:\n  {nse_quote_page}\n\n"
+                f"• Official NSE New Listings Tracker:\n  {nse_new_listings}\n\n"
+                f"• IPOGyani Listing Day Analysis:\n  {ipo['ipogyani']}\n"
             ))
             add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
             cal_ipo.add_component(ev_l)
 
-    # Write all 4 individual category feeds
+    # -------------------------------------------------------------------------
+    # WRITE ALL 4 MODULAR ICS FILES
+    # -------------------------------------------------------------------------
     with open("dividends_actions.ics", "wb") as f:
         f.write(cal_div.to_ical())
     with open("ipos_listings.ics", "wb") as f:
@@ -944,7 +963,9 @@ def build_calendars():
     with open("intraday_fno_momentum.ics", "wb") as f:
         f.write(cal_fno.to_ical())
 
-    # Write master consolidated calendar
+    # -------------------------------------------------------------------------
+    # WRITE MASTER CONSOLIDATED CALENDAR
+    # -------------------------------------------------------------------------
     cal_master = Calendar()
     cal_master.add('prodid', '-//NSE/BSE Master Capital Markets Hub//EN')
     cal_master.add('version', '2.0')
@@ -958,7 +979,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("All 4 modular feeds and Master calendar compiled successfully with Mergers & Demergers.")
+    print("Master & modular feeds compiled with revised IPO linking and IPOGyani integration.")
 
 if __name__ == "__main__":
     build_calendars()
