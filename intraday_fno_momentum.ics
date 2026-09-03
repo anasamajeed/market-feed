@@ -1,0 +1,1006 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Intraday\, Derivatives Expiry & Momentum//EN
+X-WR-CALNAME:4. Intraday, F&O Expiries & Momentum
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+UID:exp-sensex-2026-04-02
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+UID:exp-nifty-2026-04-07
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
+UID:exp-sensex-2026-04-09
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+UID:exp-nifty-2026-04-14
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+UID:exp-sensex-2026-04-16
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+UID:exp-nifty-2026-04-21
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+UID:exp-sensex-2026-04-23
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+UID:exp-nifty-2026-04-28
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+UID:exp-sensex-2026-04-30
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+UID:exp-nifty-2026-05-05
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+UID:exp-sensex-2026-05-07
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+UID:exp-nifty-2026-05-12
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+UID:exp-sensex-2026-05-14
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+UID:exp-nifty-2026-05-19
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+UID:exp-sensex-2026-05-21
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+UID:exp-nifty-2026-05-26
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+UID:exp-sensex-2026-05-28
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+UID:exp-nifty-2026-06-02
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+UID:exp-sensex-2026-06-04
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+UID:exp-nifty-2026-06-09
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+UID:exp-sensex-2026-06-11
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+UID:exp-nifty-2026-06-16
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+UID:exp-sensex-2026-06-18
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+UID:exp-nifty-2026-06-23
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+UID:exp-sensex-2026-06-25
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:exp-nifty-2026-06-30
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+UID:exp-sensex-2026-07-02
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+UID:exp-nifty-2026-07-07
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+UID:exp-sensex-2026-07-09
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+UID:exp-nifty-2026-07-14
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+UID:exp-sensex-2026-07-16
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+UID:exp-nifty-2026-07-21
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+UID:exp-sensex-2026-07-23
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+UID:exp-nifty-2026-07-28
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+UID:exp-sensex-2026-07-30
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+UID:exp-nifty-2026-08-04
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+UID:exp-sensex-2026-08-06
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:exp-nifty-2026-08-11
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+UID:exp-sensex-2026-08-13
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+UID:exp-nifty-2026-08-18
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+UID:exp-sensex-2026-08-20
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+UID:exp-nifty-2026-08-25
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:exp-sensex-2026-08-27
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+UID:exp-nifty-2026-09-01
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+UID:exp-sensex-2026-09-03
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+UID:exp-nifty-2026-09-08
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+UID:exp-sensex-2026-09-10
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+UID:exp-nifty-2026-09-15
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+UID:exp-sensex-2026-09-17
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+UID:exp-nifty-2026-09-22
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+UID:exp-sensex-2026-09-24
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+UID:exp-nifty-2026-09-29
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+UID:exp-sensex-2026-10-01
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+UID:exp-nifty-2026-10-06
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+UID:exp-sensex-2026-10-08
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+UID:exp-nifty-2026-10-13
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+UID:exp-sensex-2026-10-15
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+UID:exp-nifty-2026-10-20
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+UID:exp-sensex-2026-10-22
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+UID:exp-nifty-2026-10-27
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+UID:exp-sensex-2026-10-29
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+UID:exp-nifty-2026-11-03
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+UID:exp-sensex-2026-11-05
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+UID:exp-nifty-2026-11-10
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+UID:exp-sensex-2026-11-12
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+UID:exp-nifty-2026-11-17
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+UID:exp-sensex-2026-11-19
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+UID:exp-nifty-2026-11-24
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:exp-sensex-2026-11-26
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+UID:exp-nifty-2026-12-01
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+UID:exp-sensex-2026-12-03
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+UID:exp-nifty-2026-12-08
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+UID:exp-sensex-2026-12-10
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+UID:exp-nifty-2026-12-15
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+UID:exp-sensex-2026-12-17
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+UID:exp-nifty-2026-12-22
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+UID:exp-sensex-2026-12-24
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+UID:exp-nifty-2026-12-29
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open in 
+ TradingView App (Native):\n  tradingview://chart?symbol=NSE:NIFTY\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+UID:exp-sensex-2026-12-31
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open in Trad
+ ingView App (Native):\n  tradingview://chart?symbol=NSE:SENSEX\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:SENSEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Apr 2026)
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+UID:fo-stock-exp-2026-04-30
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (May 2026)
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+UID:fo-stock-exp-2026-05-28
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Jun 2026)
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+UID:fo-stock-exp-2026-06-25
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Jul 2026)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+UID:fo-stock-exp-2026-07-30
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Aug 2026)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:fo-stock-exp-2026-08-27
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Sep 2026)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+UID:fo-stock-exp-2026-09-24
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Oct 2026)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+UID:fo-stock-exp-2026-10-29
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Nov 2026)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:fo-stock-exp-2026-11-26
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Dec 2026)
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+UID:fo-stock-exp-2026-12-31
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) long/short options.\n• Margin E
+ scalation: Physical delivery margins apply to near-the-money and ITM strik
+ es.\n-----------------------------------------\n• Open in TradingView Ap
+ p (Native):\n  tradingview://chart?symbol=NIFTYFUT\n
+URL:https://in.tradingview.com/chart/?symbol=NIFTYFUT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
