@@ -17,7 +17,6 @@ CONFIG = {
     "ENABLE_STOCK_FO_MONTHLY_EXPIRY": True, # Last Thursday (NSE Single Stock F&O)
 }
 
-# Official 2026 NSE/BSE Trading Holidays
 NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 1, 26): "Republic Day",
     datetime.date(2026, 3, 6): "Holi",
@@ -31,21 +30,39 @@ NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 12, 25): "Christmas",
 }
 
+# Comprehensive Institutional Macro Catalysts (Domestic India + Global Drivers)
 MACRO_EVENTS_2026 = [
-    {"date": datetime.date(2026, 4, 9), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
+    # 1. Domestic Policy & Central Bank
+    {"date": datetime.date(2026, 4, 9), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement. High impact on banking and rate-sensitive sectors.", "symbol": "NIFTY_BANK"},
     {"date": datetime.date(2026, 6, 5), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
     {"date": datetime.date(2026, 8, 7), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 10, 8), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement. Crucial for banking and rate-sensitive sectors.", "symbol": "NIFTY_BANK"},
+    {"date": datetime.date(2026, 10, 8), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
     {"date": datetime.date(2026, 12, 10), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 5, 6), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 6, 17), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement & economic projections.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 7, 29), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement.", "symbol": "DXY"},
+    
+    # 2. Indian Economic Data (CPI Inflation & GDP)
+    {"date": datetime.date(2026, 8, 31), "summary": "[MACRO] India GDP Data Release (Q1 FY27)", "desc": "MOSPI quarterly economic output print.", "symbol": "NIFTY"},
+    {"date": datetime.date(2026, 9, 14), "summary": "[MACRO] India Consumer Price Index (CPI) Inflation", "desc": "Domestic retail inflation print dictating RBI stance.", "symbol": "NIFTY_BANK"},
+    {"date": datetime.date(2026, 10, 12), "summary": "[MACRO] India Consumer Price Index (CPI) Inflation", "desc": "Domestic retail inflation print.", "symbol": "NIFTY_BANK"},
+    {"date": datetime.date(2026, 11, 12), "summary": "[MACRO] India Consumer Price Index (CPI) Inflation", "desc": "Domestic retail inflation print.", "symbol": "NIFTY_BANK"},
+    {"date": datetime.date(2026, 11, 30), "summary": "[MACRO] India GDP Data Release (Q2 FY27)", "desc": "MOSPI quarterly economic output print.", "symbol": "NIFTY"},
+
+    # 3. US Federal Reserve & Inflation (Global Liquidity Engine)
+    {"date": datetime.date(2026, 5, 6), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate announcement.", "symbol": "DXY"},
+    {"date": datetime.date(2026, 6, 17), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate announcement & dot plot projections.", "symbol": "DXY"},
+    {"date": datetime.date(2026, 7, 29), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate announcement.", "symbol": "DXY"},
     {"date": datetime.date(2026, 9, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement & Jerome Powell press conference.", "symbol": "DXY"},
     {"date": datetime.date(2026, 11, 4), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "FOMC interest rate decision.", "symbol": "DXY"},
     {"date": datetime.date(2026, 12, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "FOMC rate decision & economic projections.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 9, 11), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print dictating global liquidity conditions.", "symbol": "US10Y"},
+    {"date": datetime.date(2026, 9, 11), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print dictating Fed rate trajectory.", "symbol": "US10Y"},
     {"date": datetime.date(2026, 10, 13), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print.", "symbol": "US10Y"},
     {"date": datetime.date(2026, 11, 12), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print.", "symbol": "US10Y"},
+
+    # 4. Global Labor, Energy & FII Rebalancing Drivers
+    {"date": datetime.date(2026, 9, 4), "summary": "[MACRO] US Non-Farm Payrolls (NFP) & Jobs Data", "desc": "Major monthly US employment snapshot affecting the Dollar and FII emerging market risk appetite.", "symbol": "DXY"},
+    {"date": datetime.date(2026, 10, 2), "summary": "[MACRO] US Non-Farm Payrolls (NFP) & Jobs Data", "desc": "Monthly US labor report.", "symbol": "DXY"},
+    {"date": datetime.date(2026, 11, 6), "summary": "[MACRO] US Non-Farm Payrolls (NFP) & Jobs Data", "desc": "Monthly US labor report.", "symbol": "DXY"},
+    {"date": datetime.date(2026, 11, 20), "summary": "[MACRO] MSCI Semi-Annual Index Rebalancing Effective", "desc": "Passive institutional inflows/outflows across Indian stocks during the closing auction.", "symbol": "NIFTY"},
+    {"date": datetime.date(2026, 12, 3), "summary": "[MACRO] OPEC+ Joint Ministerial Meeting", "desc": "Crude oil output quota review directly impacting Brent crude prices, trade deficit, and Indian OMCs.", "symbol": "BRENT"},
 ]
 
 def is_trading_day(d):
@@ -354,7 +371,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_cut.add('summary', f"[DIVIDEND] {sym} (₹{amount:.2f}{yield_text}) - Buy Cutoff")
                     ev_cut.add('dtstart', must_buy_by)
                     ev_cut.add('dtend', must_buy_by + datetime.timedelta(days=1))
-                    ev_cut.add('url', web_link)  # Top button opens direct TradingView chart
+                    ev_cut.add('url', web_link)
                     ev_cut.add('description', (
                         f"ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat credit by Record Date.\n\n"
                         f"• Declared Amount: ₹{amount:.2f} per share\n"
@@ -469,21 +486,21 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
     return div_events, results_events
 
 def build_calendars():
-    # 1. Dedicated Category: Dividends, Splits & Payouts
+    # 1. Dedicated Category: Dividends & Actions
     cal_div = Calendar()
     cal_div.add('prodid', '-//NSE Dividends & Corporate Actions//EN')
     cal_div.add('version', '2.0')
     cal_div.add('x-wr-calname', '1. NSE Dividends & Corporate Actions')
     cal_div.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # 2. Dedicated Category: IPOs, GMP & Allotments
+    # 2. Dedicated Category: IPOs & Listings
     cal_ipo = Calendar()
     cal_ipo.add('prodid', '-//Live Indian IPOs & GMP Hub//EN')
     cal_ipo.add('version', '2.0')
     cal_ipo.add('x-wr-calname', '2. Indian IPOs, GMP & Listings')
     cal_ipo.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # 3. Dedicated Category: Results, Macro & Expiries
+    # 3. Dedicated Category: Macro, Results & Expiries
     cal_macro = Calendar()
     cal_macro.add('prodid', '-//NSE/BSE Macro & Expiry Hub//EN')
     cal_macro.add('version', '2.0')
@@ -494,7 +511,7 @@ def build_calendars():
     cutoff_past = datetime.date(2026, 4, 1)
     cutoff_future = today + datetime.timedelta(days=120)
 
-    # Trading Holidays (Placed in Macro calendar)
+    # Trading Holidays
     for h_date, h_name in NSE_HOLIDAYS_2026.items():
         if cutoff_past <= h_date <= cutoff_future:
             ev_h = Event()
@@ -505,13 +522,12 @@ def build_calendars():
             ev_h.add('description', f"NSE & BSE equity/derivative segments are closed today for {h_name}.")
             cal_macro.add_component(ev_h)
 
-    # Benchmark Expiries (Placed in Macro calendar)
+    # Benchmark Expiries (Tuesday: Nifty, Thursday: Sensex)
     nifty_app, nifty_web = build_tradingview_links("NIFTY", is_macro=False)
     sensex_app, sensex_web = build_tradingview_links("SENSEX", is_macro=False)
 
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
-        # NSE Nifty Weekly Expiry (Tuesday)
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -526,7 +542,6 @@ def build_calendars():
             ))
             cal_macro.add_component(ev_exp)
 
-        # BSE Sensex Weekly Expiry (Thursday)
         if CONFIG.get("ENABLE_SENSEX_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 3:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -573,7 +588,7 @@ def build_calendars():
                     add_market_alarm(ev_stk, f"NSE Stock F&O Expiry Today: Manage ITM delivery exposure.")
                     cal_macro.add_component(ev_stk)
 
-    # Macro Events
+    # Macro Events (Domestic India + Global Drivers)
     for m in MACRO_EVENTS_2026:
         if cutoff_past <= m["date"] <= cutoff_future:
             m_app, m_web = build_tradingview_links(m["symbol"], is_macro=True)
