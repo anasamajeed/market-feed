@@ -16,7 +16,7 @@ CONFIG = {
     "ENABLE_SENSEX_WEEKLY_EXPIRY": True,    # Thursday (BSE Benchmark)
     "ENABLE_STOCK_FO_MONTHLY_EXPIRY": True, # Last Thursday (NSE Single Stock F&O)
     "ENABLE_FNO_BAN_MONITOR": True,        # Daily NSE MWPL Ban Alerts
-    "ENABLE_INTRADAY_VOLATILITY_TOOLS": True # VIX, 52W Breakouts & ASM Surveillance
+    "ENABLE_INTRADAY_VOLATILITY_TOOLS": True # VIX, 52W Breakouts, Bulk Deals & Surveillance
 }
 
 # Nifty 50 Top Heavyweight Index Weights
@@ -149,6 +149,9 @@ def build_tradingview_links(symbol, is_macro=False, interval=None):
     elif clean.upper() == "NIFTY":
         app_link = f"tradingview://chart?symbol=NSE:NIFTY{interval_param}"
         web_link = f"https://in.tradingview.com/chart/?symbol=NSE:NIFTY{interval_param}"
+    elif clean.upper() == "NIFTY500":
+        app_link = f"tradingview://chart?symbol=NSE:NIFTY500{interval_param}"
+        web_link = f"https://in.tradingview.com/chart/?symbol=NSE:NIFTY500{interval_param}"
     else:
         app_link = f"tradingview://chart?symbol=NSE:{clean}{interval_param}"
         web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{clean}{interval_param}"
@@ -159,6 +162,10 @@ def build_screener_links(symbol):
     statements_url = f"https://www.screener.in/company/{clean}/consolidated/"
     pdf_archive_url = f"https://www.screener.in/company/{clean}/consolidated/#announcements"
     return statements_url, pdf_archive_url
+
+def build_tickertape_link(symbol):
+    clean = str(symbol).split()[0].replace("&", "")
+    return f"https://www.tickertape.in/stocks/{clean}"
 
 def build_nse_direct_url(symbol):
     clean = str(symbol).split()[0]
@@ -435,6 +442,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
     app_link, web_link = build_tradingview_links(sym)
     app_5m, web_5m = build_tradingview_links(sym, interval="5")
     statements_url, pdf_archive_url = build_screener_links(sym)
+    tickertape_url = build_tickertape_link(sym)
     nse_quote_url = build_nse_direct_url(sym)
 
     try:
@@ -469,6 +477,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         f"• Settlement: T+1 Rolling Settlement (NSE/BSE)\n"
                         f"-----------------------------------------\n"
                         f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Tickertape Analysis & Valuation Scorecard:\n  {tickertape_url}\n\n"
                         f"• Screener Statements & SEBI PDF Archive:\n  {pdf_archive_url}\n\n"
                         f"• Official NSE Company Desk & Filings:\n  {nse_quote_url}\n"
                     ))
@@ -490,6 +499,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay.add('description', (
                         f"DIVIDEND DISBURSEMENT: Direct bank credit for {sym} declared dividend (₹{amount:.2f}/share).\n\n"
                         f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Tickertape Profile:\n  {tickertape_url}\n\n"
                         f"• Official NSE Scrip Desk & Announcement Details:\n  {nse_quote_url}\n\n"
                         f"• Screener Profile & History:\n  {statements_url}\n"
                     ))
@@ -513,6 +523,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         f"Corporate Restructuring / Share Allotment for {sym}.\n\n"
                         f"• Ratio: {ratio}\n"
                         f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Tickertape Fundamentals:\n  {tickertape_url}\n\n"
                         f"• Screener Statements & PDF Filings:\n  {pdf_archive_url}\n\n"
                         f"• Official NSE Company Desk:\n  {nse_quote_url}\n"
                     ))
@@ -520,7 +531,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     add_market_alarm(ev_sp, f"Today is the buy cutoff for {sym} Split/Bonus.")
                     corp_events.append(ev_sp)
 
-        # 3. Quarterly Results & Heavyweight Index Weighting (Feeds 1 & 4)
+        # 3. Quarterly Results & Heavyweights
         try:
             q_fin = t.quarterly_financials
             if q_fin is not None and not q_fin.empty:
@@ -541,7 +552,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                             f"• Symbol: {sym}\n"
                             f"• Index Impact: {'Major Nifty Driver (' + str(NIFTY_HEAVYWEIGHTS[sym]) + '%)' if is_heavy else 'Individual Stock Action'}\n"
                             f"• Open 5-Minute Chart in TradingView (Native):\n  {app_5m}\n\n"
-                            f"• Open 5-Minute Chart (Browser):\n  {web_5m}\n\n"
+                            f"• Tickertape Overview & Valuation:\n  {tickertape_url}\n\n"
                             f"• Screener Balance Sheet:\n  {statements_url}\n\n"
                             f"• Official NSE Filings & Outcome PDFs:\n  {nse_quote_url}\n"
                         ))
@@ -572,6 +583,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                                     f"• Symbol: {sym}\n"
                                     f"• Index Impact: {'Major Index Driver (' + str(NIFTY_HEAVYWEIGHTS[sym]) + '%)' if is_heavy else 'Individual Stock Action'}\n"
                                     f"• Open 5-Minute Chart in TradingView (Native):\n  {app_5m}\n\n"
+                                    f"• Tickertape Overview:\n  {tickertape_url}\n\n"
                                     f"• Screener Profile:\n  {statements_url}\n\n"
                                     f"• Official NSE Filings & Outcome PDFs:\n  {nse_quote_url}\n"
                                 ))
@@ -622,6 +634,7 @@ def build_calendars():
         if cutoff_past <= r["date"] <= cutoff_future:
             app_l, web_l = build_tradingview_links(r["symbol"])
             statements_u, pdf_u = build_screener_links(r["symbol"])
+            tickertape_u = build_tickertape_link(r["symbol"])
             nse_u = build_nse_direct_url(r["symbol"])
 
             ev_r = Event()
@@ -635,6 +648,7 @@ def build_calendars():
                 f"• Entitlement Ratio: {r['ratio']}\n"
                 f"-----------------------------------------\n"
                 f"• Open in TradingView App (Native):\n  {app_l}\n\n"
+                f"• Tickertape Analysis:\n  {tickertape_u}\n\n"
                 f"• Screener Corporate Profile:\n  {statements_u}\n\n"
                 f"• Official Exchange Disclosure (PDF):\n  {nse_u}\n"
             ))
@@ -666,7 +680,7 @@ def build_calendars():
             add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
             cal_macro.add_component(ev_m)
 
-    # 3. Intraday Expiries (Feed 4)
+    # 3. Clean Intraday Expiries (No Duplicates; 5m Intervals; Clean Top URL)
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
@@ -684,8 +698,7 @@ def build_calendars():
                 f"-----------------------------------------\n"
                 f"• Benchmark Index Options Expiry.\n"
                 f"• Expect gamma expansions and heightened theta decay after 01:30 PM IST.\n\n"
-                f"• Open 5-Minute Chart in TradingView App (Native):\n  {nifty_app_5m}\n\n"
-                f"• Open 5-Minute Chart (Browser):\n  {nifty_web_5m}\n"
+                f"• Open 5-Minute Chart in TradingView App (Native):\n  {nifty_app_5m}\n"
             ))
             cal_fno.add_component(ev_exp)
 
@@ -703,14 +716,13 @@ def build_calendars():
                 f"BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n"
                 f"-----------------------------------------\n"
                 f"• Benchmark Index Options Expiry.\n\n"
-                f"• Open 5-Minute Chart in TradingView App (Native):\n  {sensex_app_5m}\n\n"
-                f"• Open 5-Minute Chart (Browser):\n  {sensex_web_5m}\n"
+                f"• Open 5-Minute Chart in TradingView App (Native):\n  {sensex_app_5m}\n"
             ))
             cal_fno.add_component(ev_exp)
 
         curr_scan += datetime.timedelta(days=1)
 
-    # Monthly Single Stock F&O Expiry (Feed 4)
+    # Monthly Single Stock F&O Expiry -> Configured to NIFTY 500 Daily Timeframe
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -721,60 +733,79 @@ def build_calendars():
                 final_stock_exp = last_d if is_trading_day(last_d) else get_previous_trading_day(last_d)
 
                 if cutoff_past <= final_stock_exp <= cutoff_future:
-                    fo_app, fo_web = build_tradingview_links("NIFTY_FUT", is_macro=True)
+                    nifty500_app_1d, nifty500_web_1d = build_tradingview_links("NIFTY500", is_macro=False, interval="1D")
                     ev_stk = Event()
                     ev_stk.add('uid', f"fo-stock-exp-{final_stock_exp.isoformat()}")
                     ev_stk.add('summary', f"[F&O STOCKS] NSE Monthly Stock Derivatives Expiry ({final_stock_exp.strftime('%b %Y')})")
                     ev_stk.add('dtstart', final_stock_exp)
                     ev_stk.add('dtend', final_stock_exp + datetime.timedelta(days=1))
-                    ev_stk.add('url', fo_web)
+                    ev_stk.add('url', nifty500_web_1d)
                     ev_stk.add('description', (
                         f"NSE MONTHLY STOCK DERIVATIVES EXPIRY\n"
                         f"-----------------------------------------\n"
                         f"• Contract Expiry: All Single Stock Futures & Options contracts expire today (3:30 PM IST).\n"
                         f"• Physical Delivery: Compulsory physical delivery for in-the-money (ITM) options.\n"
-                        f"• Margin Escalation: Physical delivery margins apply to near-the-money and ITM strikes.\n"
+                        f"• Margin Escalation: Broker physical delivery margins apply to near-the-money and ITM strikes.\n"
                         f"-----------------------------------------\n"
-                        f"• Open in TradingView App (Native):\n  {fo_app}\n"
+                        f"• Open Nifty 500 Daily Broad-Market Chart (Native App):\n  {nifty500_app_1d}\n"
                     ))
                     add_market_alarm(ev_stk, f"Stock F&O Expiry Today: Manage ITM delivery exposure.")
                     cal_fno.add_component(ev_stk)
 
-    # 4. Intraday Momentum, Ban List & Surveillance Tools (Feed 4)
-    if CONFIG.get("ENABLE_FNO_BAN_MONITOR", True) and is_trading_day(today):
-        fno_ban_stocks = ["BANDHANBNK", "PNB", "BIOCON", "HINDCOPPER", "PEL"]
-        ev_ban = Event()
-        ev_ban.add('uid', f"fno-ban-status-{today.isoformat()}")
-        ev_ban.add('summary', f"[F&O BAN] Securities in Ban Period ({len(fno_ban_stocks)} Stocks)")
-        ev_ban.add('dtstart', today)
-        ev_ban.add('dtend', today + datetime.timedelta(days=1))
-        ev_ban.add('url', "https://www.nseindia.com/all-reports")
-        ev_ban.add('description', (
-            f"NSE MWPL BAN MONITOR (95% THRESHOLD)\n"
-            f"-----------------------------------------\n"
-            f"• Securities in Ban: {', '.join(fno_ban_stocks)}\n"
-            f"• Warning: Opening fresh positions attracts severe exchange penalties.\n"
-            f"• Exit Threshold: Only exits ban when open interest drops below 80% MWPL.\n"
-        ))
-        add_market_alarm(ev_ban, f"F&O Ban: {', '.join(fno_ban_stocks[:3])} in ban.")
-        cal_fno.add_component(ev_ban)
+    # 4. Intraday Momentum, Ban List, Bulk Deals & Surveillance Tools (Feed 4)
+    if is_trading_day(today):
+        if CONFIG.get("ENABLE_FNO_BAN_MONITOR", True):
+            fno_ban_stocks = ["BANDHANBNK", "PNB", "BIOCON", "HINDCOPPER", "PEL"]
+            ev_ban = Event()
+            ev_ban.add('uid', f"fno-ban-status-{today.isoformat()}")
+            ev_ban.add('summary', f"[F&O BAN] Securities in Ban Period ({len(fno_ban_stocks)} Stocks)")
+            ev_ban.add('dtstart', today)
+            ev_ban.add('dtend', today + datetime.timedelta(days=1))
+            ev_ban.add('url', "https://www.nseindia.com/all-reports")
+            ev_ban.add('description', (
+                f"NSE MWPL BAN MONITOR (95% THRESHOLD)\n"
+                f"-----------------------------------------\n"
+                f"• Securities in Ban: {', '.join(fno_ban_stocks)}\n"
+                f"• Warning: Opening fresh positions attracts severe exchange penalties.\n"
+                f"• Exit Threshold: Only exits ban when open interest drops below 80% MWPL.\n"
+            ))
+            add_market_alarm(ev_ban, f"F&O Ban: {', '.join(fno_ban_stocks[:3])} in ban.")
+            cal_fno.add_component(ev_ban)
 
-    if CONFIG.get("ENABLE_INTRADAY_VOLATILITY_TOOLS", True) and is_trading_day(today):
-        vix_app, vix_web = build_tradingview_links("INDIAVIX", is_macro=True, interval="15")
-        ev_vix = Event()
-        ev_vix.add('uid', f"vix-desk-{today.isoformat()}")
-        ev_vix.add('summary', "[VOLATILITY] India VIX Intraday Radar")
-        ev_vix.add('dtstart', today)
-        ev_vix.add('dtend', today + datetime.timedelta(days=1))
-        ev_vix.add('url', vix_web)
-        ev_vix.add('description', (
-            f"INTRADAY VOLATILITY REGIME\n"
-            f"-----------------------------------------\n"
-            f"• India VIX 15-Minute Intraday Structure:\n  {vix_app}\n\n"
-            f"• Breakout Momentum Scanner (52-Week High / Low):\n  https://www.nseindia.com/market-data/52-week-high-low-equity-market\n\n"
-            f"• SEBI ASM / GSM Surveillance Restrictions:\n  https://www.nseindia.com/reports/surveillance\n"
-        ))
-        cal_fno.add_component(ev_vix)
+        if CONFIG.get("ENABLE_INTRADAY_VOLATILITY_TOOLS", True):
+            # India VIX Radar
+            vix_app, vix_web = build_tradingview_links("INDIAVIX", is_macro=True, interval="15")
+            ev_vix = Event()
+            ev_vix.add('uid', f"vix-desk-{today.isoformat()}")
+            ev_vix.add('summary', "[VOLATILITY] India VIX Intraday Radar")
+            ev_vix.add('dtstart', today)
+            ev_vix.add('dtend', today + datetime.timedelta(days=1))
+            ev_vix.add('url', vix_web)
+            ev_vix.add('description', (
+                f"INTRADAY VOLATILITY REGIME\n"
+                f"-----------------------------------------\n"
+                f"• India VIX 15-Minute Intraday Structure:\n  {vix_app}\n\n"
+                f"• Breakout Momentum Scanner (52-Week High / Low):\n  https://www.nseindia.com/market-data/52-week-high-low-equity-market\n\n"
+                f"• SEBI ASM / GSM Surveillance Restrictions:\n  https://www.nseindia.com/reports/surveillance\n"
+            ))
+            cal_fno.add_component(ev_vix)
+
+            # Institutional Bulk & Block Deals Desk (18:30 IST Market Close Marker)
+            ev_deals = Event()
+            ev_deals.add('uid', f"deals-desk-{today.isoformat()}")
+            ev_deals.add('summary', "[BULK / BLOCK DEALS] Institutional Transaction Desk")
+            ev_deals.add('dtstart', today)
+            ev_deals.add('dtend', today + datetime.timedelta(days=1))
+            ev_deals.add('url', "https://www.nseindia.com/report-detail/display-bulk-and-block-deals")
+            ev_deals.add('description', (
+                f"INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n"
+                f"-----------------------------------------\n"
+                f"Track after-market promoter, FII & DII large transactions:\n\n"
+                f"• Official NSE Bulk Deals Ledger:\n  https://www.nseindia.com/report-detail/display-bulk-and-block-deals\n\n"
+                f"• Official NSE Block Trading Window Report:\n  https://www.nseindia.com/market-data/block-deal-watch\n\n"
+                f"• BSE Bulk Deals Tracker:\n  https://www.bseindia.com/markets/equity/EQReports/Bulktot.aspx\n"
+            ))
+            cal_fno.add_component(ev_deals)
 
     # 5. Ingest Nifty 500 Corporate Actions & Results
     universe = get_live_nifty_500_symbols()
@@ -882,7 +913,6 @@ def build_calendars():
                 f"• Final Grey Market Premium (GMP): {ipo['gmp']}\n"
                 f"-----------------------------------------\n"
                 f"• Open 5-Minute Chart in TradingView App (Native):\n  {ipo_app}\n\n"
-                f"• Open 5-Minute Chart (Browser):\n  {ipo_web}\n\n"
                 f"• Official NSE Company Quote & Disclosures Desk:\n  {nse_quote_page}\n\n"
                 f"• Official NSE New Listings Tracker:\n  {nse_new_listings}\n\n"
                 f"• IPOGyani Listing Day Analysis:\n  {ipo['ipogyani']}\n"
@@ -912,7 +942,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Successfully built intraday volatility suite, heavyweight weightings, and corrected exchange trading holidays.")
+    print("Successfully built feeds with Tickertape links, bulk deals desk, and Nifty 500 Daily monthly expiry charts.")
 
 if __name__ == "__main__":
     build_calendars()
