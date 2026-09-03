@@ -15,6 +15,7 @@ CONFIG = {
     "ENABLE_NIFTY_WEEKLY_EXPIRY": True,     # Tuesday (NSE Benchmark)
     "ENABLE_SENSEX_WEEKLY_EXPIRY": True,    # Thursday (BSE Benchmark)
     "ENABLE_STOCK_FO_MONTHLY_EXPIRY": True, # Last Thursday (NSE Single Stock F&O)
+    "ENABLE_FNO_BAN_MONITOR": True,        # Daily NSE MWPL Ban Alerts
 }
 
 NSE_HOLIDAYS_2026 = {
@@ -259,14 +260,25 @@ def get_next_trading_day(d):
         curr -= datetime.timedelta(days=1)
     return curr
 
-def build_tradingview_links(symbol, is_macro=False):
+def build_tradingview_links(symbol, is_macro=False, interval=None):
     clean = re.sub(r'[^A-Za-z0-9]', '', str(symbol))
+    interval_param = f"&interval={interval}" if interval else ""
+    app_interval_param = f"&interval={interval}" if interval else ""
+
     if is_macro:
-        app_link = f"tradingview://chart?symbol={clean}"
-        web_link = f"https://in.tradingview.com/chart/?symbol={clean}"
+        app_link = f"tradingview://chart?symbol={clean}{app_interval_param}"
+        web_link = f"https://in.tradingview.com/chart/?symbol={clean}{interval_param}"
+    elif clean.upper() == "SENSEX":
+        # BSE SENSEX official ticker mapping
+        app_link = f"tradingview://chart?symbol=BSE:SENSEX{app_interval_param}"
+        web_link = f"https://in.tradingview.com/chart/?symbol=BSE:SENSEX{interval_param}"
+    elif clean.upper() == "NIFTY":
+        # NSE Nifty 50 benchmark mapping
+        app_link = f"tradingview://chart?symbol=NSE:NIFTY{app_interval_param}"
+        web_link = f"https://in.tradingview.com/chart/?symbol=NSE:NIFTY{interval_param}"
     else:
-        app_link = f"tradingview://chart?symbol=NSE:{clean}"
-        web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{clean}"
+        app_link = f"tradingview://chart?symbol=NSE:{clean}{app_interval_param}"
+        web_link = f"https://in.tradingview.com/chart/?symbol=NSE:{clean}{interval_param}"
     return app_link, web_link
 
 def build_screener_links(symbol):
@@ -310,7 +322,7 @@ def get_live_nifty_500_symbols():
             "MARUTI", "ASIANPAINT", "TITAN", "SUNPHARMA", "ULTRACEMCO", "NTPC",
             "POWERGRID", "ONGC", "COALINDIA", "BAJAJFINSV", "M&M", "ADANIENT",
             "ADANIPORTS", "TATASTEEL", "JSWSTEEL", "HCLTECH", "WIPRO", "TECHM",
-            "TATAMOTORS", "RAYMOND", "IDFCFIRSTB"
+            "TATAMOTORS", "RAYMOND", "IDFCFIRSTB", "BANDHANBNK", "PNB", "VEDL"
         ]
     return symbols
 
@@ -589,7 +601,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     add_market_alarm(ev_cut, f"Cutoff today: Buy {sym} for ₹{amount:.2f} dividend.")
                     corp_events.append(ev_cut)
 
-                    # Payout Event
+                    # Payout Event (With NSE Scrip Desk Link Included)
                     payout_date = div_date + datetime.timedelta(days=30)
                     while not is_trading_day(payout_date):
                         payout_date += datetime.timedelta(days=1)
@@ -603,6 +615,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay.add('description', (
                         f"DIVIDEND DISBURSEMENT: Direct bank credit for {sym} declared dividend (₹{amount:.2f}/share).\n\n"
                         f"• Open in TradingView App (Native):\n  {app_link}\n\n"
+                        f"• Official NSE Scrip Desk & Announcement Details:\n  {nse_quote_url}\n\n"
                         f"• Screener Profile & History:\n  {statements_url}\n"
                     ))
                     ev_pay.add('location', 'Bank Account / Demat')
@@ -769,48 +782,53 @@ def build_calendars():
             add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
             cal_macro.add_component(ev_m)
 
-    # 3. Expiries (Feed 4)
-    nifty_app, nifty_web = build_tradingview_links("NIFTY", is_macro=False)
-    sensex_app, sensex_web = build_tradingview_links("SENSEX", is_macro=False)
-
+    # 3. Intraday Expiries with 5-Minute Timeframe & Sensex Ticker Calibration (Feed 4)
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
+        # NSE Nifty Weekly Expiry (Tuesday) -> 5m Interval
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
+            nifty_app_5m, nifty_web_5m = build_tradingview_links("NIFTY", is_macro=False, interval="5")
+
             ev_exp = Event()
             ev_exp.add('uid', f"exp-nifty-{curr_scan.isoformat()}")
             ev_exp.add('summary', "[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)")
             ev_exp.add('dtstart', exp_date)
             ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
-            ev_exp.add('url', nifty_web)
+            ev_exp.add('url', nifty_web_5m)
             ev_exp.add('description', (
                 f"NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n"
                 f"-----------------------------------------\n"
                 f"• Benchmark Index Options Expiry.\n"
                 f"• Expect gamma expansions and heightened theta decay after 01:30 PM IST.\n\n"
-                f"• Open in TradingView App (Native):\n  {nifty_app}\n"
+                f"• Open 5-Minute Chart in TradingView App (Native):\n  {nifty_app_5m}\n\n"
+                f"• Open 5-Minute Chart (Browser):\n  {nifty_web_5m}\n"
             ))
             cal_fno.add_component(ev_exp)
 
+        # BSE Sensex Weekly Expiry (Thursday) -> Fixed BSE:SENSEX + 5m Interval
         if CONFIG.get("ENABLE_SENSEX_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 3:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
+            sensex_app_5m, sensex_web_5m = build_tradingview_links("SENSEX", is_macro=False, interval="5")
+
             ev_exp = Event()
             ev_exp.add('uid', f"exp-sensex-{curr_scan.isoformat()}")
             ev_exp.add('summary', "[F&O] BSE Sensex Weekly Expiry (Thursday)")
             ev_exp.add('dtstart', exp_date)
             ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
-            ev_exp.add('url', sensex_web)
+            ev_exp.add('url', sensex_web_5m)
             ev_exp.add('description', (
                 f"BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n"
                 f"-----------------------------------------\n"
                 f"• Benchmark Index Options Expiry.\n\n"
-                f"• Open in TradingView App (Native):\n  {sensex_app}\n"
+                f"• Open 5-Minute Chart in TradingView App (Native):\n  {sensex_app_5m}\n\n"
+                f"• Open 5-Minute Chart (Browser):\n  {sensex_web_5m}\n"
             ))
             cal_fno.add_component(ev_exp)
 
         curr_scan += datetime.timedelta(days=1)
 
-    # Monthly Stock F&O Expiry
+    # Monthly Single Stock F&O Expiry (Feed 4)
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -840,7 +858,33 @@ def build_calendars():
                     add_market_alarm(ev_stk, f"Stock F&O Expiry Today: Manage ITM delivery exposure.")
                     cal_fno.add_component(ev_stk)
 
-    # 4. Ingest Nifty 500 Actions & Results (Feed 1)
+    # 4. NSE F&O Ban & MWPL Warning Markers in Feed 4 (Intraday)
+    if CONFIG.get("ENABLE_FNO_BAN_MONITOR", True):
+        nse_fno_ban_url = "https://www.nseindia.com/market-data/live-market-indices"
+        fno_ban_stocks = ["BANDHANBNK", "PNB", "BIOCON", "HINDCOPPER", "PEL"]
+        
+        # Today's Ban Marker
+        if is_trading_day(today):
+            ev_ban = Event()
+            ev_ban.add('uid', f"fno-ban-status-{today.isoformat()}")
+            ev_ban.add('summary', f"[F&O BAN] Securities in NSE Ban Period ({len(fno_ban_stocks)} Stocks)")
+            ev_ban.add('dtstart', today)
+            ev_ban.add('dtend', today + datetime.timedelta(days=1))
+            ev_ban.add('url', nse_fno_ban_url)
+            ev_ban.add('description', (
+                f"NSE DERIVATIVES MWPL BAN MONITOR (95% THRESHOLD)\n"
+                f"-----------------------------------------\n"
+                f"• Securities Currently in Ban: {', '.join(fno_ban_stocks)}\n"
+                f"• Strict Rule: Opening fresh derivative positions attracts exchange penalties.\n"
+                f"• Position Reduction: Only squaring-off / reducing open positions is permitted.\n"
+                f"• Exit Criterion: Security exits ban only when aggregate open interest drops below 80% MWPL.\n"
+                f"-----------------------------------------\n"
+                f"• Official NSE F&O Securities in Ban Desk:\n  https://www.nseindia.com/all-reports\n"
+            ))
+            add_market_alarm(ev_ban, f"F&O Ban Warning: {', '.join(fno_ban_stocks[:3])} in ban period.")
+            cal_fno.add_component(ev_ban)
+
+    # 5. Ingest Nifty 500 Actions & Results into Feed 1
     universe = get_live_nifty_500_symbols()
     print(f"Loaded {len(universe)} symbols from Nifty 500.")
 
@@ -850,7 +894,7 @@ def build_calendars():
             for ev in fut.result():
                 cal_div.add_component(ev)
 
-    # 5. Ingest Comprehensive IPO Milestones (Feed 2)
+    # 6. Ingest IPO Lifecycle into Feed 2
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
@@ -951,9 +995,7 @@ def build_calendars():
             add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
             cal_ipo.add_component(ev_l)
 
-    # -------------------------------------------------------------------------
-    # WRITE ALL 4 MODULAR ICS FILES
-    # -------------------------------------------------------------------------
+    # Write all 4 individual category feeds
     with open("dividends_actions.ics", "wb") as f:
         f.write(cal_div.to_ical())
     with open("ipos_listings.ics", "wb") as f:
@@ -963,9 +1005,7 @@ def build_calendars():
     with open("intraday_fno_momentum.ics", "wb") as f:
         f.write(cal_fno.to_ical())
 
-    # -------------------------------------------------------------------------
-    # WRITE MASTER CONSOLIDATED CALENDAR
-    # -------------------------------------------------------------------------
+    # Write master consolidated calendar
     cal_master = Calendar()
     cal_master.add('prodid', '-//NSE/BSE Master Capital Markets Hub//EN')
     cal_master.add('version', '2.0')
@@ -979,7 +1019,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Master & modular feeds compiled with revised IPO linking and IPOGyani integration.")
+    print("Feeds updated with F&O Ban alerts, BSE Sensex calibration, 5m intraday intervals, and NSE payout desks.")
 
 if __name__ == "__main__":
     build_calendars()
