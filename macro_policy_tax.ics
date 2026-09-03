@@ -81,8 +81,8 @@ DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 UID:macro-tax-[TAX]AdvanceT-2026-06-15
 DESCRIPTION:Statutory deadline to deposit 15% of estimated income tax liab
- ility for FY26-27 under Section 208/211.\n\n• Information Portal:\n  htt
- ps://eportal.incometax.gov.in/
+ ility for FY26-27 under Section 208/211.\n\n• Official Portal:\n  https:
+ //eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -96,8 +96,8 @@ DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 UID:macro-tax-[TAX]AdvanceT-2026-09-15
 DESCRIPTION:Statutory deadline to deposit cumulative 45% of estimated adva
- nce tax. Massive corporate liquidity withdrawal day.\n\n• Information Po
- rtal:\n  https://eportal.incometax.gov.in/
+ nce tax. Massive corporate liquidity withdrawal day.\n\n• Official Porta
+ l:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -112,8 +112,8 @@ DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 UID:macro-tax-[TAX]AdvanceT-2026-12-15
 DESCRIPTION:Statutory deadline to deposit cumulative 75% of advance tax. A
- void Section 234C interest penalties.\n\n• Information Portal:\n  https:
- //eportal.incometax.gov.in/
+ void Section 234C interest penalties.\n\n• Official Portal:\n  https://e
+ portal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -128,8 +128,8 @@ DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 UID:macro-tax-[SEBI/TAX]Re-2026-04-01
 DESCRIPTION:Securities Transaction Tax (STT) hike effective: 0.02% to 0.05
- % on Futures\, and 0.10% to 0.15% on Option Premiums.\n\n• Information P
- ortal:\n  https://www.sebi.gov.in/
+ % on Futures\, and 0.10% to 0.15% on Option Premiums.\n\n• Official Port
+ al:\n  https://www.sebi.gov.in/
 URL:https://www.sebi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -143,8 +143,8 @@ SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 UID:macro-tax-[MACRO]RBIMon-2026-08-07
-DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Information 
- Portal:\n  https://rbi.org.in/
+DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
+ tal:\n  https://rbi.org.in/
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -158,8 +158,8 @@ SUMMARY:[MACRO] India GDP Data Release (Q1 FY27)
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 UID:macro-tax-[MACRO]IndiaG-2026-08-31
-DESCRIPTION:MOSPI quarterly economic output print.\n\n• Information Port
- al:\n  https://www.mospi.gov.in/
+DESCRIPTION:MOSPI quarterly economic output print.\n\n• Official Portal:
+ \n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -173,7 +173,7 @@ DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 UID:macro-tax-[MACRO]IndiaC-2026-09-14
 DESCRIPTION:Retail inflation numbers directly impacting RBI interest rate 
- outlook.\n\n• Information Portal:\n  https://www.mospi.gov.in/
+ outlook.\n\n• Official Portal:\n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -187,8 +187,8 @@ DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 UID:macro-tax-[MACRO]RBIMon-2026-10-08
 DESCRIPTION:RBI repo rate decision & policy statement. Crucial for banking
-  and rate-sensitive sectors.\n\n• Information Portal:\n  https://rbi.org
- .in/
+  and rate-sensitive sectors.\n\n• Official Portal:\n  https://rbi.org.in
+ /
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -202,8 +202,8 @@ SUMMARY:[MACRO] India CPI Inflation Print
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 UID:macro-tax-[MACRO]IndiaC-2026-10-12
-DESCRIPTION:Domestic retail inflation print.\n\n• Information Portal:\n 
-  https://www.mospi.gov.in/
+DESCRIPTION:Domestic retail inflation print.\n\n• Official Portal:\n  ht
+ tps://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -216,8 +216,8 @@ SUMMARY:[MACRO] India CPI Inflation Print
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 UID:macro-tax-[MACRO]IndiaC-2026-11-12
-DESCRIPTION:Domestic retail inflation print.\n\n• Information Portal:\n 
-  https://www.mospi.gov.in/
+DESCRIPTION:Domestic retail inflation print.\n\n• Official Portal:\n  ht
+ tps://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -230,8 +230,8 @@ SUMMARY:[MACRO] India GDP Data Release (Q2 FY27)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 UID:macro-tax-[MACRO]IndiaG-2026-11-30
-DESCRIPTION:MOSPI quarterly economic output print.\n\n• Information Port
- al:\n  https://www.mospi.gov.in/
+DESCRIPTION:MOSPI quarterly economic output print.\n\n• Official Portal:
+ \n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -244,8 +244,8 @@ SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 UID:macro-tax-[MACRO]RBIMon-2026-12-10
-DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Information 
- Portal:\n  https://rbi.org.in/
+DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
+ tal:\n  https://rbi.org.in/
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -260,8 +260,8 @@ DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 UID:macro-tax-[MACRO]USNon--2026-09-04
 DESCRIPTION:Monthly US labor snapshot influencing Dollar Index (DXY) and F
- II emerging market allocations.\n\n• Information Portal:\n  https://www.
- bls.gov/
+ II emerging market allocations.\n\n• Official Portal:\n  https://www.bls
+ .gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -275,7 +275,7 @@ DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 UID:macro-tax-[MACRO]USCons-2026-09-11
 DESCRIPTION:Key US inflation print dictating global interest rate expectat
- ions.\n\n• Information Portal:\n  https://www.bls.gov/
+ ions.\n\n• Official Portal:\n  https://www.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -289,8 +289,8 @@ SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 UID:macro-tax-[MACRO]USFede-2026-09-16
-DESCRIPTION:Fed interest rate announcement & press conference.\n\n• Info
- rmation Portal:\n  https://www.federalreserve.gov/
+DESCRIPTION:Fed interest rate announcement & press conference.\n\n• Offi
+ cial Portal:\n  https://www.federalreserve.gov/
 URL:https://www.federalreserve.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -303,8 +303,8 @@ SUMMARY:[MACRO] US Non-Farm Payrolls (NFP) Jobs Report
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 UID:macro-tax-[MACRO]USNon--2026-10-02
-DESCRIPTION:Monthly US labor report.\n\n• Information Portal:\n  https:/
- /www.bls.gov/
+DESCRIPTION:Monthly US labor report.\n\n• Official Portal:\n  https://ww
+ w.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -317,8 +317,8 @@ SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 UID:macro-tax-[MACRO]USCons-2026-10-13
-DESCRIPTION:Key US inflation print.\n\n• Information Portal:\n  https://
- www.bls.gov/
+DESCRIPTION:Key US inflation print.\n\n• Official Portal:\n  https://www
+ .bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -332,8 +332,8 @@ SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 UID:macro-tax-[MACRO]USFede-2026-11-04
-DESCRIPTION:FOMC interest rate decision.\n\n• Information Portal:\n  htt
- ps://www.federalreserve.gov/
+DESCRIPTION:FOMC interest rate decision.\n\n• Official Portal:\n  https:
+ //www.federalreserve.gov/
 URL:https://www.federalreserve.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -346,8 +346,8 @@ SUMMARY:[MACRO] US Non-Farm Payrolls (NFP) Jobs Report
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 UID:macro-tax-[MACRO]USNon--2026-11-06
-DESCRIPTION:Monthly US labor report.\n\n• Information Portal:\n  https:/
- /www.bls.gov/
+DESCRIPTION:Monthly US labor report.\n\n• Official Portal:\n  https://ww
+ w.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -360,8 +360,8 @@ SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 UID:macro-tax-[MACRO]USCons-2026-11-12
-DESCRIPTION:Key US inflation print.\n\n• Information Portal:\n  https://
- www.bls.gov/
+DESCRIPTION:Key US inflation print.\n\n• Official Portal:\n  https://www
+ .bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -376,8 +376,8 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 UID:macro-tax-[MACRO]MSCISe-2026-11-20
 DESCRIPTION:Passive institutional adjustments across Indian equities durin
- g the 15:00-15:30 closing auction.\n\n• Information Portal:\n  https://w
- ww.msci.com/
+ g the 15:00-15:30 closing auction.\n\n• Official Portal:\n  https://www.
+ msci.com/
 URL:https://www.msci.com/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -392,7 +392,7 @@ DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 UID:macro-tax-[MACRO]OPEC+J-2026-12-03
 DESCRIPTION:Crude oil production quotas review impacting Brent crude and I
- ndian OMCs.\n\n• Information Portal:\n  https://www.opec.org/
+ ndian OMCs.\n\n• Official Portal:\n  https://www.opec.org/
 URL:https://www.opec.org/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -405,8 +405,8 @@ SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 UID:macro-tax-[MACRO]USFede-2026-12-16
-DESCRIPTION:FOMC rate decision & economic projections.\n\n• Information 
- Portal:\n  https://www.federalreserve.gov/
+DESCRIPTION:FOMC rate decision & economic projections.\n\n• Official Por
+ tal:\n  https://www.federalreserve.gov/
 URL:https://www.federalreserve.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
