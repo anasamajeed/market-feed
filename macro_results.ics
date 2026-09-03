@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NSE/BSE Macro\, Results & Expiry Hub//EN
-X-WR-CALNAME:3. Results, Macro & Weekly Expiries
+PRODID:-//NSE/BSE Macro & Expiry Hub//EN
+X-WR-CALNAME:3. Results, Macro & Expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 SUMMARY:[HOLIDAY] Market Closed - Independence Day
@@ -55,8 +55,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 UID:exp-nifty-2026-09-01
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -70,8 +69,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 UID:exp-nifty-2026-09-08
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -85,8 +83,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 UID:exp-nifty-2026-09-15
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -100,8 +97,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 UID:exp-nifty-2026-09-22
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -115,8 +111,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 UID:exp-nifty-2026-09-29
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -130,8 +125,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 UID:exp-nifty-2026-10-06
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -145,8 +139,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 UID:exp-nifty-2026-10-13
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -160,8 +153,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 UID:exp-nifty-2026-10-20
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -175,8 +167,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 UID:exp-nifty-2026-10-27
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -190,8 +181,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 UID:exp-nifty-2026-11-03
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -205,8 +195,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 UID:exp-nifty-2026-11-10
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -220,8 +209,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 UID:exp-nifty-2026-11-17
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -235,8 +223,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 UID:exp-nifty-2026-11-24
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -250,8 +237,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 UID:exp-nifty-2026-12-01
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -265,8 +251,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 UID:exp-nifty-2026-12-08
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -280,8 +265,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 UID:exp-nifty-2026-12-15
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -295,8 +279,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 UID:exp-nifty-2026-12-22
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -310,8 +293,7 @@ SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 UID:exp-nifty-2026-12-29
-DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
- tened volatility expected after 01:30 PM IST.
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
@@ -325,8 +307,7 @@ SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 UID:macro-2026-10-08
-DESCRIPTION:RBI repo rate decision & policy statement. Crucial for bank an
- d rate-sensitive sectors.
+DESCRIPTION:RBI repo rate decision & policy statement.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
@@ -362,7 +343,7 @@ SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 UID:macro-2026-09-11
-DESCRIPTION:Key US inflation print dictating global liquidity conditions.
+DESCRIPTION:Key US inflation print.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
