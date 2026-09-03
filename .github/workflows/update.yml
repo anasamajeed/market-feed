@@ -30,6 +30,6 @@ jobs:
         run: |
           git config --global user.name "MarketBot"
           git config --global user.email "bot@market.local"
-          git add market_calendar.ics
+          git add *.ics
           git commit -m "Live market data refresh [skip ci]" || exit 0
           git push
