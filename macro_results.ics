@@ -1,0 +1,381 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NSE/BSE Macro\, Results & Expiry Hub//EN
+X-WR-CALNAME:3. Results, Macro & Weekly Expiries
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Independence Day
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+UID:holiday-2026-08-15
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Inde
+ pendence Day.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Mahatma Gandhi Jayanti
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+UID:holiday-2026-10-02
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Maha
+ tma Gandhi Jayanti.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Dussehra
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+UID:holiday-2026-10-20
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Duss
+ ehra.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Diwali Laxmi Pujan
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+UID:holiday-2026-11-10
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Diwa
+ li Laxmi Pujan.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HOLIDAY] Market Closed - Christmas
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+UID:holiday-2026-12-25
+DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Chri
+ stmas.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+UID:exp-sensex-2026-08-27
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+UID:exp-nifty-2026-09-01
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+UID:exp-sensex-2026-09-03
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+UID:exp-nifty-2026-09-08
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+UID:exp-sensex-2026-09-10
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+UID:exp-nifty-2026-09-15
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+UID:exp-sensex-2026-09-17
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+UID:exp-nifty-2026-09-22
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+UID:exp-sensex-2026-09-24
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+UID:exp-nifty-2026-09-29
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+UID:exp-sensex-2026-10-01
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+UID:exp-nifty-2026-10-06
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+UID:exp-sensex-2026-10-08
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+UID:exp-nifty-2026-10-13
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+UID:exp-sensex-2026-10-15
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+UID:exp-nifty-2026-10-20
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+UID:exp-sensex-2026-10-22
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+UID:exp-nifty-2026-10-27
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+UID:exp-sensex-2026-10-29
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+UID:exp-nifty-2026-11-03
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+UID:exp-sensex-2026-11-05
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+UID:exp-nifty-2026-11-10
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+UID:exp-sensex-2026-11-12
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+UID:exp-nifty-2026-11-17
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+UID:exp-sensex-2026-11-19
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+UID:exp-nifty-2026-11-24
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:exp-sensex-2026-11-26
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+UID:exp-nifty-2026-12-01
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+UID:exp-sensex-2026-12-03
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+UID:exp-nifty-2026-12-08
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+UID:exp-sensex-2026-12-10
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+UID:exp-nifty-2026-12-15
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+UID:exp-sensex-2026-12-17
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+UID:exp-nifty-2026-12-22
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+UID:exp-sensex-2026-12-24
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+UID:exp-nifty-2026-12-29
+DESCRIPTION:Benchmark index weekly options expiry for NSE Nifty 50.\nHeigh
+ tened volatility expected after 01:30 PM IST.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+UID:exp-sensex-2026-12-31
+DESCRIPTION:Benchmark index weekly options expiry for BSE Sensex.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+UID:macro-2026-10-08
+DESCRIPTION:RBI repo rate decision & policy statement. Crucial for bank an
+ d rate-sensitive sectors.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] RBI Monetary Policy Committee (MPC) Outcome
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+UID:macro-2026-12-10
+DESCRIPTION:RBI repo rate decision & policy statement.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+UID:macro-2026-09-16
+DESCRIPTION:Fed funds rate policy announcement & Jerome Powell press confe
+ rence.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+UID:macro-2026-11-04
+DESCRIPTION:FOMC interest rate decision.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Federal Reserve FOMC Rate Decision
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+UID:macro-2026-12-16
+DESCRIPTION:FOMC rate decision & economic projections.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+UID:macro-2026-09-11
+DESCRIPTION:Key US inflation print dictating global liquidity conditions.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+UID:macro-2026-10-13
+DESCRIPTION:Key US inflation print.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MACRO] US Consumer Price Index (CPI) Inflation Data
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+UID:macro-2026-11-12
+DESCRIPTION:Key US inflation print.
+END:VEVENT
+END:VCALENDAR

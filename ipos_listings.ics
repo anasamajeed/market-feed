@@ -1,0 +1,246 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Live Indian IPOs & GMP Hub//EN
+X-WR-CALNAME:2. Indian IPOs, GMP & Allotments
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:[IPO OPEN] APAnnu ProjectsEPC Infrastructure (Telecom/Sewerage/Gas
+  Pipeline) (Mainboard)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ipo-open-35415536-f38f-4815-a105-819968ce8659
+DESCRIPTION:Bidding Opens.\n• Category: Mainboard\n• GMP: 6%\n• Clos
+ es: 06-Sep-2026\n\nTracker: https://ipogyani.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Bidding Opens Today: APAnnu ProjectsEPC Infrastructure (Te
+ lecom/Sewerage/Gas Pipeline)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO CLOSE] APAnnu ProjectsEPC Infrastructure (Telecom/Sewerage/Ga
+ s Pipeline) - Final Day
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:ipo-close-8eb60ab5-cea9-43ae-a2ce-8f3030c009a9
+DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
+ ).\n• Current GMP: 6%
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Final Day to Apply: APAnnu ProjectsEPC Infrastructure (Telecom
+ /Sewerage/Gas Pipeline) IPO closes at 5:00 PM IST.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO ALLOTMENT] APAnnu ProjectsEPC Infrastructure (Telecom/Sewerag
+ e/Gas Pipeline) Allotment Status
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:ipo-allot-6037f565-b91d-43ca-aee2-f8193ba9fb3b
+DESCRIPTION:Check allotment status using PAN on official registrar desks:
+ \n\n• Link Intime Portal:\n  https://linkintime.co.in/initial_offer/publ
+ ic-issues.html\n\n• KFintech Portal:\n  https://ris.kfintech.com/ipostat
+ us/\n\n• Bigshare Services Portal:\n  https://www.bigshareonline.com/ipo
+ _Allotment.html\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Allotment Today: APAnnu ProjectsEPC Infrastructure (Tele
+ com/Sewerage/Gas Pipeline)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO OPEN] SASkyways Air ServicesIntegrated Logistics & Freight Fo
+ rwarding (Air Cargo) (Mainboard)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ipo-open-ec880c68-161a-497a-945b-1c14ca10d2e0
+DESCRIPTION:Bidding Opens.\n• Category: Mainboard\n• GMP: 1%\n• Clos
+ es: 06-Sep-2026\n\nTracker: https://ipogyani.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Bidding Opens Today: SASkyways Air ServicesIntegrated Logi
+ stics & Freight Forwarding (Air Cargo)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO CLOSE] SASkyways Air ServicesIntegrated Logistics & Freight F
+ orwarding (Air Cargo) - Final Day
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:ipo-close-13255819-6322-4f65-b451-975b41f00f8e
+DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
+ ).\n• Current GMP: 1%
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Final Day to Apply: SASkyways Air ServicesIntegrated Logistics
+  & Freight Forwarding (Air Cargo) IPO closes at 5:00 PM IST.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO ALLOTMENT] SASkyways Air ServicesIntegrated Logistics & Freig
+ ht Forwarding (Air Cargo) Allotment Status
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:ipo-allot-b2fe05d5-7095-46d4-8f56-48a88c12a66e
+DESCRIPTION:Check allotment status using PAN on official registrar desks:
+ \n\n• Link Intime Portal:\n  https://linkintime.co.in/initial_offer/publ
+ ic-issues.html\n\n• KFintech Portal:\n  https://ris.kfintech.com/ipostat
+ us/\n\n• Bigshare Services Portal:\n  https://www.bigshareonline.com/ipo
+ _Allotment.html\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Allotment Today: SASkyways Air ServicesIntegrated Logist
+ ics & Freight Forwarding (Air Cargo)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO OPEN] HEHy-Tech EngineersHydraulic Fittings Manufacturing (In
+ dustrial Engineering) (Mainboard)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ipo-open-9c0b8134-e5a1-4db0-8c27-9697fae165fa
+DESCRIPTION:Bidding Opens.\n• Category: Mainboard\n• GMP: 5%\n• Clos
+ es: 06-Sep-2026\n\nTracker: https://ipogyani.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Bidding Opens Today: HEHy-Tech EngineersHydraulic Fittings
+  Manufacturing (Industrial Engineering)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO CLOSE] HEHy-Tech EngineersHydraulic Fittings Manufacturing (I
+ ndustrial Engineering) - Final Day
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:ipo-close-07dee0c0-2b5b-4f12-968b-101e073c4157
+DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
+ ).\n• Current GMP: 5%
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Final Day to Apply: HEHy-Tech EngineersHydraulic Fittings Manu
+ facturing (Industrial Engineering) IPO closes at 5:00 PM IST.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO ALLOTMENT] HEHy-Tech EngineersHydraulic Fittings Manufacturin
+ g (Industrial Engineering) Allotment Status
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:ipo-allot-8842b74a-867d-470e-9222-e842ae57e30d
+DESCRIPTION:Check allotment status using PAN on official registrar desks:
+ \n\n• Link Intime Portal:\n  https://linkintime.co.in/initial_offer/publ
+ ic-issues.html\n\n• KFintech Portal:\n  https://ris.kfintech.com/ipostat
+ us/\n\n• Bigshare Services Portal:\n  https://www.bigshareonline.com/ipo
+ _Allotment.html\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Allotment Today: HEHy-Tech EngineersHydraulic Fittings M
+ anufacturing (Industrial Engineering)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO OPEN] SPSymbiotec PharmalabPharmaceutical APIs & Complex Inje
+ ctables (Specialty Pharma) (Mainboard)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ipo-open-9097b127-938b-40eb-8003-890a3f38e379
+DESCRIPTION:Bidding Opens.\n• Category: Mainboard\n• GMP: 0%\n• Clos
+ es: 06-Sep-2026\n\nTracker: https://ipogyani.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Bidding Opens Today: SPSymbiotec PharmalabPharmaceutical A
+ PIs & Complex Injectables (Specialty Pharma)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO CLOSE] SPSymbiotec PharmalabPharmaceutical APIs & Complex Inj
+ ectables (Specialty Pharma) - Final Day
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:ipo-close-b6b91e17-e516-4aa5-b094-4abcea92b447
+DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
+ ).\n• Current GMP: 0%
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Final Day to Apply: SPSymbiotec PharmalabPharmaceutical APIs &
+  Complex Injectables (Specialty Pharma) IPO closes at 5:00 PM IST.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO ALLOTMENT] SPSymbiotec PharmalabPharmaceutical APIs & Complex
+  Injectables (Specialty Pharma) Allotment Status
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:ipo-allot-884fa13a-3c04-497b-8e6f-544bba02ac6d
+DESCRIPTION:Check allotment status using PAN on official registrar desks:
+ \n\n• Link Intime Portal:\n  https://linkintime.co.in/initial_offer/publ
+ ic-issues.html\n\n• KFintech Portal:\n  https://ris.kfintech.com/ipostat
+ us/\n\n• Bigshare Services Portal:\n  https://www.bigshareonline.com/ipo
+ _Allotment.html\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Allotment Today: SPSymbiotec PharmalabPharmaceutical API
+ s & Complex Injectables (Specialty Pharma)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO OPEN] AEAugmont EnterprisesIntegrated Gold & Silver Platform 
+ (Bullion/Digital Gold) (Mainboard)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:ipo-open-204adca1-0079-452c-9959-1123070ba2f7
+DESCRIPTION:Bidding Opens.\n• Category: Mainboard\n• GMP: 9%\n• Clos
+ es: 06-Sep-2026\n\nTracker: https://ipogyani.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Bidding Opens Today: AEAugmont EnterprisesIntegrated Gold 
+ & Silver Platform (Bullion/Digital Gold)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO CLOSE] AEAugmont EnterprisesIntegrated Gold & Silver Platform
+  (Bullion/Digital Gold) - Final Day
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+UID:ipo-close-9ccf0c48-75eb-4611-85df-b0cf6608b70a
+DESCRIPTION:Final day for bidding & UPI mandate authorization (5:00 PM IST
+ ).\n• Current GMP: 9%
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Final Day to Apply: AEAugmont EnterprisesIntegrated Gold & Sil
+ ver Platform (Bullion/Digital Gold) IPO closes at 5:00 PM IST.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[IPO ALLOTMENT] AEAugmont EnterprisesIntegrated Gold & Silver Plat
+ form (Bullion/Digital Gold) Allotment Status
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:ipo-allot-f7701ea9-0f49-4604-b24c-fa2cb00b5609
+DESCRIPTION:Check allotment status using PAN on official registrar desks:
+ \n\n• Link Intime Portal:\n  https://linkintime.co.in/initial_offer/publ
+ ic-issues.html\n\n• KFintech Portal:\n  https://ris.kfintech.com/ipostat
+ us/\n\n• Bigshare Services Portal:\n  https://www.bigshareonline.com/ipo
+ _Allotment.html\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Allotment Today: AEAugmont EnterprisesIntegrated Gold & 
+ Silver Platform (Bullion/Digital Gold)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
