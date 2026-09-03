@@ -30,39 +30,165 @@ NSE_HOLIDAYS_2026 = {
     datetime.date(2026, 12, 25): "Christmas",
 }
 
-# Comprehensive Institutional Macro Catalysts (Domestic India + Global Drivers)
-MACRO_EVENTS_2026 = [
-    # 1. Domestic Policy & Central Bank
-    {"date": datetime.date(2026, 4, 9), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement. High impact on banking and rate-sensitive sectors.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 6, 5), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 8, 7), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 10, 8), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 12, 10), "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "symbol": "NIFTY_BANK"},
-    
-    # 2. Indian Economic Data (CPI Inflation & GDP)
-    {"date": datetime.date(2026, 8, 31), "summary": "[MACRO] India GDP Data Release (Q1 FY27)", "desc": "MOSPI quarterly economic output print.", "symbol": "NIFTY"},
-    {"date": datetime.date(2026, 9, 14), "summary": "[MACRO] India Consumer Price Index (CPI) Inflation", "desc": "Domestic retail inflation print dictating RBI stance.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 10, 12), "summary": "[MACRO] India Consumer Price Index (CPI) Inflation", "desc": "Domestic retail inflation print.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 11, 12), "summary": "[MACRO] India Consumer Price Index (CPI) Inflation", "desc": "Domestic retail inflation print.", "symbol": "NIFTY_BANK"},
-    {"date": datetime.date(2026, 11, 30), "summary": "[MACRO] India GDP Data Release (Q2 FY27)", "desc": "MOSPI quarterly economic output print.", "symbol": "NIFTY"},
+# Macro, Economic, Statutory Tax & Regulatory Events
+MACRO_POLICY_TAX_EVENTS = [
+    # 1. Advance Tax Statutory Deadlines (Income Tax Dept)
+    {
+        "date": datetime.date(2026, 6, 15),
+        "summary": "[TAX] Advance Tax Q1 Instalment Due (15%)",
+        "desc": "Statutory deadline to deposit 15% of estimated income tax liability for FY26-27 under Section 208/211.",
+        "url": "https://eportal.incometax.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 9, 15),
+        "summary": "[TAX] Advance Tax Q2 Instalment Due (45% Cumulative)",
+        "desc": "Statutory deadline to deposit cumulative 45% of estimated advance tax. Massive corporate liquidity withdrawal day.",
+        "url": "https://eportal.incometax.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 12, 15),
+        "summary": "[TAX] Advance Tax Q3 Instalment Due (75% Cumulative)",
+        "desc": "Statutory deadline to deposit cumulative 75% of advance tax. Avoid Section 234C interest penalties.",
+        "url": "https://eportal.incometax.gov.in/"
+    },
+    {
+        "date": datetime.date(2027, 3, 15),
+        "summary": "[TAX] Advance Tax Q4 Final Instalment (100%)",
+        "desc": "Final 100% advance tax payment deadline for FY2026-27 before financial year closing.",
+        "url": "https://eportal.incometax.gov.in/"
+    },
 
-    # 3. US Federal Reserve & Inflation (Global Liquidity Engine)
-    {"date": datetime.date(2026, 5, 6), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate announcement.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 6, 17), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate announcement & dot plot projections.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 7, 29), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate announcement.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 9, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed funds rate policy announcement & Jerome Powell press conference.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 11, 4), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "FOMC interest rate decision.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 12, 16), "summary": "[MACRO] US Federal Reserve FOMC Rate Decision", "desc": "FOMC rate decision & economic projections.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 9, 11), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print dictating Fed rate trajectory.", "symbol": "US10Y"},
-    {"date": datetime.date(2026, 10, 13), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print.", "symbol": "US10Y"},
-    {"date": datetime.date(2026, 11, 12), "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print.", "symbol": "US10Y"},
+    # 2. SEBI / Exchange Frameworks & Budget
+    {
+        "date": datetime.date(2026, 4, 1),
+        "summary": "[SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active",
+        "desc": "Securities Transaction Tax (STT) hike effective: 0.02% to 0.05% on Futures, and 0.10% to 0.15% on Option Premiums.",
+        "url": "https://www.sebi.gov.in/"
+    },
+    {
+        "date": datetime.date(2027, 2, 1),
+        "summary": "[POLICY] Union Budget 2027-28 Presentation",
+        "desc": "Finance Minister presents Union Budget in Parliament (11:00 AM IST). Extreme volatility expected across all equity indices.",
+        "url": "https://www.indiabudget.gov.in/"
+    },
 
-    # 4. Global Labor, Energy & FII Rebalancing Drivers
-    {"date": datetime.date(2026, 9, 4), "summary": "[MACRO] US Non-Farm Payrolls (NFP) & Jobs Data", "desc": "Major monthly US employment snapshot affecting the Dollar and FII emerging market risk appetite.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 10, 2), "summary": "[MACRO] US Non-Farm Payrolls (NFP) & Jobs Data", "desc": "Monthly US labor report.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 11, 6), "summary": "[MACRO] US Non-Farm Payrolls (NFP) & Jobs Data", "desc": "Monthly US labor report.", "symbol": "DXY"},
-    {"date": datetime.date(2026, 11, 20), "summary": "[MACRO] MSCI Semi-Annual Index Rebalancing Effective", "desc": "Passive institutional inflows/outflows across Indian stocks during the closing auction.", "symbol": "NIFTY"},
-    {"date": datetime.date(2026, 12, 3), "summary": "[MACRO] OPEC+ Joint Ministerial Meeting", "desc": "Crude oil output quota review directly impacting Brent crude prices, trade deficit, and Indian OMCs.", "symbol": "BRENT"},
+    # 3. Domestic Macro (RBI MPC, CPI Inflation & GDP)
+    {
+        "date": datetime.date(2026, 8, 7),
+        "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome",
+        "desc": "RBI repo rate decision & policy statement.",
+        "url": "https://rbi.org.in/"
+    },
+    {
+        "date": datetime.date(2026, 8, 31),
+        "summary": "[MACRO] India GDP Data Release (Q1 FY27)",
+        "desc": "MOSPI quarterly economic output print.",
+        "url": "https://www.mospi.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 9, 14),
+        "summary": "[MACRO] India CPI Inflation Print",
+        "desc": "Retail inflation numbers directly impacting RBI interest rate outlook.",
+        "url": "https://www.mospi.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 10, 8),
+        "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome",
+        "desc": "RBI repo rate decision & policy statement. Crucial for banking and rate-sensitive sectors.",
+        "url": "https://rbi.org.in/"
+    },
+    {
+        "date": datetime.date(2026, 10, 12),
+        "summary": "[MACRO] India CPI Inflation Print",
+        "desc": "Domestic retail inflation print.",
+        "url": "https://www.mospi.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 11, 12),
+        "summary": "[MACRO] India CPI Inflation Print",
+        "desc": "Domestic retail inflation print.",
+        "url": "https://www.mospi.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 11, 30),
+        "summary": "[MACRO] India GDP Data Release (Q2 FY27)",
+        "desc": "MOSPI quarterly economic output print.",
+        "url": "https://www.mospi.gov.in/"
+    },
+    {
+        "date": datetime.date(2026, 12, 10),
+        "summary": "[MACRO] RBI Monetary Policy Committee (MPC) Outcome",
+        "desc": "RBI repo rate decision & policy statement.",
+        "url": "https://rbi.org.in/"
+    },
+
+    # 4. Global Macro Drivers (Fed, US CPI, NFP, OPEC+)
+    {
+        "date": datetime.date(2026, 9, 4),
+        "summary": "[MACRO] US Non-Farm Payrolls (NFP) Jobs Report",
+        "desc": "Monthly US labor snapshot influencing Dollar Index (DXY) and FII emerging market allocations.",
+        "url": "https://www.bls.gov/"
+    },
+    {
+        "date": datetime.date(2026, 9, 11),
+        "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data",
+        "desc": "Key US inflation print dictating global interest rate expectations.",
+        "url": "https://www.bls.gov/"
+    },
+    {
+        "date": datetime.date(2026, 9, 16),
+        "summary": "[MACRO] US Federal Reserve FOMC Rate Decision",
+        "desc": "Fed interest rate announcement & press conference.",
+        "url": "https://www.federalreserve.gov/"
+    },
+    {
+        "date": datetime.date(2026, 10, 2),
+        "summary": "[MACRO] US Non-Farm Payrolls (NFP) Jobs Report",
+        "desc": "Monthly US labor report.",
+        "url": "https://www.bls.gov/"
+    },
+    {
+        "date": datetime.date(2026, 10, 13),
+        "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data",
+        "desc": "Key US inflation print.",
+        "url": "https://www.bls.gov/"
+    },
+    {
+        "date": datetime.date(2026, 11, 4),
+        "summary": "[MACRO] US Federal Reserve FOMC Rate Decision",
+        "desc": "FOMC interest rate decision.",
+        "url": "https://www.federalreserve.gov/"
+    },
+    {
+        "date": datetime.date(2026, 11, 6),
+        "summary": "[MACRO] US Non-Farm Payrolls (NFP) Jobs Report",
+        "desc": "Monthly US labor report.",
+        "url": "https://www.bls.gov/"
+    },
+    {
+        "date": datetime.date(2026, 11, 12),
+        "summary": "[MACRO] US Consumer Price Index (CPI) Inflation Data",
+        "desc": "Key US inflation print.",
+        "url": "https://www.bls.gov/"
+    },
+    {
+        "date": datetime.date(2026, 11, 20),
+        "summary": "[MACRO] MSCI Semi-Annual Index Rebalancing Effective",
+        "desc": "Passive institutional adjustments across Indian equities during the 15:00-15:30 closing auction.",
+        "url": "https://www.msci.com/"
+    },
+    {
+        "date": datetime.date(2026, 12, 3),
+        "summary": "[MACRO] OPEC+ Joint Ministerial Meeting",
+        "desc": "Crude oil production quotas review impacting Brent crude and Indian OMCs.",
+        "url": "https://www.opec.org/"
+    },
+    {
+        "date": datetime.date(2026, 12, 16),
+        "summary": "[MACRO] US Federal Reserve FOMC Rate Decision",
+        "desc": "FOMC rate decision & economic projections.",
+        "url": "https://www.federalreserve.gov/"
+    },
 ]
 
 def is_trading_day(d):
@@ -341,8 +467,8 @@ def get_fy2026_comprehensive_ipo_database():
     ]
 
 def process_single_ticker(sym, today, cutoff_past, cutoff_future):
-    div_events = []
-    results_events = []
+    """Processes corporate actions, payouts, splits, and quarterly board results into Feed 1."""
+    corp_events = []
     ticker_str = f"{sym}.NS"
     app_link, web_link = build_tradingview_links(sym)
     statements_url, pdf_archive_url = build_screener_links(sym)
@@ -356,7 +482,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
         except Exception:
             pass
 
-        # 1. Dividend Cutoff & Payout
+        # 1. Dividends (Buy Cutoff & Payout)
         divs = t.dividends
         if not divs.empty:
             for ts, amount in divs.items():
@@ -385,9 +511,9 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ))
                     ev_cut.add('location', 'NSE / BSE India')
                     add_market_alarm(ev_cut, f"Cutoff today: Buy {sym} for ₹{amount:.2f} dividend.")
-                    div_events.append(ev_cut)
+                    corp_events.append(ev_cut)
 
-                    # Payout Date Event
+                    # Payout Event
                     payout_date = div_date + datetime.timedelta(days=30)
                     while not is_trading_day(payout_date):
                         payout_date += datetime.timedelta(days=1)
@@ -404,7 +530,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         f"• Screener Profile & History:\n  {statements_url}\n"
                     ))
                     ev_pay.add('location', 'Bank Account / Demat')
-                    div_events.append(ev_pay)
+                    corp_events.append(ev_pay)
 
         # 2. Stock Splits & Bonus Allotments
         splits = t.splits
@@ -428,9 +554,9 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ))
                     ev_sp.add('location', 'NSE / BSE')
                     add_market_alarm(ev_sp, f"Today is the buy cutoff for {sym} Split/Bonus.")
-                    div_events.append(ev_sp)
+                    corp_events.append(ev_sp)
 
-        # 3. Financial Results
+        # 3. Results & Earnings Board Meetings (Moved into Feed 1)
         try:
             q_fin = t.quarterly_financials
             if q_fin is not None and not q_fin.empty:
@@ -444,7 +570,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         ev_res.add('dtend', f_date + datetime.timedelta(days=1))
                         ev_res.add('url', web_link)
                         ev_res.add('description', (
-                            f"HIGH VOLATILITY ALERT: Company Board Meeting for quarterly financial results.\n\n"
+                            f"EARNINGS RELEASE & OUTCOME DECLARATION\n\n"
                             f"• Symbol: {sym}\n"
                             f"• Open in TradingView App (Native):\n  {app_link}\n\n"
                             f"• Screener Balance Sheet:\n  {statements_url}\n\n"
@@ -452,7 +578,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         ))
                         ev_res.add('location', 'NSE / BSE')
                         add_market_alarm(ev_res, f"Quarterly Results Day: {sym}")
-                        results_events.append(ev_res)
+                        corp_events.append(ev_res)
 
             cal_df = t.calendar
             if cal_df is not None and not cal_df.empty:
@@ -471,47 +597,62 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                                     f"HIGH VOLATILITY ALERT: Board of Directors Meeting for financial results.\n\n"
                                     f"• Symbol: {sym}\n"
                                     f"• Open in TradingView App (Native):\n  {app_link}\n\n"
-                                    f"• Screener Profile:\n  {statements_url}\n\n"
+                                    f"• Screener Profile: {statements_url}\n\n"
                                     f"• Official NSE Filings & Outcome PDFs:\n  {nse_quote_url}\n"
                                 ))
                                 ev_bm.add('location', 'NSE / BSE')
                                 add_market_alarm(ev_bm, f"Board Meeting today: {sym}")
-                                results_events.append(ev_bm)
+                                corp_events.append(ev_bm)
         except Exception:
             pass
 
     except Exception:
         pass
 
-    return div_events, results_events
+    return corp_events
 
 def build_calendars():
-    # 1. Dedicated Category: Dividends & Actions
+    # -------------------------------------------------------------------------
+    # FEED 1: Dividends, Results & Corporate Actions
+    # -------------------------------------------------------------------------
     cal_div = Calendar()
-    cal_div.add('prodid', '-//NSE Dividends & Corporate Actions//EN')
+    cal_div.add('prodid', '-//NSE Dividends, Results & Corporate Actions//EN')
     cal_div.add('version', '2.0')
-    cal_div.add('x-wr-calname', '1. NSE Dividends & Corporate Actions')
+    cal_div.add('x-wr-calname', '1. Dividends, Results & Corporate Actions')
     cal_div.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # 2. Dedicated Category: IPOs & Listings
+    # -------------------------------------------------------------------------
+    # FEED 2: IPOs, GMP & Listings
+    # -------------------------------------------------------------------------
     cal_ipo = Calendar()
     cal_ipo.add('prodid', '-//Live Indian IPOs & GMP Hub//EN')
     cal_ipo.add('version', '2.0')
     cal_ipo.add('x-wr-calname', '2. Indian IPOs, GMP & Listings')
     cal_ipo.add('x-wr-timezone', 'Asia/Kolkata')
 
-    # 3. Dedicated Category: Macro, Results & Expiries
+    # -------------------------------------------------------------------------
+    # FEED 3: Macro, Economic Policy & Tax Framework
+    # -------------------------------------------------------------------------
     cal_macro = Calendar()
-    cal_macro.add('prodid', '-//NSE/BSE Macro & Expiry Hub//EN')
+    cal_macro.add('prodid', '-//Macro, Economic Policy & Tax Hub//EN')
     cal_macro.add('version', '2.0')
-    cal_macro.add('x-wr-calname', '3. Results, Macro & Expiries')
+    cal_macro.add('x-wr-calname', '3. Macro, Policy & Tax Deadlines')
     cal_macro.add('x-wr-timezone', 'Asia/Kolkata')
+
+    # -------------------------------------------------------------------------
+    # FEED 4: Intraday, F&O Expiries & Momentum
+    # -------------------------------------------------------------------------
+    cal_fno = Calendar()
+    cal_fno.add('prodid', '-//Intraday, Derivatives Expiry & Momentum//EN')
+    cal_fno.add('version', '2.0')
+    cal_fno.add('x-wr-calname', '4. Intraday, F&O Expiries & Momentum')
+    cal_fno.add('x-wr-timezone', 'Asia/Kolkata')
 
     today = datetime.date.today()
     cutoff_past = datetime.date(2026, 4, 1)
     cutoff_future = today + datetime.timedelta(days=120)
 
-    # Trading Holidays
+    # Ingest Macro, Policy, Tax, and Holidays into Feed 3
     for h_date, h_name in NSE_HOLIDAYS_2026.items():
         if cutoff_past <= h_date <= cutoff_future:
             ev_h = Event()
@@ -519,15 +660,29 @@ def build_calendars():
             ev_h.add('summary', f"[HOLIDAY] Market Closed - {h_name}")
             ev_h.add('dtstart', h_date)
             ev_h.add('dtend', h_date + datetime.timedelta(days=1))
+            ev_h.add('url', "https://www.nseindia.com/resources/exchange-communication-holidays")
             ev_h.add('description', f"NSE & BSE equity/derivative segments are closed today for {h_name}.")
             cal_macro.add_component(ev_h)
 
-    # Benchmark Expiries (Tuesday: Nifty, Thursday: Sensex)
+    for m in MACRO_POLICY_TAX_EVENTS:
+        if cutoff_past <= m["date"] <= cutoff_future:
+            ev_m = Event()
+            ev_m.add('uid', f"macro-tax-{m['summary'][:15].replace(' ', '')}-{m['date'].isoformat()}")
+            ev_m.add('summary', m["summary"])
+            ev_m.add('dtstart', m["date"])
+            ev_m.add('dtend', m["date"] + datetime.timedelta(days=1))
+            ev_m.add('url', m.get("url", "https://www.nseindia.com/"))
+            ev_m.add('description', f"{m['desc']}\n\n• Information Portal:\n  {m.get('url')}")
+            add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
+            cal_macro.add_component(ev_m)
+
+    # Ingest Weekly & Monthly Expiries into Feed 4 (Intraday & Derivatives)
     nifty_app, nifty_web = build_tradingview_links("NIFTY", is_macro=False)
     sensex_app, sensex_web = build_tradingview_links("SENSEX", is_macro=False)
 
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
+        # NSE Nifty Weekly Expiry (Tuesday)
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -537,11 +692,15 @@ def build_calendars():
             ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
             ev_exp.add('url', nifty_web)
             ev_exp.add('description', (
-                f"Benchmark index weekly options expiry for NSE Nifty 50.\n\n"
+                f"NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n"
+                f"-----------------------------------------\n"
+                f"• Benchmark Index Options Expiry.\n"
+                f"• Expect gamma expansions and heightened theta decay after 01:30 PM IST.\n\n"
                 f"• Open in TradingView App (Native):\n  {nifty_app}\n"
             ))
-            cal_macro.add_component(ev_exp)
+            cal_fno.add_component(ev_exp)
 
+        # BSE Sensex Weekly Expiry (Thursday)
         if CONFIG.get("ENABLE_SENSEX_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 3:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             ev_exp = Event()
@@ -551,14 +710,16 @@ def build_calendars():
             ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
             ev_exp.add('url', sensex_web)
             ev_exp.add('description', (
-                f"Benchmark index weekly options expiry for BSE Sensex.\n\n"
+                f"BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n"
+                f"-----------------------------------------\n"
+                f"• Benchmark Index Options Expiry.\n\n"
                 f"• Open in TradingView App (Native):\n  {sensex_app}\n"
             ))
-            cal_macro.add_component(ev_exp)
+            cal_fno.add_component(ev_exp)
 
         curr_scan += datetime.timedelta(days=1)
 
-    # Monthly Single Stock F&O Expiry
+    # NSE Monthly Single Stock F&O Expiry (Feed 4)
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -580,44 +741,25 @@ def build_calendars():
                         f"NSE MONTHLY STOCK DERIVATIVES EXPIRY\n"
                         f"-----------------------------------------\n"
                         f"• Contract Expiry: All Single Stock Futures & Options contracts expire today (3:30 PM IST).\n"
-                        f"• Physical Delivery: In-the-money (ITM) long/short stock options result in compulsory physical delivery.\n"
-                        f"• Margin Escalation: Broker physical delivery margins apply to near-the-money and ITM strikes.\n"
+                        f"• Physical Delivery: Compulsory physical delivery for in-the-money (ITM) long/short options.\n"
+                        f"• Margin Escalation: Physical delivery margins apply to near-the-money and ITM strikes.\n"
                         f"-----------------------------------------\n"
                         f"• Open in TradingView App (Native):\n  {fo_app}\n"
                     ))
-                    add_market_alarm(ev_stk, f"NSE Stock F&O Expiry Today: Manage ITM delivery exposure.")
-                    cal_macro.add_component(ev_stk)
+                    add_market_alarm(ev_stk, f"Stock F&O Expiry Today: Manage ITM delivery exposure.")
+                    cal_fno.add_component(ev_stk)
 
-    # Macro Events (Domestic India + Global Drivers)
-    for m in MACRO_EVENTS_2026:
-        if cutoff_past <= m["date"] <= cutoff_future:
-            m_app, m_web = build_tradingview_links(m["symbol"], is_macro=True)
-            ev_m = Event()
-            ev_m.add('uid', f"macro-{m['date'].isoformat()}")
-            ev_m.add('summary', m["summary"])
-            ev_m.add('dtstart', m["date"])
-            ev_m.add('dtend', m["date"] + datetime.timedelta(days=1))
-            ev_m.add('url', m_web)
-            ev_m.add('description', (
-                f"{m['desc']}\n\n"
-                f"• Open in TradingView App (Native):\n  {m_app}\n"
-            ))
-            cal_macro.add_component(ev_m)
-
-    # Nifty 500 Parallel Ingestion
+    # Ingest Nifty 500 Actions & Results into Feed 1
     universe = get_live_nifty_500_symbols()
     print(f"Loaded {len(universe)} symbols from Nifty 500.")
 
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(process_single_ticker, sym, today, cutoff_past, cutoff_future): sym for sym in universe}
         for fut in as_completed(futures):
-            d_evs, r_evs = fut.result()
-            for ev in d_evs:
+            for ev in fut.result():
                 cal_div.add_component(ev)
-            for ev in r_evs:
-                cal_macro.add_component(ev)
 
-    # Comprehensive IPO Milestones
+    # Ingest IPO Lifecycle into Feed 2
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
@@ -714,29 +856,35 @@ def build_calendars():
             add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
             cal_ipo.add_component(ev_l)
 
-    # Write the 3 Dedicated Modular Feeds
+    # -------------------------------------------------------------------------
+    # WRITE ALL 4 MODULAR ICS FILES
+    # -------------------------------------------------------------------------
     with open("dividends_actions.ics", "wb") as f:
         f.write(cal_div.to_ical())
     with open("ipos_listings.ics", "wb") as f:
         f.write(cal_ipo.to_ical())
-    with open("macro_results.ics", "wb") as f:
+    with open("macro_policy_tax.ics", "wb") as f:
         f.write(cal_macro.to_ical())
+    with open("intraday_fno_momentum.ics", "wb") as f:
+        f.write(cal_fno.to_ical())
 
-    # Write Consolidated Master Feed
+    # -------------------------------------------------------------------------
+    # WRITE MASTER CONSOLIDATED CALENDAR (Everything combined)
+    # -------------------------------------------------------------------------
     cal_master = Calendar()
-    cal_master.add('prodid', '-//NSE/BSE Comprehensive Market Hub//EN')
+    cal_master.add('prodid', '-//NSE/BSE Master Capital Markets Hub//EN')
     cal_master.add('version', '2.0')
-    cal_master.add('x-wr-calname', 'NSE Nifty 500, IPOs & Macro (FY26-27)')
+    cal_master.add('x-wr-calname', 'NSE Master Capital Markets Hub (FY26-27)')
     cal_master.add('x-wr-timezone', 'Asia/Kolkata')
     cal_master.add('x-published-ttl', 'PT1H')
 
-    for comp in list(cal_div.subcomponents) + list(cal_ipo.subcomponents) + list(cal_macro.subcomponents):
+    for comp in list(cal_div.subcomponents) + list(cal_ipo.subcomponents) + list(cal_macro.subcomponents) + list(cal_fno.subcomponents):
         cal_master.add_component(comp)
 
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("All 3 modular feeds and master calendar compiled successfully.")
+    print("All 4 modular feeds and Master calendar compiled successfully.")
 
 if __name__ == "__main__":
     build_calendars()
