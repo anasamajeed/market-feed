@@ -1093,9 +1093,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:fno-ban-status-2026-09-03
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:fno-ban-status-2026-09-04
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1110,9 +1110,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:vix-desk-2026-09-03
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:vix-desk-2026-09-04
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1123,9 +1123,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-UID:deals-desk-2026-09-03
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+UID:deals-desk-2026-09-04
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
