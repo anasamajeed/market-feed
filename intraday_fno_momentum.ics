@@ -1092,50 +1092,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-UID:fno-ban-status-2026-09-04
-DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
- -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
- COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
- e penalties.\n• Exit Threshold: Only exits ban when open interest drops 
- below 80% MWPL.\n
-URL:https://www.nseindia.com/all-reports
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:F&O Ban: BANDHANBNK\, PNB\, BIOCON in ban.
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-UID:vix-desk-2026-09-04
-DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
- -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
- t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
- gh / Low):\n  https://www.nseindia.com/market-data/52-week-high-low-equity
- -market\n\n• SEBI ASM / GSM Surveillance Restrictions:\n  https://www.ns
- eindia.com/reports/surveillance\n
-URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-UID:deals-desk-2026-09-04
-DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
- -------------------------------\nTrack after-market promoter\, FII & DII l
- arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
- seindia.com/report-detail/display-bulk-and-block-deals\n\n• Official NSE
-  Block Trading Window Report:\n  https://www.nseindia.com/market-data/bloc
- k-deal-watch\n\n• BSE Bulk Deals Tracker:\n  https://www.bseindia.com/ma
- rkets/equity/EQReports/Bulktot.aspx\n
-URL:https://www.nseindia.com/report-detail/display-bulk-and-block-deals
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
