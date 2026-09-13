@@ -1196,26 +1196,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-UID:res-q-KOTAKBANK-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
- KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
- rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
- terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
- .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
- r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
-  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: KOTAKBANK
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
@@ -1232,6 +1212,26 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: LT
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-KOTAKBANK-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
+ KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
+ terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
+ .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
+ r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
+  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: KOTAKBANK
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
