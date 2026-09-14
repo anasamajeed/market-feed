@@ -935,6 +935,18 @@ DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
 URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+UID:exp-nifty-2027-01-12
+DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
+ -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
+  expansions and heightened theta decay after 01:30 PM IST.\n\n• Open 5-M
+ inute Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE
+ :NIFTY&interval=5\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Apr 2026)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
@@ -1196,26 +1208,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-UID:res-q-LT-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
- • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
- radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
- • Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks/L
- T\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/LT/con
- solidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.nsei
- ndia.com/get-quotes/equity?symbol=LT\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: LT
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
@@ -1232,6 +1224,26 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: KOTAKBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-LT-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
+ • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
+ radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
+ • Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks/L
+ T\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/LT/con
+ solidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=LT\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: LT
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
