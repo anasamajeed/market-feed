@@ -190,8 +190,10 @@ def get_live_nifty_500_symbols():
             reader = csv.DictReader(io.StringIO(resp.text))
             for row in reader:
                 s = row.get("Symbol", "").strip()
-                if s:
-                    symbols.append(s)
+                # Discard synthetic exchange dummy or test tickers (e.g., DUMMYHEG, TEST)
+                if not s or re.search(r'^(DUMMY|TEST)', s, re.I) or re.search(r'TEST$', s, re.I):
+                    continue
+                symbols.append(s)
     except Exception:
         pass
 
@@ -944,7 +946,7 @@ def build_calendars():
 
     # Ingest Nifty 500 Stocks into Feeds
     universe = get_live_nifty_500_symbols()
-    print(f"Loaded {len(universe)} symbols from Nifty 500.")
+    print(f"Loaded {len(universe)} clean symbols from Nifty 500 (test/dummy tickers filtered).")
 
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(process_single_ticker, sym, today, cutoff_past, cutoff_future): sym for sym in universe}
@@ -979,7 +981,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Master & modular feeds compiled with strict alphabetical tiering (A1 -> B2 -> C3 -> D4).")
+    print("Master & modular feeds successfully compiled with clean universe and strict tiering.")
 
 if __name__ == "__main__":
     build_calendars()
