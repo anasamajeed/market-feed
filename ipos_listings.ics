@@ -4,9 +4,94 @@ PRODID:-//Live Indian IPOs\, GMP & Listings Hub//EN
 X-WR-CALNAME:3. Indian IPOs, GMP & Listings
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+SUMMARY:C3. [IPO OPEN] Pranav Constructions (Mainboard)
+DTSTART;TZID=Asia/Kolkata:20260907T100000
+DTEND;TZID=Asia/Kolkata:20260907T103000
+UID:ipo-open-PranavConstructions-2026-09-07
+DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
+ ----\n• Issue: Pranav Constructions\n• Category: Mainboard\n• Price 
+ Band: ₹118 - 124\n• Minimum Lot Size: 120\n• Live Grey Market Premiu
+ m (GMP): +33.06%\n• Bidding Window: 07-Sep to 09-Sep-2026\n-------------
+ ----------------------------\n• IPOGyani Live GMP & Subscription Tracker
+ :\n  https://ipogyani.com/live-ipo\n\n• Official Exchange Prospectus & R
+ HP:\n  https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx\n\n
+ • InvestorGain GMP Tracker:\n  https://www.investorgain.com/report/live-
+ ipo-gmp/331/\n
+URL:https://ipogyani.com/live-ipo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Bidding Opens Today: Pranav Constructions
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [IPO CLOSE] Pranav Constructions - Final Bidding Day
+DTSTART;TZID=Asia/Kolkata:20260909T163000
+DTEND;TZID=Asia/Kolkata:20260909T170000
+UID:ipo-close-PranavConstructions-2026-09-09
+DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
+ -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
+ n)\n• Issue: Pranav Constructions\n• Price Band: ₹118 - 124\n• Fin
+ al Grey Market Premium: +33.06%\n-----------------------------------------
+ \n• IPOGyani Final Day Subscription & GMP:\n  https://ipogyani.com/live-
+ ipo\n\n• Official Registrar Allotment Portal:\n  https://ris.kfintech.co
+ m/ipostatus/\n
+URL:https://ipogyani.com/live-ipo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IPO Closes Today (5 PM): Pranav Constructions
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [IPO ALLOTMENT] Pranav Constructions Allotment Status
+DTSTART;TZID=Asia/Kolkata:20260910T190000
+DTEND;TZID=Asia/Kolkata:20260910T193000
+UID:ipo-allot-PranavConstructions-2026-09-10
+DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
+ ------------\nCheck status with PAN on designated registrar desks:\n\n• 
+ Designated Registrar Desk:\n  https://ris.kfintech.com/ipostatus/\n\n• I
+ POGyani Allotment Tracker:\n  https://ipogyani.com/live-ipo\n\n• Alterna
+ te Link Intime Desk:\n  https://linkintime.co.in/initial_offer/public-issu
+ es.html\n\n• Alternate KFintech Desk:\n  https://ris.kfintech.com/iposta
+ tus/\n
+URL:https://ris.kfintech.com/ipostatus/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Allotment Today: Pranav Constructions
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [IPO LISTING] Pranav Constructions Debut (10:00 AM IST)
+DTSTART;TZID=Asia/Kolkata:20260915T094500
+DTEND;TZID=Asia/Kolkata:20260915T101500
+UID:ipo-list-PranavConstructions-2026-09-15
+DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
+ ========================\n• Company Symbol: PRANAV\n• Category: Mainbo
+ ard\n• Price Band: ₹118 - 124\n• Minimum Lot Size: 120 Shares\n• F
+ inal Grey Market Premium (GMP): +33.06%\n---------------------------------
+ --------\nVERIFIED STOCK LISTING DEBUT (NSE & BSE):\n• Official Issue Pr
+ ice: ₹124.00\n• NSE Opening Price: ₹165.00 (+33.06%)\n• BSE Openin
+ g Price: ₹162.00\n• Actual Retail Profit Per Lot: ₹4\,920.00\n------
+ -----------------------------------\n• Trading Commences: 10:00 AM IST (
+ Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Tradin
+ gView App (Native):\n  tradingview://chart?symbol=NSE:PRANAV&interval=5\n
+ \n• Official NSE Company Quote & Disclosures:\n  https://www.nseindia.co
+ m/get-quotes/equity?symbol=PRANAV\n\n• Official NSE New Listings Tracker
+ :\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-toda
+ y\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:PRANAV&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Listing Debut Today (10 AM): Pranav Constructions
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Veegaland Developers (Mainboard)
-DTSTART;VALUE=DATE:20260910
-DTEND;VALUE=DATE:20260911
+DTSTART;TZID=Asia/Kolkata:20260910T100000
+DTEND;TZID=Asia/Kolkata:20260910T103000
 UID:ipo-open-VeegalandDevelopers-2026-09-10
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Veegaland Developers\n• Category: Mainboard\n• Price 
@@ -21,13 +106,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Veegaland Developers
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Veegaland Developers - Final Bidding Day
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
+DTSTART;TZID=Asia/Kolkata:20260915T163000
+DTEND;TZID=Asia/Kolkata:20260915T170000
 UID:ipo-close-VeegalandDevelopers-2026-09-15
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -40,13 +125,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Veegaland Developers
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Veegaland Developers Allotment Status
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
+DTSTART;TZID=Asia/Kolkata:20260916T190000
+DTEND;TZID=Asia/Kolkata:20260916T193000
 UID:ipo-allot-VeegalandDevelopers-2026-09-16
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -59,126 +144,39 @@ URL:https://linkintime.co.in/initial_offer/public-issues.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Veegaland Developers
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Veegaland Developers Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
+DTSTART;TZID=Asia/Kolkata:20260918T094500
+DTEND;TZID=Asia/Kolkata:20260918T101500
 UID:ipo-list-VeegalandDevelopers-2026-09-18
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: VEEGALAND\n• Category: Mai
  nboard\n• Price Band: ₹130 - 140\n• Minimum Lot Size: 100 Shares\n
- • Final Grey Market Premium (GMP): +18.5% (₹26/share)\n---------------
- --------------------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• E
- xpected Listing Price: ₹166.00\n• Estimated Profit Per Lot: ₹2\,600.
- 00\n-----------------------------------------\n• Trading Commences: 10:0
- 0 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart
-  in TradingView App (Native):\n  tradingview://chart?symbol=NSE:VEEGALAND&
- interval=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www
- .nseindia.com/get-quotes/equity?symbol=VEEGALAND\n\n• Official NSE New L
- istings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchang
- e-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani
- .com/live-ipo\n
+ • Final Grey Market Premium (GMP): +18.5%\n-----------------------------
+ ------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: 
+ ₹140.00\n• Expected Listing Price: ₹166.00\n• Estimated Profit Per
+  Lot: ₹2\,600.00\n-----------------------------------------\n• Trading
+  Commences: 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Ope
+ n 5-Minute Chart in TradingView App (Native):\n  tradingview://chart?symbo
+ l=NSE:VEEGALAND&interval=5\n\n• Official NSE Company Quote & Disclosures
+ :\n  https://www.nseindia.com/get-quotes/equity?symbol=VEEGALAND\n\n• Of
+ ficial NSE New Listings Tracker:\n  https://www.nseindia.com/market-data/n
+ ew-stock-exchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  
+ https://ipogyani.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:VEEGALAND&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Veegaland Developers (Est Gain: 
- ₹2\,600/lot)
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:C3. [IPO OPEN] Pranav Constructions (Mainboard)
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-UID:ipo-open-PranavConstructions-2026-09-07
-DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
- ----\n• Issue: Pranav Constructions\n• Category: Mainboard\n• Price 
- Band: ₹315 - 325\n• Minimum Lot Size: 45\n• Live Grey Market Premium
-  (GMP): +22.4%\n• Bidding Window: 07-Sep to 09-Sep-2026\n---------------
- --------------------------\n• IPOGyani Live GMP & Subscription Tracker:
- \n  https://ipogyani.com/live-ipo\n\n• Official Exchange Prospectus & RH
- P:\n  https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx\n\n
- • InvestorGain GMP Tracker:\n  https://www.investorgain.com/report/live-
- ipo-gmp/331/\n
-URL:https://ipogyani.com/live-ipo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:IPO Bidding Opens Today: Pranav Constructions
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:C3. [IPO CLOSE] Pranav Constructions - Final Bidding Day
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-UID:ipo-close-PranavConstructions-2026-09-09
-DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
- -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
- n)\n• Issue: Pranav Constructions\n• Price Band: ₹315 - 325\n• Fin
- al Grey Market Premium: +22.4%\n-----------------------------------------
- \n• IPOGyani Final Day Subscription & GMP:\n  https://ipogyani.com/live-
- ipo\n\n• Official Registrar Allotment Portal:\n  https://ris.kfintech.co
- m/ipostatus/\n
-URL:https://ipogyani.com/live-ipo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:IPO Closes Today (5 PM): Pranav Constructions
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:C3. [IPO ALLOTMENT] Pranav Constructions Allotment Status
-DTSTART;VALUE=DATE:20260910
-DTEND;VALUE=DATE:20260911
-UID:ipo-allot-PranavConstructions-2026-09-10
-DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
- ------------\nCheck status with PAN on designated registrar desks:\n\n• 
- Designated Registrar Desk:\n  https://ris.kfintech.com/ipostatus/\n\n• I
- POGyani Allotment Tracker:\n  https://ipogyani.com/live-ipo\n\n• Alterna
- te Link Intime Desk:\n  https://linkintime.co.in/initial_offer/public-issu
- es.html\n\n• Alternate KFintech Desk:\n  https://ris.kfintech.com/iposta
- tus/\n
-URL:https://ris.kfintech.com/ipostatus/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Check Allotment Today: Pranav Constructions
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:C3. [IPO LISTING] Pranav Constructions Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-UID:ipo-list-PranavConstructions-2026-09-14
-DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
- ========================\n• Company Symbol: PRANAV\n• Category: Mainbo
- ard\n• Price Band: ₹315 - 325\n• Minimum Lot Size: 45 Shares\n• Fi
- nal Grey Market Premium (GMP): +22.4% (₹73/share)\n---------------------
- --------------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expecte
- d Listing Price: ₹398.00\n• Estimated Profit Per Lot: ₹3\,285.00\n--
- ---------------------------------------\n• Trading Commences: 10:00 AM I
- ST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Tr
- adingView App (Native):\n  tradingview://chart?symbol=NSE:PRANAV&interval=
- 5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nseindia
- .com/get-quotes/equity?symbol=PRANAV\n\n• Official NSE New Listings Trac
- ker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-t
- oday\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ip
- o\n
-URL:https://in.tradingview.com/chart/?symbol=NSE:PRANAV&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Pranav Constructions (Est Gain: 
- ₹3\,285/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Veegaland Developers
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Qualiance International (SME)
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;TZID=Asia/Kolkata:20260904T100000
+DTEND;TZID=Asia/Kolkata:20260904T103000
 UID:ipo-open-QualianceInternational-2026-09-04
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Qualiance International\n• Category: SME\n• Price Ban
@@ -193,13 +191,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Qualiance International
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Qualiance International - Final Bidding Day
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
+DTSTART;TZID=Asia/Kolkata:20260908T163000
+DTEND;TZID=Asia/Kolkata:20260908T170000
 UID:ipo-close-QualianceInternational-2026-09-08
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -212,13 +210,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Qualiance International
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Qualiance International Allotment Status
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
+DTSTART;TZID=Asia/Kolkata:20260909T190000
+DTEND;TZID=Asia/Kolkata:20260909T193000
 UID:ipo-allot-QualianceInternational-2026-09-09
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -231,40 +229,39 @@ URL:https://www.bigshareonline.com/ipo_Allotment.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Qualiance International
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Qualiance International Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
+DTSTART;TZID=Asia/Kolkata:20260911T094500
+DTEND;TZID=Asia/Kolkata:20260911T101500
 UID:ipo-list-QualianceInternational-2026-09-11
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: QUALIANCE\n• Category: SME
  \n• Price Band: ₹120 - 127\n• Minimum Lot Size: 1000 Shares\n• Fin
- al Grey Market Premium (GMP): +31.5% (₹40/share)\n----------------------
- -------------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected
-  Listing Price: ₹167.00\n• Estimated Profit Per Lot: ₹40\,000.00\n--
- ---------------------------------------\n• Trading Commences: 10:00 AM I
- ST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Tr
- adingView App (Native):\n  tradingview://chart?symbol=NSE:QUALIANCE&interv
- al=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nsein
- dia.com/get-quotes/equity?symbol=QUALIANCE\n\n• Official NSE New Listing
- s Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange-list
- ings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/l
- ive-ipo\n
+ al Grey Market Premium (GMP): +31.5%\n------------------------------------
+ -----\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹127.00
+ \n• Expected Listing Price: ₹167.00\n• Estimated Profit Per Lot: ₹
+ 40\,000.00\n-----------------------------------------\n• Trading Commenc
+ es: 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minu
+ te Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE:QU
+ ALIANCE&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  htt
+ ps://www.nseindia.com/get-quotes/equity?symbol=QUALIANCE\n\n• Official N
+ SE New Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock
+ -exchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://
+ ipogyani.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:QUALIANCE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Qualiance International (Est Gain
- : ₹40\,000/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Qualiance International
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Rays of Belief (Mainboard)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T100000
+DTEND;TZID=Asia/Kolkata:20260901T103000
 UID:ipo-open-RaysofBelief-2026-09-01
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Rays of Belief\n• Category: Mainboard\n• Price Band: 
@@ -279,13 +276,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Rays of Belief
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Rays of Belief - Final Bidding Day
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T163000
+DTEND;TZID=Asia/Kolkata:20260903T170000
 UID:ipo-close-RaysofBelief-2026-09-03
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -298,13 +295,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Rays of Belief
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Rays of Belief Allotment Status
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;TZID=Asia/Kolkata:20260904T190000
+DTEND;TZID=Asia/Kolkata:20260904T193000
 UID:ipo-allot-RaysofBelief-2026-09-04
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -317,40 +314,39 @@ URL:https://linkintime.co.in/initial_offer/public-issues.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Rays of Belief
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Rays of Belief Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
+DTSTART;TZID=Asia/Kolkata:20260908T094500
+DTEND;TZID=Asia/Kolkata:20260908T101500
 UID:ipo-list-RaysofBelief-2026-09-08
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: RAYSOFBELIEF\n• Category: 
  Mainboard\n• Price Band: ₹227 - 239\n• Minimum Lot Size: 60 Shares\n
- • Final Grey Market Premium (GMP): +16.7% (₹40/share)\n---------------
- --------------------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• E
- xpected Listing Price: ₹279.00\n• Estimated Profit Per Lot: ₹2\,400.
- 00\n-----------------------------------------\n• Trading Commences: 10:0
- 0 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart
-  in TradingView App (Native):\n  tradingview://chart?symbol=NSE:RAYSOFBELI
- EF&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  https://
- www.nseindia.com/get-quotes/equity?symbol=RAYSOFBELIEF\n\n• Official NSE
-  New Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-e
- xchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ip
- ogyani.com/live-ipo\n
+ • Final Grey Market Premium (GMP): +16.7%\n-----------------------------
+ ------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: 
+ ₹239.00\n• Expected Listing Price: ₹279.00\n• Estimated Profit Per
+  Lot: ₹2\,400.00\n-----------------------------------------\n• Trading
+  Commences: 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Ope
+ n 5-Minute Chart in TradingView App (Native):\n  tradingview://chart?symbo
+ l=NSE:RAYSOFBELIEF&interval=5\n\n• Official NSE Company Quote & Disclosu
+ res:\n  https://www.nseindia.com/get-quotes/equity?symbol=RAYSOFBELIEF\n\n
+ • Official NSE New Listings Tracker:\n  https://www.nseindia.com/market-
+ data/new-stock-exchange-listings-today\n\n• IPOGyani Listing Day Analysi
+ s:\n  https://ipogyani.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:RAYSOFBELIEF&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Rays of Belief (Est Gain: ₹2\,4
- 00/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Rays of Belief
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Deepa Jewellers (Mainboard)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T100000
+DTEND;TZID=Asia/Kolkata:20260901T103000
 UID:ipo-open-DeepaJewellers-2026-09-01
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Deepa Jewellers\n• Category: Mainboard\n• Price Band:
@@ -365,13 +361,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Deepa Jewellers
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Deepa Jewellers - Final Bidding Day
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T163000
+DTEND;TZID=Asia/Kolkata:20260903T170000
 UID:ipo-close-DeepaJewellers-2026-09-03
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -384,13 +380,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Deepa Jewellers
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Deepa Jewellers Allotment Status
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;TZID=Asia/Kolkata:20260904T190000
+DTEND;TZID=Asia/Kolkata:20260904T193000
 UID:ipo-allot-DeepaJewellers-2026-09-04
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -403,40 +399,39 @@ URL:https://ris.kfintech.com/ipostatus/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Deepa Jewellers
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Deepa Jewellers Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
+DTSTART;TZID=Asia/Kolkata:20260908T094500
+DTEND;TZID=Asia/Kolkata:20260908T101500
 UID:ipo-list-DeepaJewellers-2026-09-08
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: DEEPA\n• Category: Mainboa
  rd\n• Price Band: ₹168 - 177\n• Minimum Lot Size: 80 Shares\n• Fin
- al Grey Market Premium (GMP): +12.8% (₹23/share)\n----------------------
- -------------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected
-  Listing Price: ₹200.00\n• Estimated Profit Per Lot: ₹1\,840.00\n---
- --------------------------------------\n• Trading Commences: 10:00 AM IS
- T (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Tra
- dingView App (Native):\n  tradingview://chart?symbol=NSE:DEEPA&interval=5
- \n\n• Official NSE Company Quote & Disclosures:\n  https://www.nseindia.
- com/get-quotes/equity?symbol=DEEPA\n\n• Official NSE New Listings Tracke
- r:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-tod
- ay\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo
- \n
+ al Grey Market Premium (GMP): +12.8%\n------------------------------------
+ -----\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹177.00
+ \n• Expected Listing Price: ₹200.00\n• Estimated Profit Per Lot: ₹
+ 1\,840.00\n-----------------------------------------\n• Trading Commence
+ s: 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minut
+ e Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE:DEE
+ PA&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  https://
+ www.nseindia.com/get-quotes/equity?symbol=DEEPA\n\n• Official NSE New Li
+ stings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange
+ -listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.
+ com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:DEEPA&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Deepa Jewellers (Est Gain: ₹1\,
- 840/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Deepa Jewellers
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Farm Peace (SME)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T100000
+DTEND;TZID=Asia/Kolkata:20260901T103000
 UID:ipo-open-FarmPeace-2026-09-01
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Farm Peace\n• Category: SME\n• Price Band: ₹59\n•
@@ -450,13 +445,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Farm Peace
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Farm Peace - Final Bidding Day
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T163000
+DTEND;TZID=Asia/Kolkata:20260903T170000
 UID:ipo-close-FarmPeace-2026-09-03
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -469,13 +464,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Farm Peace
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Farm Peace Allotment Status
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;TZID=Asia/Kolkata:20260904T190000
+DTEND;TZID=Asia/Kolkata:20260904T193000
 UID:ipo-allot-FarmPeace-2026-09-04
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -488,40 +483,39 @@ URL:https://www.bigshareonline.com/ipo_Allotment.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Farm Peace
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Farm Peace Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
+DTSTART;TZID=Asia/Kolkata:20260908T094500
+DTEND;TZID=Asia/Kolkata:20260908T101500
 UID:ipo-list-FarmPeace-2026-09-08
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: FARMPEACE\n• Category: SME
  \n• Price Band: ₹59\n• Minimum Lot Size: 2000 Shares\n• Final Grey
-  Market Premium (GMP): +24.0% (₹14/share)\n-----------------------------
- ------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Listin
- g Price: ₹73.00\n• Estimated Profit Per Lot: ₹28\,000.00\n----------
- -------------------------------\n• Trading Commences: 10:00 AM IST (Pre-
- open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in TradingVie
- w App (Native):\n  tradingview://chart?symbol=NSE:FARMPEACE&interval=5\n\n
- • Official NSE Company Quote & Disclosures:\n  https://www.nseindia.com/
- get-quotes/equity?symbol=FARMPEACE\n\n• Official NSE New Listings Tracke
- r:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-tod
- ay\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo
- \n
+  Market Premium (GMP): +24.0%\n-----------------------------------------\n
+ RETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹59.00\n• Ex
+ pected Listing Price: ₹73.00\n• Estimated Profit Per Lot: ₹28\,000.0
+ 0\n-----------------------------------------\n• Trading Commences: 10:00
+  AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart 
+ in TradingView App (Native):\n  tradingview://chart?symbol=NSE:FARMPEACE&i
+ nterval=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.
+ nseindia.com/get-quotes/equity?symbol=FARMPEACE\n\n• Official NSE New Li
+ stings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange
+ -listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.
+ com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:FARMPEACE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Farm Peace (Est Gain: ₹28\,000/
- lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Farm Peace
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Fly-Hi Maritime Travels (SME)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T100000
+DTEND;TZID=Asia/Kolkata:20260901T103000
 UID:ipo-open-Fly-HiMaritimeTravels-2026-09-01
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Fly-Hi Maritime Travels\n• Category: SME\n• Price Ban
@@ -536,13 +530,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Fly-Hi Maritime Travels
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Fly-Hi Maritime Travels - Final Bidding Day
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T163000
+DTEND;TZID=Asia/Kolkata:20260903T170000
 UID:ipo-close-Fly-HiMaritimeTravels-2026-09-03
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -555,13 +549,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Fly-Hi Maritime Travels
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Fly-Hi Maritime Travels Allotment Status
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;TZID=Asia/Kolkata:20260904T190000
+DTEND;TZID=Asia/Kolkata:20260904T193000
 UID:ipo-allot-Fly-HiMaritimeTravels-2026-09-04
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -574,39 +568,39 @@ URL:https://linkintime.co.in/initial_offer/public-issues.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Fly-Hi Maritime Travels
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Fly-Hi Maritime Travels Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
+DTSTART;TZID=Asia/Kolkata:20260908T094500
+DTEND;TZID=Asia/Kolkata:20260908T101500
 UID:ipo-list-Fly-HiMaritimeTravels-2026-09-08
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: FLYHI\n• Category: SME\n
  • Price Band: ₹102\n• Minimum Lot Size: 1200 Shares\n• Final Grey 
- Market Premium (GMP): +14.5% (₹15/share)\n------------------------------
- -----------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Listing
-  Price: ₹117.00\n• Estimated Profit Per Lot: ₹18\,000.00\n----------
- -------------------------------\n• Trading Commences: 10:00 AM IST (Pre-
- open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in TradingVie
- w App (Native):\n  tradingview://chart?symbol=NSE:FLYHI&interval=5\n\n• 
- Official NSE Company Quote & Disclosures:\n  https://www.nseindia.com/get-
- quotes/equity?symbol=FLYHI\n\n• Official NSE New Listings Tracker:\n  ht
- tps://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n
- • IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
+ Market Premium (GMP): +14.5%\n-----------------------------------------\nR
+ ETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹102.00\n• Ex
+ pected Listing Price: ₹117.00\n• Estimated Profit Per Lot: ₹18\,000.
+ 00\n-----------------------------------------\n• Trading Commences: 10:0
+ 0 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart
+  in TradingView App (Native):\n  tradingview://chart?symbol=NSE:FLYHI&inte
+ rval=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nse
+ india.com/get-quotes/equity?symbol=FLYHI\n\n• Official NSE New Listings 
+ Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listin
+ gs-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/liv
+ e-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:FLYHI&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Fly-Hi Maritime Travels (Est Gain
- : ₹18\,000/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Fly-Hi Maritime Travels
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Purple Style Labs (Mainboard)
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260901
+DTSTART;TZID=Asia/Kolkata:20260831T100000
+DTEND;TZID=Asia/Kolkata:20260831T103000
 UID:ipo-open-PurpleStyleLabs-2026-08-31
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Purple Style Labs\n• Category: Mainboard\n• Price Ban
@@ -621,13 +615,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Purple Style Labs
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Purple Style Labs - Final Bidding Day
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
+DTSTART;TZID=Asia/Kolkata:20260902T163000
+DTEND;TZID=Asia/Kolkata:20260902T170000
 UID:ipo-close-PurpleStyleLabs-2026-09-02
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -640,13 +634,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Purple Style Labs
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Purple Style Labs Allotment Status
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T190000
+DTEND;TZID=Asia/Kolkata:20260903T193000
 UID:ipo-allot-PurpleStyleLabs-2026-09-03
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -659,40 +653,39 @@ URL:https://ris.kfintech.com/ipostatus/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Purple Style Labs
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Purple Style Labs Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
+DTSTART;TZID=Asia/Kolkata:20260907T094500
+DTEND;TZID=Asia/Kolkata:20260907T101500
 UID:ipo-list-PurpleStyleLabs-2026-09-07
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: PURPLE\n• Category: Mainbo
  ard\n• Price Band: ₹546 - 575\n• Minimum Lot Size: 25 Shares\n• Fi
- nal Grey Market Premium (GMP): +28.2% (₹162/share)\n--------------------
- ---------------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expect
- ed Listing Price: ₹737.00\n• Estimated Profit Per Lot: ₹4\,050.00\n-
- ----------------------------------------\n• Trading Commences: 10:00 AM 
- IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in T
- radingView App (Native):\n  tradingview://chart?symbol=NSE:PURPLE&interval
- =5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nseindi
- a.com/get-quotes/equity?symbol=PURPLE\n\n• Official NSE New Listings Tra
- cker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-
- today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-i
- po\n
+ nal Grey Market Premium (GMP): +28.2%\n-----------------------------------
+ ------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹575.0
+ 0\n• Expected Listing Price: ₹737.00\n• Estimated Profit Per Lot: 
+ ₹4\,050.00\n-----------------------------------------\n• Trading Comme
+ nces: 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Mi
+ nute Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE:
+ PURPLE&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  http
+ s://www.nseindia.com/get-quotes/equity?symbol=PURPLE\n\n• Official NSE N
+ ew Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exc
+ hange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipog
+ yani.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:PURPLE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Purple Style Labs (Est Gain: ₹4
- \,050/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Purple Style Labs
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] ESDS Software Solution (Mainboard)
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
+DTSTART;TZID=Asia/Kolkata:20260828T100000
+DTEND;TZID=Asia/Kolkata:20260828T103000
 UID:ipo-open-ESDSSoftwareSolution-2026-08-28
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: ESDS Software Solution\n• Category: Mainboard\n• Pric
@@ -707,13 +700,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: ESDS Software Solution
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] ESDS Software Solution - Final Bidding Day
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T163000
+DTEND;TZID=Asia/Kolkata:20260901T170000
 UID:ipo-close-ESDSSoftwareSolution-2026-09-01
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -726,13 +719,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): ESDS Software Solution
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] ESDS Software Solution Allotment Status
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
+DTSTART;TZID=Asia/Kolkata:20260902T190000
+DTEND;TZID=Asia/Kolkata:20260902T193000
 UID:ipo-allot-ESDSSoftwareSolution-2026-09-02
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -745,39 +738,39 @@ URL:https://linkintime.co.in/initial_offer/public-issues.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: ESDS Software Solution
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] ESDS Software Solution Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;TZID=Asia/Kolkata:20260904T094500
+DTEND;TZID=Asia/Kolkata:20260904T101500
 UID:ipo-list-ESDSSoftwareSolution-2026-09-04
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: ESDS\n• Category: Mainboar
  d\n• Price Band: ₹429\n• Minimum Lot Size: 35 Shares\n• Final Grey
-  Market Premium (GMP): +15.2% (₹65/share)\n-----------------------------
- ------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Listin
- g Price: ₹494.00\n• Estimated Profit Per Lot: ₹2\,275.00\n----------
- -------------------------------\n• Trading Commences: 10:00 AM IST (Pre-
- open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in TradingVie
- w App (Native):\n  tradingview://chart?symbol=NSE:ESDS&interval=5\n\n• O
- fficial NSE Company Quote & Disclosures:\n  https://www.nseindia.com/get-q
- uotes/equity?symbol=ESDS\n\n• Official NSE New Listings Tracker:\n  http
- s://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n• 
- IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
+  Market Premium (GMP): +15.2%\n-----------------------------------------\n
+ RETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹429.00\n• E
+ xpected Listing Price: ₹494.00\n• Estimated Profit Per Lot: ₹2\,275.
+ 00\n-----------------------------------------\n• Trading Commences: 10:0
+ 0 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart
+  in TradingView App (Native):\n  tradingview://chart?symbol=NSE:ESDS&inter
+ val=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=ESDS\n\n• Official NSE New Listings Tr
+ acker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings
+ -today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-
+ ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:ESDS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): ESDS Software Solution (Est Gain:
-  ₹2\,275/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): ESDS Software Solution
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Lumino Industries (Mainboard)
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
+DTSTART;TZID=Asia/Kolkata:20260827T100000
+DTEND;TZID=Asia/Kolkata:20260827T103000
 UID:ipo-open-LuminoIndustries-2026-08-27
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Lumino Industries\n• Category: Mainboard\n• Price Ban
@@ -792,13 +785,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Lumino Industries
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Lumino Industries - Final Bidding Day
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260901
+DTSTART;TZID=Asia/Kolkata:20260831T163000
+DTEND;TZID=Asia/Kolkata:20260831T170000
 UID:ipo-close-LuminoIndustries-2026-08-31
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -811,13 +804,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Lumino Industries
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Lumino Industries Allotment Status
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T190000
+DTEND;TZID=Asia/Kolkata:20260901T193000
 UID:ipo-allot-LuminoIndustries-2026-09-01
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -830,39 +823,39 @@ URL:https://ris.kfintech.com/ipostatus/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Lumino Industries
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Lumino Industries Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T094500
+DTEND;TZID=Asia/Kolkata:20260903T101500
 UID:ipo-list-LuminoIndustries-2026-09-03
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: LUMINO\n• Category: Mainbo
  ard\n• Price Band: ₹82\n• Minimum Lot Size: 150 Shares\n• Final Gr
- ey Market Premium (GMP): +52.0% (₹43/share)\n---------------------------
- --------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected List
- ing Price: ₹125.00\n• Estimated Profit Per Lot: ₹6\,450.00\n--------
- ---------------------------------\n• Trading Commences: 10:00 AM IST (Pr
- e-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in TradingV
- iew App (Native):\n  tradingview://chart?symbol=NSE:LUMINO&interval=5\n\n
- • Official NSE Company Quote & Disclosures:\n  https://www.nseindia.com/
- get-quotes/equity?symbol=LUMINO\n\n• Official NSE New Listings Tracker:
- \n  https://www.nseindia.com/market-data/new-stock-exchange-listings-today
- \n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
+ ey Market Premium (GMP): +52.0%\n-----------------------------------------
+ \nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹82.00\n• 
+ Expected Listing Price: ₹125.00\n• Estimated Profit Per Lot: ₹6\,450
+ .00\n-----------------------------------------\n• Trading Commences: 10:
+ 00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Char
+ t in TradingView App (Native):\n  tradingview://chart?symbol=NSE:LUMINO&in
+ terval=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.n
+ seindia.com/get-quotes/equity?symbol=LUMINO\n\n• Official NSE New Listin
+ gs Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange-lis
+ tings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/
+ live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:LUMINO&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Lumino Industries (Est Gain: ₹6
- \,450/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Lumino Industries
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Kwick Forensic Solutions (SME)
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
+DTSTART;TZID=Asia/Kolkata:20260827T100000
+DTEND;TZID=Asia/Kolkata:20260827T103000
 UID:ipo-open-KwickForensicSolutions-2026-08-27
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Kwick Forensic Solutions\n• Category: SME\n• Price Ba
@@ -877,13 +870,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Kwick Forensic Solutions
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Kwick Forensic Solutions - Final Bidding Day
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260901
+DTSTART;TZID=Asia/Kolkata:20260831T163000
+DTEND;TZID=Asia/Kolkata:20260831T170000
 UID:ipo-close-KwickForensicSolutions-2026-08-31
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -896,13 +889,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Kwick Forensic Solutions
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Kwick Forensic Solutions Allotment Status
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;TZID=Asia/Kolkata:20260901T190000
+DTEND;TZID=Asia/Kolkata:20260901T193000
 UID:ipo-allot-KwickForensicSolutions-2026-09-01
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -915,39 +908,39 @@ URL:https://www.bigshareonline.com/ipo_Allotment.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Kwick Forensic Solutions
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Kwick Forensic Solutions Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;TZID=Asia/Kolkata:20260903T094500
+DTEND;TZID=Asia/Kolkata:20260903T101500
 UID:ipo-list-KwickForensicSolutions-2026-09-03
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: KWICK\n• Category: SME\n
  • Price Band: ₹90\n• Minimum Lot Size: 1600 Shares\n• Final Grey M
- arket Premium (GMP): +68.5% (₹62/share)\n-------------------------------
- ----------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Listing 
- Price: ₹152.00\n• Estimated Profit Per Lot: ₹99\,200.00\n-----------
- ------------------------------\n• Trading Commences: 10:00 AM IST (Pre-o
- pen discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in TradingView
-  App (Native):\n  tradingview://chart?symbol=NSE:KWICK&interval=5\n\n• O
- fficial NSE Company Quote & Disclosures:\n  https://www.nseindia.com/get-q
- uotes/equity?symbol=KWICK\n\n• Official NSE New Listings Tracker:\n  htt
- ps://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n•
-  IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
+ arket Premium (GMP): +68.5%\n-----------------------------------------\nRE
+ TAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹90.00\n• Expe
+ cted Listing Price: ₹152.00\n• Estimated Profit Per Lot: ₹99\,200.00
+ \n-----------------------------------------\n• Trading Commences: 10:00 
+ AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart i
+ n TradingView App (Native):\n  tradingview://chart?symbol=NSE:KWICK&interv
+ al=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nsein
+ dia.com/get-quotes/equity?symbol=KWICK\n\n• Official NSE New Listings Tr
+ acker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings
+ -today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-
+ ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:KWICK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Kwick Forensic Solutions (Est Gai
- n: ₹99\,200/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Kwick Forensic Solutions
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Augmont Enterprises (Mainboard)
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
+DTSTART;TZID=Asia/Kolkata:20260814T100000
+DTEND;TZID=Asia/Kolkata:20260814T103000
 UID:ipo-open-AugmontEnterprises-2026-08-14
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Augmont Enterprises\n• Category: Mainboard\n• Price B
@@ -962,13 +955,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Augmont Enterprises
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Augmont Enterprises - Final Bidding Day
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
+DTSTART;TZID=Asia/Kolkata:20260818T163000
+DTEND;TZID=Asia/Kolkata:20260818T170000
 UID:ipo-close-AugmontEnterprises-2026-08-18
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -981,13 +974,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Augmont Enterprises
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Augmont Enterprises Allotment Status
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
+DTSTART;TZID=Asia/Kolkata:20260819T190000
+DTEND;TZID=Asia/Kolkata:20260819T193000
 UID:ipo-allot-AugmontEnterprises-2026-08-19
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -1000,40 +993,39 @@ URL:https://linkintime.co.in/initial_offer/public-issues.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Augmont Enterprises
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Augmont Enterprises Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
+DTSTART;TZID=Asia/Kolkata:20260821T094500
+DTEND;TZID=Asia/Kolkata:20260821T101500
 UID:ipo-list-AugmontEnterprises-2026-08-21
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: AUGMONT\n• Category: Mainb
  oard\n• Price Band: ₹345\n• Minimum Lot Size: 40 Shares\n• Final G
- rey Market Premium (GMP): +21.4% (₹74/share)\n--------------------------
- ---------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Lis
- ting Price: ₹419.00\n• Estimated Profit Per Lot: ₹2\,960.00\n-------
- ----------------------------------\n• Trading Commences: 10:00 AM IST (P
- re-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Trading
- View App (Native):\n  tradingview://chart?symbol=NSE:AUGMONT&interval=5\n
- \n• Official NSE Company Quote & Disclosures:\n  https://www.nseindia.co
- m/get-quotes/equity?symbol=AUGMONT\n\n• Official NSE New Listings Tracke
- r:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-tod
- ay\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo
- \n
+ rey Market Premium (GMP): +21.4%\n----------------------------------------
+ -\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹345.00\n
+ • Expected Listing Price: ₹419.00\n• Estimated Profit Per Lot: ₹2
+ \,960.00\n-----------------------------------------\n• Trading Commences
+ : 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute
+  Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE:AUGM
+ ONT&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  https:/
+ /www.nseindia.com/get-quotes/equity?symbol=AUGMONT\n\n• Official NSE New
+  Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-excha
+ nge-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogya
+ ni.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:AUGMONT&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Augmont Enterprises (Est Gain: 
- ₹2\,960/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Augmont Enterprises
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Tempsens Instruments (Mainboard)
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
+DTSTART;TZID=Asia/Kolkata:20260813T100000
+DTEND;TZID=Asia/Kolkata:20260813T103000
 UID:ipo-open-TempsensInstruments-2026-08-13
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Tempsens Instruments\n• Category: Mainboard\n• Price 
@@ -1048,13 +1040,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Tempsens Instruments
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Tempsens Instruments - Final Bidding Day
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
+DTSTART;TZID=Asia/Kolkata:20260817T163000
+DTEND;TZID=Asia/Kolkata:20260817T170000
 UID:ipo-close-TempsensInstruments-2026-08-17
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -1067,13 +1059,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Tempsens Instruments
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Tempsens Instruments Allotment Status
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
+DTSTART;TZID=Asia/Kolkata:20260818T190000
+DTEND;TZID=Asia/Kolkata:20260818T193000
 UID:ipo-allot-TempsensInstruments-2026-08-18
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -1086,40 +1078,39 @@ URL:https://ris.kfintech.com/ipostatus/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Tempsens Instruments
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Tempsens Instruments Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
+DTSTART;TZID=Asia/Kolkata:20260820T094500
+DTEND;TZID=Asia/Kolkata:20260820T101500
 UID:ipo-list-TempsensInstruments-2026-08-20
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: TEMPSENS\n• Category: Main
  board\n• Price Band: ₹550\n• Minimum Lot Size: 25 Shares\n• Final 
- Grey Market Premium (GMP): +44.0% (₹242/share)\n------------------------
- -----------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected L
- isting Price: ₹792.00\n• Estimated Profit Per Lot: ₹6\,050.00\n-----
- ------------------------------------\n• Trading Commences: 10:00 AM IST 
- (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Tradi
- ngView App (Native):\n  tradingview://chart?symbol=NSE:TEMPSENS&interval=5
- \n\n• Official NSE Company Quote & Disclosures:\n  https://www.nseindia.
- com/get-quotes/equity?symbol=TEMPSENS\n\n• Official NSE New Listings Tra
- cker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings-
- today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-i
- po\n
+ Grey Market Premium (GMP): +44.0%\n---------------------------------------
+ --\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹550.00\n
+ • Expected Listing Price: ₹792.00\n• Estimated Profit Per Lot: ₹6
+ \,050.00\n-----------------------------------------\n• Trading Commences
+ : 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute
+  Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE:TEMP
+ SENS&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  https:
+ //www.nseindia.com/get-quotes/equity?symbol=TEMPSENS\n\n• Official NSE N
+ ew Listings Tracker:\n  https://www.nseindia.com/market-data/new-stock-exc
+ hange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipog
+ yani.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:TEMPSENS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Tempsens Instruments (Est Gain: 
- ₹6\,050/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Tempsens Instruments
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Gaja Alternative Asset (Mainboard)
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
+DTSTART;TZID=Asia/Kolkata:20260812T100000
+DTEND;TZID=Asia/Kolkata:20260812T103000
 UID:ipo-open-GajaAlternativeAsset-2026-08-12
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Gaja Alternative Asset\n• Category: Mainboard\n• Pric
@@ -1134,13 +1125,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Gaja Alternative Asset
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Gaja Alternative Asset - Final Bidding Day
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
+DTSTART;TZID=Asia/Kolkata:20260814T163000
+DTEND;TZID=Asia/Kolkata:20260814T170000
 UID:ipo-close-GajaAlternativeAsset-2026-08-14
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -1153,13 +1144,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Gaja Alternative Asset
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Gaja Alternative Asset Allotment Status
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
+DTSTART;TZID=Asia/Kolkata:20260817T190000
+DTEND;TZID=Asia/Kolkata:20260817T193000
 UID:ipo-allot-GajaAlternativeAsset-2026-08-17
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -1172,39 +1163,39 @@ URL:https://linkintime.co.in/initial_offer/public-issues.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Gaja Alternative Asset
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Gaja Alternative Asset Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
+DTSTART;TZID=Asia/Kolkata:20260819T094500
+DTEND;TZID=Asia/Kolkata:20260819T101500
 UID:ipo-list-GajaAlternativeAsset-2026-08-19
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: GAJA\n• Category: Mainboar
  d\n• Price Band: ₹195\n• Minimum Lot Size: 75 Shares\n• Final Grey
-  Market Premium (GMP): +18.0% (₹35/share)\n-----------------------------
- ------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Listin
- g Price: ₹230.00\n• Estimated Profit Per Lot: ₹2\,625.00\n----------
- -------------------------------\n• Trading Commences: 10:00 AM IST (Pre-
- open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in TradingVie
- w App (Native):\n  tradingview://chart?symbol=NSE:GAJA&interval=5\n\n• O
- fficial NSE Company Quote & Disclosures:\n  https://www.nseindia.com/get-q
- uotes/equity?symbol=GAJA\n\n• Official NSE New Listings Tracker:\n  http
- s://www.nseindia.com/market-data/new-stock-exchange-listings-today\n\n• 
- IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-ipo\n
+  Market Premium (GMP): +18.0%\n-----------------------------------------\n
+ RETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹195.00\n• E
+ xpected Listing Price: ₹230.00\n• Estimated Profit Per Lot: ₹2\,625.
+ 00\n-----------------------------------------\n• Trading Commences: 10:0
+ 0 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart
+  in TradingView App (Native):\n  tradingview://chart?symbol=NSE:GAJA&inter
+ val=5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=GAJA\n\n• Official NSE New Listings Tr
+ acker:\n  https://www.nseindia.com/market-data/new-stock-exchange-listings
+ -today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/live-
+ ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:GAJA&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Gaja Alternative Asset (Est Gain:
-  ₹2\,625/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Gaja Alternative Asset
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Technocrats Plasma Systems (SME)
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
+DTSTART;TZID=Asia/Kolkata:20260814T100000
+DTEND;TZID=Asia/Kolkata:20260814T103000
 UID:ipo-open-TechnocratsPlasmaSystems-2026-08-14
 DESCRIPTION:IPO BIDDING OPENS TODAY\n-------------------------------------
  ----\n• Issue: Technocrats Plasma Systems\n• Category: SME\n• Price 
@@ -1219,13 +1210,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Bidding Opens Today: Technocrats Plasma Systems
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO CLOSE] Technocrats Plasma Systems - Final Bidding Day
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
+DTSTART;TZID=Asia/Kolkata:20260818T163000
+DTEND;TZID=Asia/Kolkata:20260818T170000
 UID:ipo-close-TechnocratsPlasmaSystems-2026-08-18
 DESCRIPTION:FINAL BIDDING & MANDATE APPROVAL DAY\n------------------------
  -----------------\n• Final Cutoff: 5:00 PM IST (UPI Mandate Authorizatio
@@ -1238,13 +1229,13 @@ URL:https://ipogyani.com/live-ipo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IPO Closes Today (5 PM): Technocrats Plasma Systems
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO ALLOTMENT] Technocrats Plasma Systems Allotment Status
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
+DTSTART;TZID=Asia/Kolkata:20260819T190000
+DTEND;TZID=Asia/Kolkata:20260819T193000
 UID:ipo-allot-TechnocratsPlasmaSystems-2026-08-19
 DESCRIPTION:BASIS OF ALLOTMENT FINALIZATION\n-----------------------------
  ------------\nCheck status with PAN on designated registrar desks:\n\n• 
@@ -1257,34 +1248,33 @@ URL:https://www.bigshareonline.com/ipo_Allotment.html
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Check Allotment Today: Technocrats Plasma Systems
-TRIGGER:PT9H
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO LISTING] Technocrats Plasma Systems Debut (10:00 AM IST)
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
+DTSTART;TZID=Asia/Kolkata:20260821T094500
+DTEND;TZID=Asia/Kolkata:20260821T101500
 UID:ipo-list-TechnocratsPlasmaSystems-2026-08-21
 DESCRIPTION:EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n=================
  ========================\n• Company Symbol: TECHNOCRATS\n• Category: S
  ME\n• Price Band: ₹132\n• Minimum Lot Size: 1000 Shares\n• Final G
- rey Market Premium (GMP): +53.0% (₹70/share)\n--------------------------
- ---------------\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Expected Lis
- ting Price: ₹202.00\n• Estimated Profit Per Lot: ₹70\,000.00\n------
- -----------------------------------\n• Trading Commences: 10:00 AM IST (
- Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute Chart in Tradin
- gView App (Native):\n  tradingview://chart?symbol=NSE:TECHNOCRATS&interval
- =5\n\n• Official NSE Company Quote & Disclosures:\n  https://www.nseindi
- a.com/get-quotes/equity?symbol=TECHNOCRATS\n\n• Official NSE New Listing
- s Tracker:\n  https://www.nseindia.com/market-data/new-stock-exchange-list
- ings-today\n\n• IPOGyani Listing Day Analysis:\n  https://ipogyani.com/l
- ive-ipo\n
+ rey Market Premium (GMP): +53.0%\n----------------------------------------
+ -\nRETAIL LISTING GAIN ESTIMATE (AT OPEN):\n• Issue Price: ₹132.00\n
+ • Expected Listing Price: ₹202.00\n• Estimated Profit Per Lot: ₹70
+ \,000.00\n-----------------------------------------\n• Trading Commences
+ : 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n• Open 5-Minute
+  Chart in TradingView App (Native):\n  tradingview://chart?symbol=NSE:TECH
+ NOCRATS&interval=5\n\n• Official NSE Company Quote & Disclosures:\n  htt
+ ps://www.nseindia.com/get-quotes/equity?symbol=TECHNOCRATS\n\n• Official
+  NSE New Listings Tracker:\n  https://www.nseindia.com/market-data/new-sto
+ ck-exchange-listings-today\n\n• IPOGyani Listing Day Analysis:\n  https:
+ //ipogyani.com/live-ipo\n
 URL:https://in.tradingview.com/chart/?symbol=NSE:TECHNOCRATS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Listing Debut Today (10 AM): Technocrats Plasma Systems (Est G
- ain: ₹70\,000/lot)
-TRIGGER:PT9H
+DESCRIPTION:Listing Debut Today (10 AM): Technocrats Plasma Systems
+TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
