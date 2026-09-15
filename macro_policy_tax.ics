@@ -4,7 +4,7 @@ PRODID:-//Macro\, Economic Policy & Tax Hub//EN
 X-WR-CALNAME:2. Macro, Policy & Tax Deadlines
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Good Friday
+SUMMARY:B2. [HOLIDAY] Market Closed - Good Friday
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260404
 UID:holiday-2026-04-03
@@ -13,7 +13,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Good
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Dr. Ambedkar Jayanti
+SUMMARY:B2. [HOLIDAY] Market Closed - Dr. Ambedkar Jayanti
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
 UID:holiday-2026-04-14
@@ -22,7 +22,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Dr.
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Maharashtra Day
+SUMMARY:B2. [HOLIDAY] Market Closed - Maharashtra Day
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 UID:holiday-2026-05-01
@@ -31,7 +31,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Maha
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Bakri Id
+SUMMARY:B2. [HOLIDAY] Market Closed - Bakri Id
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 UID:holiday-2026-05-28
@@ -40,7 +40,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Bakr
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Muharram
+SUMMARY:B2. [HOLIDAY] Market Closed - Muharram
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 UID:holiday-2026-06-26
@@ -49,7 +49,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Muha
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Ganesh Chaturthi
+SUMMARY:B2. [HOLIDAY] Market Closed - Ganesh Chaturthi
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 UID:holiday-2026-09-14
@@ -58,7 +58,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Gane
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Mahatma Gandhi Jayanti
+SUMMARY:B2. [HOLIDAY] Market Closed - Mahatma Gandhi Jayanti
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 UID:holiday-2026-10-02
@@ -67,7 +67,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Maha
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Dussehra
+SUMMARY:B2. [HOLIDAY] Market Closed - Dussehra
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 UID:holiday-2026-10-20
@@ -76,7 +76,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Duss
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Diwali Balipratipada
+SUMMARY:B2. [HOLIDAY] Market Closed - Diwali Balipratipada
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 UID:holiday-2026-11-10
@@ -85,7 +85,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Diwa
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Guru Nanak Jayanti
+SUMMARY:B2. [HOLIDAY] Market Closed - Guru Nanak Jayanti
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 UID:holiday-2026-11-24
@@ -94,7 +94,7 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Guru
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [HOLIDAY] Market Closed - Christmas
+SUMMARY:B2. [HOLIDAY] Market Closed - Christmas
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 UID:holiday-2026-12-25
@@ -103,338 +103,341 @@ DESCRIPTION:NSE & BSE equity/derivative segments are closed today for Chri
 URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [TAX] Advance Tax Q1 Instalment Due (15%)
+SUMMARY:B2. [TAX] Advance Tax Q1 Instalment Due (15%)
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
-UID:macro-tax-2.[TAX]Advanc-2026-06-15
+UID:macro-tax-B2.[TAX]Advan-2026-06-15
 DESCRIPTION:Statutory deadline to deposit 15% of estimated advance income 
  tax.\n\n• Official Portal:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [TAX] Advance Tax Q1 Instalment Due (15%)
+DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q1 Instalment Due (15%)
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [TAX] Advance Tax Q2 Instalment Due (45% Cumulative)
+SUMMARY:B2. [TAX] Advance Tax Q2 Instalment Due (45% Cumulative)
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
-UID:macro-tax-2.[TAX]Advanc-2026-09-15
+UID:macro-tax-B2.[TAX]Advan-2026-09-15
 DESCRIPTION:Statutory deadline to deposit cumulative 45% of estimated adva
  nce tax.\n\n• Official Portal:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [TAX] Advance Tax Q2 Instalment Due (45% Cumu
- lative)
+DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q2 Instalment Due (45% Cum
+ ulative)
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [TAX] Advance Tax Q3 Instalment Due (75% Cumulative)
+SUMMARY:B2. [TAX] Advance Tax Q3 Instalment Due (75% Cumulative)
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-UID:macro-tax-2.[TAX]Advanc-2026-12-15
+UID:macro-tax-B2.[TAX]Advan-2026-12-15
 DESCRIPTION:Statutory deadline to deposit cumulative 75% of advance tax.\n
  \n• Official Portal:\n  https://eportal.incometax.gov.in/
 URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [TAX] Advance Tax Q3 Instalment Due (75% Cumu
- lative)
+DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q3 Instalment Due (75% Cum
+ ulative)
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active
+SUMMARY:B2. [SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-UID:macro-tax-2.[SEBI/TAX]-2026-04-01
+UID:macro-tax-B2.[SEBI/TAX-2026-04-01
 DESCRIPTION:STT hike effective: 0.02% to 0.05% on Futures\, 0.10% to 0.15%
   on Options.\n\n• Official Portal:\n  https://www.sebi.gov.in/
 URL:https://www.sebi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [SEBI / TAX] Revised F&O STT & Contract Sizin
- g Rules Active
+DESCRIPTION:Market Alert: B2. [SEBI / TAX] Revised F&O STT & Contract Sizi
+ ng Rules Active
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
+SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-UID:macro-tax-2.[MACRO]RBI-2026-08-07
+UID:macro-tax-B2.[MACRO]RBI-2026-08-07
 DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
  tal:\n  https://rbi.org.in/
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] RBI Monetary Policy Committee (MPC) O
- utcome
+DESCRIPTION:Market Alert: B2. [MACRO] RBI Monetary Policy Committee (MPC) 
+ Outcome
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] India GDP Data Release (Q1 FY27)
+SUMMARY:B2. [MACRO] India GDP Data Release (Q1 FY27)
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-UID:macro-tax-2.[MACRO]Indi-2026-08-31
+UID:macro-tax-B2.[MACRO]Ind-2026-08-31
 DESCRIPTION:MOSPI quarterly economic output print.\n\n• Official Portal:
  \n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] India GDP Data Release (Q1 FY27)
+DESCRIPTION:Market Alert: B2. [MACRO] India GDP Data Release (Q1 FY27)
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] India CPI Inflation Print
+SUMMARY:B2. [MACRO] India CPI Inflation Print
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-UID:macro-tax-2.[MACRO]Indi-2026-09-14
+UID:macro-tax-B2.[MACRO]Ind-2026-09-14
 DESCRIPTION:Retail inflation numbers directly impacting RBI stance.\n\n•
   Official Portal:\n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] India CPI Inflation Print
+DESCRIPTION:Market Alert: B2. [MACRO] India CPI Inflation Print
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
+SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-UID:macro-tax-2.[MACRO]RBI-2026-10-08
+UID:macro-tax-B2.[MACRO]RBI-2026-10-08
 DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
  tal:\n  https://rbi.org.in/
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] RBI Monetary Policy Committee (MPC) O
- utcome
+DESCRIPTION:Market Alert: B2. [MACRO] RBI Monetary Policy Committee (MPC) 
+ Outcome
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] India CPI Inflation Print
+SUMMARY:B2. [MACRO] India CPI Inflation Print
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-UID:macro-tax-2.[MACRO]Indi-2026-10-12
+UID:macro-tax-B2.[MACRO]Ind-2026-10-12
 DESCRIPTION:Domestic retail inflation print.\n\n• Official Portal:\n  ht
  tps://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] India CPI Inflation Print
+DESCRIPTION:Market Alert: B2. [MACRO] India CPI Inflation Print
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] India CPI Inflation Print
+SUMMARY:B2. [MACRO] India CPI Inflation Print
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-UID:macro-tax-2.[MACRO]Indi-2026-11-12
+UID:macro-tax-B2.[MACRO]Ind-2026-11-12
 DESCRIPTION:Domestic retail inflation print.\n\n• Official Portal:\n  ht
  tps://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] India CPI Inflation Print
+DESCRIPTION:Market Alert: B2. [MACRO] India CPI Inflation Print
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] India GDP Data Release (Q2 FY27)
+SUMMARY:B2. [MACRO] India GDP Data Release (Q2 FY27)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-UID:macro-tax-2.[MACRO]Indi-2026-11-30
+UID:macro-tax-B2.[MACRO]Ind-2026-11-30
 DESCRIPTION:MOSPI quarterly economic output print.\n\n• Official Portal:
  \n  https://www.mospi.gov.in/
 URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] India GDP Data Release (Q2 FY27)
+DESCRIPTION:Market Alert: B2. [MACRO] India GDP Data Release (Q2 FY27)
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
+SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-UID:macro-tax-2.[MACRO]RBI-2026-12-10
+UID:macro-tax-B2.[MACRO]RBI-2026-12-10
 DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
  tal:\n  https://rbi.org.in/
 URL:https://rbi.org.in/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] RBI Monetary Policy Committee (MPC) O
- utcome
+DESCRIPTION:Market Alert: B2. [MACRO] RBI Monetary Policy Committee (MPC) 
+ Outcome
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
+SUMMARY:B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
-UID:macro-tax-2.[MACRO]USN-2026-09-04
+UID:macro-tax-B2.[MACRO]US-2026-09-04
 DESCRIPTION:Monthly US labor snapshot influencing Dollar Index & FII flows
  .\n\n• Official Portal:\n  https://www.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repor
- t
+DESCRIPTION:Market Alert: B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repo
+ rt
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Consumer Price Index (CPI) Inflation Data
+SUMMARY:B2. [MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-UID:macro-tax-2.[MACRO]USC-2026-09-11
+UID:macro-tax-B2.[MACRO]US-2026-09-11
 DESCRIPTION:Key US inflation print dictating global interest rate expectat
  ions.\n\n• Official Portal:\n  https://www.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Consumer Price Index (CPI) Inflati
- on Data
+DESCRIPTION:Market Alert: B2. [MACRO] US Consumer Price Index (CPI) Inflat
+ ion Data
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Federal Reserve FOMC Rate Decision
+SUMMARY:B2. [MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-UID:macro-tax-2.[MACRO]USF-2026-09-16
+UID:macro-tax-B2.[MACRO]US-2026-09-16
 DESCRIPTION:Fed interest rate announcement & press conference.\n\n• Offi
  cial Portal:\n  https://www.federalreserve.gov/
 URL:https://www.federalreserve.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Federal Reserve FOMC Rate Decision
+DESCRIPTION:Market Alert: B2. [MACRO] US Federal Reserve FOMC Rate Decisio
+ n
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
+SUMMARY:B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-UID:macro-tax-2.[MACRO]USN-2026-10-02
+UID:macro-tax-B2.[MACRO]US-2026-10-02
 DESCRIPTION:Monthly US labor report.\n\n• Official Portal:\n  https://ww
  w.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repor
- t
+DESCRIPTION:Market Alert: B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repo
+ rt
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Consumer Price Index (CPI) Inflation Data
+SUMMARY:B2. [MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-UID:macro-tax-2.[MACRO]USC-2026-10-13
+UID:macro-tax-B2.[MACRO]US-2026-10-13
 DESCRIPTION:Key US inflation print.\n\n• Official Portal:\n  https://www
  .bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Consumer Price Index (CPI) Inflati
- on Data
+DESCRIPTION:Market Alert: B2. [MACRO] US Consumer Price Index (CPI) Inflat
+ ion Data
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Federal Reserve FOMC Rate Decision
+SUMMARY:B2. [MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-UID:macro-tax-2.[MACRO]USF-2026-11-04
+UID:macro-tax-B2.[MACRO]US-2026-11-04
 DESCRIPTION:FOMC interest rate decision.\n\n• Official Portal:\n  https:
  //www.federalreserve.gov/
 URL:https://www.federalreserve.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Federal Reserve FOMC Rate Decision
+DESCRIPTION:Market Alert: B2. [MACRO] US Federal Reserve FOMC Rate Decisio
+ n
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
+SUMMARY:B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-UID:macro-tax-2.[MACRO]USN-2026-11-06
+UID:macro-tax-B2.[MACRO]US-2026-11-06
 DESCRIPTION:Monthly US labor report.\n\n• Official Portal:\n  https://ww
  w.bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repor
- t
+DESCRIPTION:Market Alert: B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repo
+ rt
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Consumer Price Index (CPI) Inflation Data
+SUMMARY:B2. [MACRO] US Consumer Price Index (CPI) Inflation Data
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-UID:macro-tax-2.[MACRO]USC-2026-11-12
+UID:macro-tax-B2.[MACRO]US-2026-11-12
 DESCRIPTION:Key US inflation print.\n\n• Official Portal:\n  https://www
  .bls.gov/
 URL:https://www.bls.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Consumer Price Index (CPI) Inflati
- on Data
+DESCRIPTION:Market Alert: B2. [MACRO] US Consumer Price Index (CPI) Inflat
+ ion Data
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] MSCI Semi-Annual Index Rebalancing Effective
+SUMMARY:B2. [MACRO] MSCI Semi-Annual Index Rebalancing Effective
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-UID:macro-tax-2.[MACRO]MSCI-2026-11-20
+UID:macro-tax-B2.[MACRO]MSC-2026-11-20
 DESCRIPTION:Passive institutional adjustments across Indian equities durin
  g the 15:00-15:30 closing auction.\n\n• Official Portal:\n  https://www.
  msci.com/
 URL:https://www.msci.com/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] MSCI Semi-Annual Index Rebalancing Ef
- fective
+DESCRIPTION:Market Alert: B2. [MACRO] MSCI Semi-Annual Index Rebalancing E
+ ffective
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] OPEC+ Joint Ministerial Meeting
+SUMMARY:B2. [MACRO] OPEC+ Joint Ministerial Meeting
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-UID:macro-tax-2.[MACRO]OPEC-2026-12-03
+UID:macro-tax-B2.[MACRO]OPE-2026-12-03
 DESCRIPTION:Crude oil quotas review impacting Brent crude and Indian OMCs.
  \n\n• Official Portal:\n  https://www.opec.org/
 URL:https://www.opec.org/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] OPEC+ Joint Ministerial Meeting
+DESCRIPTION:Market Alert: B2. [MACRO] OPEC+ Joint Ministerial Meeting
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2. [MACRO] US Federal Reserve FOMC Rate Decision
+SUMMARY:B2. [MACRO] US Federal Reserve FOMC Rate Decision
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-UID:macro-tax-2.[MACRO]USF-2026-12-16
+UID:macro-tax-B2.[MACRO]US-2026-12-16
 DESCRIPTION:FOMC rate decision & economic projections.\n\n• Official Por
  tal:\n  https://www.federalreserve.gov/
 URL:https://www.federalreserve.gov/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Market Alert: 2. [MACRO] US Federal Reserve FOMC Rate Decision
+DESCRIPTION:Market Alert: B2. [MACRO] US Federal Reserve FOMC Rate Decisio
+ n
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
