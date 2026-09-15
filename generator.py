@@ -9,6 +9,9 @@ from curl_cffi import requests as cffi_requests
 from bs4 import BeautifulSoup
 import yfinance as yf
 from icalendar import Calendar, Event, Alarm
+import pytz
+
+IST = pytz.timezone('Asia/Kolkata')
 
 CONFIG = {
     "ENABLE_ALARMS": True,
@@ -133,8 +136,11 @@ def get_previous_trading_day(d):
 def get_next_trading_day(d):
     curr = d + datetime.timedelta(days=1)
     while not is_trading_day(curr):
-        curr += datetime.timedelta(days=1)
+        curr -= datetime.timedelta(days=1)
     return curr
+
+def make_ist_time(date_obj, hour, minute):
+    return IST.localize(datetime.datetime(date_obj.year, date_obj.month, date_obj.day, hour, minute))
 
 def build_tradingview_links(symbol, is_macro=False, interval=None):
     clean = re.sub(r'[^A-Za-z0-9]', '', str(symbol))
@@ -177,7 +183,7 @@ def add_market_alarm(event, summary_text):
     alarm = Alarm()
     alarm.add('action', 'DISPLAY')
     alarm.add('description', summary_text)
-    alarm.add('trigger', datetime.timedelta(hours=9))
+    alarm.add('trigger', datetime.timedelta(minutes=-15))
     event.add_component(alarm)
 
 def get_live_nifty_500_symbols():
@@ -190,7 +196,6 @@ def get_live_nifty_500_symbols():
             reader = csv.DictReader(io.StringIO(resp.text))
             for row in reader:
                 s = row.get("Symbol", "").strip()
-                # Discard synthetic exchange dummy or test tickers (e.g., DUMMYHEG, TEST)
                 if not s or re.search(r'^(DUMMY|TEST)', s, re.I) or re.search(r'TEST$', s, re.I):
                     continue
                 symbols.append(s)
@@ -211,12 +216,31 @@ def get_live_nifty_500_symbols():
 def get_fy2026_comprehensive_ipo_database():
     return [
         {
+            "name": "Pranav Constructions",
+            "symbol": "PRANAV",
+            "price": "₹118 - 124",
+            "base_price": 124.0,
+            "lot": 120,
+            "gmp_val": 41.0,
+            "gmp": "+33.06%",
+            "listed_price_nse": 165.0,
+            "listed_price_bse": 162.0,
+            "type": "Mainboard",
+            "open": datetime.date(2026, 9, 7),
+            "close": datetime.date(2026, 9, 9),
+            "allotment": datetime.date(2026, 9, 10),
+            "listing": datetime.date(2026, 9, 15),
+            "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
+            "registrar": "https://ris.kfintech.com/ipostatus/",
+            "ipogyani": "https://ipogyani.com/live-ipo"
+        },
+        {
             "name": "Veegaland Developers",
             "symbol": "VEEGALAND",
             "price": "₹130 - 140",
-            "base_price": 140,
+            "base_price": 140.0,
             "lot": 100,
-            "gmp_val": 26,
+            "gmp_val": 26.0,
             "gmp": "+18.5%",
             "type": "Mainboard",
             "open": datetime.date(2026, 9, 10),
@@ -228,29 +252,12 @@ def get_fy2026_comprehensive_ipo_database():
             "ipogyani": "https://ipogyani.com/live-ipo"
         },
         {
-            "name": "Pranav Constructions",
-            "symbol": "PRANAV",
-            "price": "₹315 - 325",
-            "base_price": 325,
-            "lot": 45,
-            "gmp_val": 73,
-            "gmp": "+22.4%",
-            "type": "Mainboard",
-            "open": datetime.date(2026, 9, 7),
-            "close": datetime.date(2026, 9, 9),
-            "allotment": datetime.date(2026, 9, 10),
-            "listing": datetime.date(2026, 9, 14),
-            "rhp": "https://www.bseindia.com/markets/PublicIssues/IPOIssue_new.aspx",
-            "registrar": "https://ris.kfintech.com/ipostatus/",
-            "ipogyani": "https://ipogyani.com/live-ipo"
-        },
-        {
             "name": "Qualiance International",
             "symbol": "QUALIANCE",
             "price": "₹120 - 127",
-            "base_price": 127,
+            "base_price": 127.0,
             "lot": 1000,
-            "gmp_val": 40,
+            "gmp_val": 40.0,
             "gmp": "+31.5%",
             "type": "SME",
             "open": datetime.date(2026, 9, 4),
@@ -265,9 +272,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Rays of Belief",
             "symbol": "RAYSOFBELIEF",
             "price": "₹227 - 239",
-            "base_price": 239,
+            "base_price": 239.0,
             "lot": 60,
-            "gmp_val": 40,
+            "gmp_val": 40.0,
             "gmp": "+16.7%",
             "type": "Mainboard",
             "open": datetime.date(2026, 9, 1),
@@ -282,9 +289,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Deepa Jewellers",
             "symbol": "DEEPA",
             "price": "₹168 - 177",
-            "base_price": 177,
+            "base_price": 177.0,
             "lot": 80,
-            "gmp_val": 23,
+            "gmp_val": 23.0,
             "gmp": "+12.8%",
             "type": "Mainboard",
             "open": datetime.date(2026, 9, 1),
@@ -299,9 +306,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Farm Peace",
             "symbol": "FARMPEACE",
             "price": "₹59",
-            "base_price": 59,
+            "base_price": 59.0,
             "lot": 2000,
-            "gmp_val": 14,
+            "gmp_val": 14.0,
             "gmp": "+24.0%",
             "type": "SME",
             "open": datetime.date(2026, 9, 1),
@@ -316,9 +323,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Fly-Hi Maritime Travels",
             "symbol": "FLYHI",
             "price": "₹102",
-            "base_price": 102,
+            "base_price": 102.0,
             "lot": 1200,
-            "gmp_val": 15,
+            "gmp_val": 15.0,
             "gmp": "+14.5%",
             "type": "SME",
             "open": datetime.date(2026, 9, 1),
@@ -333,9 +340,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Purple Style Labs",
             "symbol": "PURPLE",
             "price": "₹546 - 575",
-            "base_price": 575,
+            "base_price": 575.0,
             "lot": 25,
-            "gmp_val": 162,
+            "gmp_val": 162.0,
             "gmp": "+28.2%",
             "type": "Mainboard",
             "open": datetime.date(2026, 8, 31),
@@ -350,9 +357,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "ESDS Software Solution",
             "symbol": "ESDS",
             "price": "₹429",
-            "base_price": 429,
+            "base_price": 429.0,
             "lot": 35,
-            "gmp_val": 65,
+            "gmp_val": 65.0,
             "gmp": "+15.2%",
             "type": "Mainboard",
             "open": datetime.date(2026, 8, 28),
@@ -367,9 +374,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Lumino Industries",
             "symbol": "LUMINO",
             "price": "₹82",
-            "base_price": 82,
+            "base_price": 82.0,
             "lot": 150,
-            "gmp_val": 43,
+            "gmp_val": 43.0,
             "gmp": "+52.0%",
             "type": "Mainboard",
             "open": datetime.date(2026, 8, 27),
@@ -384,9 +391,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Kwick Forensic Solutions",
             "symbol": "KWICK",
             "price": "₹90",
-            "base_price": 90,
+            "base_price": 90.0,
             "lot": 1600,
-            "gmp_val": 62,
+            "gmp_val": 62.0,
             "gmp": "+68.5%",
             "type": "SME",
             "open": datetime.date(2026, 8, 27),
@@ -401,9 +408,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Augmont Enterprises",
             "symbol": "AUGMONT",
             "price": "₹345",
-            "base_price": 345,
+            "base_price": 345.0,
             "lot": 40,
-            "gmp_val": 74,
+            "gmp_val": 74.0,
             "gmp": "+21.4%",
             "type": "Mainboard",
             "open": datetime.date(2026, 8, 14),
@@ -418,9 +425,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Tempsens Instruments",
             "symbol": "TEMPSENS",
             "price": "₹550",
-            "base_price": 550,
+            "base_price": 550.0,
             "lot": 25,
-            "gmp_val": 242,
+            "gmp_val": 242.0,
             "gmp": "+44.0%",
             "type": "Mainboard",
             "open": datetime.date(2026, 8, 13),
@@ -435,9 +442,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Gaja Alternative Asset",
             "symbol": "GAJA",
             "price": "₹195",
-            "base_price": 195,
+            "base_price": 195.0,
             "lot": 75,
-            "gmp_val": 35,
+            "gmp_val": 35.0,
             "gmp": "+18.0%",
             "type": "Mainboard",
             "open": datetime.date(2026, 8, 12),
@@ -452,9 +459,9 @@ def get_fy2026_comprehensive_ipo_database():
             "name": "Technocrats Plasma Systems",
             "symbol": "TECHNOCRATS",
             "price": "₹132",
-            "base_price": 132,
+            "base_price": 132.0,
             "lot": 1000,
-            "gmp_val": 70,
+            "gmp_val": 70.0,
             "gmp": "+53.0%",
             "type": "SME",
             "open": datetime.date(2026, 8, 14),
@@ -485,7 +492,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
         except Exception:
             pass
 
-        # 1. Dividends (Buy Cutoff & Payout) -> Feed D4
+        # 1. Dividends (Cutoff at 15:00-15:30 IST; Payout at 15:45-16:15 IST)
         divs = t.dividends
         if not divs.empty:
             for ts, amount in divs.items():
@@ -497,8 +504,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_cut = Event()
                     ev_cut.add('uid', f"div-cut-{sym}-{div_date.isoformat()}")
                     ev_cut.add('summary', f"D4. [DIVIDEND] {sym} (₹{amount:.2f}{yield_text}) - Buy Cutoff")
-                    ev_cut.add('dtstart', must_buy_by)
-                    ev_cut.add('dtend', must_buy_by + datetime.timedelta(days=1))
+                    ev_cut.add('dtstart', make_ist_time(must_buy_by, 15, 0))
+                    ev_cut.add('dtend', make_ist_time(must_buy_by, 15, 30))
                     ev_cut.add('url', web_link)
                     ev_cut.add('description', (
                         f"ACTION REQUIRED: Purchase today before 3:30 PM IST for Demat credit by Record Date.\n\n"
@@ -523,8 +530,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay = Event()
                     ev_pay.add('uid', f"div-pay-{sym}-{payout_date.isoformat()}")
                     ev_pay.add('summary', f"D4. [PAYOUT] {sym} (₹{amount:.2f}) - Demat Credit")
-                    ev_pay.add('dtstart', payout_date)
-                    ev_pay.add('dtend', payout_date + datetime.timedelta(days=1))
+                    ev_pay.add('dtstart', make_ist_time(payout_date, 15, 45))
+                    ev_pay.add('dtend', make_ist_time(payout_date, 16, 15))
                     ev_pay.add('url', web_link)
                     ev_pay.add('description', (
                         f"DIVIDEND DISBURSEMENT: Direct bank credit for {sym} declared dividend (₹{amount:.2f}/share).\n\n"
@@ -536,7 +543,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay.add('location', 'Bank Account / Demat')
                     corp_events.append(ev_pay)
 
-        # 2. Stock Splits & Bonus Allotments -> Feed D4
+        # 2. Stock Splits & Bonus Allotments (14:30-15:00 IST)
         splits = t.splits
         if not splits.empty:
             for ts, ratio in splits.items():
@@ -546,8 +553,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_sp = Event()
                     ev_sp.add('uid', f"split-{sym}-{split_date.isoformat()}")
                     ev_sp.add('summary', f"D4. [SPLIT/BONUS] {sym} (Ratio: {ratio}) - Cutoff")
-                    ev_sp.add('dtstart', must_buy_by)
-                    ev_sp.add('dtend', must_buy_by + datetime.timedelta(days=1))
+                    ev_sp.add('dtstart', make_ist_time(must_buy_by, 14, 30))
+                    ev_sp.add('dtend', make_ist_time(must_buy_by, 15, 0))
                     ev_sp.add('url', web_link)
                     ev_sp.add('description', (
                         f"Corporate Restructuring / Share Allotment for {sym}.\n\n"
@@ -561,7 +568,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     add_market_alarm(ev_sp, f"Today is the buy cutoff for {sym} Split/Bonus.")
                     corp_events.append(ev_sp)
 
-        # 3. Quarterly Results & Heavyweights -> Priority A1 or D4
+        # 3. Quarterly Results & Heavyweights (15:45-16:30 IST Post-Market)
         try:
             q_fin = t.quarterly_financials
             if q_fin is not None and not q_fin.empty:
@@ -574,8 +581,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                         ev_res = Event()
                         ev_res.add('uid', f"res-q-{sym}-{f_date.isoformat()}")
                         ev_res.add('summary', tag)
-                        ev_res.add('dtstart', f_date)
-                        ev_res.add('dtend', f_date + datetime.timedelta(days=1))
+                        ev_res.add('dtstart', make_ist_time(f_date, 15, 45))
+                        ev_res.add('dtend', make_ist_time(f_date, 16, 30))
                         ev_res.add('url', web_5m if is_heavy else web_link)
                         ev_res.add('description', (
                             f"EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n"
@@ -606,8 +613,8 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                                 ev_bm = Event()
                                 ev_bm.add('uid', f"results-bm-{sym}-{e_date.isoformat()}")
                                 ev_bm.add('summary', tag)
-                                ev_bm.add('dtstart', e_date)
-                                ev_bm.add('dtend', e_date + datetime.timedelta(days=1))
+                                ev_bm.add('dtstart', make_ist_time(e_date, 15, 45))
+                                ev_bm.add('dtend', make_ist_time(e_date, 16, 30))
                                 ev_bm.add('url', web_5m if is_heavy else web_link)
                                 ev_bm.add('description', (
                                     f"HIGH VOLATILITY ALERT: Board Meeting for quarterly results.\n\n"
@@ -661,9 +668,10 @@ def build_calendars():
     cutoff_past = datetime.date(2026, 4, 1)
     cutoff_future = today + datetime.timedelta(days=120)
 
-    # 1. PRIORITY A1: INTRADAY, DERIVATIVES & MOMENTUM (Feed 1)
+    # 1. PRIORITY A1: INTRADAY EXPIRIES & VOLATILITY (Feed 1)
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
+        # Nifty Expiry (14:30-15:30 IST)
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             nifty_app_5m, nifty_web_5m = build_tradingview_links("NIFTY", is_macro=False, interval="5")
@@ -671,8 +679,8 @@ def build_calendars():
             ev_exp = Event()
             ev_exp.add('uid', f"exp-nifty-{curr_scan.isoformat()}")
             ev_exp.add('summary', "A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)")
-            ev_exp.add('dtstart', exp_date)
-            ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
+            ev_exp.add('dtstart', make_ist_time(exp_date, 14, 30))
+            ev_exp.add('dtend', make_ist_time(exp_date, 15, 30))
             ev_exp.add('url', nifty_web_5m)
             ev_exp.add('description', (
                 f"NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n"
@@ -683,6 +691,7 @@ def build_calendars():
             ))
             cal_fno.add_component(ev_exp)
 
+        # Sensex Expiry (14:30-15:30 IST)
         if CONFIG.get("ENABLE_SENSEX_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 3:
             exp_date = curr_scan if is_trading_day(curr_scan) else get_previous_trading_day(curr_scan)
             sensex_app_5m, sensex_web_5m = build_tradingview_links("SENSEX", is_macro=False, interval="5")
@@ -690,8 +699,8 @@ def build_calendars():
             ev_exp = Event()
             ev_exp.add('uid', f"exp-sensex-{curr_scan.isoformat()}")
             ev_exp.add('summary', "A1. [F&O] BSE Sensex Weekly Expiry (Thursday)")
-            ev_exp.add('dtstart', exp_date)
-            ev_exp.add('dtend', exp_date + datetime.timedelta(days=1))
+            ev_exp.add('dtstart', make_ist_time(exp_date, 14, 30))
+            ev_exp.add('dtend', make_ist_time(exp_date, 15, 30))
             ev_exp.add('url', sensex_web_5m)
             ev_exp.add('description', (
                 f"BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n"
@@ -703,7 +712,7 @@ def build_calendars():
 
         curr_scan += datetime.timedelta(days=1)
 
-    # Monthly Stock F&O Expiry -> NIFTY 500 Daily Timeframe
+    # Monthly Stock F&O Expiry (14:30-15:30 IST)
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -718,8 +727,8 @@ def build_calendars():
                     ev_stk = Event()
                     ev_stk.add('uid', f"fo-stock-exp-{final_stock_exp.isoformat()}")
                     ev_stk.add('summary', f"A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry ({final_stock_exp.strftime('%b %Y')})")
-                    ev_stk.add('dtstart', final_stock_exp)
-                    ev_stk.add('dtend', final_stock_exp + datetime.timedelta(days=1))
+                    ev_stk.add('dtstart', make_ist_time(final_stock_exp, 14, 30))
+                    ev_stk.add('dtend', make_ist_time(final_stock_exp, 15, 30))
                     ev_stk.add('url', nifty500_web_1d)
                     ev_stk.add('description', (
                         f"NSE MONTHLY STOCK DERIVATIVES EXPIRY\n"
@@ -740,8 +749,8 @@ def build_calendars():
             ev_ban = Event()
             ev_ban.add('uid', f"fno-ban-status-{today.isoformat()}")
             ev_ban.add('summary', f"A1. [F&O BAN] Securities in Ban Period ({len(fno_ban_stocks)} Stocks)")
-            ev_ban.add('dtstart', today)
-            ev_ban.add('dtend', today + datetime.timedelta(days=1))
+            ev_ban.add('dtstart', make_ist_time(today, 9, 0))
+            ev_ban.add('dtend', make_ist_time(today, 9, 15))
             ev_ban.add('url', "https://www.nseindia.com/all-reports")
             ev_ban.add('description', (
                 f"NSE MWPL BAN MONITOR (95% THRESHOLD)\n"
@@ -758,8 +767,8 @@ def build_calendars():
             ev_vix = Event()
             ev_vix.add('uid', f"vix-desk-{today.isoformat()}")
             ev_vix.add('summary', "A1. [VOLATILITY] India VIX Intraday Radar")
-            ev_vix.add('dtstart', today)
-            ev_vix.add('dtend', today + datetime.timedelta(days=1))
+            ev_vix.add('dtstart', make_ist_time(today, 9, 15))
+            ev_vix.add('dtend', make_ist_time(today, 9, 45))
             ev_vix.add('url', vix_web)
             ev_vix.add('description', (
                 f"INTRADAY VOLATILITY REGIME\n"
@@ -770,11 +779,12 @@ def build_calendars():
             ))
             cal_fno.add_component(ev_vix)
 
+            # Bulk Deals at Market Close (18:30 IST)
             ev_deals = Event()
             ev_deals.add('uid', f"deals-desk-{today.isoformat()}")
             ev_deals.add('summary', "A1. [BULK / BLOCK DEALS] Institutional Transaction Desk")
-            ev_deals.add('dtstart', today)
-            ev_deals.add('dtend', today + datetime.timedelta(days=1))
+            ev_deals.add('dtstart', make_ist_time(today, 18, 30))
+            ev_deals.add('dtend', make_ist_time(today, 19, 0))
             ev_deals.add('url', "https://www.nseindia.com/report-detail/display-bulk-and-block-deals")
             ev_deals.add('description', (
                 f"INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n"
@@ -803,8 +813,8 @@ def build_calendars():
             ev_m = Event()
             ev_m.add('uid', f"macro-tax-{m['summary'][:15].replace(' ', '')}-{m['date'].isoformat()}")
             ev_m.add('summary', m["summary"])
-            ev_m.add('dtstart', m["date"])
-            ev_m.add('dtend', m["date"] + datetime.timedelta(days=1))
+            ev_m.add('dtstart', make_ist_time(m["date"], 11, 0))
+            ev_m.add('dtend', make_ist_time(m["date"], 11, 30))
             ev_m.add('url', m.get("url", "https://www.nseindia.com/"))
             ev_m.add('description', f"{m['desc']}\n\n• Official Portal:\n  {m.get('url')}")
             add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
@@ -814,12 +824,13 @@ def build_calendars():
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
+        # OPEN (10:00 - 10:30 AM IST)
         if cutoff_past <= ipo['open'] <= cutoff_future:
             ev_o = Event()
             ev_o.add('uid', f"ipo-open-{ipo['name'].replace(' ', '')}-{ipo['open'].isoformat()}")
             ev_o.add('summary', f"C3. [IPO OPEN] {ipo['name']} ({ipo['type']})")
-            ev_o.add('dtstart', ipo['open'])
-            ev_o.add('dtend', ipo['open'] + datetime.timedelta(days=1))
+            ev_o.add('dtstart', make_ist_time(ipo['open'], 10, 0))
+            ev_o.add('dtend', make_ist_time(ipo['open'], 10, 30))
             ev_o.add('url', ipo['ipogyani'])
             ev_o.add('description', (
                 f"IPO BIDDING OPENS TODAY\n"
@@ -838,12 +849,13 @@ def build_calendars():
             add_market_alarm(ev_o, f"IPO Bidding Opens Today: {ipo['name']}")
             cal_ipo.add_component(ev_o)
 
+        # CLOSE (16:30 - 17:00 PM IST)
         if cutoff_past <= ipo['close'] <= cutoff_future:
             ev_c = Event()
             ev_c.add('uid', f"ipo-close-{ipo['name'].replace(' ', '')}-{ipo['close'].isoformat()}")
             ev_c.add('summary', f"C3. [IPO CLOSE] {ipo['name']} - Final Bidding Day")
-            ev_c.add('dtstart', ipo['close'])
-            ev_c.add('dtend', ipo['close'] + datetime.timedelta(days=1))
+            ev_c.add('dtstart', make_ist_time(ipo['close'], 16, 30))
+            ev_c.add('dtend', make_ist_time(ipo['close'], 17, 0))
             ev_c.add('url', ipo['ipogyani'])
             ev_c.add('description', (
                 f"FINAL BIDDING & MANDATE APPROVAL DAY\n"
@@ -859,12 +871,13 @@ def build_calendars():
             add_market_alarm(ev_c, f"IPO Closes Today (5 PM): {ipo['name']}")
             cal_ipo.add_component(ev_c)
 
+        # ALLOTMENT (19:00 - 19:30 PM IST)
         if cutoff_past <= ipo['allotment'] <= cutoff_future:
             ev_a = Event()
             ev_a.add('uid', f"ipo-allot-{ipo['name'].replace(' ', '')}-{ipo['allotment'].isoformat()}")
             ev_a.add('summary', f"C3. [IPO ALLOTMENT] {ipo['name']} Allotment Status")
-            ev_a.add('dtstart', ipo['allotment'])
-            ev_a.add('dtend', ipo['allotment'] + datetime.timedelta(days=1))
+            ev_a.add('dtstart', make_ist_time(ipo['allotment'], 19, 0))
+            ev_a.add('dtend', make_ist_time(ipo['allotment'], 19, 30))
             ev_a.add('url', ipo['registrar'])
             ev_a.add('description', (
                 f"BASIS OF ALLOTMENT FINALIZATION\n"
@@ -878,22 +891,44 @@ def build_calendars():
             add_market_alarm(ev_a, f"Check Allotment Today: {ipo['name']}")
             cal_ipo.add_component(ev_a)
 
+        # LISTING (09:45 - 10:15 AM IST)
         if cutoff_past <= ipo['listing'] <= cutoff_future:
             ipo_app, ipo_web = build_tradingview_links(ipo['symbol'], interval="5")
             nse_quote_page = build_nse_direct_url(ipo['symbol'])
             nse_new_listings = "https://www.nseindia.com/market-data/new-stock-exchange-listings-today"
 
-            base_p = ipo.get("base_price", 100)
-            gmp_v = ipo.get("gmp_val", 0)
-            lot_s = ipo.get("lot", 1)
-            est_listed_price = base_p + gmp_v
-            retail_profit_per_lot = gmp_v * lot_s
+            base_p = ipo.get("base_price", 124.0)
+            lot_s = ipo.get("lot", 120)
+            
+            # If actual listing price known, display verified gain; otherwise show expected
+            if "listed_price_nse" in ipo:
+                listed_nse = ipo["listed_price_nse"]
+                listed_bse = ipo.get("listed_price_bse", listed_nse)
+                gain_per_share = listed_nse - base_p
+                actual_gain_lot = gain_per_share * lot_s
+                gain_section = (
+                    f"VERIFIED STOCK LISTING DEBUT (NSE & BSE):\n"
+                    f"• Official Issue Price: ₹{base_p:.2f}\n"
+                    f"• NSE Opening Price: ₹{listed_nse:.2f} (+{(gain_per_share/base_p*100):.2f}%)\n"
+                    f"• BSE Opening Price: ₹{listed_bse:.2f}\n"
+                    f"• Actual Retail Profit Per Lot: ₹{actual_gain_lot:,.2f}\n"
+                )
+            else:
+                gmp_v = ipo.get("gmp_val", 0)
+                est_listed_price = base_p + gmp_v
+                retail_profit_per_lot = gmp_v * lot_s
+                gain_section = (
+                    f"RETAIL LISTING GAIN ESTIMATE (AT OPEN):\n"
+                    f"• Issue Price: ₹{base_p:.2f}\n"
+                    f"• Expected Listing Price: ₹{est_listed_price:.2f}\n"
+                    f"• Estimated Profit Per Lot: ₹{retail_profit_per_lot:,.2f}\n"
+                )
 
             ev_l = Event()
             ev_l.add('uid', f"ipo-list-{ipo['name'].replace(' ', '')}-{ipo['listing'].isoformat()}")
             ev_l.add('summary', f"C3. [IPO LISTING] {ipo['name']} Debut (10:00 AM IST)")
-            ev_l.add('dtstart', ipo['listing'])
-            ev_l.add('dtend', ipo['listing'] + datetime.timedelta(days=1))
+            ev_l.add('dtstart', make_ist_time(ipo['listing'], 9, 45))
+            ev_l.add('dtend', make_ist_time(ipo['listing'], 10, 15))
             ev_l.add('url', ipo_web)
             ev_l.add('description', (
                 f"EXCHANGE LISTING DEBUT & PRE-OPEN DISCOVERY\n"
@@ -902,11 +937,9 @@ def build_calendars():
                 f"• Category: {ipo['type']}\n"
                 f"• Price Band: {ipo['price']}\n"
                 f"• Minimum Lot Size: {lot_s} Shares\n"
-                f"• Final Grey Market Premium (GMP): {ipo['gmp']} (₹{gmp_v}/share)\n"
+                f"• Final Grey Market Premium (GMP): {ipo['gmp']}\n"
                 f"-----------------------------------------\n"
-                f"RETAIL LISTING GAIN ESTIMATE (AT OPEN):\n"
-                f"• Expected Listing Price: ₹{est_listed_price:.2f}\n"
-                f"• Estimated Profit Per Lot: ₹{retail_profit_per_lot:,.2f}\n"
+                f"{gain_section}"
                 f"-----------------------------------------\n"
                 f"• Trading Commences: 10:00 AM IST (Pre-open discovery: 09:00 - 09:45 AM)\n\n"
                 f"• Open 5-Minute Chart in TradingView App (Native):\n  {ipo_app}\n\n"
@@ -914,7 +947,7 @@ def build_calendars():
                 f"• Official NSE New Listings Tracker:\n  {nse_new_listings}\n\n"
                 f"• IPOGyani Listing Day Analysis:\n  {ipo['ipogyani']}\n"
             ))
-            add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']} (Est Gain: ₹{retail_profit_per_lot:,.0f}/lot)")
+            add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
             cal_ipo.add_component(ev_l)
 
     # 4. PRIORITY D4: DIVIDENDS, MERGERS & ACTIONS (Feed 4)
@@ -928,8 +961,8 @@ def build_calendars():
             ev_r = Event()
             ev_r.add('uid', f"restr-{r['symbol']}-{r['date'].isoformat()}")
             ev_r.add('summary', r["summary"])
-            ev_r.add('dtstart', r["date"])
-            ev_r.add('dtend', r["date"] + datetime.timedelta(days=1))
+            ev_r.add('dtstart', make_ist_time(r["date"], 9, 0))
+            ev_r.add('dtend', make_ist_time(r["date"], 9, 45))
             ev_r.add('url', web_l)
             ev_r.add('description', (
                 f"{r['desc']}\n"
@@ -981,7 +1014,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Master & modular feeds successfully compiled with clean universe and strict tiering.")
+    print("Master & modular feeds successfully compiled with timed slots and corrected Pranav Constructions IPO details.")
 
 if __name__ == "__main__":
     build_calendars()
