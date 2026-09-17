@@ -1139,9 +1139,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;TZID=Asia/Kolkata:20260916T090000
-DTEND;TZID=Asia/Kolkata:20260916T091500
-UID:fno-ban-status-2026-09-16
+DTSTART;TZID=Asia/Kolkata:20260917T090000
+DTEND;TZID=Asia/Kolkata:20260917T091500
+UID:fno-ban-status-2026-09-17
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1156,9 +1156,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;TZID=Asia/Kolkata:20260916T091500
-DTEND;TZID=Asia/Kolkata:20260916T094500
-UID:vix-desk-2026-09-16
+DTSTART;TZID=Asia/Kolkata:20260917T091500
+DTEND;TZID=Asia/Kolkata:20260917T094500
+UID:vix-desk-2026-09-17
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1169,9 +1169,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;TZID=Asia/Kolkata:20260916T183000
-DTEND;TZID=Asia/Kolkata:20260916T190000
-UID:deals-desk-2026-09-16
+DTSTART;TZID=Asia/Kolkata:20260917T183000
+DTEND;TZID=Asia/Kolkata:20260917T190000
+UID:deals-desk-2026-09-17
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
