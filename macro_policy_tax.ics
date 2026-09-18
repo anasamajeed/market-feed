@@ -104,8 +104,8 @@ URL:https://www.nseindia.com/resources/exchange-communication-holidays
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [TAX] Advance Tax Q1 Instalment Due (15%)
-DTSTART;TZID=Asia/Kolkata:20260615T110000
-DTEND;TZID=Asia/Kolkata:20260615T113000
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
 UID:macro-tax-B2.[TAX]Advan-2026-06-15
 DESCRIPTION:Statutory deadline to deposit 15% of estimated advance income 
  tax.\n\n• Official Portal:\n  https://eportal.incometax.gov.in/
@@ -113,13 +113,13 @@ URL:https://eportal.incometax.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q1 Instalment Due (15%)
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [TAX] Advance Tax Q2 Instalment Due (45% Cumulative)
-DTSTART;TZID=Asia/Kolkata:20260915T110000
-DTEND;TZID=Asia/Kolkata:20260915T113000
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
 UID:macro-tax-B2.[TAX]Advan-2026-09-15
 DESCRIPTION:Statutory deadline to deposit cumulative 45% of estimated adva
  nce tax.\n\n• Official Portal:\n  https://eportal.incometax.gov.in/
@@ -128,13 +128,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q2 Instalment Due (45% Cum
  ulative)
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [TAX] Advance Tax Q3 Instalment Due (75% Cumulative)
-DTSTART;TZID=Asia/Kolkata:20261215T110000
-DTEND;TZID=Asia/Kolkata:20261215T113000
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
 UID:macro-tax-B2.[TAX]Advan-2026-12-15
 DESCRIPTION:Statutory deadline to deposit cumulative 75% of advance tax.\n
  \n• Official Portal:\n  https://eportal.incometax.gov.in/
@@ -143,13 +143,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q3 Instalment Due (75% Cum
  ulative)
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active
-DTSTART;TZID=Asia/Kolkata:20260401T110000
-DTEND;TZID=Asia/Kolkata:20260401T113000
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
 UID:macro-tax-B2.[SEBI/TAX-2026-04-01
 DESCRIPTION:STT hike effective: 0.02% to 0.05% on Futures\, 0.10% to 0.15%
   on Options.\n\n• Official Portal:\n  https://www.sebi.gov.in/
@@ -158,13 +158,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [SEBI / TAX] Revised F&O STT & Contract Sizi
  ng Rules Active
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
-DTSTART;TZID=Asia/Kolkata:20260807T110000
-DTEND;TZID=Asia/Kolkata:20260807T113000
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
 UID:macro-tax-B2.[MACRO]RBI-2026-08-07
 DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
  tal:\n  https://rbi.org.in/
@@ -173,13 +173,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] RBI Monetary Policy Committee (MPC) 
  Outcome
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] India GDP Data Release (Q1 FY27)
-DTSTART;TZID=Asia/Kolkata:20260831T110000
-DTEND;TZID=Asia/Kolkata:20260831T113000
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
 UID:macro-tax-B2.[MACRO]Ind-2026-08-31
 DESCRIPTION:MOSPI quarterly economic output print.\n\n• Official Portal:
  \n  https://www.mospi.gov.in/
@@ -187,13 +187,13 @@ URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] India GDP Data Release (Q1 FY27)
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] India CPI Inflation Print
-DTSTART;TZID=Asia/Kolkata:20260914T110000
-DTEND;TZID=Asia/Kolkata:20260914T113000
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
 UID:macro-tax-B2.[MACRO]Ind-2026-09-14
 DESCRIPTION:Retail inflation numbers directly impacting RBI stance.\n\n•
   Official Portal:\n  https://www.mospi.gov.in/
@@ -201,13 +201,13 @@ URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] India CPI Inflation Print
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
-DTSTART;TZID=Asia/Kolkata:20261008T110000
-DTEND;TZID=Asia/Kolkata:20261008T113000
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
 UID:macro-tax-B2.[MACRO]RBI-2026-10-08
 DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
  tal:\n  https://rbi.org.in/
@@ -216,13 +216,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] RBI Monetary Policy Committee (MPC) 
  Outcome
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] India CPI Inflation Print
-DTSTART;TZID=Asia/Kolkata:20261012T110000
-DTEND;TZID=Asia/Kolkata:20261012T113000
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
 UID:macro-tax-B2.[MACRO]Ind-2026-10-12
 DESCRIPTION:Domestic retail inflation print.\n\n• Official Portal:\n  ht
  tps://www.mospi.gov.in/
@@ -230,13 +230,13 @@ URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] India CPI Inflation Print
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] India CPI Inflation Print
-DTSTART;TZID=Asia/Kolkata:20261112T110000
-DTEND;TZID=Asia/Kolkata:20261112T113000
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
 UID:macro-tax-B2.[MACRO]Ind-2026-11-12
 DESCRIPTION:Domestic retail inflation print.\n\n• Official Portal:\n  ht
  tps://www.mospi.gov.in/
@@ -244,13 +244,13 @@ URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] India CPI Inflation Print
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] India GDP Data Release (Q2 FY27)
-DTSTART;TZID=Asia/Kolkata:20261130T110000
-DTEND;TZID=Asia/Kolkata:20261130T113000
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
 UID:macro-tax-B2.[MACRO]Ind-2026-11-30
 DESCRIPTION:MOSPI quarterly economic output print.\n\n• Official Portal:
  \n  https://www.mospi.gov.in/
@@ -258,13 +258,13 @@ URL:https://www.mospi.gov.in/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] India GDP Data Release (Q2 FY27)
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
-DTSTART;TZID=Asia/Kolkata:20261210T110000
-DTEND;TZID=Asia/Kolkata:20261210T113000
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
 UID:macro-tax-B2.[MACRO]RBI-2026-12-10
 DESCRIPTION:RBI repo rate decision & policy statement.\n\n• Official Por
  tal:\n  https://rbi.org.in/
@@ -273,13 +273,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] RBI Monetary Policy Committee (MPC) 
  Outcome
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
-DTSTART;TZID=Asia/Kolkata:20260904T110000
-DTEND;TZID=Asia/Kolkata:20260904T113000
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 UID:macro-tax-B2.[MACRO]US-2026-09-04
 DESCRIPTION:Monthly US labor snapshot influencing Dollar Index & FII flows
  .\n\n• Official Portal:\n  https://www.bls.gov/
@@ -288,13 +288,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repo
  rt
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Consumer Price Index (CPI) Inflation Data
-DTSTART;TZID=Asia/Kolkata:20260911T110000
-DTEND;TZID=Asia/Kolkata:20260911T113000
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
 UID:macro-tax-B2.[MACRO]US-2026-09-11
 DESCRIPTION:Key US inflation print dictating global interest rate expectat
  ions.\n\n• Official Portal:\n  https://www.bls.gov/
@@ -303,13 +303,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Consumer Price Index (CPI) Inflat
  ion Data
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Federal Reserve FOMC Rate Decision
-DTSTART;TZID=Asia/Kolkata:20260916T110000
-DTEND;TZID=Asia/Kolkata:20260916T113000
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
 UID:macro-tax-B2.[MACRO]US-2026-09-16
 DESCRIPTION:Fed interest rate announcement & press conference.\n\n• Offi
  cial Portal:\n  https://www.federalreserve.gov/
@@ -318,13 +318,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Federal Reserve FOMC Rate Decisio
  n
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
-DTSTART;TZID=Asia/Kolkata:20261002T110000
-DTEND;TZID=Asia/Kolkata:20261002T113000
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
 UID:macro-tax-B2.[MACRO]US-2026-10-02
 DESCRIPTION:Monthly US labor report.\n\n• Official Portal:\n  https://ww
  w.bls.gov/
@@ -333,13 +333,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repo
  rt
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Consumer Price Index (CPI) Inflation Data
-DTSTART;TZID=Asia/Kolkata:20261013T110000
-DTEND;TZID=Asia/Kolkata:20261013T113000
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
 UID:macro-tax-B2.[MACRO]US-2026-10-13
 DESCRIPTION:Key US inflation print.\n\n• Official Portal:\n  https://www
  .bls.gov/
@@ -348,13 +348,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Consumer Price Index (CPI) Inflat
  ion Data
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Federal Reserve FOMC Rate Decision
-DTSTART;TZID=Asia/Kolkata:20261104T110000
-DTEND;TZID=Asia/Kolkata:20261104T113000
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
 UID:macro-tax-B2.[MACRO]US-2026-11-04
 DESCRIPTION:FOMC interest rate decision.\n\n• Official Portal:\n  https:
  //www.federalreserve.gov/
@@ -363,13 +363,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Federal Reserve FOMC Rate Decisio
  n
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report
-DTSTART;TZID=Asia/Kolkata:20261106T110000
-DTEND;TZID=Asia/Kolkata:20261106T113000
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
 UID:macro-tax-B2.[MACRO]US-2026-11-06
 DESCRIPTION:Monthly US labor report.\n\n• Official Portal:\n  https://ww
  w.bls.gov/
@@ -378,13 +378,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Repo
  rt
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Consumer Price Index (CPI) Inflation Data
-DTSTART;TZID=Asia/Kolkata:20261112T110000
-DTEND;TZID=Asia/Kolkata:20261112T113000
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
 UID:macro-tax-B2.[MACRO]US-2026-11-12
 DESCRIPTION:Key US inflation print.\n\n• Official Portal:\n  https://www
  .bls.gov/
@@ -393,13 +393,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Consumer Price Index (CPI) Inflat
  ion Data
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] MSCI Semi-Annual Index Rebalancing Effective
-DTSTART;TZID=Asia/Kolkata:20261120T110000
-DTEND;TZID=Asia/Kolkata:20261120T113000
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
 UID:macro-tax-B2.[MACRO]MSC-2026-11-20
 DESCRIPTION:Passive institutional adjustments across Indian equities durin
  g the 15:00-15:30 closing auction.\n\n• Official Portal:\n  https://www.
@@ -409,13 +409,13 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] MSCI Semi-Annual Index Rebalancing E
  ffective
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] OPEC+ Joint Ministerial Meeting
-DTSTART;TZID=Asia/Kolkata:20261203T110000
-DTEND;TZID=Asia/Kolkata:20261203T113000
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
 UID:macro-tax-B2.[MACRO]OPE-2026-12-03
 DESCRIPTION:Crude oil quotas review impacting Brent crude and Indian OMCs.
  \n\n• Official Portal:\n  https://www.opec.org/
@@ -423,13 +423,13 @@ URL:https://www.opec.org/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] OPEC+ Joint Ministerial Meeting
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B2. [MACRO] US Federal Reserve FOMC Rate Decision
-DTSTART;TZID=Asia/Kolkata:20261216T110000
-DTEND;TZID=Asia/Kolkata:20261216T113000
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
 UID:macro-tax-B2.[MACRO]US-2026-12-16
 DESCRIPTION:FOMC rate decision & economic projections.\n\n• Official Por
  tal:\n  https://www.federalreserve.gov/
@@ -438,7 +438,7 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [MACRO] US Federal Reserve FOMC Rate Decisio
  n
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 END:VCALENDAR

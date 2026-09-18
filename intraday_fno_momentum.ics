@@ -5,8 +5,8 @@ X-WR-CALNAME:1. Intraday, Expiries & Momentum
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260402T143000
-DTEND;TZID=Asia/Kolkata:20260402T153000
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
 UID:exp-sensex-2026-04-02
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -16,8 +16,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260407T143000
-DTEND;TZID=Asia/Kolkata:20260407T153000
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
 UID:exp-nifty-2026-04-07
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -28,8 +28,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260409T143000
-DTEND;TZID=Asia/Kolkata:20260409T153000
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
 UID:exp-sensex-2026-04-09
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -39,8 +39,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260413T143000
-DTEND;TZID=Asia/Kolkata:20260413T153000
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
 UID:exp-nifty-2026-04-14
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -51,8 +51,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260416T143000
-DTEND;TZID=Asia/Kolkata:20260416T153000
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
 UID:exp-sensex-2026-04-16
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -62,8 +62,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260421T143000
-DTEND;TZID=Asia/Kolkata:20260421T153000
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
 UID:exp-nifty-2026-04-21
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -74,8 +74,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260423T143000
-DTEND;TZID=Asia/Kolkata:20260423T153000
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
 UID:exp-sensex-2026-04-23
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -85,8 +85,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260428T143000
-DTEND;TZID=Asia/Kolkata:20260428T153000
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
 UID:exp-nifty-2026-04-28
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -97,8 +97,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260430T143000
-DTEND;TZID=Asia/Kolkata:20260430T153000
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
 UID:exp-sensex-2026-04-30
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -108,8 +108,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260505T143000
-DTEND;TZID=Asia/Kolkata:20260505T153000
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
 UID:exp-nifty-2026-05-05
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -120,8 +120,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260507T143000
-DTEND;TZID=Asia/Kolkata:20260507T153000
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
 UID:exp-sensex-2026-05-07
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -131,8 +131,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260512T143000
-DTEND;TZID=Asia/Kolkata:20260512T153000
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
 UID:exp-nifty-2026-05-12
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -143,8 +143,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260514T143000
-DTEND;TZID=Asia/Kolkata:20260514T153000
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
 UID:exp-sensex-2026-05-14
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -154,8 +154,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260519T143000
-DTEND;TZID=Asia/Kolkata:20260519T153000
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
 UID:exp-nifty-2026-05-19
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -166,8 +166,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260521T143000
-DTEND;TZID=Asia/Kolkata:20260521T153000
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
 UID:exp-sensex-2026-05-21
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -177,8 +177,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260526T143000
-DTEND;TZID=Asia/Kolkata:20260526T153000
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
 UID:exp-nifty-2026-05-26
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -189,8 +189,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260527T143000
-DTEND;TZID=Asia/Kolkata:20260527T153000
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
 UID:exp-sensex-2026-05-28
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -200,8 +200,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260602T143000
-DTEND;TZID=Asia/Kolkata:20260602T153000
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
 UID:exp-nifty-2026-06-02
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -212,8 +212,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260604T143000
-DTEND;TZID=Asia/Kolkata:20260604T153000
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
 UID:exp-sensex-2026-06-04
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -223,8 +223,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260609T143000
-DTEND;TZID=Asia/Kolkata:20260609T153000
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
 UID:exp-nifty-2026-06-09
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -235,8 +235,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260611T143000
-DTEND;TZID=Asia/Kolkata:20260611T153000
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
 UID:exp-sensex-2026-06-11
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -246,8 +246,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260616T143000
-DTEND;TZID=Asia/Kolkata:20260616T153000
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
 UID:exp-nifty-2026-06-16
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -258,8 +258,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260618T143000
-DTEND;TZID=Asia/Kolkata:20260618T153000
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
 UID:exp-sensex-2026-06-18
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -269,8 +269,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260623T143000
-DTEND;TZID=Asia/Kolkata:20260623T153000
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
 UID:exp-nifty-2026-06-23
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -281,8 +281,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260625T143000
-DTEND;TZID=Asia/Kolkata:20260625T153000
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
 UID:exp-sensex-2026-06-25
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -292,8 +292,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260630T143000
-DTEND;TZID=Asia/Kolkata:20260630T153000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:exp-nifty-2026-06-30
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -304,8 +304,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260702T143000
-DTEND;TZID=Asia/Kolkata:20260702T153000
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
 UID:exp-sensex-2026-07-02
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -315,8 +315,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260707T143000
-DTEND;TZID=Asia/Kolkata:20260707T153000
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
 UID:exp-nifty-2026-07-07
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -327,8 +327,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260709T143000
-DTEND;TZID=Asia/Kolkata:20260709T153000
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
 UID:exp-sensex-2026-07-09
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -338,8 +338,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260714T143000
-DTEND;TZID=Asia/Kolkata:20260714T153000
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
 UID:exp-nifty-2026-07-14
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -350,8 +350,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260716T143000
-DTEND;TZID=Asia/Kolkata:20260716T153000
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
 UID:exp-sensex-2026-07-16
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -361,8 +361,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260721T143000
-DTEND;TZID=Asia/Kolkata:20260721T153000
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
 UID:exp-nifty-2026-07-21
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -373,8 +373,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260723T143000
-DTEND;TZID=Asia/Kolkata:20260723T153000
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
 UID:exp-sensex-2026-07-23
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -384,8 +384,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260728T143000
-DTEND;TZID=Asia/Kolkata:20260728T153000
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
 UID:exp-nifty-2026-07-28
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -396,8 +396,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260730T143000
-DTEND;TZID=Asia/Kolkata:20260730T153000
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
 UID:exp-sensex-2026-07-30
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -407,8 +407,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260804T143000
-DTEND;TZID=Asia/Kolkata:20260804T153000
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
 UID:exp-nifty-2026-08-04
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -419,8 +419,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260806T143000
-DTEND;TZID=Asia/Kolkata:20260806T153000
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
 UID:exp-sensex-2026-08-06
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -430,8 +430,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260811T143000
-DTEND;TZID=Asia/Kolkata:20260811T153000
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
 UID:exp-nifty-2026-08-11
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -442,8 +442,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260813T143000
-DTEND;TZID=Asia/Kolkata:20260813T153000
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
 UID:exp-sensex-2026-08-13
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -453,8 +453,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260818T143000
-DTEND;TZID=Asia/Kolkata:20260818T153000
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 UID:exp-nifty-2026-08-18
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -465,8 +465,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260820T143000
-DTEND;TZID=Asia/Kolkata:20260820T153000
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
 UID:exp-sensex-2026-08-20
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -476,8 +476,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260825T143000
-DTEND;TZID=Asia/Kolkata:20260825T153000
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
 UID:exp-nifty-2026-08-25
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -488,8 +488,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260827T143000
-DTEND;TZID=Asia/Kolkata:20260827T153000
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
 UID:exp-sensex-2026-08-27
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -499,8 +499,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260901T143000
-DTEND;TZID=Asia/Kolkata:20260901T153000
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
 UID:exp-nifty-2026-09-01
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -511,8 +511,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260903T143000
-DTEND;TZID=Asia/Kolkata:20260903T153000
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
 UID:exp-sensex-2026-09-03
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -522,8 +522,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260908T143000
-DTEND;TZID=Asia/Kolkata:20260908T153000
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
 UID:exp-nifty-2026-09-08
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -534,8 +534,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260910T143000
-DTEND;TZID=Asia/Kolkata:20260910T153000
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
 UID:exp-sensex-2026-09-10
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -545,8 +545,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260915T143000
-DTEND;TZID=Asia/Kolkata:20260915T153000
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
 UID:exp-nifty-2026-09-15
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -557,8 +557,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260917T143000
-DTEND;TZID=Asia/Kolkata:20260917T153000
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
 UID:exp-sensex-2026-09-17
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -568,8 +568,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260922T143000
-DTEND;TZID=Asia/Kolkata:20260922T153000
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
 UID:exp-nifty-2026-09-22
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -580,8 +580,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20260924T143000
-DTEND;TZID=Asia/Kolkata:20260924T153000
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
 UID:exp-sensex-2026-09-24
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -591,8 +591,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20260929T143000
-DTEND;TZID=Asia/Kolkata:20260929T153000
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
 UID:exp-nifty-2026-09-29
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -603,8 +603,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261001T143000
-DTEND;TZID=Asia/Kolkata:20261001T153000
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
 UID:exp-sensex-2026-10-01
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -614,8 +614,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261006T143000
-DTEND;TZID=Asia/Kolkata:20261006T153000
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
 UID:exp-nifty-2026-10-06
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -626,8 +626,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261008T143000
-DTEND;TZID=Asia/Kolkata:20261008T153000
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
 UID:exp-sensex-2026-10-08
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -637,8 +637,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261013T143000
-DTEND;TZID=Asia/Kolkata:20261013T153000
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
 UID:exp-nifty-2026-10-13
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -649,8 +649,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261015T143000
-DTEND;TZID=Asia/Kolkata:20261015T153000
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
 UID:exp-sensex-2026-10-15
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -660,8 +660,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261019T143000
-DTEND;TZID=Asia/Kolkata:20261019T153000
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
 UID:exp-nifty-2026-10-20
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -672,8 +672,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261022T143000
-DTEND;TZID=Asia/Kolkata:20261022T153000
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
 UID:exp-sensex-2026-10-22
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -683,8 +683,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261027T143000
-DTEND;TZID=Asia/Kolkata:20261027T153000
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
 UID:exp-nifty-2026-10-27
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -695,8 +695,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261029T143000
-DTEND;TZID=Asia/Kolkata:20261029T153000
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
 UID:exp-sensex-2026-10-29
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -706,8 +706,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261103T143000
-DTEND;TZID=Asia/Kolkata:20261103T153000
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
 UID:exp-nifty-2026-11-03
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -718,8 +718,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261105T143000
-DTEND;TZID=Asia/Kolkata:20261105T153000
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
 UID:exp-sensex-2026-11-05
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -729,8 +729,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261109T143000
-DTEND;TZID=Asia/Kolkata:20261109T153000
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
 UID:exp-nifty-2026-11-10
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -741,8 +741,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261112T143000
-DTEND;TZID=Asia/Kolkata:20261112T153000
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
 UID:exp-sensex-2026-11-12
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -752,8 +752,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261117T143000
-DTEND;TZID=Asia/Kolkata:20261117T153000
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
 UID:exp-nifty-2026-11-17
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -764,8 +764,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261119T143000
-DTEND;TZID=Asia/Kolkata:20261119T153000
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
 UID:exp-sensex-2026-11-19
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -775,8 +775,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261123T143000
-DTEND;TZID=Asia/Kolkata:20261123T153000
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
 UID:exp-nifty-2026-11-24
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -787,8 +787,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261126T143000
-DTEND;TZID=Asia/Kolkata:20261126T153000
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
 UID:exp-sensex-2026-11-26
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -798,8 +798,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261201T143000
-DTEND;TZID=Asia/Kolkata:20261201T153000
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
 UID:exp-nifty-2026-12-01
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -810,8 +810,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261203T143000
-DTEND;TZID=Asia/Kolkata:20261203T153000
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
 UID:exp-sensex-2026-12-03
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -821,8 +821,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261208T143000
-DTEND;TZID=Asia/Kolkata:20261208T153000
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
 UID:exp-nifty-2026-12-08
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -833,8 +833,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261210T143000
-DTEND;TZID=Asia/Kolkata:20261210T153000
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
 UID:exp-sensex-2026-12-10
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -844,8 +844,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261215T143000
-DTEND;TZID=Asia/Kolkata:20261215T153000
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
 UID:exp-nifty-2026-12-15
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -856,8 +856,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261217T143000
-DTEND;TZID=Asia/Kolkata:20261217T153000
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
 UID:exp-sensex-2026-12-17
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -867,8 +867,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261222T143000
-DTEND;TZID=Asia/Kolkata:20261222T153000
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
 UID:exp-nifty-2026-12-22
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -879,8 +879,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261224T143000
-DTEND;TZID=Asia/Kolkata:20261224T153000
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
 UID:exp-sensex-2026-12-24
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -890,8 +890,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20261229T143000
-DTEND;TZID=Asia/Kolkata:20261229T153000
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
 UID:exp-nifty-2026-12-29
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -902,8 +902,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20261231T143000
-DTEND;TZID=Asia/Kolkata:20261231T153000
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
 UID:exp-sensex-2026-12-31
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -913,8 +913,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20270105T143000
-DTEND;TZID=Asia/Kolkata:20270105T153000
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
 UID:exp-nifty-2027-01-05
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -925,8 +925,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20270107T143000
-DTEND;TZID=Asia/Kolkata:20270107T153000
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
 UID:exp-sensex-2027-01-07
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -936,8 +936,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] NSE Nifty 50 Weekly Expiry (Tuesday)
-DTSTART;TZID=Asia/Kolkata:20270112T143000
-DTEND;TZID=Asia/Kolkata:20270112T153000
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
 UID:exp-nifty-2027-01-12
 DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
  -------------------\n• Benchmark Index Options Expiry.\n• Expect gamma
@@ -948,8 +948,8 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
-DTSTART;TZID=Asia/Kolkata:20270114T143000
-DTEND;TZID=Asia/Kolkata:20270114T153000
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
 UID:exp-sensex-2027-01-14
 DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
@@ -959,8 +959,8 @@ URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Apr 2026)
-DTSTART;TZID=Asia/Kolkata:20260430T143000
-DTEND;TZID=Asia/Kolkata:20260430T153000
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
 UID:fo-stock-exp-2026-04-30
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -974,13 +974,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (May 2026)
-DTSTART;TZID=Asia/Kolkata:20260527T143000
-DTEND;TZID=Asia/Kolkata:20260527T153000
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
 UID:fo-stock-exp-2026-05-27
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -994,13 +994,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Jun 2026)
-DTSTART;TZID=Asia/Kolkata:20260625T143000
-DTEND;TZID=Asia/Kolkata:20260625T153000
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
 UID:fo-stock-exp-2026-06-25
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1014,13 +1014,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Jul 2026)
-DTSTART;TZID=Asia/Kolkata:20260730T143000
-DTEND;TZID=Asia/Kolkata:20260730T153000
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
 UID:fo-stock-exp-2026-07-30
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1034,13 +1034,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Aug 2026)
-DTSTART;TZID=Asia/Kolkata:20260827T143000
-DTEND;TZID=Asia/Kolkata:20260827T153000
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
 UID:fo-stock-exp-2026-08-27
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1054,13 +1054,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Sep 2026)
-DTSTART;TZID=Asia/Kolkata:20260924T143000
-DTEND;TZID=Asia/Kolkata:20260924T153000
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
 UID:fo-stock-exp-2026-09-24
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1074,13 +1074,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Oct 2026)
-DTSTART;TZID=Asia/Kolkata:20261029T143000
-DTEND;TZID=Asia/Kolkata:20261029T153000
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
 UID:fo-stock-exp-2026-10-29
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1094,13 +1094,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Nov 2026)
-DTSTART;TZID=Asia/Kolkata:20261126T143000
-DTEND;TZID=Asia/Kolkata:20261126T153000
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
 UID:fo-stock-exp-2026-11-26
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1114,13 +1114,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Dec 2026)
-DTSTART;TZID=Asia/Kolkata:20261231T143000
-DTEND;TZID=Asia/Kolkata:20261231T153000
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
 UID:fo-stock-exp-2026-12-31
 DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
  -----------------\n• Contract Expiry: All Single Stock Futures & Options
@@ -1134,13 +1134,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;TZID=Asia/Kolkata:20260918T090000
-DTEND;TZID=Asia/Kolkata:20260918T091500
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 UID:fno-ban-status-2026-09-18
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
@@ -1151,13 +1151,13 @@ URL:https://www.nseindia.com/all-reports
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:F&O Ban: BANDHANBNK\, PNB\, BIOCON in ban.
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;TZID=Asia/Kolkata:20260918T091500
-DTEND;TZID=Asia/Kolkata:20260918T094500
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 UID:vix-desk-2026-09-18
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
@@ -1169,8 +1169,8 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;TZID=Asia/Kolkata:20260918T183000
-DTEND;TZID=Asia/Kolkata:20260918T190000
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 UID:deals-desk-2026-09-18
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
@@ -1183,8 +1183,8 @@ URL:https://www.nseindia.com/report-detail/display-bulk-and-block-deals
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-AXISBANK-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: AXIS
  BANK\n• Index Impact: Major Nifty Driver (3.28%)\n• Open 5-Minute Char
@@ -1198,13 +1198,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:AXISBANK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: AXISBANK
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] BHARTIARTL (Nifty Weight: 5.3%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-BHARTIARTL-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: BHAR
  TIARTL\n• Index Impact: Major Nifty Driver (5.3%)\n• Open 5-Minute Cha
@@ -1219,13 +1219,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:BHARTIARTL&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: BHARTIARTL
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] ICICIBANK (Nifty Weight: 9.35%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-ICICIBANK-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: ICIC
  IBANK\n• Index Impact: Major Nifty Driver (9.35%)\n• Open 5-Minute Cha
@@ -1239,13 +1239,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:ICICIBANK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: ICICIBANK
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] INFY (Nifty Weight: 3.68%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-INFY-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: INFY
  \n• Index Impact: Major Nifty Driver (3.68%)\n• Open 5-Minute Chart in
@@ -1259,13 +1259,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:INFY&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: INFY
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-KOTAKBANK-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
  KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
@@ -1279,13 +1279,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: KOTAKBANK
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-LT-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
  • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
@@ -1299,13 +1299,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: LT
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] RELIANCE (Nifty Weight: 8.02%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-RELIANCE-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: RELI
  ANCE\n• Index Impact: Major Nifty Driver (8.02%)\n• Open 5-Minute Char
@@ -1319,13 +1319,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:RELIANCE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: RELIANCE
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-SBIN-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
  \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
@@ -1339,13 +1339,13 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: SBIN
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
-DTSTART;TZID=Asia/Kolkata:20260630T154500
-DTEND;TZID=Asia/Kolkata:20260630T163000
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 UID:res-q-TCS-2026-06-30
 DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
  \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
@@ -1359,7 +1359,7 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: TCS
-TRIGGER:-PT15M
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 END:VCALENDAR
