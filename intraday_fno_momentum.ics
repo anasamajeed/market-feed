@@ -2,6 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Intraday\, Derivatives Expiry & Momentum//EN
 X-WR-CALNAME:1. Intraday, Expiries & Momentum
+X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)

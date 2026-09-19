@@ -2,6 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Live Indian IPOs\, GMP & Listings Hub//EN
 X-WR-CALNAME:3. Indian IPOs, GMP & Listings
+X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Pranav Constructions (Mainboard)
@@ -87,6 +88,34 @@ ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Pranav Constructions
 TRIGGER:PT9H
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Pranav Constructions - 30-Day Lock-in Expiry (
+ 50%)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+UID:ipo-anc30-PranavConstructions-2026-10-15
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Pranav Constructions (PRANAV)\n
+ • Regulatory Milestone: 50% of the Anchor Investor portion is unlocked t
+ oday for trading.\n• Volatility Notice: Expect heightened institutional 
+ liquidity and potential supply pressure.\n--------------------------------
+ ---------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com
+ /live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Pranav Constructions - 90-Day Lock-in Expiry (
+ 100%)
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+UID:ipo-anc90-PranavConstructions-2026-12-14
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Pranav Constructions (PRAN
+ AV)\n• Regulatory Milestone: The remaining 50% anchor portion is unlocke
+ d today (100% free float active).\n---------------------------------------
+ --\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] National Stock Exchange of India (NSE) (Mainboard)
@@ -180,6 +209,35 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] National Stock Exchange of India (NSE) - 30-Da
+ y Lock-in Expiry (50%)
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+UID:ipo-anc30-NationalStockExchangeofIndia(NSE)-2026-10-24
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: National Stock Exchange of India
+  (NSE) (NSE)\n• Regulatory Milestone: 50% of the Anchor Investor portion
+  is unlocked today for trading.\n• Volatility Notice: Expect heightened 
+ institutional liquidity and potential supply pressure.\n------------------
+ -----------------------\n• IPOGyani Anchor Allocation Details:\n  https:
+ //ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] National Stock Exchange of India (NSE) - 90-Da
+ y Lock-in Expiry (100%)
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+UID:ipo-anc90-NationalStockExchangeofIndia(NSE)-2026-12-23
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: National Stock Exchange of
+  India (NSE) (NSE)\n• Regulatory Milestone: The remaining 50% anchor por
+ tion is unlocked today (100% free float active).\n------------------------
+ -----------------\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/l
+ ive-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Veegaland Developers (Mainboard)
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
@@ -263,6 +321,34 @@ ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Veegaland Developers
 TRIGGER:PT9H
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Veegaland Developers - 30-Day Lock-in Expiry (
+ 50%)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+UID:ipo-anc30-VeegalandDevelopers-2026-10-18
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Veegaland Developers (VEEGALAND)
+ \n• Regulatory Milestone: 50% of the Anchor Investor portion is unlocked
+  today for trading.\n• Volatility Notice: Expect heightened institutiona
+ l liquidity and potential supply pressure.\n------------------------------
+ -----------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.c
+ om/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Veegaland Developers - 90-Day Lock-in Expiry (
+ 100%)
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+UID:ipo-anc90-VeegalandDevelopers-2026-12-17
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Veegaland Developers (VEEG
+ ALAND)\n• Regulatory Milestone: The remaining 50% anchor portion is unlo
+ cked today (100% free float active).\n------------------------------------
+ -----\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Qualiance International (SME)
@@ -351,6 +437,34 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Qualiance International - 30-Day Lock-in Expir
+ y (50%)
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+UID:ipo-anc30-QualianceInternational-2026-10-10
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Qualiance International (QUALIAN
+ CE)\n• Regulatory Milestone: 50% of the Anchor Investor portion is unloc
+ ked today for trading.\n• Volatility Notice: Expect heightened instituti
+ onal liquidity and potential supply pressure.\n---------------------------
+ --------------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyan
+ i.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Qualiance International - 90-Day Lock-in Expir
+ y (100%)
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+UID:ipo-anc90-QualianceInternational-2026-12-09
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Qualiance International (Q
+ UALIANCE)\n• Regulatory Milestone: The remaining 50% anchor portion is u
+ nlocked today (100% free float active).\n---------------------------------
+ --------\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Deepa Jewellers (Mainboard)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
@@ -434,6 +548,32 @@ ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Deepa Jewellers
 TRIGGER:PT9H
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Deepa Jewellers - 30-Day Lock-in Expiry (50%)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+UID:ipo-anc30-DeepaJewellers-2026-10-08
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Deepa Jewellers (DEEPA)\n• Reg
+ ulatory Milestone: 50% of the Anchor Investor portion is unlocked today fo
+ r trading.\n• Volatility Notice: Expect heightened institutional liquidi
+ ty and potential supply pressure.\n---------------------------------------
+ --\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com/live-i
+ po\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Deepa Jewellers - 90-Day Lock-in Expiry (100%)
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+UID:ipo-anc90-DeepaJewellers-2026-12-07
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Deepa Jewellers (DEEPA)\n
+ • Regulatory Milestone: The remaining 50% anchor portion is unlocked tod
+ ay (100% free float active).\n-----------------------------------------\n
+ • IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Rays of Belief (Mainboard)
@@ -522,6 +662,32 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Rays of Belief - 30-Day Lock-in Expiry (50%)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+UID:ipo-anc30-RaysofBelief-2026-10-08
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Rays of Belief (RAYSOFBELIEF)\n
+ • Regulatory Milestone: 50% of the Anchor Investor portion is unlocked t
+ oday for trading.\n• Volatility Notice: Expect heightened institutional 
+ liquidity and potential supply pressure.\n--------------------------------
+ ---------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com
+ /live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Rays of Belief - 90-Day Lock-in Expiry (100%)
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+UID:ipo-anc90-RaysofBelief-2026-12-07
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Rays of Belief (RAYSOFBELI
+ EF)\n• Regulatory Milestone: The remaining 50% anchor portion is unlocke
+ d today (100% free float active).\n---------------------------------------
+ --\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Purple Style Labs (Mainboard)
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
@@ -605,6 +771,34 @@ ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Purple Style Labs
 TRIGGER:PT9H
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Purple Style Labs - 30-Day Lock-in Expiry (50%
+ )
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+UID:ipo-anc30-PurpleStyleLabs-2026-10-07
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Purple Style Labs (PURPLE)\n• 
+ Regulatory Milestone: 50% of the Anchor Investor portion is unlocked today
+  for trading.\n• Volatility Notice: Expect heightened institutional liqu
+ idity and potential supply pressure.\n------------------------------------
+ -----\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com/liv
+ e-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Purple Style Labs - 90-Day Lock-in Expiry (100
+ %)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+UID:ipo-anc90-PurpleStyleLabs-2026-12-06
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Purple Style Labs (PURPLE)
+ \n• Regulatory Milestone: The remaining 50% anchor portion is unlocked t
+ oday (100% free float active).\n-----------------------------------------
+ \n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] ESDS Software Solution (Mainboard)
@@ -692,6 +886,34 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] ESDS Software Solution - 30-Day Lock-in Expiry
+  (50%)
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+UID:ipo-anc30-ESDSSoftwareSolution-2026-10-04
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: ESDS Software Solution (ESDS)\n
+ • Regulatory Milestone: 50% of the Anchor Investor portion is unlocked t
+ oday for trading.\n• Volatility Notice: Expect heightened institutional 
+ liquidity and potential supply pressure.\n--------------------------------
+ ---------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com
+ /live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] ESDS Software Solution - 90-Day Lock-in Expiry
+  (100%)
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+UID:ipo-anc90-ESDSSoftwareSolution-2026-12-03
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: ESDS Software Solution (ES
+ DS)\n• Regulatory Milestone: The remaining 50% anchor portion is unlocke
+ d today (100% free float active).\n---------------------------------------
+ --\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Lumino Industries (Mainboard)
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
@@ -775,6 +997,34 @@ ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Lumino Industries
 TRIGGER:PT9H
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Lumino Industries - 30-Day Lock-in Expiry (50%
+ )
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+UID:ipo-anc30-LuminoIndustries-2026-10-03
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Lumino Industries (LUMINO)\n• 
+ Regulatory Milestone: 50% of the Anchor Investor portion is unlocked today
+  for trading.\n• Volatility Notice: Expect heightened institutional liqu
+ idity and potential supply pressure.\n------------------------------------
+ -----\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com/liv
+ e-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Lumino Industries - 90-Day Lock-in Expiry (100
+ %)
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+UID:ipo-anc90-LuminoIndustries-2026-12-02
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Lumino Industries (LUMINO)
+ \n• Regulatory Milestone: The remaining 50% anchor portion is unlocked t
+ oday (100% free float active).\n-----------------------------------------
+ \n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Tempsens Instruments (Mainboard)
@@ -863,6 +1113,34 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Tempsens Instruments - 30-Day Lock-in Expiry (
+ 50%)
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+UID:ipo-anc30-TempsensInstruments-2026-09-26
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Tempsens Instruments (TEMPSENS)
+ \n• Regulatory Milestone: 50% of the Anchor Investor portion is unlocked
+  today for trading.\n• Volatility Notice: Expect heightened institutiona
+ l liquidity and potential supply pressure.\n------------------------------
+ -----------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.c
+ om/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Tempsens Instruments - 90-Day Lock-in Expiry (
+ 100%)
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+UID:ipo-anc90-TempsensInstruments-2026-11-25
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Tempsens Instruments (TEMP
+ SENS)\n• Regulatory Milestone: The remaining 50% anchor portion is unloc
+ ked today (100% free float active).\n-------------------------------------
+ ----\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C3. [IPO OPEN] Augmont Enterprises (Mainboard)
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
@@ -947,5 +1225,33 @@ ACTION:DISPLAY
 DESCRIPTION:Listing Debut Today (10 AM): Augmont Enterprises
 TRIGGER:PT9H
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Augmont Enterprises - 30-Day Lock-in Expiry (5
+ 0%)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+UID:ipo-anc30-AugmontEnterprises-2026-09-27
+DESCRIPTION:SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n--------------
+ ---------------------------\n• Company: Augmont Enterprises (AUGMONT)\n
+ • Regulatory Milestone: 50% of the Anchor Investor portion is unlocked t
+ oday for trading.\n• Volatility Notice: Expect heightened institutional 
+ liquidity and potential supply pressure.\n--------------------------------
+ ---------\n• IPOGyani Anchor Allocation Details:\n  https://ipogyani.com
+ /live-ipo\n
+URL:https://ipogyani.com/live-ipo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3. [ANCHOR UNLOCK] Augmont Enterprises - 90-Day Lock-in Expiry (1
+ 00%)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:ipo-anc90-AugmontEnterprises-2026-11-26
+DESCRIPTION:SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n--------
+ ---------------------------------\n• Company: Augmont Enterprises (AUGMO
+ NT)\n• Regulatory Milestone: The remaining 50% anchor portion is unlocke
+ d today (100% free float active).\n---------------------------------------
+ --\n• IPOGyani Anchor Analysis:\n  https://ipogyani.com/live-ipo\n
+URL:https://ipogyani.com/live-ipo
 END:VEVENT
 END:VCALENDAR

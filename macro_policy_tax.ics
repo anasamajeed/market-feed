@@ -2,6 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Macro\, Economic Policy & Tax Hub//EN
 X-WR-CALNAME:2. Macro, Policy & Tax Deadlines
+X-PUBLISHED-TTL:PT1H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 SUMMARY:B2. [HOLIDAY] Market Closed - Good Friday
@@ -143,6 +144,24 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q3 Instalment Due (75% Cum
  ulative)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:B2. [INDEX REBALANCE] NSE Semi-Annual Index Rejig (Closing Auction
+  w.e.f. Sep 30)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+UID:macro-tax-B2.[INDEXREBA-2026-09-29
+DESCRIPTION:NSE Indices semi-annual rebalancing across Nifty 50\, Nifty Ne
+ xt 50\, and Nifty 500. Multi-thousand crore ETF closing auction rebalancin
+ g.\n\n• Official Portal:\n  https://www.nseindia.com/market-data/index-c
+ hanges
+URL:https://www.nseindia.com/market-data/index-changes
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Market Alert: B2. [INDEX REBALANCE] NSE Semi-Annual Index Reji
+ g (Closing Auction w.e.f. Sep 30)
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
