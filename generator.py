@@ -16,7 +16,8 @@ CONFIG = {
     "ENABLE_SENSEX_WEEKLY_EXPIRY": True,    # Thursday (BSE Benchmark)
     "ENABLE_STOCK_FO_MONTHLY_EXPIRY": True, # Last Thursday (NSE Single Stock F&O)
     "ENABLE_FNO_BAN_MONITOR": True,        # Daily NSE MWPL Ban Alerts
-    "ENABLE_INTRADAY_VOLATILITY_TOOLS": True # VIX, 52W Breakouts, Bulk Deals & Surveillance
+    "ENABLE_INTRADAY_VOLATILITY_TOOLS": True, # VIX, 52W Breakouts, Bulk Deals & Surveillance
+    "ENABLE_ANCHOR_LOCKIN_TRACKER": True   # 30-Day & 90-Day SEBI Anchor Lock-in Releases
 }
 
 # Nifty 50 Top Heavyweight Index Weights
@@ -94,12 +95,21 @@ CORPORATE_RESTRUCTURING_2026 = [
 ]
 
 MACRO_POLICY_TAX_EVENTS = [
+    # Advance Tax Deadlines
     {"date": datetime.date(2026, 6, 15), "summary": "B2. [TAX] Advance Tax Q1 Instalment Due (15%)", "desc": "Statutory deadline to deposit 15% of estimated advance income tax.", "url": "https://eportal.incometax.gov.in/"},
     {"date": datetime.date(2026, 9, 15), "summary": "B2. [TAX] Advance Tax Q2 Instalment Due (45% Cumulative)", "desc": "Statutory deadline to deposit cumulative 45% of estimated advance tax.", "url": "https://eportal.incometax.gov.in/"},
     {"date": datetime.date(2026, 12, 15), "summary": "B2. [TAX] Advance Tax Q3 Instalment Due (75% Cumulative)", "desc": "Statutory deadline to deposit cumulative 75% of advance tax.", "url": "https://eportal.incometax.gov.in/"},
     {"date": datetime.date(2027, 3, 15), "summary": "B2. [TAX] Advance Tax Q4 Final Instalment (100%)", "desc": "Final 100% advance tax payment deadline for FY2026-27.", "url": "https://eportal.incometax.gov.in/"},
+    
+    # Official NSE Index Rebalancing Dates (Passive FII/DII Closing Rebalancing)
+    {"date": datetime.date(2026, 9, 29), "summary": "B2. [INDEX REBALANCE] NSE Semi-Annual Index Rejig (Closing Auction w.e.f. Sep 30)", "desc": "NSE Indices semi-annual rebalancing across Nifty 50, Nifty Next 50, and Nifty 500. Multi-thousand crore ETF closing auction rebalancing.", "url": "https://www.nseindia.com/market-data/index-changes"},
+    {"date": datetime.date(2027, 3, 30), "summary": "B2. [INDEX REBALANCE] NSE Annual Index Rejig (Closing Auction w.e.f. Mar 31)", "desc": "NSE Indices financial year-end benchmark rebalancing.", "url": "https://www.nseindia.com/market-data/index-changes"},
+
+    # Regulatory & Policy
     {"date": datetime.date(2026, 4, 1), "summary": "B2. [SEBI / TAX] Revised F&O STT & Contract Sizing Rules Active", "desc": "STT hike effective: 0.02% to 0.05% on Futures, 0.10% to 0.15% on Options.", "url": "https://www.sebi.gov.in/"},
     {"date": datetime.date(2027, 2, 1), "summary": "B2. [POLICY] Union Budget 2027-28 Presentation", "desc": "Finance Minister presents Union Budget in Parliament (11:00 AM IST).", "url": "https://www.indiabudget.gov.in/"},
+    
+    # Domestic Economic Data
     {"date": datetime.date(2026, 8, 7), "summary": "B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "url": "https://rbi.org.in/"},
     {"date": datetime.date(2026, 8, 31), "summary": "B2. [MACRO] India GDP Data Release (Q1 FY27)", "desc": "MOSPI quarterly economic output print.", "url": "https://www.mospi.gov.in/"},
     {"date": datetime.date(2026, 9, 14), "summary": "B2. [MACRO] India CPI Inflation Print", "desc": "Retail inflation numbers directly impacting RBI stance.", "url": "https://www.mospi.gov.in/"},
@@ -108,6 +118,8 @@ MACRO_POLICY_TAX_EVENTS = [
     {"date": datetime.date(2026, 11, 12), "summary": "B2. [MACRO] India CPI Inflation Print", "desc": "Domestic retail inflation print.", "url": "https://www.mospi.gov.in/"},
     {"date": datetime.date(2026, 11, 30), "summary": "B2. [MACRO] India GDP Data Release (Q2 FY27)", "desc": "MOSPI quarterly economic output print.", "url": "https://www.mospi.gov.in/"},
     {"date": datetime.date(2026, 12, 10), "summary": "B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome", "desc": "RBI repo rate decision & policy statement.", "url": "https://rbi.org.in/"},
+    
+    # Global Macro Indicators
     {"date": datetime.date(2026, 9, 4), "summary": "B2. [MACRO] US Non-Farm Payrolls (NFP) Jobs Report", "desc": "Monthly US labor snapshot influencing Dollar Index & FII flows.", "url": "https://www.bls.gov/"},
     {"date": datetime.date(2026, 9, 11), "summary": "B2. [MACRO] US Consumer Price Index (CPI) Inflation Data", "desc": "Key US inflation print dictating global interest rate expectations.", "url": "https://www.bls.gov/"},
     {"date": datetime.date(2026, 9, 16), "summary": "B2. [MACRO] US Federal Reserve FOMC Rate Decision", "desc": "Fed interest rate announcement & press conference.", "url": "https://www.federalreserve.gov/"},
@@ -133,7 +145,7 @@ def get_previous_trading_day(d):
 def get_next_trading_day(d):
     curr = d + datetime.timedelta(days=1)
     while not is_trading_day(curr):
-        curr -= datetime.timedelta(days=1)
+        curr += datetime.timedelta(days=1)
     return curr
 
 def build_tradingview_links(symbol, is_macro=False, interval=None):
@@ -426,7 +438,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
         except Exception:
             pass
 
-        # 1. Dividends (Buy Cutoff & Payout) -> All-Day Event (dtstart: date, dtend: date + 1)
+        # 1. Dividends (Buy Cutoff & Payout) -> Clean All-Day Event
         divs = t.dividends
         if not divs.empty:
             for ts, amount in divs.items():
@@ -477,7 +489,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     ev_pay.add('location', 'Bank Account / Demat')
                     corp_events.append(ev_pay)
 
-        # 2. Stock Splits & Bonus Allotments -> All-Day Event
+        # 2. Stock Splits & Bonus Allotments -> Clean All-Day Event
         splits = t.splits
         if not splits.empty:
             for ts, ratio in splits.items():
@@ -502,7 +514,7 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
                     add_market_alarm(ev_sp, f"Today is the buy cutoff for {sym} Split/Bonus.")
                     corp_events.append(ev_sp)
 
-        # 3. Quarterly Results & Heavyweights -> All-Day Event
+        # 3. Quarterly Results & Heavyweights -> Clean All-Day Event
         try:
             q_fin = t.quarterly_financials
             if q_fin is not None and not q_fin.empty:
@@ -574,35 +586,43 @@ def process_single_ticker(sym, today, cutoff_past, cutoff_future):
     return corp_events, intraday_events
 
 def build_calendars():
+    # Category 1: Intraday, Expiries & Momentum
     cal_fno = Calendar()
     cal_fno.add('prodid', '-//Intraday, Derivatives Expiry & Momentum//EN')
     cal_fno.add('version', '2.0')
     cal_fno.add('x-wr-calname', '1. Intraday, Expiries & Momentum')
     cal_fno.add('x-wr-timezone', 'Asia/Kolkata')
+    cal_fno.add('x-published-ttl', 'PT1H')
 
+    # Category 2: Macro, Policy & Tax Framework
     cal_macro = Calendar()
     cal_macro.add('prodid', '-//Macro, Economic Policy & Tax Hub//EN')
     cal_macro.add('version', '2.0')
     cal_macro.add('x-wr-calname', '2. Macro, Policy & Tax Deadlines')
     cal_macro.add('x-wr-timezone', 'Asia/Kolkata')
+    cal_macro.add('x-published-ttl', 'PT1H')
 
+    # Category 3: IPOs, GMP & Listings
     cal_ipo = Calendar()
     cal_ipo.add('prodid', '-//Live Indian IPOs, GMP & Listings Hub//EN')
     cal_ipo.add('version', '2.0')
     cal_ipo.add('x-wr-calname', '3. Indian IPOs, GMP & Listings')
     cal_ipo.add('x-wr-timezone', 'Asia/Kolkata')
+    cal_ipo.add('x-published-ttl', 'PT1H')
 
+    # Category 4: Dividends, Mergers & Corporate Actions
     cal_div = Calendar()
     cal_div.add('prodid', '-//NSE Dividends, Restructuring & Corporate Actions//EN')
     cal_div.add('version', '2.0')
     cal_div.add('x-wr-calname', '4. Dividends, Mergers & Corporate Actions')
     cal_div.add('x-wr-timezone', 'Asia/Kolkata')
+    cal_div.add('x-published-ttl', 'PT1H')
 
     today = datetime.date.today()
     cutoff_past = datetime.date(2026, 4, 1)
     cutoff_future = today + datetime.timedelta(days=120)
 
-    # 1. PRIORITY A1: INTRADAY EXPIRIES & VOLATILITY (Feed 1) -> Clean All-Day Events
+    # 1. PRIORITY A1: INTRADAY EXPIRIES & VOLATILITY (Feed 1)
     curr_scan = cutoff_past
     while curr_scan <= cutoff_future:
         if CONFIG.get("ENABLE_NIFTY_WEEKLY_EXPIRY", True) and curr_scan.weekday() == 1:
@@ -644,7 +664,7 @@ def build_calendars():
 
         curr_scan += datetime.timedelta(days=1)
 
-    # Monthly Stock F&O Expiry -> Clean All-Day Event
+    # Monthly Stock F&O Expiry
     if CONFIG.get("ENABLE_STOCK_FO_MONTHLY_EXPIRY", True):
         for yr in [2026, 2027]:
             for m in range(1, 13):
@@ -674,7 +694,7 @@ def build_calendars():
                     add_market_alarm(ev_stk, f"Stock F&O Expiry Today: Manage ITM delivery exposure.")
                     cal_fno.add_component(ev_stk)
 
-    # Intraday Ban, VIX & Bulk Deals (Feed 1) -> Clean All-Day Events
+    # Intraday Ban, VIX & Bulk Deals (Feed 1)
     if is_trading_day(today):
         if CONFIG.get("ENABLE_FNO_BAN_MONITOR", True):
             fno_ban_stocks = ["BANDHANBNK", "PNB", "BIOCON", "HINDCOPPER", "PEL"]
@@ -727,7 +747,7 @@ def build_calendars():
             ))
             cal_fno.add_component(ev_deals)
 
-    # 2. PRIORITY B2: MACRO, POLICY & TAX (Feed 2) -> All-Day Events
+    # 2. PRIORITY B2: MACRO, POLICY & TAX (Feed 2)
     for h_date, h_name in NSE_HOLIDAYS_2026.items():
         if cutoff_past <= h_date <= cutoff_future:
             ev_h = Event()
@@ -751,10 +771,11 @@ def build_calendars():
             add_market_alarm(ev_m, f"Market Alert: {m['summary']}")
             cal_macro.add_component(ev_m)
 
-    # 3. PRIORITY C3: IPOS, GMP & LISTINGS (Feed 3) -> All-Day Events
+    # 3. PRIORITY C3: IPOS, GMP & LISTINGS (Feed 3)
     ipos = get_fy2026_comprehensive_ipo_database()
     print(f"Loaded {len(ipos)} comprehensive IPOs covering FY2026-27.")
     for ipo in ipos:
+        # OPEN
         if cutoff_past <= ipo['open'] <= cutoff_future:
             ev_o = Event()
             ev_o.add('uid', f"ipo-open-{ipo['name'].replace(' ', '')}-{ipo['open'].isoformat()}")
@@ -779,6 +800,7 @@ def build_calendars():
             add_market_alarm(ev_o, f"IPO Bidding Opens Today: {ipo['name']}")
             cal_ipo.add_component(ev_o)
 
+        # CLOSE
         if cutoff_past <= ipo['close'] <= cutoff_future:
             ev_c = Event()
             ev_c.add('uid', f"ipo-close-{ipo['name'].replace(' ', '')}-{ipo['close'].isoformat()}")
@@ -800,6 +822,7 @@ def build_calendars():
             add_market_alarm(ev_c, f"IPO Closes Today (5 PM): {ipo['name']}")
             cal_ipo.add_component(ev_c)
 
+        # ALLOTMENT
         if cutoff_past <= ipo['allotment'] <= cutoff_future:
             ev_a = Event()
             ev_a.add('uid', f"ipo-allot-{ipo['name'].replace(' ', '')}-{ipo['allotment'].isoformat()}")
@@ -819,7 +842,7 @@ def build_calendars():
             add_market_alarm(ev_a, f"Check Allotment Today: {ipo['name']}")
             cal_ipo.add_component(ev_a)
 
-        # LISTING -> All-Day Event
+        # LISTING
         if cutoff_past <= ipo['listing'] <= cutoff_future:
             ipo_app, ipo_web = build_tradingview_links(ipo['symbol'], interval="5")
             nse_quote_page = build_nse_direct_url(ipo['symbol'])
@@ -877,7 +900,50 @@ def build_calendars():
             add_market_alarm(ev_l, f"Listing Debut Today (10 AM): {ipo['name']}")
             cal_ipo.add_component(ev_l)
 
-    # 4. PRIORITY D4: DIVIDENDS, MERGERS & ACTIONS (Feed 4) -> All-Day Events
+        # 30-Day & 90-Day SEBI Anchor Lock-in Releases
+        if CONFIG.get("ENABLE_ANCHOR_LOCKIN_TRACKER", True) and "listing" in ipo:
+            listing_d = ipo["listing"]
+            anchor_30 = listing_d + datetime.timedelta(days=30)
+            anchor_90 = listing_d + datetime.timedelta(days=90)
+
+            # 30-Day Release (50% Anchor Allocation)
+            if cutoff_past <= anchor_30 <= cutoff_future:
+                ev_anc30 = Event()
+                ev_anc30.add('uid', f"ipo-anc30-{ipo['name'].replace(' ', '')}-{anchor_30.isoformat()}")
+                ev_anc30.add('summary', f"C3. [ANCHOR UNLOCK] {ipo['name']} - 30-Day Lock-in Expiry (50%)")
+                ev_anc30.add('dtstart', anchor_30)
+                ev_anc30.add('dtend', anchor_30 + datetime.timedelta(days=1))
+                ev_anc30.add('url', ipo['ipogyani'])
+                ev_anc30.add('description', (
+                    f"SEBI ANCHOR INVESTOR LOCK-IN RELEASE (30 DAYS)\n"
+                    f"-----------------------------------------\n"
+                    f"• Company: {ipo['name']} ({ipo['symbol']})\n"
+                    f"• Regulatory Milestone: 50% of the Anchor Investor portion is unlocked today for trading.\n"
+                    f"• Volatility Notice: Expect heightened institutional liquidity and potential supply pressure.\n"
+                    f"-----------------------------------------\n"
+                    f"• IPOGyani Anchor Allocation Details:\n  {ipo['ipogyani']}\n"
+                ))
+                cal_ipo.add_component(ev_anc30)
+
+            # 90-Day Release (Remaining 50% Anchor Allocation)
+            if cutoff_past <= anchor_90 <= cutoff_future:
+                ev_anc90 = Event()
+                ev_anc90.add('uid', f"ipo-anc90-{ipo['name'].replace(' ', '')}-{anchor_90.isoformat()}")
+                ev_anc90.add('summary', f"C3. [ANCHOR UNLOCK] {ipo['name']} - 90-Day Lock-in Expiry (100%)")
+                ev_anc90.add('dtstart', anchor_90)
+                ev_anc90.add('dtend', anchor_90 + datetime.timedelta(days=1))
+                ev_anc90.add('url', ipo['ipogyani'])
+                ev_anc90.add('description', (
+                    f"SEBI ANCHOR INVESTOR FINAL LOCK-IN RELEASE (90 DAYS)\n"
+                    f"-----------------------------------------\n"
+                    f"• Company: {ipo['name']} ({ipo['symbol']})\n"
+                    f"• Regulatory Milestone: The remaining 50% anchor portion is unlocked today (100% free float active).\n"
+                    f"-----------------------------------------\n"
+                    f"• IPOGyani Anchor Analysis:\n  {ipo['ipogyani']}\n"
+                ))
+                cal_ipo.add_component(ev_anc90)
+
+    # 4. PRIORITY D4: DIVIDENDS, MERGERS & ACTIONS (Feed 4)
     for r in CORPORATE_RESTRUCTURING_2026:
         if cutoff_past <= r["date"] <= cutoff_future:
             app_l, web_l = build_tradingview_links(r["symbol"])
@@ -941,7 +1007,7 @@ def build_calendars():
     with open("market_calendar.ics", "wb") as f:
         f.write(cal_master.to_ical())
 
-    print("Master & modular feeds successfully restored to all-day events format.")
+    print("Master & modular feeds successfully updated with index rebalancing, anchor lock-in tracking, and all-day layout.")
 
 if __name__ == "__main__":
     build_calendars()
