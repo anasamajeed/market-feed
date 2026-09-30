@@ -994,6 +994,17 @@ DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
 URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+UID:exp-sensex-2027-01-28
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
+ e Chart in TradingView App (Native):\n  tradingview://chart?symbol=BSE:SEN
+ SEX&interval=5\n
+URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Apr 2026)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
@@ -1174,10 +1185,30 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Jan 2027)
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+UID:fo-stock-exp-2027-01-28
+DESCRIPTION:NSE MONTHLY STOCK DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Contract Expiry: All Single Stock Futures & Options
+  contracts expire today (3:30 PM IST).\n• Physical Delivery: Compulsory 
+ physical delivery for in-the-money (ITM) options.\n• Margin Escalation: 
+ Broker physical delivery margins apply to near-the-money and ITM strikes.
+ \n-----------------------------------------\n• Open Nifty 500 Daily Broa
+ d-Market Chart (Native App):\n  tradingview://chart?symbol=NSE:NIFTY500&in
+ terval=1D\n
+URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY500&interval=1D
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stock F&O Expiry Today: Manage ITM delivery exposure.
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-UID:fno-ban-status-2026-09-29
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:fno-ban-status-2026-09-30
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1192,9 +1223,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-UID:vix-desk-2026-09-29
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:vix-desk-2026-09-30
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1205,9 +1236,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-UID:deals-desk-2026-09-29
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:deals-desk-2026-09-30
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
