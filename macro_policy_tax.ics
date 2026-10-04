@@ -181,6 +181,20 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:B2. [POLICY] Union Budget 2027-28 Presentation
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+UID:macro-tax-B2.[POLICY]Un-2027-02-01
+DESCRIPTION:Finance Minister presents Union Budget in Parliament (11:00 AM
+  IST).\n\n• Official Portal:\n  https://www.indiabudget.gov.in/
+URL:https://www.indiabudget.gov.in/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Market Alert: B2. [POLICY] Union Budget 2027-28 Presentation
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:B2. [MACRO] RBI Monetary Policy Committee (MPC) Outcome
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
