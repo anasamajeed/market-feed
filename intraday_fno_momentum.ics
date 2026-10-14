@@ -1040,6 +1040,17 @@ DESCRIPTION:NSE NIFTY 50 WEEKLY DERIVATIVES EXPIRY\n----------------------
 URL:https://in.tradingview.com/chart/?symbol=NSE:NIFTY&interval=5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A1. [F&O] BSE Sensex Weekly Expiry (Thursday)
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+UID:exp-sensex-2027-02-11
+DESCRIPTION:BSE SENSEX WEEKLY DERIVATIVES EXPIRY\n------------------------
+ -----------------\n• Benchmark Index Options Expiry.\n\n• Open 5-Minut
+ e Chart in TradingView App (Native):\n  tradingview://chart?symbol=BSE:SEN
+ SEX&interval=5\n
+URL:https://in.tradingview.com/chart/?symbol=BSE:SENSEX&interval=5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A1. [F&O STOCKS] NSE Monthly Stock Derivatives Expiry (Apr 2026)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
@@ -1241,9 +1252,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-UID:fno-ban-status-2026-10-13
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+UID:fno-ban-status-2026-10-14
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1258,9 +1269,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-UID:vix-desk-2026-10-13
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+UID:vix-desk-2026-10-14
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1271,9 +1282,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-UID:deals-desk-2026-10-13
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+UID:deals-desk-2026-10-14
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
