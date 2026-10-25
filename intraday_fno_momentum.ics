@@ -1436,6 +1436,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-TCS-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
+ \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:TCS&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /TCS\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/TCS
+ /consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.
+ nseindia.com/get-quotes/equity?symbol=TCS\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: TCS
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 UID:res-q-TCS-2026-06-30
