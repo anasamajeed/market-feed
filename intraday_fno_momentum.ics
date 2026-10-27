@@ -1287,9 +1287,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-UID:fno-ban-status-2026-10-26
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+UID:fno-ban-status-2026-10-27
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1304,9 +1304,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-UID:vix-desk-2026-10-26
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+UID:vix-desk-2026-10-27
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1317,9 +1317,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-UID:deals-desk-2026-10-26
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+UID:deals-desk-2026-10-27
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
@@ -1432,6 +1432,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] INFY (Nifty Weight: 3.68%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-INFY-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: INFY
+ \n• Index Impact: Major Nifty Driver (3.68%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:INFY&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /INFY\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/IN
+ FY/consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://ww
+ w.nseindia.com/get-quotes/equity?symbol=INFY\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:INFY&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: INFY
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] INFY (Nifty Weight: 3.68%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 UID:res-q-INFY-2026-06-30
@@ -1447,6 +1467,26 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:INFY&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: INFY
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-KOTAKBANK-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
+ KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
+ terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
+ .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
+ r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
+  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: KOTAKBANK
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
