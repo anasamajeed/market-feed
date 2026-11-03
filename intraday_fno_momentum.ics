@@ -1330,9 +1330,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-UID:fno-ban-status-2026-11-02
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+UID:fno-ban-status-2026-11-03
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1347,9 +1347,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-UID:vix-desk-2026-11-02
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+UID:vix-desk-2026-11-03
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1360,9 +1360,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-UID:deals-desk-2026-11-02
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+UID:deals-desk-2026-11-03
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
@@ -1590,6 +1590,26 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: LT
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] RELIANCE (Nifty Weight: 8.02%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-RELIANCE-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: RELI
+ ANCE\n• Index Impact: Major Nifty Driver (8.02%)\n• Open 5-Minute Char
+ t in TradingView (Native):\n  tradingview://chart?symbol=NSE:RELIANCE&inte
+ rval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape.i
+ n/stocks/RELIANCE\n\n• Screener Balance Sheet:\n  https://www.screener.i
+ n/company/RELIANCE/consolidated/\n\n• Official NSE Filings & Outcome PDF
+ s:\n  https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:RELIANCE&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: RELIANCE
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
