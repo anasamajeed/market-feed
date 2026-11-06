@@ -1341,9 +1341,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [F&O BAN] Securities in Ban Period (5 Stocks)
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-UID:fno-ban-status-2026-11-05
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+UID:fno-ban-status-2026-11-06
 DESCRIPTION:NSE MWPL BAN MONITOR (95% THRESHOLD)\n------------------------
  -----------------\n• Securities in Ban: BANDHANBNK\, PNB\, BIOCON\, HIND
  COPPER\, PEL\n• Warning: Opening fresh positions attracts severe exchang
@@ -1358,9 +1358,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [VOLATILITY] India VIX Intraday Radar
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-UID:vix-desk-2026-11-05
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+UID:vix-desk-2026-11-06
 DESCRIPTION:INTRADAY VOLATILITY REGIME\n----------------------------------
  -------\n• India VIX 15-Minute Intraday Structure:\n  tradingview://char
  t?symbol=INDIAVIX&interval=15\n\n• Breakout Momentum Scanner (52-Week Hi
@@ -1371,9 +1371,9 @@ URL:https://in.tradingview.com/chart/?symbol=INDIAVIX&interval=15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A1. [BULK / BLOCK DEALS] Institutional Transaction Desk
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-UID:deals-desk-2026-11-05
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+UID:deals-desk-2026-11-06
 DESCRIPTION:INSTITUTIONAL FOOTPRINT DISCLOSURES (>0.5% EQUITY)\n----------
  -------------------------------\nTrack after-market promoter\, FII & DII l
  arge transactions:\n\n• Official NSE Bulk Deals Ledger:\n  https://www.n
@@ -1641,6 +1641,26 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:RELIANCE&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: RELIANCE
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-SBIN-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
+ \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:SBIN&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /SBIN\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/SB
+ IN/consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://ww
+ w.nseindia.com/get-quotes/equity?symbol=SBIN\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: SBIN
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
