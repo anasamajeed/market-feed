@@ -148,6 +148,20 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:B2. [TAX] Advance Tax Q4 Final Instalment (100%)
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+UID:macro-tax-B2.[TAX]Advan-2027-03-15
+DESCRIPTION:Final 100% advance tax payment deadline for FY2026-27.\n\n• 
+ Official Portal:\n  https://eportal.incometax.gov.in/
+URL:https://eportal.incometax.gov.in/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Market Alert: B2. [TAX] Advance Tax Q4 Final Instalment (100%)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:B2. [INDEX REBALANCE] NSE Semi-Annual Index Rejig (Closing Auction
   w.e.f. Sep 30)
 DTSTART;VALUE=DATE:20260929
