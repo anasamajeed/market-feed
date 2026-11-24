@@ -1398,6 +1398,46 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-AXISBANK-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: AXIS
+ BANK\n• Index Impact: Major Nifty Driver (3.28%)\n• Open 5-Minute Char
+ t in TradingView (Native):\n  tradingview://chart?symbol=NSE:AXISBANK&inte
+ rval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape.i
+ n/stocks/AXISBANK\n\n• Screener Balance Sheet:\n  https://www.screener.i
+ n/company/AXISBANK/consolidated/\n\n• Official NSE Filings & Outcome PDF
+ s:\n  https://www.nseindia.com/get-quotes/equity?symbol=AXISBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:AXISBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: AXISBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-AXISBANK-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: AXIS
+ BANK\n• Index Impact: Major Nifty Driver (3.28%)\n• Open 5-Minute Char
+ t in TradingView (Native):\n  tradingview://chart?symbol=NSE:AXISBANK&inte
+ rval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape.i
+ n/stocks/AXISBANK\n\n• Screener Balance Sheet:\n  https://www.screener.i
+ n/company/AXISBANK/consolidated/\n\n• Official NSE Filings & Outcome PDF
+ s:\n  https://www.nseindia.com/get-quotes/equity?symbol=AXISBANK\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:AXISBANK&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: AXISBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A1. [HEAVYWEIGHT RESULTS] BHARTIARTL (Nifty Weight: 5.3%)
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
@@ -1436,126 +1476,6 @@ URL:https://in.tradingview.com/chart/?symbol=NSE:BHARTIARTL&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Quarterly Results Day: BHARTIARTL
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-UID:res-q-TCS-2026-09-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
- \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
-  TradingView (Native):\n  tradingview://chart?symbol=NSE:TCS&interval=5\n
- \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
- /TCS\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/TCS
- /consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.
- nseindia.com/get-quotes/equity?symbol=TCS\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: TCS
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-UID:res-q-TCS-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
- \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
-  TradingView (Native):\n  tradingview://chart?symbol=NSE:TCS&interval=5\n
- \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
- /TCS\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/TCS
- /consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.
- nseindia.com/get-quotes/equity?symbol=TCS\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: TCS
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-UID:res-q-KOTAKBANK-2026-09-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
- KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
- rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
- terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
- .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
- r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
-  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: KOTAKBANK
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-UID:res-q-KOTAKBANK-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
- KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
- rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
- terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
- .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
- r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
-  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: KOTAKBANK
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-UID:res-q-LT-2026-09-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
- • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
- radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
- • Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks/L
- T\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/LT/con
- solidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.nsei
- ndia.com/get-quotes/equity?symbol=LT\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: LT
-TRIGGER:PT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-UID:res-q-LT-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
- • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
- radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
- • Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks/L
- T\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/LT/con
- solidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.nsei
- ndia.com/get-quotes/equity?symbol=LT\n
-LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: LT
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
@@ -1640,42 +1560,82 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-UID:res-q-SBIN-2026-09-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
- \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
-  TradingView (Native):\n  tradingview://chart?symbol=NSE:SBIN&interval=5\n
- \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
- /SBIN\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/SB
- IN/consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://ww
- w.nseindia.com/get-quotes/equity?symbol=SBIN\n
+UID:res-q-KOTAKBANK-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
+ KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
+ terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
+ .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
+ r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
+  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
 LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
+URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: SBIN
+DESCRIPTION:Quarterly Results Day: KOTAKBANK
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] KOTAKBANK (Nifty Weight: 2.84%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
-UID:res-q-SBIN-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
- \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
-  TradingView (Native):\n  tradingview://chart?symbol=NSE:SBIN&interval=5\n
- \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
- /SBIN\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/SB
- IN/consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://ww
- w.nseindia.com/get-quotes/equity?symbol=SBIN\n
+UID:res-q-KOTAKBANK-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: KOTA
+ KBANK\n• Index Impact: Major Nifty Driver (2.84%)\n• Open 5-Minute Cha
+ rt in TradingView (Native):\n  tradingview://chart?symbol=NSE:KOTAKBANK&in
+ terval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape
+ .in/stocks/KOTAKBANK\n\n• Screener Balance Sheet:\n  https://www.screene
+ r.in/company/KOTAKBANK/consolidated/\n\n• Official NSE Filings & Outcome
+  PDFs:\n  https://www.nseindia.com/get-quotes/equity?symbol=KOTAKBANK\n
 LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
+URL:https://in.tradingview.com/chart/?symbol=NSE:KOTAKBANK&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: SBIN
+DESCRIPTION:Quarterly Results Day: KOTAKBANK
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-LT-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
+ • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
+ radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
+ • Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks/L
+ T\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/LT/con
+ solidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=LT\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: LT
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] LT (Nifty Weight: 4.23%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-LT-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: LT\n
+ • Index Impact: Major Nifty Driver (4.23%)\n• Open 5-Minute Chart in T
+ radingView (Native):\n  tradingview://chart?symbol=NSE:LT&interval=5\n\n
+ • Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks/L
+ T\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/LT/con
+ solidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.nsei
+ ndia.com/get-quotes/equity?symbol=LT\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:LT&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: LT
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
@@ -1720,42 +1680,82 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-UID:res-q-AXISBANK-2026-09-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: AXIS
- BANK\n• Index Impact: Major Nifty Driver (3.28%)\n• Open 5-Minute Char
- t in TradingView (Native):\n  tradingview://chart?symbol=NSE:AXISBANK&inte
- rval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape.i
- n/stocks/AXISBANK\n\n• Screener Balance Sheet:\n  https://www.screener.i
- n/company/AXISBANK/consolidated/\n\n• Official NSE Filings & Outcome PDF
- s:\n  https://www.nseindia.com/get-quotes/equity?symbol=AXISBANK\n
+UID:res-q-SBIN-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
+ \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:SBIN&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /SBIN\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/SB
+ IN/consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://ww
+ w.nseindia.com/get-quotes/equity?symbol=SBIN\n
 LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:AXISBANK&interval=5
+URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: AXISBANK
+DESCRIPTION:Quarterly Results Day: SBIN
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A1. [HEAVYWEIGHT RESULTS] AXISBANK (Nifty Weight: 3.28%)
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] SBIN (Nifty Weight: 3.88%)
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
-UID:res-q-AXISBANK-2026-06-30
-DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: AXIS
- BANK\n• Index Impact: Major Nifty Driver (3.28%)\n• Open 5-Minute Char
- t in TradingView (Native):\n  tradingview://chart?symbol=NSE:AXISBANK&inte
- rval=5\n\n• Tickertape Overview & Valuation:\n  https://www.tickertape.i
- n/stocks/AXISBANK\n\n• Screener Balance Sheet:\n  https://www.screener.i
- n/company/AXISBANK/consolidated/\n\n• Official NSE Filings & Outcome PDF
- s:\n  https://www.nseindia.com/get-quotes/equity?symbol=AXISBANK\n
+UID:res-q-SBIN-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: SBIN
+ \n• Index Impact: Major Nifty Driver (3.88%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:SBIN&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /SBIN\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/SB
+ IN/consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://ww
+ w.nseindia.com/get-quotes/equity?symbol=SBIN\n
 LOCATION:NSE / BSE
-URL:https://in.tradingview.com/chart/?symbol=NSE:AXISBANK&interval=5
+URL:https://in.tradingview.com/chart/?symbol=NSE:SBIN&interval=5
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Quarterly Results Day: AXISBANK
+DESCRIPTION:Quarterly Results Day: SBIN
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:res-q-TCS-2026-09-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
+ \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:TCS&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /TCS\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/TCS
+ /consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.
+ nseindia.com/get-quotes/equity?symbol=TCS\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: TCS
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A1. [HEAVYWEIGHT RESULTS] TCS (Nifty Weight: 2.19%)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+UID:res-q-TCS-2026-06-30
+DESCRIPTION:EARNINGS RELEASE & HIGH VOLATILITY OUTCOME\n\n• Symbol: TCS
+ \n• Index Impact: Major Nifty Driver (2.19%)\n• Open 5-Minute Chart in
+  TradingView (Native):\n  tradingview://chart?symbol=NSE:TCS&interval=5\n
+ \n• Tickertape Overview & Valuation:\n  https://www.tickertape.in/stocks
+ /TCS\n\n• Screener Balance Sheet:\n  https://www.screener.in/company/TCS
+ /consolidated/\n\n• Official NSE Filings & Outcome PDFs:\n  https://www.
+ nseindia.com/get-quotes/equity?symbol=TCS\n
+LOCATION:NSE / BSE
+URL:https://in.tradingview.com/chart/?symbol=NSE:TCS&interval=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quarterly Results Day: TCS
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
